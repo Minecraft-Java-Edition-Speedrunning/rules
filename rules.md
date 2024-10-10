@@ -22,7 +22,7 @@
 
 # **Minecraft: Java Edition Speedrunning Rules**
 
-# Version: beta\_v1
+# Version: beta\_v2
 
 # **About This Document**
 
@@ -58,7 +58,7 @@ This category will abide by the following rulesets:
 
 Note that the rules should be enforced ‘bottom-up’. In the above example, rules in the All Advancements Ruleset may nullify or extend the rules from the Universal Ruleset.
 
-Some categories may not have a subcategory ruleset (ex. External Set Seed Glitched 1.9+). In these cases, it should still follow the universal ruleset, set seed ruleset, and glitched ruleset, and also be in a version 1.14 or above. 
+Some categories may not have a subcategory ruleset (ex. External Set Seed Glitched 1.9+). In these cases, it should still follow the universal ruleset, set seed ruleset, and glitched ruleset, and also be in a version 1.9 or above. 
 
 ## **Terminology:** 
 
@@ -78,7 +78,7 @@ Sub-Rules:
 - **Exception**: an exemption from the rule in a given circumstance  
 - **Guidance**: explanation of how a runner can abide by said rule   
 - **Note:** A section of the rules which explains a general philosophy surrounding a section of the rules, which is useful to provide clarity and context to subjective rules. Notes do not necessarily provide the rationale behind a rule, but rather, an explanation as to how other rules are treated. They are marked in the form A.1.note)  
-- **Entangled Rules:** A note provided below rules which other rules refer to/amend/nullify. For instance, if rule Y refers to rule X, then rule Y would contain a link to rule X, while under rule X, the entangled rule tag would be present, saying that rule Y refers to it. There are three types of ways in which a rule can be entangled:  
+- **Entangled Rules:** A note provided below rules which other rules refer to/amend/nullify. For instance, if rule Y refers to rule X, then rule Y would contain a link to rule X, while under rule X, the entangled rule tag would be present, saying that rule Y refers to it. Entangled rules are not marked if they are within the same section. There are three types of ways in which a rule can be entangled:  
   - X is referenced by Y; in this instance, rule Y refers to the enforcement of rule X.  
   - X is subject to an amendment by Y; in this instance, rule Y expands upon the allowable actions of rule X.  
   - X is nullified by Y; in this instance, rule Y nullifies rule X (as defined above).
@@ -110,7 +110,7 @@ A.1.3) The default settings of world generation must be kept.
 A.1.3.b is subject to an amendment by: [8.1.2](#bookmark=id.tlf9vzvpdol4)  
 	A.1.3.c) Changing the World Name.  
 Entangled Rule(s):  
-A.1.3 is subject to an amendment by: [F.1.2](#bookmark=id.ukbqg6vf5rw0), [G.2.1](#bookmark=id.kqpu6tiim17b), [7.1.3.c](#bookmark=id.wcgut8dpst), [CE20.1.2](#bookmark=id.2ykkak61dqaq)  
+A.1.3 is subject to an amendment by: [C.1.1](#bookmark=id.cnjzpy7zqpt2), [F.1.2](#bookmark=id.ukbqg6vf5rw0), [G.2.1](#bookmark=id.kqpu6tiim17b), [7.1.3.c](#bookmark=id.wcgut8dpst), [CE20.1.2](#bookmark=id.2ykkak61dqaq)  
 A.1.3 is referenced by: [CE20.1.3.a](#bookmark=id.mcxkmds6ki2z)  
 A.1.4) The options.txt file must not be altered to circumvent the bounds to the settings set by the game.   
 	A.1.4.a) Guidance: If a settings value is not possible through the in-game settings, it is  
@@ -179,7 +179,7 @@ A.3.3 is nullified by: [CE20.1.2](#bookmark=id.2ykkak61dqaq)
 A.3.4) Your world must not be corrupted significantly (at the discretion of verifiers).  
 A.3.5) You must not use console commands during the run.   
 Entangled Rule(s):  
-A.3.5 is nullified by: [CE20.1.2](#bookmark=id.2ykkak61dqaq)  
+A.3.5 is nullified by: [F.1.3.a](#bookmark=id.aj6g6k8ze9), [F.1.3.b](#bookmark=id.yhavtnv8w9t), [CE20.1.2](#bookmark=id.2ykkak61dqaq)  
 A.3.6) If you play one instance of Minecraft and then switch to playing another, the initial instance’s run is no longer verifiable. If this is done accidentally, and attempts are made to quickly exit the other instance and rejoin the initial instance, your run may still be verified (at the discretion of verifiers).  
 A.3.6.a) Clarification: While one instance of Minecraft is played, you may pause or close other instances.  
 A.3.7) Non-default shaders, including Super Secret Settings, must not be used.  
@@ -187,16 +187,17 @@ A.3.8) The chat text must be visible and legible in the video recording and the 
 A.3.9) Runs must not intend to be as slow as possible. At a minimum, an attempt must be made to finish the run quickly.  
 A.3.10) You must not read from any files produced by the vanilla game during the run.  
 A.3.10.a) Exception: Players and programs may read from the advancement or statistics files.  
-A.3.10.b) Exception: Players and programs may read from the wpstateoutput.txt file created by the State Output mod.  
+A.3.10.b) Exception: Players and programs may read from the wpstateout.txt file created by the State Output mod.  
 Entangled Rule(s):  
 A.3.10 is referenced by: [CE20.3.4](#bookmark=id.fqsa7rk8c0sm)  
 A.3.11) Peaceful difficulty must not be used within the run.  
 Entangled Rule(s):  
-A.3.11 is referenced by: [F.1.3.a](#bookmark=id.aj6g6k8ze9)
+A.3.11 is referenced by: [F.1.3.a](#bookmark=id.aj6g6k8ze9)  
+A.3.11 is nullified by: [8.1.3](#bookmark=id.1d34gwtcuk9w)
 
 ## **A.4: Resource Packs**
 
-A.4.1) The vanilla resource pack, programmer art (1.14+), and  resource pack may be used.  
+A.4.1) The vanilla resource pack and programmer art (1.14+) may be used.  
 A.4.2) Resource packs that are whitelisted for accessibility purposes (including but not limited to sensory issues or colourblindness) may be used.   
 	This constitutes:  
 A.4.2.a) [dysphorLia's Sensory Friendly Resource Pack](https://github.com/dysphorLia/SensoryFriendlyResourcePack)  
@@ -237,7 +238,7 @@ A.5.2.c) Inventory opening/switching slots
 A.5.2.d) Sneaking  
 A.5.2.e) Jumping  
 A.5.2.f) Left click actions (mining, attacking)  
-A.5.2.g) Right click actions (placing)  
+A.5.2.g) Right click actions (placing, opening containers, entering entity UIs)  
 Entangled Rule(s):  
 A.5.2 is referenced by: [F.2.1](#bookmark=id.9pqypm3rw0j), [F.2.2.b](#bookmark=id.s7romix9e62z)  
 A.5.3) Timing ends once the objective of the category is first achieved.  
@@ -338,7 +339,6 @@ Main Video Settings:
 	A.8.1.d) The render distance is not set to above 16 if you are playing in 1.7-1.7.10.  
 A.8.1.e) The render distance is not set to any value besides 2, 4, 8, or 16 if you are playing in 1.0-1.6.4.  
 A.8.1.f) Dynamic FOV must be kept on.  
-A.8.1.f.i) If you have a medical condition which precludes you from keeping Dynamic FOV on, you may open a thread explaining as such. If and only if approval is granted by moderators, you may nullify this rule and turn Dynamic FOV off.  
 A.8.1.g) Chunk Loading is kept as Default.  
 A.8.1.h) Dynamic lights must be kept off.
 
@@ -395,7 +395,7 @@ A.8.7.a) Exception: Any version of Sodium for Minecraft 1.15.x before 1.1.1 must
 A.8.7.b) Exception: Any version of Sodium for Minecraft 1.16.1 before 0.2.1+build.10 must not be used.  
 A.8.7.b.i) Clarification: Sodium v1, v2, and 2.0.2 and above may be used.  
 A.8.7.c) Exception: Any version of Sodium for Minecraft 1.16.5 before 2.1.1 must not be used.	  
-A.8.7.d) Exception: Any version of Sodium-macOS before 3.0.1 must not be used.	  
+A.8.7.d) Exception: Any version of Sodium-macOS before 3.0.1 must not be used. 3.1.1 must also not be used.	  
 	A.8.7.e) Exception: Any version of SpeedrunIGT before 2.1.1 must not be used.  
 	A.8.7.f) Exception: Any version of DynamicFPS for Minecraft 1.15.2 must not be used.  
 	A.8.7.g) Exception: Any version of Atum before 1.0.5 must not be used.  
@@ -414,7 +414,7 @@ A.8.7.s) Exception: Any version of COSTAR before 1.0.1 must not be used.
 A.8.7.t) Exception: Any version of No-Paus before 1.0.1 must not be used.  
 A.8.7.u) Exception: Any version of StateOutput before 1.1.5 must not be used.  
 A.8.7.v) Exception: Any version of Chunkumulator before 1.0.3 must not be used.  
-A.8.7.w) Exception: Any version of ExtraOptions before 1.0.1 must not be used.  
+A.8.7.w) Exception: Any version of ExtraOptions before 2.0.0 must not be used.  
 A.8.7.x) Exception: Any version of ChunkCacher before 2.0.0 must not be used.  
 A.8.8) Any mods except those listed above must not be used under any circumstance.
 
@@ -431,7 +431,7 @@ A.9.3.b) To follow A.9.3.a, if the default video’s percentage text is illegibl
 
 A.10.1) You may remap keys using external programs, but each game input may have only one key, and each key may cause only one game input.  
 A.10.a) Example: Shift+F3 cannot be rebound to a singular key.  
-A.10.2) If keys are rebound, they must be singular buttons.  
+A.10.2) If keys are rebound, they must be to buttons.  
 	This excludes but is not limited to:  
 	A.10.2.a) Remapping to a scroll-wheel  
 A.10.3) You must not rebind the "Attack/Destroy" or "Use Item/Place Block" functions to a keyboard button to abuse repeated inputs.  
@@ -468,7 +468,7 @@ A.11.6.c) [Divine Fossil Sheet](https://docs.google.com/spreadsheets/d/1Z-heJcVH
 A.11.6.d) [Animal Divine Sheet](https://docs.google.com/spreadsheets/d/1Z-heJcVH1wIDc8scHZqsU3Q1F1mB1SqeDw_aT8q3VJ4/edit#gid=828565523)  
 A.11.6.e) [Tree Divine Sheet](https://drive.google.com/file/d/1NuDh59VJEaac4gZZYJvzb-UDXSa8rfnd/view?usp=sharing)  
 A.11.6.f) [Ravine/Air Cave/Nether Cave/Water Cave Divine Sheet](https://drive.google.com/file/d/1vfzH0dg35e-jSDptCBeiisWnSugeIOMF/view?usp=sharing)  
-A.11.6.g) [Nether Portal Orientation Divine Sheet](https://drive.google.com/file/d/1vfzH0dg35e-jSDptCBeiisWnSugeIOMF/view?usp=sharing)  
+A.11.6.g) [Nether Portal Orientation Divine Sheet](https://docs.google.com/spreadsheets/d/1tTXczjzo4VCOxV2dpkj-SE5cELA9A2NyreRiQj6Bu8I/edit?gid=1217206013#gid=1217206013)  
 A.11.7) The following constitute the whitelist of legal tools:  
 A.11.7.a) [NinjabrainBot](https://github.com/Ninjabrain1/Ninjabrain-Bot) \[Ninjabrain1\] (up to v1.4.3)  
 A.11.7.b) [StrongholdNotCalculator](https://github.com/pjagada/strongholdnotcalculator) \[pjagada\] (up to v2.0)  
@@ -482,9 +482,11 @@ A.11.8) You must not use any other reference sheets/external tools besides the o
 Entangled Rule(s):  
 A.11.8 is nullified by: [CE20.3.3](#bookmark=id.yify526qiy)  
 A.11.9) If you would like to use a tool/reference sheet that is not listed above, please open a thread. It may be allowed at the discretion of moderators. Please note:  
-A.11.10.a) The tool must only use position, angle, and dimension from the F3 menu.   
-A.11.10.a.i) Clarification: This excludes biome and temperature.  
-A.11.10.b) If it is a code-based tool, it must be on a publicly accessible repository (ex., Github).
+A.11.9.a) The tool must only use position, angle, and dimension from the F3 menu.   
+A.11.9.a.i) Clarification: This excludes biome and temperature.  
+A.11.9.b) If it is a code-based tool, it must be on a publicly accessible repository (ex., Github).  
+Entangled Rule(s):  
+A.11.9 is nullified by: [CE20.3.3](#bookmark=id.yify526qiy)
 
 ## **A.12: Illegitimate Behaviour**
 
@@ -510,14 +512,14 @@ B.1.2.a) Clarification: This must only be done once the run’s objective is com
 ## **B.2: Seed Visibility**
 
 B.2.1) In versions prior to 1.3, the F3 screen, which displays the seed, must not be displayed before or during the run.   
-B.2.2) Do not attempt to reverse engineer the full world seed during the run.  
+B.2.2) You must not attempt to learn the full world seed during the run.  
 	B.2.2.a) Clarification: The “divine travel” strategy may be used.
 
 # **C: Set Seed Ruleset**
 
 ## **C.1: Generation and Pre-Run Requirements**
 
-C.1.1) Set seed runs must input text in the seed input box. (in Atum if generated by Atum and in the Create New World (Pre 1.19)/Game (1.19+) screen if generated by Vanilla means)  
+C.1.1) In addition to the settings listed in [A.1.3](#bookmark=id.6vsi9vckzfzn), set seed runs must input text in the seed input box. (in Atum if generated by Atum and in the Create New World (Pre 1.19)/Game (1.19+) screen if generated by Vanilla means)  
 C.1.1.a) Exception: The seed inputted in the seed input box must not be 0 in versions pre-1.18.2.  
 C.1.2) In versions 1.16 and above, runners may not use the Recreate button to create a world of the same seed.   
 	C.1.2.a) Clarification: In versions prior to 1.16, the Recreate button may be used.
@@ -544,10 +546,8 @@ D.1.1.e) Ender pearl clipping ([MC-2164](https://bugs.mojang.com/browse/MC-2164)
 D.1.1.f) Accessing the Nether Roof ([Example](https://youtu.be/oK9NZKQX6uY?si=8OAHQE1wETrr8G9e&t=6387))   
 D.1.1.g) Seeing under water or lava using third person ([Example](https://youtu.be/mgOQ-4Nwg2k?si=q5KLTk9PcaBoHIB_&t=83))   
 D.1.1.h) Seeing through fog as a blindness status effect ends ([Example](https://youtu.be/9ua-NvArdQQ))   
-D.1.1.i) Offhand looting bow ([MC-3304](https://bugs.mojang.com/browse/MC-3304))  
 D.1.1.j) Blazer Bed ([Example](https://youtu.be/dKwFOWV4pSk))  
 D.1.1.k) Oneshot ([Example](https://youtu.be/3hAIN2kN21I?si=riW96cYK8svlixje&t=145))   
-D.1.1.l) Eliotex sprinting ([Example](https://www.youtube.com/watch?v=NiOMVtrkV-M))  
 D.1.1.m) Beacon effect swap ([Example](https://www.youtube.com/watch?v=BSVT3AicAYc))   
 D.1.1.n) Intentional cursor manipulation ([Example](https://www.youtube.com/watch?v=5szDORtXWm0))   
 D.1.1.o) Raid Skip ([Example](https://youtu.be/aqkUKx-1HX8?si=vUMEgF5d30XMmcrg&t=49))   
@@ -566,7 +566,7 @@ D.1.1.aa) Obtaining Great View From Up Here by moving down 50 blocks ([MC-118569
 D.1.1.ab) Uneasy Alliance in the nether ([MC-251617](https://bugs.mojang.com/browse/MC-251617))  
 D.1.1.ac) Placing doors inside the player ([MC-123619](https://bugs.mojang.com/browse/MC-123619))  
 D.1.1.ad) Sprint continuation ([MC-152728](https://bugs.mojang.com/browse/MC-152728))  
-D.1.1.ae) Sprint desync ([MC-69459](https://bugs.mojang.com/browse/MC-69459))  
+D.1.1.ae) Sprint desync ([MC-69459](https://bugs.mojang.com/browse/MC-69459), [Example](https://www.youtube.com/watch?v=NiOMVtrkV-M))  
 D.1.1.af) Receiving looting benefits while killing mobs with a bow/TNT ([MC-3304](https://bugs.mojang.com/browse/MC-3304))  
 D.1.1.ag) Eat skip ([Example](https://www.youtube.com/watch?v=DCz1KAtGsZs))  
 D.1.1.ah) Boat break on certain heights ([MC-119369](https://bugs.mojang.com/browse/MC-119369))  
@@ -591,8 +591,6 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 D.1.2.c) X-Ray; minor unintentional x-rays may be verified, but intentional (or important but unintentional) x-rays (at the discretion of verifiers) must not be used (such as in this [example](https://youtu.be/oImgrxw-v6I?si=XXlgVc8kOBVpBoEn&t=688)).   
 	D.1.2.d) Shearing sheep during their dying animation ([MC-76416](https://bugs.mojang.com/browse/MC-76416))   
 	D.1.2.e) Nothing MLG ([Example](https://www.youtube.com/watch?v=flt0V9QdfIQ))   
-	D.1.2.f) Slab-stair stronghold locator ([Example](https://www.youtube.com/watch?v=X6F-eq1-QLE))  
-D.1.2.g) Redstone stronghold locator ([Example](https://www.youtube.com/watch?v=JRYuWzPLQeY))  
 D.1.2.h) Slime spectating ([Example](https://t.co/UErxU74UW1))     
 D.1.2.i) Ghost block jump ([Example](https://www.youtube.com/watch?v=A57pDR-mEuI))  
 D.1.2.j) Offhand clutch ([Example](https://www.youtube.com/watch?v=CHsV1iG2HbY))  
@@ -607,14 +605,14 @@ D.1.2.r) Infinite scaffolding ([Example](https://www.youtube.com/watch?v=wWDzXzv
 D.1.2.s) Pearl nether warps ([MC-86850](https://bugs.mojang.com/browse/MC-86850))  
 D.1.2.t) Digging packet nether warp ([Example](https://youtu.be/LbHUtIbIPP8?t=370))  
 D.1.2.u) End warps ([MC-123364](https://bugs.mojang.com/browse/MC-123364), [MC-205871](https://bugs.mojang.com/browse/MC-205871), [MC-212834](https://bugs.mojang.com/browse/MC-212834), [MC-222251](https://bugs.mojang.com/browse/MC-222251), [MC-254125](https://bugs.mojang.com/browse/MC-254125))  
-D.1.2.v) Breaking blocks intended to be unbreakable ()  
+D.1.2.v) Breaking blocks intended to be unbreakable ([Example](https://youtu.be/HBBgMLiD_4g?si=tGWsGV2Hz4A1gwHe&t=36))  
 D.1.2.w) TNT Minecart Dupe ([Example](https://www.youtube.com/watch?v=ZLqaRIZxN4o))  
 D.1.2.x) Item Transmutation ([Example](https://www.youtube.com/watch?v=DXfnu77kIG4))  
 D.1.2.y) Block Transmutation ([MC-51731](https://bugs.mojang.com/browse/MC-51731))  
 D.1.2.z) Update suppression ([Example](https://www.youtube.com/watch?v=Dtke-Co5HFM))  
 D.1.2.aa) Cactus bed ([MC-59303](https://bugs.mojang.com/browse/MC-59303))  
 D.1.2.ab) Saving blocks by lag abuse ([Example](https://www.youtube.com/watch?v=qhvBNctnJCk))  
-D.1.2.ac) Shared hitbox abuse ([Example](https://www.youtube.com/watch?v=aPtvSnMLmnI))  
+D.1.2.ac) Shared hitbox abuse ([Example](https://www.youtube.com/watch?v=aPtvSnMLmnI), [Example \#2](https://www.youtube.com/watch?v=X6F-eq1-QLE), [Example \#3](https://www.youtube.com/watch?v=JRYuWzPLQeY))  
 D.1.2.ad) Teleporting via a pearl with nether portal ([Example](https://www.youtube.com/watch?v=g5knWZnrmbM))  
 D.1.3) Save and quit must not be used during a run.  
 D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.  
@@ -662,12 +660,12 @@ E.4.1.a) Clarification: Runs are not considered external if the only time(s) in 
 
 ## **F.1: Co-op Exceptions**
 
-F.1.1) A.3.3 (banning opening to LAN) is nullified for co-op runs.  
+F.1.1) [A.3.3](#bookmark=id.d8b2c7okkc3h) (banning opening to LAN) is nullified for co-op runs.  
 F.1.2) In addition to the world generation settings allowed in [A.1.3](#bookmark=id.6vsi9vckzfzn), you may also enable cheats.  
 F.1.3) No cheats or actions which could not be accomplished without cheats must be used during the run.  
-F.1.3.a) Exception: /difficulty may be used (note that in accordance with [A.3.11](#bookmark=id.67uie2vqk7x1), the difficulty must not be set to peaceful, even if toggling between difficulties)  
-F.1.3.b) Exception: /time set 0 may be used as described in F.2.2  
-F.1.4) F3+I must not be used.  
+F.1.3.a) Exception: /difficulty may be used, nullifying [A.3.5](#bookmark=id.5il6rk51l0p0) (note that in accordance with [A.3.11](#bookmark=id.67uie2vqk7x1), the difficulty must not be set to peaceful, even if toggling between difficulties)  
+F.1.3.b) Exception: /time set 0 may be used as described in [F.2.2](#bookmark=id.xi3p5kmrcb6e), nullifying [A.3.5](#bookmark=id.5il6rk51l0p0).  
+F.1.4) Players with cheats enabled must not use F3+I.  
 F.1.5) The entirety of a co-op run must occur on either an dedicated server or with Open to LAN.   
 F.1.5.a) Exception: The first few seconds (at the discretion of verifiers) of a run may be played on singleplayer.  
 F.1.6) If more than 16 players are running, choose 16 players while submitting, input the names of 15 of the players, and then list “+others” for the 16th slot. Include the name of all other players not listed in the description of the speedrun.com submission.  
@@ -690,12 +688,12 @@ F.2.2.b.i) Exception to [A.5.2.a](#bookmark=id.myaowilcg1vw): Players being push
 F.2.2.c) Clarification: Once /time set 0 is done once to start timing, it cannot be used again for the rest of the run.  
 Entangled Rule(s):  
 F.2.2 is referenced by: [F.1.3.b](#bookmark=id.yhavtnv8w9t)  
-F.2.3) If /time set 0 is not done, then time starts when the server loads the world. If the server being launched isn't shown on video, world files and/or logs will be requested.
+F.2.3) On external servers, if /time set 0 is not done, then time starts when the server loads the world. If the server being launched isn't shown on video, world files and/or logs will be requested.
 
 ## **F.3: Video Rules**
 
 F.3.1) Every player should record their perspective, and all of these perspectives should be submitted with the run.   
-F.3.1.a) Clarification: Unless otherwise specified, no other perspectives are necessary to be recorded.   
+F.3.1.a) Clarification: Unless otherwise specified, no other perspectives beyond those outlined in F.3.2-F.3.5 are necessary to be recorded.   
 F.3.2) The first player to join the server must be recording.  
 F.3.3) The person to complete the run must be recording.  
 F.3.4) Any user with cheats enabled must be recording.  
@@ -852,8 +850,8 @@ Entangled Rule(s):
 4.1.2.d is referenced by: [6.1.1.b](#bookmark=id.yfx3fkxgp4re)  
 4.1.2.e) For glitchless runs, the segmentation must not provide any additional benefit to the run.   
 4.1.2.f) Clarification: [A.2.2](#bookmark=id.kibxavdg498o) and [D.1.3](#bookmark=id.mjw1q0inxd8v) are still enforced for all sections of the run outside of segmentation.  
-4.1.5) All runs must submit world files.  
-4.1.6) All runs begin on world load.
+4.1.3) All runs must submit world files.  
+4.1.4) All runs begin on world load.
 
 ## **4.2: SS/SSG/RS/RSG, 1.12**
 
@@ -957,7 +955,7 @@ Entangled Rule(s):
 8.1.2) In addition to the world generation difficulty settings allowed in [A.1.3.b](#bookmark=id.jg21b7owgd60), you may also toggle the difficulty to Peaceful.  
 Entangled Rule(s):  
 8.1.2 is referenced by: [9.1.2](#bookmark=id.5g2s099ux5rw).  
-8.1.3) Runs must be played entirely in the Peaceful difficulty.  
+8.1.3) Runs must be played entirely in the Peaceful difficulty, nullifying [A.3.11](#bookmark=id.67uie2vqk7x1).  
 8.1.3.a) For runs which cannot or accidentally start on a non-peaceful difficulty, the run will be verified if you switch immediately (at the discretion of verifiers) to peaceful upon loading the world.  
 Entangled Rule(s):  
 8.1.3 is referenced by: [9.1.2](#bookmark=id.5g2s099ux5rw).  
@@ -1094,24 +1092,24 @@ CE6.1.2) All runs begin upon first input.
 Entangled Rule(s):  
 CE6.1.2 is nullified by: [CE6.4.2](#bookmark=id.6r3v2jp9t2d9).
 
-## **CE6.2: Obtain Diamond**
+## **CE6.2: Obtain Diamond, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures**
 
 CE6.2.1) The run is considered complete once a diamond is obtained.
 
-## **CE6.3: Obtain Emerald**
+## **CE6.3: Obtain Emerald, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures**
 
 CE6.3.1) The run is considered complete once an emerald is obtained.
 
-## **CE6.4: Obtain Cake**
+## **CE6.4: Obtain Cake, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures**
 
 CE6.4.1) The run is considered complete once a cake is obtained.  
 CE6.4.2) Exception: Obtain Cake Random Seed Glitchless No Structures begins upon world load, nullifying [CE6.1.2](#bookmark=id.5yb7d1j8pmxn).
 
-## **CE6.5: Obtain Golden Apple**
+## **CE6.5: Obtain Golden Apple, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures**
 
 CE6.5.1) The run is considered complete once a golden apple or enchanted golden apple is obtained.
 
-## **CE6.6: Netherite Ingot**
+## **CE6.6: Netherite Ingot, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures**
 
 CE6.6.1) The run is considered complete once a netherite ingot is obtained.
 
@@ -1148,11 +1146,14 @@ CE8.3.1) The run is considered complete once a wood sword, stone sword, iron swo
 CE9.1.1) The run is considered complete once all logs have been simultaneously obtained.  
 	CE9.1.1.a) Timing ends once the last log is obtained. (see [A.5.18](#bookmark=id.dav11hwprkub))  
 CE9.1.1.b) Clarification: Stripped logs qualify as logs.  
-CE9.1.2) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE9.1.2) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.  
+Entangled Rule(s):  
+CE9.1.2 is nullified by: [CE9.2.2](#bookmark=kix.yc121mqh5sp).
 
 ## **CE9.2: Set Seed Glitchless/Random Seed Glitchless, Pre-1.2**
 
-CE9.2.1) The run is considered complete once an oak log, a spruce log, and a birch log are obtained.
+CE9.2.1) The run is considered complete once an oak log, a spruce log, and a birch log are obtained.  
+CE9.2.2) Exception: All Wood Logs Random Seed Glitchless Pre-1.2 begins upon world load, nullifying [CE9.1.2](#bookmark=id.fdgdejeiekw8).
 
 ## **CE9.3: Set Seed Glitchless/Random Seed Glitchless, 1.2-1.6**
 
@@ -1377,7 +1378,7 @@ This excludes but is not limited to:
 
 CE20.3.1) The /seed command must be used during scouting time.  
 CE20.3.2) During scouting time only, macros may be used. (nullifying [A.10.4](#bookmark=id.2s10wtg93l2e)).   
-CE20.3.3) During scouting time only, any external programs may be used. (nullifying [A.11.8](#bookmark=id.d3tbzrlsua50))  
+CE20.3.3) During scouting time only, any external programs may be used. (nullifying [A.11.8](#bookmark=id.d3tbzrlsua50) and [A.11.9](#bookmark=id.e9kvo54uiy40))  
 	CE20.3.3.a) Clarification: Mods and clients not outlined in section [A.8](#bookmark=id.1no3t2wb6ohp) are not allowed.  
 CE20.3.4) During scouting time only, any of the game’s files may be read, nullifying [A.3.10](#bookmark=id.grv5gaz2r6wh).
 
