@@ -1673,7 +1673,7 @@ CE17.1.1) The run is considered complete once a 16 x world height x 16 area with
 	CE17.1.1.a) Timing ends once the last block is destroyed.  
 CE17.1.2) You must mine every level at which bedrock does not appear within the chunk.  
 CE17.1.3) Clarification: A chunk does not have to be mined in terms of how the game generates chunks, only a chunk-sized area.  
-CE17.1.4) All runs begin upon world load.
+CE17.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
 ## **CE17.2: RSG/SSG/RS/SS, Pre-1.17/1.17/1.18+, Overworld, Solo/Duos/3-4/5-9/10+** {#ce17.2:-rsg/ssg/rs/ss,-pre-1.17/1.17/1.18+,-overworld,-solo/duos/3-4/5-9/10+}
 
@@ -1715,7 +1715,8 @@ CE19.3.2.a) If you choose to kill the ender dragon before all 128 end portals ha
 CE19.3.3) In addition to the external tools allowed by [A.11](#bookmark=id.2syjum5wg048), the following additional external tools may be used:  
 	CE19.3.3.a) [All Portals \[TheTalkingMime\]](https://github.com/TheTalkingMime/AllPortals)  
 	CE19.3.3.b) [APgui \[shnenanigans\]](https://github.com/shnenanigans/APgui)  
-CE19.3.3.c) [Desmos Stronghold Rings](https://www.desmos.com/calculator/la7ezpyutu) 
+CE19.3.3.c) [Desmos Stronghold Rings](https://www.desmos.com/calculator/la7ezpyutu)   
+CE19.3.4) A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by 4.1.2 and its corresponding sub-rules.
 
 ## **CE19.4: All Portals Purist** {#ce19.4:-all-portals-purist}
 
