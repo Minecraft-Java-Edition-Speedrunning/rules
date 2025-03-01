@@ -1,6 +1,6 @@
 # 
 
-| Minecraft: Java Edition Speedrunning Rules Version: v2 |
+| Minecraft: Java Edition Speedrunning Rules Version: v3 |
 | :---: |
 
 # 
