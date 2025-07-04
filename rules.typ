@@ -67,7 +67,7 @@ Rules are divided into 5 sections. These are:
   categories (ex. Random Seed categories), it will use a capital letter.
 - *Section*: these numbers refer to a specific grouping of rules, such as defining a category or
   video requirements.
-- *Rule* these numbers refer to the individual rules themselves.
+- *Rule*: these numbers refer to the individual rules themselves.
 - *Sub-Rule*: these are clarifiers, explanations, and qualifiers to the attached rule. These are
   denoted with letters.
 - *Sub-Sub-Rule*: these are clarifiers, explanations and qualifiers to the attached sub-rules.
