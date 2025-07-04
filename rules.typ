@@ -63,8 +63,8 @@
 Rules are divided into 5 sections. These are:
 - *Ruleset*: these numbers refer to a specific category or set of categories, such as all Random Seed
   categories, or specifically Any% Glitchless RSG 1.16+. If the ruleset refers to a specific tab on
-  speedrun.com (ex. Any% Glitchless), it will use a number, while if it refers to a grouping of
-  categories (ex. Random Seed categories), it will use a capital letter.
+  speedrun.com (e.g. Any% Glitchless), it will use a number, while if it refers to a grouping of
+  categories (e.g. Random Seed categories), it will use a capital letter.
 - *Section*: these numbers refer to a specific grouping of rules, such as defining a category or
   video requirements.
 - *Rule*: these numbers refer to the individual rules themselves.
@@ -93,7 +93,7 @@ This category will abide by the following rulesets:
 \
 Note that the rules should be enforced 'bottom-up'. In the above example, rules in the All Advancements Ruleset may nullify or extend the rules from the Universal Ruleset.\
 \
-Some categories may not have a subcategory ruleset (ex. External Set Seed Glitched 1.9+). In these cases, it should still follow the universal ruleset, set seed ruleset, and glitched ruleset, and also be in a version 1.9 or above.
+Some categories may not have a subcategory ruleset (e.g. External Set Seed Glitched 1.9+). In these cases, it should still follow the universal ruleset, set seed ruleset, and glitched ruleset, and also be in a version 1.9 or above.
 
 == Terminology:
 Please refer to #formatLink("https://datatracker.ietf.org/doc/html/rfc2119")[RFC-2119 Requirement Levels] for the explicit definitions of the commands *must, must not, can/may, should/recommended, and should not/not recommended.*
@@ -155,7 +155,7 @@ A.1.3) <A.1.3> The default settings of world generation must be kept.
 #entangled[A.1.3 is subject to an amendment by: ] #entangledRules(("C.1.1", "F.1.2", "G.2.1", "7.1.3.c", "CE20.1.2"))\
 #entangled[A.1.3 is referenced by: ] #entangledRule("CE20.1.3.a")\
 A.1.4) The options.txt file must not be altered to circumvent the bounds to the settings set by the game.
-- A.1.4.a) If a settings value is not possible to achieve through adjusting the in-game sliders/buttons (such as non-interger FOVs), it must not be used. Any slider setting without game-enforced intervals (ex. mouseSensitivity) may be set to any float value within its bounds.
+- A.1.4.a) If a settings value is not possible to achieve through adjusting the in-game sliders/buttons (such as non-interger FOVs), it must not be used. Any slider setting without game-enforced intervals (e.g. mouseSensitivity) may be set to any float value within its bounds.
   - A.1.4.a.i) Exception: maxFps may be set to any integer value between 10 and 260 (Unlimited), inclusive.
 - A.1.4.b) Exception: gamma may be set to within the range of 0.0 to 5.0.
   - A.1.4.b.i) Guidance: The Planifolia mod allows this option to take effect in 1.19+.
@@ -256,7 +256,7 @@ A.4.3. Non-accessibility resource packs may be used if and only if they only mod
 A.4.4) <A.4.4> Any resource packs not outlined by A.4.1-A.4.3 are banned.\
 #entangled[Entangled Rule(s):]\
 #entangled[A.4.4 is nullified by: ] #entangledRule("CE20.1.2.a")\
-A.4.5)  If any non-vanilla resource pack that modifies vanilla resources is used at any point during a run, a download link to that exact resource pack must be provided in the submission. This does not apply to resource packs that exclusively replace mod assets (ex. SeedQueue resource packs).\
+A.4.5)  If any non-vanilla resource pack that modifies vanilla resources is used at any point during a run, a download link to that exact resource pack must be provided in the submission. This does not apply to resource packs that exclusively replace mod assets (e.g. SeedQueue resource packs).\
 A.4.6) Resource packs which replace mod assets that are not meant to replace vanilla ones may be used.\
 This includes but is not limited to:
 - A.4.6.a) SeedQueue lock images
@@ -276,7 +276,7 @@ A.5.1) <A.5.1> Runs begin timing on either world load, referring to when the pla
 #entangled[A.5.1 is referenced by: ] #entangledRule("F.2.1")\
 A.5.2) <A.5.2> First input timing begins when the player begins actions within the world.
 - This constitutes:
-- A.5.2.a) <A.5.2.a> Moving, both voluntary (ex. pressing keys) and involuntary (ex. pushed by mobs)
+- A.5.2.a) <A.5.2.a> Moving, both voluntary (e.g. pressing keys) and involuntary (e.g. pushed by mobs)
 - #entangled[Entangled Rule(s):]
 - #entangled[A.5.2.a is referenced by: ] #entangledRule("F.2.2.b.i")
 - A.5.2.b) Camera rotation
@@ -312,7 +312,7 @@ A.5.11) If a run meets the criteria for a top-level retime, pauses contribute to
 - A.5.11.a) Pauses that occur directly after or close to after (at the discretion of verifiers) a significant amount of chunks of a dimension are loaded for the first time and do not contribute towards in-game time.
 - A.5.11.b) Pauses that change settings and are less than 5 seconds do not contribute to in-game time. If this is done abusively (at the discretion of verifiers), these pauses will contribute towards in-game time.
 - A.5.11.c) Pauses that change settings and are more than 5 seconds will have 5 seconds subtracted from the paused time elapsed, with the rest of the pause length contributing towards the in-game time. If this is done abusively (at the discretion of verifiers), the full length of the pause will contribute towards in-game time.
-- A.5.11.d) If a pause is done due to a disruption that could not reasonably be avoided (ex. pressing responsibility, medical issue), and the runner identifies and requests that said pause should be removed (either in the run's speedrun.com submission description or in the thread in the official Discord server), the pause will not contribute towards in-game time (at the discretion of verifiers).
+- A.5.11.d) If a pause is done due to a disruption that could not reasonably be avoided (e.g. pressing responsibility, medical issue), and the runner identifies and requests that said pause should be removed (either in the run's speedrun.com submission description or in the thread in the official Discord server), the pause will not contribute towards in-game time (at the discretion of verifiers).
   - A.5.11.d.i) Clarification: External program malfunctioning qualifies under this rule (at the discretion of verifiers); user error, however, does not.
 - A.5.11.e) If a pause occurs very close (at the discretion of verifiers) to the world load (as a result of the player or macro), the pause will not contribute towards in-game time.
 - A.5.11.f) If a pause is done to load chunks that are not loaded due to lag, and the runner identifies and requests that said pause should be removed (either in the run's speedrun.com submission description or in a thread in the official Discord server), the pause will not contribute towards in-game time (at the discretion of verifiers).
@@ -322,11 +322,11 @@ A.5.13) If the run uses SpeedrunIGT, that time will be used as the in-game time.
 - A.5.13.a) Exception: This time may be altered and adjusted for lag, top-level retimes, and known mod inaccuracies.
 - A.5.13.b) You may use the option only to show 0-2 decimal places, but all 3 decimal places must be submitted for SpeedrunIGT to be used. If all 3 decimal places do not show upon run completion (due to the category not ending on a pause/load and the incorrect SpeedrunIGT category being selected), SpeedrunIGT will be used if and only if you submit world files for the run and leave a note in the speedrun.com submission's descriptions saying you have done so.
 A.5.14) If a run does not use SpeedrunIGT, the run may be retimed manually through use of the video's frames (at the discretion of verifiers). If you would like this to be the case, you should request this in the run's speedrun.com submission description or a thread in the official Discord server (this does not guarantee this will occur).\
-A.5.15) If a run does not use SpeedrunIGT but does display a timer that uses the playOneMinute statistic to display the in-game time after pauses (ex. Livesplit, Geosquare Timer, Tuxprint Timer) and is not manually retimed, this statistic will be used as the in-game time.\
+A.5.15) If a run does not use SpeedrunIGT but does display a timer that uses the playOneMinute statistic to display the in-game time after pauses (e.g. Livesplit, Geosquare Timer, Tuxprint Timer) and is not manually retimed, this statistic will be used as the in-game time.\
 A.5.16) If a run displays the statistics menu directly or shortly after the run and is not manually retimed, the run's in-game time may be extrapolated through the value given in the Time Played statistic.\
 A.5.17) If a run does not use SpeedRunIGT, is not manually retimed, does not show an in-game timer that uses playOneMinute, and does not show the statistics menu, the real time of the run will be used as the run's in-game time.\
 A.5.18) <A.5.18> If a run ends by obtaining item(s), timing ends once the first item from the following list has been met:
-- A.5.18.a) The item is taken from a non-reversible GUI (ex. furnace or crafting table)
+- A.5.18.a) The item is taken from a non-reversible GUI (e.g. furnace or crafting table)
 - A.5.18.b) The item appears (if manually retimed) or enters (if timed via speedrunIGT) in an inventory/hotbar slot
 - A.5.18.d) The frame before an item unlocks a corresponding recipe notification (if manually retimed)
 - A.5.18.e) The first frame an item temporarily disappears (if manually retimed)
@@ -346,7 +346,7 @@ A.5.18) <A.5.18> If a run ends by obtaining item(s), timing ends once the first 
 == A.6: General Submission Rules
 A.6.1) The run's speedrun.com submission description must include the seed of the world.
 - A.6.1.a) If the run's seed is not the description but can be reasonably attained, it may be verified (at the discretion of verifiers).
-A.6.2) <A.6.2> Mark your run as F3 if it uses the F3 screen during the run, or any feature which is triggered by an F3 hotkey (ex. F3+B hitboxes, F3+H advanced tooltips).
+A.6.2) <A.6.2> Mark your run as F3 if it uses the F3 screen during the run, or any feature which is triggered by an F3 hotkey (e.g. F3+B hitboxes, F3+H advanced tooltips).
 - A.6.2.a) Clarification: Many F3 hotkeys (such as F3+B hitboxes) will carry over between worlds. If these features are enabled, the run will still be considered as using F3 even if the hotkey itself was not pressed during the run.
 - A.6.2.b) Clarification: F3+P (pause on lost focus) will mark your run as F3 if it is disabled.
 - A.6.2.c) Clarification: F3+Esc (an alternate Game Paused menu) will mark your run as F3 if it is used.
@@ -524,7 +524,7 @@ A.11.8) <A.11.8> You must not use any other reference sheets/external tools besi
 A.11.9) <A.11.9> If you would like to use a tool/reference sheet that is not listed above, please open a thread. It may be allowed at the discretion of moderators. Please note:
 - A.11.9.a) The tool must only use position, angle, and dimension from the F3 menu.
   - A.11.9.a.i) Clarification: This excludes biome and temperature.
-- A.11.9.b) If it is a code-based tool, its source code must be on a publicly accessible repository (ex. Github).
+- A.11.9.b) If it is a code-based tool, its source code must be on a publicly accessible repository (e.g. Github).
 #entangled[Entangled Rule(s):]\
 #entangled[A.11.9 is nullified by: ] #entangledRule("CE20.3.3")\
 
@@ -666,7 +666,7 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.af) Menu access in nether portals (#formatLink("https://youtu.be/IUf07boL9Ac&t=60")[Example])
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
-- D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (ex. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
+- D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
 - D.1.3.c) If a Save and Quit is deemed as permissible and the run qualifies for a top-level retime, any time spent outside of the world will be included in the in-game time, but any time spent waiting for loads will not be included in the in-game time.
 #entangled[Entangled Rule(s):]\
 #entangled[D.1.3 is subject to an amendment by: ] #entangledRule("4.1.4")\
@@ -756,7 +756,7 @@ G.1.1) <G.1.1> The following are considered structures: Ancient City, Mineshaft,
 == G.2: No Structures
 G.2.1) <G.2.1> In addition to the world generation settings allowed in #entangledRule("A.1.3"), you may turn Generate Structures off.\
 G.2.2) <G.2.2> Runs marked as No Structures must not interact with any structures listed in #entangledRule("G.1.1").\
-G.2.3) Clarification: If generate structures is turned off, you still must not interact with any structures which still generate (ex. dungeons).\
+G.2.3) Clarification: If generate structures is turned off, you still must not interact with any structures which still generate (e.g. dungeons).\
 G.2.4) <G.2.4> Clarification: If generate structures is turned on, you must not interact with any structures which generate.
 - Interacting with structures includes but is not limited to:
 - G.2.4.a) Using any blocks, mobs, or items from structures
