@@ -663,7 +663,7 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.ac) Shared hitbox abuse (#formatLink("https://youtu.be/aPtvSnMLmnI")[Example], #formatLink("https://youtu.be/X6F-eq1-QLE")[Example \#2], #formatLink("https://youtu.be/JRYuWzPLQeY")[Example \#3])
 - D.1.2.ad) Teleporting via a pearl with nether portal (#formatLink("https://youtu.be/g5knWZnrmbM")[Example])
 - D.1.2.ae) Boat desync (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-205477")[MC-205477], #formatLink("https://youtu.be/MUuVgMxUfcA")[Example], #formatLink("https://femboy.beauty/7Z8iu")[Example \#2])
-- D.1.2.af) Menu access in nether portals (#formatLink("https://youtu.be/IUf07boL9Ac&t=60")[Example])
+- D.1.2.af) Using a nether portal without the portal animation (#formatLink("https://youtu.be/IUf07boL9Ac&t=60")[Example])
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
