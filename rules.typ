@@ -638,7 +638,7 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - Examples of glitches that are not allowed include but are not limited to:
 - D.1.2.a) Duplication and zero-stack glitches (#formatLink("https://youtu.be/PYFMGuicVWA&t=102")[Example])
 - D.1.2.b) Save and Quit damage prevention abuse (#formatLink("https://youtu.be/KjxrjT8xRrE&t=953")[Example])
-- D.1.2.c) X-Ray; minor unintentional x-rays may be verified, but intentional (or important but unintentional) x-rays (at the discretion of verifiers) must not be used (such as in this #formatLink("https://youtu.be/oImgrxw-v6I&t=688")[example]).
+- D.1.2.c) X-Ray; unintentional x-rays may be verified, but intentional (or important but unintentional) x-rays (at the discretion of verifiers) must not be used (such as in this #formatLink("https://youtu.be/oImgrxw-v6I&t=688")[example]).
 - D.1.2.d) Shearing sheep during their dying animation (#formatLink("https://bugs.mojang.com/browse/MC-76416")[MC-76416])
 - D.1.2.e) Nothing MLG (#formatLink("https://youtu.be/flt0V9QdfIQ")[Example])
 - D.1.2.h) Slime spectating (#formatLink("https://t.co/UErxU74UW1")[Example])
