@@ -162,7 +162,7 @@ A.1.4) The options.txt file must not be altered to circumvent the bounds to the 
 - A.1.4.c) Exception: syncChunkWrites may be altered.
 - A.1.4.d) Exception: tutorialStep may be altered.
 A.1.5) The game's code and files must not be altered to produce any unfair advantage or significant deviation in gameplay.
-- A.1.5.a) Clarification: Clarification: Changing capes and skins (including high resolution/dimension capes) in the launcher assets cache is allowed. Skins must not be transparent. Elytra shape must not be changed.
+- A.1.5.a) Clarification: Changing capes and skins (including high resolution/dimension capes) in the launcher assets cache is allowed. Skins must not be transparent. Elytra shape must not be changed.
   - A.1.5.a.i) Exception: The “Cobalt” elytra texture may be used.
 - A.1.5.b) Clarification: The name of hardware components, such as the CPU, must not be altered.
 
@@ -240,7 +240,7 @@ A.4.2) Resource packs that are whitelisted for accessibility purposes (including
 - A.4.2.a) #formatLink("https://github.com/dysphorLia/SensoryFriendlyResourcePack")[dysphorLia's Sensory Friendly Resource Pack]
 - A.4.2.b) #formatLink("https://github.com/shnenanigans/quieter-mc-sounds")[shenanigans' Quieter Sounds Resource Pack]
 - A.4.2.c) If you need an accommodation that is not covered by the packs listed above, please open a thread. You may be whitelisted to play with a resource pack which is otherwise not allowed.
-A.4.3. Non-accessibility resource packs may be used if and only if they only modify the following resources under the following circumstances and do so in a way wherein a competitive advantage is not attained.
+A.4.3) Non-accessibility resource packs may be used if and only if they only modify the following resources under the following circumstances and do so in a way wherein a competitive advantage is not attained.
 - The textures that can be modified constitute:
 - A.4.3.a) Using the 1.14+ netherrack texture on older versions/in programmer art
 - A.4.3.b) Changing the text of the End Poem
@@ -251,12 +251,12 @@ A.4.3. Non-accessibility resource packs may be used if and only if they only mod
 - A.4.3.g) Changing the chest and trapped chest textures to their Christmas variants
 - A.4.3.h) Changing the default Player skin or cape texture.
 - A.4.3.i) Clarification: You must not modify the textures of the health bar, hunger bar, or XP bar whatsoever.
-- A.4.3.j) Clarification: Better grass/lower grass on the sides of blocks must not be used, whether accomplished through Optifine or a resource pack (this includes podzol, nylium, and similar blocks).
+- A.4.3.j) Clarification: Better grass/lower grass on the sides of blocks must not be used, whether accomplished through OptiFine or a resource pack (this includes podzol, nylium, and similar blocks).
 - A.4.3.k) Changing the vignette to a fully transparent texture.
 A.4.4) <A.4.4> Any resource packs not outlined by A.4.1-A.4.3 are banned.\
 #entangled[Entangled Rule(s):]\
 #entangled[A.4.4 is nullified by: ] #entangledRule("CE20.1.2.a")\
-A.4.5)  If any non-vanilla resource pack that modifies vanilla resources is used at any point during a run, a download link to that exact resource pack must be provided in the submission. This does not apply to resource packs that exclusively replace mod assets (e.g. SeedQueue resource packs).\
+A.4.5) If any non-vanilla resource pack that modifies vanilla resources is used at any point during a run, a download link to that exact resource pack must be provided in the submission. This does not apply to resource packs that exclusively replace mod assets (e.g. SeedQueue resource packs).\
 A.4.6) Resource packs which replace mod assets that are not meant to replace vanilla ones may be used.\
 This includes but is not limited to:
 - A.4.6.a) SeedQueue lock images
@@ -360,9 +360,9 @@ A.6.2) <A.6.2> Mark your run as F3 if it uses the F3 screen during the run, or a
 A.6.3) Mark your run's difficulty as the lowest difficulty played during the run.\
 A.6.4) Mark the mods section of your run in accordance with the mods you used at any point during the run.
 - A.6.4.a) If no mods are used at all, mark your run as Vanilla.
-- A.6.4.b) If just Optifine is used (not Fabric Loader), mark your run as Optifine.
-  - A.6.4.b.i) Clarification: Optifine may only be used if A.8.1 is followed. <A.6.4.b.i>
-- A.6.4.c) If any other mods are used, including Optifabric or the Fabric Loader, mark your run as Modded.
+- A.6.4.b) If just OptiFine is used (not Fabric Loader), mark your run as OptiFine.
+  - A.6.4.b.i) Clarification: OptiFine may only be used if A.8.1 is followed. <A.6.4.b.i>
+- A.6.4.c) If any other mods are used, including OptiFabric or the Fabric Loader, mark your run as Modded.
 
 == A.7: Additional Proof Submissions
 A.7.1) All additional proof should be submitted through the #formatLink("https://forms.gle/v7oPXfjfi7553jkp7")[official Google form]. Additional proof can be submitted in the run's speedrun.com submission description, but this is not recommended.\
@@ -394,9 +394,9 @@ A.7.10) <A.7.10> In the rare circumstance that a run must go through immediate m
 == A.8: Mod and Library Rules <A.8>
 #entangled[Entangled Rule(s):]\
 #entangled[Section A.8 is referenced by: ] #entangledRules(("F.1.7", "CE20.3.3.a"))\
-A.8.1) Optifine is allowed in Minecraft versions 1.0-1.14.4 if and only if the following conditions are met.
+A.8.1) OptiFine is allowed in Minecraft versions 1.0-1.14.4 if and only if the following conditions are met.
 - A.8.1.a) Any sub-menu of the pie-chart (shift+F3) is not used in 1.14.4.
-- A.8.1.b) Optifine zoom is not used during the run.
+- A.8.1.b) OptiFine zoom is not used during the run.
   - A.8.1.b.i) Guidance: When unbound in 1.7.10 and earlier, zoom activates on modifier and media keys. For this reason, it is recommended to bind zoom to an unused key instead of entirely unbinding for 1.7.x.
 \
 - Main Video Settings:
@@ -434,12 +434,12 @@ A.8.1) Optifine is allowed in Minecraft versions 1.0-1.14.4 if and only if the f
 - A.8.1.v) Fast debug info must be kept off.
 - A.8.1.w) Debug profiler must be kept off.
 \
-- A.8.1.x) Exception: Using Optifine in glitched categories is not recommended.
+- A.8.1.x) Exception: Using OptiFine in glitched categories is not recommended.
 - A.8.1.y) Light, Standard, and Ultra are the only versions of OptiFine that may be used. This excludes Multi-Core, Smooth, and AA releases for Minecraft Pre 1.3.
 #entangled[Entangled Rule(s):]\
 #entangled[A.8.1 is referenced by: ] #entangledRule("A.6.4.b.i")\
 A.8.2) All versions of Fabric Loader are allowed.
-- A.8.2.a) Guidance: Fabric Loader is required to load all other non-Optifine mods.
+- A.8.2.a) Guidance: Fabric Loader is required to load all other non-OptiFine mods.
 - A.8.2.b) Guidance: Version 0.16.0+ should be used as some mods only support this version of Fabric Loader and above.
 - A.8.2.c) Clarification: FabricAPI must not be used.
 A.8.3) All versions of Legacy Fabric Intermediaries are allowed.
@@ -485,6 +485,7 @@ A.10.4) <A.10.4> Macros are not allowed to be triggered during a run.
 A.10.5) Macros may only be used to reset worlds if resets are triggered by player input. Multiple simultaneous resets may be triggered by a single player input. <A.10.5>
 - A.10.5.a) Clarification: Any program or macro that reads the screen (directly or indirectly) or reads the vanilla game files directly must not be used.
 - A.10.5.b) Clarification: Automatic resetting, or resetting based on anything other than	player input is not allowed.
+- A.10.5.b) Clarification: Automatic resetting, or resetting based on anything other than player input is not allowed.
 #entangled[Entangled Rule(s):]\
 #entangled[A.10.5 is subject to an exception by: ] #entangledRule("C.2.1")\
 
@@ -680,7 +681,7 @@ D.1.4) <D.1.4> The game must not be closed and reopened during a run.
 
 == E.1: Glitched Runs
 E.1.1) Glitched runs must perform at least one glitch during the run that is disallowed in glitchless runs.
-- E.1.1.a) Clarification: Runs without an internal/external split classification may choose to  Save and Quit/crash the game or refrain from doing so.
+- E.1.1.a) Clarification: Runs without an internal/external split classification may choose to Save and Quit/crash the game or refrain from doing so.
 E.1.2) The FastReset quit button (menu.quitWorld) must not be used during the run.
 - E.1.2.a) If menu.quitWorld is used during the run, it may still be verified if it is determined to not affect the run (at the discretion of verifiers).
 E.1.3) If you use Task Manager or another program which forcefully closes the game, you should include a video of this during the run.\
