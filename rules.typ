@@ -776,7 +776,7 @@ G.3.1) <G.3.1> Runs marked as Structures must interact (as defined by #entangled
 == H.1: Clarifications and Exceptions
 H.1.2) In set seed runs, if you spawn into the world rotated from the initial camera (pre-rotation), you will incur a penalty of 0.5 seconds.
 - H.1.2.a) Clarification: Pre-rotation does not count as a run's first input.
-
+- H.1.2.b) Intentional prerotation that gives an advantage is illegal.
 = 1: Any% Glitchless
 
 == 1.1: Any% Glitchless Objective and Clarifications
