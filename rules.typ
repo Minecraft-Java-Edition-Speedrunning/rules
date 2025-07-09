@@ -174,7 +174,7 @@ A.2.2) <A.2.2> The video of the run must be continuous; it cannot be segmented o
 #entangled[A.2.2 is nullified by: ] #entangledRule("4.1.2")\
 A.2.3) Your video must be permanently available.
 - This excludes but is not limited to:
-- A.2.3.a) Twitch VODs
+- A.2.3.a) Twitch VODs and clips
 A.2.4) Your video must be viewable.
 - Videos which are considered unviewable include but are not limited to:
 - A.2.4.a) Deleted videos
