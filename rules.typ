@@ -223,11 +223,13 @@ A.3.6) If you play one instance of Minecraft and then switch to playing another,
 A.3.7) Non-default shaders, including Super Secret Settings, must not be used.\
 A.3.8) The chat text must be visible and legible in the video recording and the Chat setting must be either Shown or Commands Only.\
 A.3.9) Runs must not intend to be as slow as possible. At a minimum, an attempt must be made to finish the run quickly.\
-A.3.10) <A.3.10> You must not read from any files produced by the vanilla game during the run.
+A.3.10) <A.3.10> You must not read from any files produced by the vanilla game before or during the run.
 - A.3.10.a) Exception: Players and programs may read from the advancement or statistics files.
-- A.3.10.b) Exception: Players and programs may read from the wpstateout.txt file created by the State Output mod.
+- A.3.10.b) Exception: Players and programs may read from the wpstateout.txt file created by WorldPreview or the State Output mod.
+- A.3.10.c) Exception: Historically, macros have had limited allowances to read the logs in order to determine game state. While State Output now exists for this, these old macros are still allowed.
 #entangled[Entangled Rule(s):]\
 #entangled[A.3.10 is referenced by: ] #entangledRule("CE20.3.4")\
+#entangled[A.3.10 is subject to an exception by: ] #entangledRule("C.2.1")\
 A.3.11) <A.3.11> Peaceful difficulty must not be used within the run.\
 #entangled[Entangled Rule(s):]\
 #entangled[A.3.11 is referenced by: ] #entangledRule("F.1.3.a")\
@@ -568,7 +570,7 @@ C.1.2) In versions 1.16 and above, runners may not use the Recreate button to cr
 == C.2: Additional Macro and Timing Rules <C.2>
 #entangled[Entangled Rule(s):]\
 #entangled[Section C.2 is referenced by: ] #entangledRule("F.1.7")\
-C.2.1) <C.2.1> Exception to #entangledRule("A.10.5"): Macros may read the game's log files to ascertain the player's spawn coordinates prior to the run's start. The macro may use this information to choose to reset the world without player input.
+C.2.1) <C.2.1> Exception to #entangledRule("A.3.10") and #entangledRule("A.10.5"): Macros may read the game's log files to ascertain the player's spawn coordinates prior to the run's start. The macro may use this information to choose to reset the world without player input.
 
 = D: Glitchless Ruleset
 
