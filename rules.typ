@@ -710,7 +710,7 @@ E.4.1) External runs must leave the world (Save and Quit or crash the game).
 == F.1: Co-op Exceptions
 F.1.1) #entangledRule("A.3.3") (banning opening to LAN) is nullified for co-op runs.\
 F.1.2) <F.1.2> In addition to the world generation settings allowed in #entangledRule("A.1.3"), you may also enable cheats.\
-- F.1.2.a) Guidance: We strongly recommend generating the world with cheats but opening to lan without cheats to more easily comply with #entangledRule("F.3.4").
+- F.1.2.a) <F.1.2.a> Guidance: We strongly recommend generating the world with cheats but opening to lan without cheats to more easily comply with #entangledRule("F.3.4").
 F.1.3) No cheats or actions which could not be accomplished without cheats must be used during the run.
 - F.1.3.a) <F.1.3.a> Exception: /difficulty may be used, nullifying #entangledRule("A.3.5") (note that in accordance with #entangledRule("A.3.11"), the difficulty must not be set to peaceful, even if toggling between difficulties)
 - F.1.3.b) <F.1.3.b> Exception: /time set 0 may be used as described in #entangledRule("F.2.2"), nullifying #entangledRule("A.3.5").
@@ -744,7 +744,9 @@ F.3.1) Every player should record their perspective, and all of these perspectiv
 - F.3.1.a) Clarification: Unless otherwise specified, no other perspectives beyond those outlined in F.3.2-F.3.4 are necessary to be recorded.
 F.3.2) The first player to join the server must be recording.\
 F.3.3) The person to complete the run must be recording.\
-F.3.4) Any user with cheats enabled must be recording.\
+F.3.4) <F.3.4> Any user with cheats enabled must be recording.\
+#entangled[Entangled Rule(s):]\
+#entangled[F.3.4 is referenced by: ] #entangledRule("F.1.2.a")\
 F.3.5) The video should start before joining the server.
 
 = G: Structures/No Structures Ruleset
