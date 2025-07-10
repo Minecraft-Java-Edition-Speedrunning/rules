@@ -403,7 +403,7 @@ A.8.1) Optifine is allowed in Minecraft versions 1.0-1.14.4 if and only if the f
 - A.8.1.c) The render distance is not set to above 32 if you are playing in 1.8-1.14.4.
 - A.8.1.d) The render distance is not set to above 16 if you are playing in 1.7-1.7.10.
 - A.8.1.e) The render distance is not set to any value besides 2, 4, 8, or 16 if you are playing in 1.0-1.6.4.
-- A.8.1.f) Dynamic FOV must be kept on except under the same restrictions as Extra Options as defined in A.8.12.
+- A.8.1.f) <A.8.1.f> Dynamic FOV must be kept on except under the same restrictions as Extra Options as defined in #entangledRule("A.8.12").
 - A.8.1.g) Chunk Loading is kept as Default.
 - A.8.1.h) Dynamic lights must be kept off.
 \
@@ -452,7 +452,7 @@ A.8.5) Rules relating to what Fabric mods are legal and the conditions of their 
 A.8.9) If SeedQueue is used, you must not increase the max queued seeds beyond 30. The mod enforces this limit, you must not make any attempts to bypass it.\
 A.8.10) All versions of Ornithe Intermediaries are allowed.\
 A.8.11) Fabric Intermediaries are allowed.\
-A.8.12) You must not abuse unintended advantageous behaviours of ExtraOptions.\
+A.8.12) <A.8.12> You must not abuse unintended advantageous behaviours of ExtraOptions.\
 Unintended advantageous behaviours include but are not limited to:
 - A.8.12.a) Measuring eyes on Soul Sand or Soul Soil with Soul Speed while FOV effects are reduced (i.e. when the FOV Effects slider is less than 100%)
 - A.8.12.b) Measuring eyes underwater while submerged FOV effects are reduced (i.e. when Control Submerged FOV is enabled and the FOV Effects slider is less than 100%)
@@ -460,6 +460,8 @@ Unintended advantageous behaviours include but are not limited to:
 Allowed behaviours include but are not limited to:
 - A.8.12.d) Generally using reduced FOV Effects while under the effects of Soul Speed, including during Zero or Ground Zero cycles.
 - A.8.12.e) Grabbing lava from a magma ravine while waiting in the portal animation
+#entangled[Entangled Rule(s):]\
+#entangled[A.8.12 is referenced by: ] #entangledRule("A.8.1.f")\
 
 == A.9: Multi-Instance Rules
 A.9.1) If multiple instances of Minecraft are opened simultaneously, they must each be in different directories (.minecraft folders).\
