@@ -436,7 +436,7 @@ A.8.1) Optifine is allowed in Minecraft versions 1.0-1.14.4 if and only if the f
 - A.8.1.v) Fast debug info must be kept off.
 - A.8.1.w) Debug profiler must be kept off.
 \
-- A.8.1.x) Exception: Using Optifine in external glitched categories or in runs that use Oneshot is not allowed.
+- A.8.1.x) Exception: Using Optifine in external glitched categories or in runs that use Oneshot pre 1.13 is not allowed.
 - A.8.1.y) Light, Standard, and Ultra are the only versions of OptiFine that may be used. This excludes Multi-Core, Smooth, and AA releases for Minecraft Pre 1.3.
 #entangled[Entangled Rule(s):]\
 #entangled[A.8.1 is referenced by: ] #entangledRule("A.6.4.b.i")\
