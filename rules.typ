@@ -710,12 +710,13 @@ E.4.1) External runs must leave the world (Save and Quit or crash the game).
 == F.1: Co-op Exceptions
 F.1.1) #entangledRule("A.3.3") (banning opening to LAN) is nullified for co-op runs.\
 F.1.2) <F.1.2> In addition to the world generation settings allowed in #entangledRule("A.1.3"), you may also enable cheats.\
+- F.1.2.a) Guidance: We strongly recommend generating the world with cheats but opening to lan without cheats to more easily comply with #entangledRule("F.3.4").
 F.1.3) No cheats or actions which could not be accomplished without cheats must be used during the run.
 - F.1.3.a) <F.1.3.a> Exception: /difficulty may be used, nullifying #entangledRule("A.3.5") (note that in accordance with #entangledRule("A.3.11"), the difficulty must not be set to peaceful, even if toggling between difficulties)
 - F.1.3.b) <F.1.3.b> Exception: /time set 0 may be used as described in #entangledRule("F.2.2"), nullifying #entangledRule("A.3.5").
 F.1.4) Players with cheats enabled must not use F3+I.\
 F.1.5) The entirety of a co-op run must occur on either an dedicated server or with Open to LAN.
-- F.1.5.a) Exception: The first few seconds (at the discretion of verifiers) of a run may be played on singleplayer.
+- F.1.5.a) Exception: The very start (at the discretion of verifiers) of a run may be played on singleplayer.
 F.1.6) If more than 16 players are running, choose 16 players while submitting, input the names of 15 of the players, and then list “+others” for the 16th slot. Include the name of all other players not listed in the description of the speedrun.com submission.\
 F.1.7) <F.1.7> Your server must not use any mods or plugins outside of the allowed list of mods in #entangledRule("A.8") and/or #entangledRule("C.2").
 - This excludes but is not limited to (whether or not plugins are enabled):
@@ -729,14 +730,14 @@ F.1.8) <F.1.8> In accordance with #entangledRule("A.3.1"), at least one player m
 
 == F.2: Co-op Timing Rules
 F.2.1) <F.2.1> Runs done on LAN may start their time following the same rules as #entangledRule("A.5.1")/#entangledRule("A.5.2") (world load/first input).\
-F.2.2) <F.2.2> Runs done on external servers or runs on LAN which choose to do so will start their time upon the entering of the command /time set 0.
+F.2.2) <F.2.2> Runs done on external servers, or runs on LAN which choose to do so, will start their time upon the entering of the command /time set 0.
 - F.2.2.a) Please do not wait excessively long to run the command after the server is launched.
 - F.2.2.b) <F.2.2.b> If this timing method is chosen, inputs which would normally start timing (as defined by #entangledRule("A.5.2")) must not occur prior to the entering of the command.
   - F.2.2.b.i) <F.2.2.b.i> Exception to #entangledRule("A.5.2.a"): Players being pushed by mobs before the time set command will not be considered as starting the run unless a significant advantage is gained (at the discretion of verifiers).
 - F.2.2.c) Clarification: Once /time set 0 is done once to start timing, it cannot be used again for the rest of the run.
 #entangled[Entangled Rule(s):]\
 #entangled[F.2.2 is referenced by: ] #entangledRule("F.1.3.b")\
-F.2.3) On external servers, if /time set 0 is not done, then time starts when the server loads the world. If the server being launched isn't shown on video, world files and/or logs will be requested.
+F.2.3) On external servers, if /time set 0 is not done, then time starts when the server loads the world and you must submit the server logs.
 
 == F.3: Video Rules
 F.3.1) Every player should record their perspective, and all of these perspectives should be submitted with the run.
