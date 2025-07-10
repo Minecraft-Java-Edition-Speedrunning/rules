@@ -246,8 +246,8 @@ A.4.3) Non-accessibility resource packs may be used if and only if they only mod
 - The textures that can be modified constitute:
 - A.4.3.a) Using the 1.14+ netherrack texture on older versions/in programmer art
 - A.4.3.b) Changing the text of the End Poem
-- A.4.3.c) Changing the Title Screen's background image or splash text
-- A.4.3.d) Changing the Ender Dragon's death sound or sound volume
+- A.4.3.c) Changing the Title Screen's background image and splash text
+- A.4.3.d) Changing the Ender Dragon's death sound and sound volume
 - A.4.3.e) Changing the bossbar text
 - A.4.3.f) Changing the colour scheme of the GUI background to a non-transparent solid colour or colour gradient
 - A.4.3.g) Changing the chest and trapped chest textures to their Christmas variants
@@ -495,7 +495,7 @@ A.10.5) Macros may only be used to reset worlds if resets are triggered by playe
 == A.11: External Resource Rules <A.11>
 #entangled[Entangled Rule(s):]\
 #entangled[A.11 is subject to an amendment by: ] #entangledRule("CE19.3.3")\
-A.11.1) External programs (or the player) may read from the statistics or advancement files.\
+A.11.1) The player and external programs may read from the statistics and advancement files.\
 A.11.2) Four-function calculators may be used during a run.\
 A.11.3) Any physical reference sheet may be used.
 - A.11.3.a) Example: Physically printed out sheets of paper
@@ -596,7 +596,7 @@ D.1.1) Only these glitches may be used during glitchless runs.
 - D.1.1.p) Synced lava blip (#formatLink("https://youtu.be/U16FC3WnIbc")[Example])
 - D.1.1.q) Sticky boat clutch (#formatLink("https://bugs.mojang.com/browse/MC-156980")[MC-156980])
 - D.1.1.r) Boat velocity reset (#formatLink("https://bugs.mojang.com/browse/MC-174877")[MC-174877])
-- D.1.1.s) Boat placing or breaking inside of blocks (#formatLink("https://youtu.be/NI5I1TSGkIk")[Example])
+- D.1.1.s) Breaking boats into sticks and planks (#formatLink("https://youtu.be/NI5I1TSGkIk")[Example])
 - D.1.1.t) Boat clipping (#formatLink("https://bugs.mojang.com/browse/MC-148869")[MC-148869])
 - D.1.1.u) Block effects ignored on block edges (#formatLink("https://bugs.mojang.com/browse/MC-1133")[MC-1133])
 - D.1.1.v) Pathfinding abuse on block edges (#formatLink("https://youtu.be/eiOdc-zVtZw")[Example])
@@ -721,7 +721,7 @@ F.1.4) Players with cheats enabled must not use F3+I.\
 F.1.5) The entirety of a co-op run must occur on either an dedicated server or with Open to LAN.
 - F.1.5.a) Exception: The first few seconds (at the discretion of verifiers) of a run may be played on singleplayer.
 F.1.6) If more than 16 players are running, choose 16 players while submitting, input the names of 15 of the players, and then list “+others” for the 16th slot. Include the name of all other players not listed in the description of the speedrun.com submission.\
-F.1.7) <F.1.7> Your server must not use any mods or plugins outside of the allowed list of mods in #entangledRule("A.8") or #entangledRule("C.2").
+F.1.7) <F.1.7> Your server must not use any mods or plugins outside of the allowed list of mods in #entangledRule("A.8") and #entangledRule("C.2"), if applicable.
 - This excludes but is not limited to (whether or not plugins are enabled):
 - F.1.7.a) Paper
 - F.1.7.b) Spigot
