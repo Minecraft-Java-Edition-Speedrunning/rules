@@ -737,7 +737,7 @@ F.2.2) <F.2.2> Runs done on external servers, or runs on LAN which choose to do 
 - F.2.2.c) Clarification: Once /time set 0 is done once to start timing, it cannot be used again for the rest of the run.
 #entangled[Entangled Rule(s):]\
 #entangled[F.2.2 is referenced by: ] #entangledRule("F.1.3.b")\
-F.2.3) On external servers, if /time set 0 is not done, then time starts when the server loads the world and you must submit the server logs.
+F.2.3) On external servers, if /time set 0 is not done, then time starts when the server loads the world and server logs must be submitted.
 
 == F.3: Video Rules
 F.3.1) Every player should record their perspective, and all of these perspectives should be submitted with the run.
