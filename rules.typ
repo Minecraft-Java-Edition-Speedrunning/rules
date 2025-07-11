@@ -770,7 +770,7 @@ G.3.1) <G.3.1> Runs marked as Structures must interact (as defined by #entangled
 = H: Category Extension Ruleset
 
 == H.1: Clarifications and Exceptions
-H.1.2) In set seed runs, intentional prerotation (spawning into the world rotated from the initial camera) that provides an advantage is illegal. Otherwise, accidental or unadvantageous prerotation will incur a penalty of 0.5 seconds.
+H.1.2) In set seed runs, intentional prerotation (spawning into the world rotated from the initial camera) that provides an advantage is illegal. Otherwise, accidental or non-advantageous prerotation will incur a penalty of 0.5 seconds.
 - H.1.2.a) Clarification: Prerotation does not count as a run's first input.
 = 1: Any% Glitchless
 
