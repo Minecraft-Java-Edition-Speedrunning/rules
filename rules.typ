@@ -515,7 +515,7 @@ A.11.7) <A.11.7> The following constitute the whitelist of legal tools:
 - A.11.7.e) #formatLink("https://github.com/KingContaria/ContariaCalc/releases")[ContariaCalc] [KingContaria] (up to v1.1.7.1)
 - A.11.7.f) #formatLink("https://ens-gijs.github.io/minecraft-stronghold-locator/")[Minecraft Stronghold Triangulator]
 - A.11.7.g) #formatLink("https://replit.com/@The64thRealm/Yeet-calculator?v=1")[Yeet calculator] [The64thRealm]
-- A.11.7.h) #formatLink("https://github.com/DuncanRuns/NinjaLink/releases/tag/v1.0.0")[Ninjalink] [DuncanRuns] (v1.0.0)
+- A.11.7.h) #formatLink("https://github.com/DuncanRuns/NinjaLink/releases/tag/v1.1.0")[Ninjalink] [DuncanRuns] (v1.1.0)
 #entangled[Entangled Rule(s):]\
 #entangled[A.11.7 is referenced by: ] #entangledRule("CE20.2.2")\
 A.11.8) <A.11.8> You must not use any other reference sheets/external tools besides the ones listed above.\
