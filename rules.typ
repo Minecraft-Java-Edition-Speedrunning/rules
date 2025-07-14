@@ -162,9 +162,9 @@ A.1.4) The options.txt file must not be altered to circumvent the bounds to the 
 - A.1.4.c) Exception: syncChunkWrites may be altered.
 - A.1.4.d) Exception: tutorialStep may be altered.
 A.1.5) The game's code and files must not be altered to produce any unfair advantage or significant deviation in gameplay.
-- A.1.5.a) Clarification: Clarification: Changing capes and skins (including high resolution/dimension capes) in the launcher assets cache is allowed. Skins must not be transparent. Elytra shape must not be changed.
+- A.1.5.a) Clarification: Changing capes and skins (including high resolution/dimension capes) in the launcher assets cache is allowed. Skins must not be transparent. Elytra shape must not be changed.
   - A.1.5.a.i) Exception: The “Cobalt” elytra texture may be used.
-- A.1.5.b) Clarification: The name of hardware components, such as the CPU, must not be altered.
+- A.1.6) The name of hardware components, such as the CPU, must not be altered.
 
 == A.2: Videos
 A.2.1) All runs must be submitted with a video of the run.\
@@ -174,7 +174,7 @@ A.2.2) <A.2.2> The video of the run must be continuous; it cannot be segmented o
 #entangled[A.2.2 is nullified by: ] #entangledRule("4.1.2")\
 A.2.3) Your video must be permanently available.
 - This excludes but is not limited to:
-- A.2.3.a) Twitch VODs
+- A.2.3.a) Twitch VODs and clips
 A.2.4) Your video must be viewable.
 - Videos which are considered unviewable include but are not limited to:
 - A.2.4.a) Deleted videos
@@ -240,23 +240,23 @@ A.4.2) Resource packs that are whitelisted for accessibility purposes (including
 - A.4.2.a) #formatLink("https://github.com/dysphorLia/SensoryFriendlyResourcePack")[dysphorLia's Sensory Friendly Resource Pack]
 - A.4.2.b) #formatLink("https://github.com/shnenanigans/quieter-mc-sounds")[shenanigans' Quieter Sounds Resource Pack]
 - A.4.2.c) If you need an accommodation that is not covered by the packs listed above, please open a thread. You may be whitelisted to play with a resource pack which is otherwise not allowed.
-A.4.3. Non-accessibility resource packs may be used if and only if they only modify the following resources under the following circumstances and do so in a way wherein a competitive advantage is not attained.
+A.4.3) Non-accessibility resource packs may be used if and only if they only modify the following resources under the following circumstances and do so in a way wherein a competitive advantage is not attained.
 - The textures that can be modified constitute:
 - A.4.3.a) Using the 1.14+ netherrack texture on older versions/in programmer art
 - A.4.3.b) Changing the text of the End Poem
-- A.4.3.c) Changing the Title Screen's background image and/or splash text
-- A.4.3.d) Changing the Ender Dragon's death sound and/or sound volume
+- A.4.3.c) Changing the Title Screen's background image and splash text
+- A.4.3.d) Changing the Ender Dragon's death sound and sound volume
 - A.4.3.e) Changing the bossbar text
 - A.4.3.f) Changing the colour scheme of the GUI background to a non-transparent solid colour or colour gradient
 - A.4.3.g) Changing the chest and trapped chest textures to their Christmas variants
 - A.4.3.h) Changing the default Player skin or cape texture.
 - A.4.3.i) Clarification: You must not modify the textures of the health bar, hunger bar, or XP bar whatsoever.
-- A.4.3.j) Clarification: Better grass/lower grass on the sides of blocks must not be used, whether accomplished through Optifine or a resource pack (this includes podzol, nylium, and similar blocks).
+- A.4.3.j) Clarification: Better grass/lower grass on the sides of blocks must not be used, whether accomplished through OptiFine or a resource pack (this includes podzol, nylium, and similar blocks).
 - A.4.3.k) Changing the vignette to a fully transparent texture.
 A.4.4) <A.4.4> Any resource packs not outlined by A.4.1-A.4.3 are banned.\
 #entangled[Entangled Rule(s):]\
 #entangled[A.4.4 is nullified by: ] #entangledRule("CE20.1.2.a")\
-A.4.5)  If any non-vanilla resource pack that modifies vanilla resources is used at any point during a run, a download link to that exact resource pack must be provided in the submission. This does not apply to resource packs that exclusively replace mod assets (e.g. SeedQueue resource packs).\
+A.4.5) If any non-vanilla resource pack that modifies vanilla resources is used at any point during a run, a download link to that exact resource pack must be provided in the submission. This does not apply to resource packs that exclusively replace mod assets (e.g. SeedQueue resource packs).\
 A.4.6) Resource packs which replace mod assets that are not meant to replace vanilla ones may be used.\
 This includes but is not limited to:
 - A.4.6.a) SeedQueue lock images
@@ -304,7 +304,7 @@ A.5.5) Loading times (the Loading Terrain screen and Joining World screen) do no
 A.5.6) If lag occurs in the run which causes your game to freeze fully, this time will not contribute towards in-game time.\
 A.5.7) If lag occurs, which causes a portion of the game to revert back to a previous state, this time will not contribute towards in-game time.
 - A.5.7.a) If a significant portion of the game is reverted back to a previous state (at the discretion of verifiers), the time may contribute towards in-game time.
-A.5.8) If lag occurs in the run, where some actions are impossible to perform while other actions are, the time may or may not contribute towards in-game time (at the discretion of verifiers), depending on if other fundamental processes are still occurring and/or if the action that cannot be performed is crucial to the run.\
+A.5.8) If lag occurs in the run, where some actions are impossible to perform while other actions are, the time may or may not contribute towards in-game time (at the discretion of verifiers), depending on if other fundamental processes are still occurring or if the action that cannot be performed is crucial to the run.\
 A.5.9) If lag slows down the entire run, as is often present within the first few seconds of loading a world in older versions, the extra time will contribute towards in-game time if the run is manually retimed.
 - A.5.9.a) Clarification: If this lag occurs and SpeedrunIGT is used, the extra time spent will be accounted for and subtracted from the in-game time.
 A.5.10) If a run is segmented, then time spent between the segments of the run will not contribute to in-game time or the real time of the run.\
@@ -360,9 +360,9 @@ A.6.2) <A.6.2> Mark your run as F3 if it uses the F3 screen during the run, or a
 A.6.3) Mark your run's difficulty as the lowest difficulty played during the run.\
 A.6.4) Mark the mods section of your run in accordance with the mods you used at any point during the run.
 - A.6.4.a) If no mods are used at all, mark your run as Vanilla.
-- A.6.4.b) If just Optifine is used (not Fabric Loader), mark your run as Optifine.
-  - A.6.4.b.i) Clarification: Optifine may only be used if A.8.1 is followed. <A.6.4.b.i>
-- A.6.4.c) If any other mods are used, including Optifabric or the Fabric Loader, mark your run as Modded.
+- A.6.4.b) If just OptiFine is used (not Fabric Loader), mark your run as OptiFine.
+  - A.6.4.b.i) Clarification: OptiFine may only be used if A.8.1 is followed. <A.6.4.b.i>
+- A.6.4.c) If any other mods are used, including OptiFabric or the Fabric Loader, mark your run as Modded.
 
 == A.7: Additional Proof Submissions
 A.7.1) All additional proof should be submitted through the #formatLink("https://forms.gle/v7oPXfjfi7553jkp7")[official Google form]. Additional proof can be submitted in the run's speedrun.com submission description, but this is not recommended.\
@@ -394,9 +394,9 @@ A.7.10) <A.7.10> In the rare circumstance that a run must go through immediate m
 == A.8: Mod and Library Rules <A.8>
 #entangled[Entangled Rule(s):]\
 #entangled[Section A.8 is referenced by: ] #entangledRules(("F.1.7", "CE20.3.3.a"))\
-A.8.1) Optifine is allowed in Minecraft versions 1.0-1.14.4 if and only if the following conditions are met.
+A.8.1) OptiFine is allowed in Minecraft versions 1.0-1.14.4 if and only if the following conditions are met.
 - A.8.1.a) Any sub-menu of the pie-chart (shift+F3) is not used in 1.14.4.
-- A.8.1.b) Optifine zoom is not used during the run.
+- A.8.1.b) OptiFine zoom is not used during the run.
   - A.8.1.b.i) Guidance: When unbound in 1.7.10 and earlier, zoom activates on modifier and media keys. For this reason, it is recommended to bind zoom to an unused key instead of entirely unbinding for 1.7.x.
 \
 - Main Video Settings:
@@ -436,12 +436,12 @@ A.8.1) Optifine is allowed in Minecraft versions 1.0-1.14.4 if and only if the f
 - A.8.1.v) Fast debug info must be kept off.
 - A.8.1.w) Debug profiler must be kept off.
 \
-- A.8.1.x) Exception: Using Optifine in external glitched categories or in runs that use Oneshot pre 1.13 is not allowed.
+- A.8.1.x) Exception: Using OptiFine in external glitched categories or in runs that use Oneshot pre 1.13 is not allowed.
 - A.8.1.y) Light, Standard, and Ultra are the only versions of OptiFine that may be used. This excludes Multi-Core, Smooth, and AA releases for Minecraft Pre 1.3.
 #entangled[Entangled Rule(s):]\
 #entangled[A.8.1 is referenced by: ] #entangledRule("A.6.4.b.i")\
 A.8.2) All versions of Fabric Loader are allowed.
-- A.8.2.a) Guidance: Fabric Loader is required to load all other non-Optifine mods.
+- A.8.2.a) Guidance: Fabric Loader is required to load all other non-OptiFine mods.
 - A.8.2.b) Guidance: Version 0.16.0+ should be used as some mods only support this version of Fabric Loader and above.
 - A.8.2.c) Clarification: FabricAPI must not be used.
 A.8.3) All versions of Legacy Fabric Intermediaries are allowed.
@@ -488,14 +488,14 @@ A.10.4) <A.10.4> Macros are not allowed to be triggered during a run.
 #entangled[A.10.4 is nullified by: ] #entangledRules(("CE20.2.3", "CE20.3.2"))\
 A.10.5) Macros may only be used to reset worlds if resets are triggered by player input. Multiple simultaneous resets may be triggered by a single player input. <A.10.5>
 - A.10.5.a) Clarification: Any program or macro that reads the screen (directly or indirectly) or reads the vanilla game files directly must not be used.
-- A.10.5.b) Clarification: Automatic resetting, or resetting based on anything other than	player input is not allowed.
+- A.10.5.b) Clarification: Automatic resetting, or resetting based on anything other than player input is not allowed.
 #entangled[Entangled Rule(s):]\
 #entangled[A.10.5 is subject to an exception by: ] #entangledRule("C.2.1")\
 
 == A.11: External Resource Rules <A.11>
 #entangled[Entangled Rule(s):]\
 #entangled[A.11 is subject to an amendment by: ] #entangledRule("CE19.3.3")\
-A.11.1) External programs (and/or the player) may read from the statistics and/or advancement files.\
+A.11.1) The player and external programs may read from the statistics and advancement files.\
 A.11.2) Four-function calculators may be used during a run.\
 A.11.3) Any physical reference sheet may be used.
 - A.11.3.a) Example: Physically printed out sheets of paper
@@ -596,7 +596,7 @@ D.1.1) Only these glitches may be used during glitchless runs.
 - D.1.1.p) Synced lava blip (#formatLink("https://youtu.be/U16FC3WnIbc")[Example])
 - D.1.1.q) Sticky boat clutch (#formatLink("https://bugs.mojang.com/browse/MC-156980")[MC-156980])
 - D.1.1.r) Boat velocity reset (#formatLink("https://bugs.mojang.com/browse/MC-174877")[MC-174877])
-- D.1.1.s) Boat placing and/or breaking inside of blocks (#formatLink("https://youtu.be/NI5I1TSGkIk")[Example])
+- D.1.1.s) Breaking boats into sticks and planks (#formatLink("https://youtu.be/NI5I1TSGkIk")[Example])
 - D.1.1.t) Boat clipping (#formatLink("https://bugs.mojang.com/browse/MC-148869")[MC-148869])
 - D.1.1.u) Block effects ignored on block edges (#formatLink("https://bugs.mojang.com/browse/MC-1133")[MC-1133])
 - D.1.1.v) Pathfinding abuse on block edges (#formatLink("https://youtu.be/eiOdc-zVtZw")[Example])
@@ -667,7 +667,7 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.ac) Shared hitbox abuse (#formatLink("https://youtu.be/aPtvSnMLmnI")[Example], #formatLink("https://youtu.be/X6F-eq1-QLE")[Example \#2], #formatLink("https://youtu.be/JRYuWzPLQeY")[Example \#3])
 - D.1.2.ad) Teleporting via a pearl with nether portal (#formatLink("https://youtu.be/g5knWZnrmbM")[Example])
 - D.1.2.ae) Boat desync (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-205477")[MC-205477], #formatLink("https://youtu.be/MUuVgMxUfcA")[Example], #formatLink("https://femboy.beauty/7Z8iu")[Example \#2])
-- D.1.2.af) Menu access in nether portals (#formatLink("https://youtu.be/IUf07boL9Ac&t=60")[Example])
+- D.1.2.af) Using a nether portal without the portal animation (#formatLink("https://youtu.be/IUf07boL9Ac&t=60")[Example])
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
@@ -684,7 +684,7 @@ D.1.4) <D.1.4> The game must not be closed and reopened during a run.
 
 == E.1: Glitched Runs
 E.1.1) Glitched runs must perform at least one glitch during the run that is disallowed in glitchless runs.
-- E.1.1.a) Clarification: Runs without an internal/external split classification may choose to  Save and Quit/crash the game or refrain from doing so.
+- E.1.1.a) Clarification: Runs without an internal/external split classification may choose to Save and Quit/crash the game or refrain from doing so.
 E.1.2) The FastReset quit button (menu.quitWorld) must not be used during the run.
 - E.1.2.a) If menu.quitWorld is used during the run, it may still be verified if it is determined to not affect the run (at the discretion of verifiers).
 E.1.3) If you use Task Manager or another program which forcefully closes the game, you should include a video of this during the run.\
@@ -721,7 +721,7 @@ F.1.4) Players with cheats enabled must not use F3+I.\
 F.1.5) The entirety of a co-op run must occur on either an dedicated server or with Open to LAN.
 - F.1.5.a) Exception: The first few seconds (at the discretion of verifiers) of a run may be played on singleplayer.
 F.1.6) If more than 16 players are running, choose 16 players while submitting, input the names of 15 of the players, and then list “+others” for the 16th slot. Include the name of all other players not listed in the description of the speedrun.com submission.\
-F.1.7) <F.1.7> Your server must not use any mods or plugins outside of the allowed list of mods in #entangledRule("A.8") and/or #entangledRule("C.2").
+F.1.7) <F.1.7> Your server must not use any mods or plugins outside of the allowed list of mods in #entangledRule("A.8") and #entangledRule("C.2"), if applicable.
 - This excludes but is not limited to (whether or not plugins are enabled):
 - F.1.7.a) Paper
 - F.1.7.b) Spigot
@@ -1298,7 +1298,7 @@ CE19.2.2) You must not enter the end until all 3 end portals have been lit.
 == CE19.3: All Portals 1.9+
 CE19.3.1) The run is considered complete once the conditions of Any% have been met after all 128 end portals have been lit.
 - CE19.3.1.a) Clarification: If an end portal is unable to be lit, the run's objective cannot be fulfilled.
-CE19.3.2) You may enter the end and/or kill the ender dragon before all 128 end portals have been lit.
+CE19.3.2) You may enter the end and kill the ender dragon before all 128 end portals have been lit.
 - CE19.3.2.a) If you choose to kill the ender dragon before all 128 end portals have been lit, you still must kill the ender dragon after all 128 end portals have been lit, which ends the run.
 CE19.3.3) In addition to the external tools allowed by #entangledRule("A.11"), the following additional external tools may be used: <CE19.3.3>
 - CE19.3.3.a) #formatLink("https://github.com/TheTalkingMime/AllPortals")[All Portals [TheTalkingMime]]
