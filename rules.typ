@@ -405,7 +405,7 @@ A.8.1) OptiFine is allowed in Minecraft versions 1.0-1.14.4 if and only if the f
 - A.8.1.c) The render distance is not set to above 32 if you are playing in 1.8-1.14.4.
 - A.8.1.d) The render distance is not set to above 16 if you are playing in 1.7-1.7.10.
 - A.8.1.e) The render distance is not set to any value besides 2, 4, 8, or 16 if you are playing in 1.0-1.6.4.
-- A.8.1.f) Dynamic FOV must be kept on.
+- A.8.1.f) <A.8.1.f> Dynamic FOV must be kept on except under the same restrictions as Extra Options as defined in #entangledRule("A.8.12").
 - A.8.1.g) Chunk Loading is kept as Default.
 - A.8.1.h) Dynamic lights must be kept off.
 \
@@ -415,6 +415,7 @@ A.8.1) OptiFine is allowed in Minecraft versions 1.0-1.14.4 if and only if the f
 - Details:
 - A.8.1.j) Fog and depth fog must not be disabled.
 - A.8.1.k) Rain and snow must not be turned off.
+- A.8.1.aa) Trees must not be set to Smart.
 \
 - Animations:
 - A.8.1.l) Animations (water animation, fire animation, redstone animation, terrain animation, texture animation, lava animation, portal animation, explosion animation, smoke animation, items animated) must be kept on.
@@ -429,6 +430,7 @@ A.8.1) OptiFine is allowed in Minecraft versions 1.0-1.14.4 if and only if the f
 - A.8.1.q) Fast math must be kept off.
 - A.8.1.r) Smooth world must be turned off. This is on by default and must be changed.
 - A.8.1.s) Lazy Chunk Loading must be turned off. This is on by default and must be changed.
+- A.8.1.z) Preloaded Chunks must be kept off.
 \
 - Other:
 - A.8.1.t) Show FPS must be kept off.
@@ -436,7 +438,7 @@ A.8.1) OptiFine is allowed in Minecraft versions 1.0-1.14.4 if and only if the f
 - A.8.1.v) Fast debug info must be kept off.
 - A.8.1.w) Debug profiler must be kept off.
 \
-- A.8.1.x) Exception: Using OptiFine in glitched categories is not recommended.
+- A.8.1.x) Exception: Using OptiFine in external glitched categories or in runs that use Oneshot pre 1.13 is not allowed.
 - A.8.1.y) Light, Standard, and Ultra are the only versions of OptiFine that may be used. This excludes Multi-Core, Smooth, and AA releases for Minecraft Pre 1.3.
 #entangled[Entangled Rule(s):]\
 #entangled[A.8.1 is referenced by: ] #entangledRule("A.6.4.b.i")\
@@ -452,7 +454,7 @@ A.8.5) Rules relating to what Fabric mods are legal and the conditions of their 
 A.8.9) If SeedQueue is used, you must not increase the max queued seeds beyond 30. The mod enforces this limit, you must not make any attempts to bypass it.\
 A.8.10) All versions of Ornithe Intermediaries are allowed.\
 A.8.11) Fabric Intermediaries are allowed.\
-A.8.12) You must not abuse unintended advantageous behaviours of ExtraOptions.\
+A.8.12) <A.8.12> You must not abuse unintended advantageous behaviours of ExtraOptions.\
 Unintended advantageous behaviours include but are not limited to:
 - A.8.12.a) Measuring eyes on Soul Sand or Soul Soil with Soul Speed while FOV effects are reduced (i.e. when the FOV Effects slider is less than 100%)
 - A.8.12.b) Measuring eyes underwater while submerged FOV effects are reduced (i.e. when Control Submerged FOV is enabled and the FOV Effects slider is less than 100%)
@@ -460,6 +462,8 @@ Unintended advantageous behaviours include but are not limited to:
 Allowed behaviours include but are not limited to:
 - A.8.12.d) Generally using reduced FOV Effects while under the effects of Soul Speed, including during Zero or Ground Zero cycles.
 - A.8.12.e) Grabbing lava from a magma ravine while waiting in the portal animation
+#entangled[Entangled Rule(s):]\
+#entangled[A.8.12 is referenced by: ] #entangledRule("A.8.1.f")\
 
 == A.9: Multi-Instance Rules
 A.9.1) If multiple instances of Minecraft are opened simultaneously, they must each be in different directories (.minecraft folders).\
