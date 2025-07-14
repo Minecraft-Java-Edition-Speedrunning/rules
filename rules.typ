@@ -1260,9 +1260,8 @@ CE16.4.1) Every run must use a random seed.
 == CE17.1: Mine a Chunk Objective and Clarifications <CE17.1>
 #entangled[Entangled Rule(s):]\
 #entangled[CE17.1 is referenced by: ] #entangledRules(("CE17.2.1", "CE17.3.1"))\
-CE17.1.1) The run is considered complete once a 16 x world height x 16 area within the world is mined.
+CE17.1.1) The run is considered complete once a region of space that has a width and depth of 16 blocks and a height spanning the space between the highest level of the bedrock floor to the lowest level of the bedrock ceiling or to world height is filled only by air blocks.
 - CE17.1.1.a) Timing ends once the last block is destroyed.
-CE17.1.2) You must mine every level at which bedrock does not appear within the chunk.\
 CE17.1.3) Clarification: A chunk does not have to be mined in terms of how the game generates chunks, only a chunk-sized area.\
 CE17.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
