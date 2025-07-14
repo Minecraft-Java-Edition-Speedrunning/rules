@@ -1,0 +1,15 @@
+name: build
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+      - name: setup typst
+        uses: typst-community/setup-typst@v4
+      - name: test build
+        run: typst compile rules.typ
