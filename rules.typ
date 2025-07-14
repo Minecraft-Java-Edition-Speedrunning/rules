@@ -489,7 +489,7 @@ A.10.4) <A.10.4> Macros are not allowed to be triggered during a run.
 #entangled[Entangled Rule(s):]\
 #entangled[A.10.4 is nullified by: ] #entangledRules(("CE20.2.3", "CE20.3.2"))\
 A.10.5) Macros may only be used to reset worlds if resets are triggered by player input. Multiple simultaneous resets may be triggered by a single player input. <A.10.5>
-- A.10.5.a) Clarification: Any program or macro that reads the screen (directly or indirectly) or reads the vanilla game files directly must not be used.
+- A.10.5.a) Clarification: Any program or macro that reads the screen (directly or indirectly), listens to game audio, or reads the vanilla game files directly must not be used.
 - A.10.5.b) Clarification: Automatic resetting, or resetting based on anything other than player input is not allowed.
 #entangled[Entangled Rule(s):]\
 #entangled[A.10.5 is subject to an exception by: ] #entangledRule("C.2.1")\
