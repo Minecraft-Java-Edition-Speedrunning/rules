@@ -961,6 +961,7 @@ H.1.2) In set seed runs, if you spawn into the world rotated from the initial ca
 - 7.1.3.a) The run must not exceed 100 minutes and 25 seconds.
 - 7.1.3.b) The run must use the seed “North Carolina” (-343522682).
 - 7.1.3.c) <7.1.3.c> In addition to the world generation settings allowed in #entangledRule("A.1.3"), you must also enable the Bonus Chest.
+- 7.1.3.d) The run must be played on Minecraft version 1.3.1 or newer.
 7.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed, glitchless).\
 7.1.5) All runs begin on first input.
 
