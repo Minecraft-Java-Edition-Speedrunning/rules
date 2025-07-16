@@ -478,6 +478,7 @@ A.9.4) If SeedQueue is used, only one instance of Minecraft running SeedQueue ma
 == A.10: Macro and Rebind Rules
 A.10.1) You may remap keys using external programs, but each game input may have only one key, and each key may cause only one game input.
 - A.10.1.a) Example: Shift+F3 cannot be rebound to a singular key.
+- A.10.1.b) Key mappings may not be changed during the run, except by other hotkeys defined in the same software (AHK, QMK, etc). Importantly, this excludes using wpstateout.txt state or other file or screen reading to conditionally change mappings.
 A.10.2) If keys are rebound, they must be to buttons.
 - This excludes but is not limited to:
 - A.10.2.a) Remapping to a scroll-wheel
