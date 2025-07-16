@@ -497,6 +497,7 @@ A.10.5) <A.10.5> Macros may only be used to reset worlds if resets are triggered
 A.10.6) Any program or macro that does screen reading or listens to game audio for an advantage (at the discretion of verifiers) must not be used. Screen reading is using the data of the pixels of the game window to programmatically capture information from the game (e.g. color for biomes, text recognition for f3, enchantment cracking, inventory contents, etc).
 - A.10.6.a) Clarification: Any attempt to get around this rule will not be tolerated (i.e. taking a screenshot and a program reading from that, etc. would not be allowed).
 - A.10.6.b) Clarification: This does not include recording software.
+A.10.7) Macros may not change key mappings depending on the state of wpstateout.txt
 
 == A.11: External Resource Rules <A.11>
 #entangled[Entangled Rule(s):]\
