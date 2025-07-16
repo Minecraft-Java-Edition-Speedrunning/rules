@@ -226,7 +226,7 @@ A.3.8) The chat text must be visible and legible in the video recording and the 
 A.3.9) Runs must not intend to be as slow as possible. At a minimum, an attempt must be made to finish the run quickly.\
 A.3.10) <A.3.10> You must not read from any files produced by the vanilla game before or during the run.
 - A.3.10.a) Exception: Players and programs may read from the advancement or statistics files.
-- A.3.10.b) Exception: Players and programs may read from the wpstateout.txt file created by WorldPreview or the State Output mod.
+- A.3.10.b) Clarification: Players and programs may read from the wpstateout.txt file created by WorldPreview or the State Output mod.
 - A.3.10.c) Exception: Historically, macros have had limited allowances to read the logs in order to determine game state. While State Output now exists for this, these old macros are still allowed.
 #entangled[Entangled Rule(s):]\
 #entangled[A.3.10 is referenced by: ] #entangledRule("CE20.3.4")\
