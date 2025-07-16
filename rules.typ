@@ -489,11 +489,14 @@ A.10.4) <A.10.4> Macros are not allowed to be triggered during a run.
 - A.10.4.d) Exception: Toggle sprint macros are allowed in all versions.
 #entangled[Entangled Rule(s):]\
 #entangled[A.10.4 is nullified by: ] #entangledRules(("CE20.2.3", "CE20.3.2"))\
-A.10.5) Macros may only be used to reset worlds if resets are triggered by player input. Multiple simultaneous resets may be triggered by a single player input. <A.10.5>
-- A.10.5.a) Clarification: Any program or macro that reads the screen (directly or indirectly), listens to game audio, or reads the vanilla game files directly must not be used.
+A.10.5) <A.10.5> Macros may only be used to reset worlds if resets are triggered by player input. Multiple simultaneous resets may be triggered by a single player input.
+- A.10.5.a) Clarification: Reading game files or screen reading for determining whether to reset or aiding the player in resetting is not allowed.
 - A.10.5.b) Clarification: Automatic resetting, or resetting based on anything other than player input is not allowed.
 #entangled[Entangled Rule(s):]\
 #entangled[A.10.5 is subject to an exception by: ] #entangledRule("C.2.1")\
+A.10.6) Any program or macro that does screen reading or listens to game audio for an advantage (at the discretion of verifiers) must not be used. Screen reading is using the data of the pixels of the game window to programmatically capture information from the game (e.g. color for biomes, text recognition for f3, enchantment cracking, inventory contents, etc).
+- A.10.6.a) Clarification: Any attempt to get around this rule will not be tolerated (i.e. taking a screenshot and a program reading from that, etc. would not be allowed).
+- A.10.6.b) Clarification: This does not include recording software.
 
 == A.11: External Resource Rules <A.11>
 #entangled[Entangled Rule(s):]\
