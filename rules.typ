@@ -449,7 +449,7 @@ A.8.2) All versions of Fabric Loader are allowed.
 A.8.3) All versions of Legacy Fabric Intermediaries are allowed.
 - A.8.3.a) Clarification: Legacy Fabric LWJGL must not be used, which is bundled in the first party Legacy Fabric MultiMC Instances.
 A.8.4) All official LWJGL 3 releases up to v3.3.3 are allowed for Minecraft 1.13+. Official GLFW versions up to 3.3.8 are allowed. Woofdoggo's #formatLink("https://github.com/tesselslate/resetti/blob/d8eb8634c2efe60e9a1c19f3cf5c30288cc93cfc/contrib/glfw-xinput.patch")[Linux GLFW xinput patch] may be used.\
-A.8.5) Rules relating to what Fabric mods are legal and the conditions of their use are documented on the #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods")[legal-mods] Github repository. Some mods have special conditions of use, such as for use in Set Seed categories only, as described in the README.md.
+A.8.5) Rules relating to what Fabric mods are legal and the conditions of their use are documented on the #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods")[legal-mods] GitHub repository. Some mods have special conditions of use, such as for use in Set Seed categories only, as described in the README.md.
 - #formatNote[A.8.5.note) legal-builds.csv documents every currently legal jar file. Use of a Fabric mod jar not listed in that file at the time of the run is illegal and will cause your run to be rejected. The files stored in the GitHub are not intended users to download directly and instead we recommend you use other tools provided to do so, linked in the README. Previously legal builds of mods are often made illegal upon updates for closer vanilla parity or bug fixes, do not assume that just because the mods you have installed were legal at the time they are still legal now. A grace period of a month to update mods is typically given for parity updates, this is often shorter for bug fixes.]
 A.8.9) If SeedQueue is used, you must not increase the max queued seeds beyond 30. The mod enforces this limit, you must not make any attempts to bypass it.\
 A.8.10) All versions of Ornithe Intermediaries are allowed.\
@@ -476,7 +476,7 @@ A.9.4) If SeedQueue is used, only one instance of Minecraft running SeedQueue ma
 
 == A.10: Macro and Rebind Rules
 A.10.1) You may remap keys using external programs, but each game input may have only one key, and each key may cause only one game input.
-- A.10.a) Example: Shift+F3 cannot be rebound to a singular key.
+- A.10.1.a) Example: Shift+F3 cannot be rebound to a singular key.
 A.10.2) If keys are rebound, they must be to buttons.
 - This excludes but is not limited to:
 - A.10.2.a) Remapping to a scroll-wheel
@@ -530,7 +530,7 @@ A.11.8) <A.11.8> You must not use any other reference sheets/external tools besi
 A.11.9) <A.11.9> If you would like to use a tool/reference sheet that is not listed above, please open a thread. It may be allowed at the discretion of moderators. Please note:
 - A.11.9.a) The tool must only use position, angle, and dimension from the F3 menu.
   - A.11.9.a.i) Clarification: This excludes biome and temperature.
-- A.11.9.b) If it is a code-based tool, its source code must be on a publicly accessible repository (e.g. Github).
+- A.11.9.b) If it is a code-based tool, its source code must be on a publicly accessible repository (e.g. GitHub).
 #entangled[Entangled Rule(s):]\
 #entangled[A.11.9 is nullified by: ] #entangledRule("CE20.3.3")\
 
