@@ -224,10 +224,20 @@ A.3.6) If you play one instance of Minecraft and then switch to playing another,
 A.3.7) Non-default shaders, including Super Secret Settings, must not be used.\
 A.3.8) The chat text must be visible and legible in the video recording and the Chat setting must be either Shown or Commands Only.\
 A.3.9) Runs must not intend to be as slow as possible. At a minimum, an attempt must be made to finish the run quickly.\
-A.3.10) <A.3.10> You must not read from any files produced by the vanilla game before or during the run.
-- A.3.10.a) Exception: Players and programs may read from the advancement or statistics files.
-- A.3.10.b) Clarification: Players and programs may read from the wpstateout.txt file created by WorldPreview or the State Output mod.
-- A.3.10.c) Exception: Historically, macros have had limited allowances to read the logs in order to determine game state. While State Output now exists for this, these old macros are still allowed.
+A.3.10) <A.3.10> World and log files produced by the vanilla game must not be to be read before or during the run.\
+Exception: Advancement or statistics files may be read by people and programs.\
+\
+Historically, macros have had limited allowances to read the logs in order to determine game state.
+While State Output now exists for this, these old macros are still allowed.\
+\
+Files created by mods are generally allowed to be read, however there are some restrictions to avoid giving an undue advantage to players using mods.\
+\
+wpstateout.txt state must not be used during a run, as it was designed and allowed for reset macros, which means it was not intended to be allowed for use during a run and provides more information than is necessarily appropriate.
+Specifically, use of wpstateout.txt in macro logic during a run and to change rebinds is considered abuse of a resetting mod and of mod-only behavior for an advantage and is banned.
+Use of wpstateout.txt state in scripts for aesthetic or continuous (with no regard to whether a run is happening or not) reasons, such as for changing obs properties or time tracking, is generally allowed if it is not for an advantage in the run (at the discretion of verifiers).
+Use of just the inworld state with no regard to the substate after the comma as a more performant substitute for window title checking is allowed.
+Using the gamescreenopen inworld substate for a "safe reset," i.e. wrapping the reset key and not letting it go through based on that state, is allowed as it is considered a net positive to the leaderboards. This has/will been integrated into Atum in later versions to mitigate the fact that it goes outside the scope of what wpstateout.txt was intended to be allowed for.
+
 #entangled[Entangled Rule(s):]\
 #entangled[A.3.10 is referenced by: ] #entangledRule("CE20.3.4")\
 #entangled[A.3.10 is subject to an exception by: ] #entangledRule("C.2.1")\
