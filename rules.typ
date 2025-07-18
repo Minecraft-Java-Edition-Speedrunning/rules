@@ -232,11 +232,9 @@ While State Output now exists for this, these old macros are still allowed.\
 \
 Files created by mods are generally allowed to be read, however there are some restrictions to avoid giving an undue advantage to players using mods.\
 \
-wpstateout.txt state should not be used during a run, as it was designed and allowed for reset macros, which means it was not intended to be allowed for use during a run and provides more information than is necessarily appropriate.
-Specifically, use of wpstateout.txt in macro logic during a run and to change rebinds is considered abuse of a resetting mod and of mod-only behavior for an advantage and is not allowed.
-Use of wpstateout.txt state in scripts for aesthetic or continuous (with no regard to whether a run is happening or not) reasons, such as for changing obs properties or time tracking, is generally allowed if it is not for an advantage in the run (at the discretion of verifiers).
-Use of just the inworld state with no regard to the substate after the comma as a more performant substitute for window title checking is allowed.
-Using the gamescreenopen inworld substate for a "safe reset," i.e. wrapping the reset key and not letting it go through based on that state, is allowed as it is considered a net positive to the leaderboards. This has/will been integrated into Atum in later versions to mitigate the fact that it goes outside the scope of what wpstateout.txt was intended to be allowed for.
+wpstateout.txt state should not be used during a run, as it was designed and allowed for reset macros, which means it was not intended to be allowed for use during a run and provides more information than is necessarily appropriate or justified.
+Specifically, the paused and gamescreenopen states must be treated as the same for any scripts or macros that run after the timer starts.
+Use of wpstateout.txt state in scripts for aesthetic or continuous (with no regard to whether a run is happening or not) reasons, such as for changing obs properties or time tracking, do not have to abide by this restriction if it is not for an advantage in the run (at the discretion of verifiers).
 
 #entangled[Entangled Rule(s):]\
 #entangled[A.3.10 is referenced by: ] #entangledRule("CE20.3.4")\
