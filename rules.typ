@@ -226,7 +226,7 @@ A.3.8) The chat text must be visible and legible in the video recording and the 
 A.3.9) Runs must not intend to be as slow as possible. At a minimum, an attempt must be made to finish the run quickly.\
 A.3.10) <A.3.10> World and log files produced by the vanilla game must not be to be read before or during the run.\
 Exception: Advancement or statistics files may be read by people and programs.\
-Exception: Limited allowances were given for specific reset macros to read logs to get game state before state output was available. these allowances are still in place for only those specific macros or for use without Fabric Loader.\
+Exception: Limited allowances were given for specific reset macros to read logs to get game state before state output was available. These allowances are still in place for only those specific macros or for use without Fabric Loader.\
 #entangled[Entangled Rule(s):]\
 #entangled[A.3.10 is referenced by: ] #entangledRule("CE20.3.4")\
 #entangled[A.3.10 is subject to an exception by: ] #entangledRule("C.2.1")\
