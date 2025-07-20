@@ -466,9 +466,9 @@ Allowed behaviours include but are not limited to:
 #entangled[A.8.12 is referenced by: ] #entangledRule("A.8.1.f")\
 A.8.13) Anchiale, antiresourcereload, atum, chunkcacher, fastreset, lazystronghold, no-paus, seedqueue, setspawnmod, standardsettings, state-output, tabfocus, and worldpreview are resetting mods and must not be interacted with after the start of the gameplay segment. The Use Planar Fog sodium setting emulates hardware and must not be modified after the world is first rendered.\
 - A.8.13.a) Exception: Using wpstateout.txt as a performant replacement for other legal checks is permitted. Use of wpstateout.txt for aesthetic or continuous (with no regard to whether a run is happening or not) reasons, such as for changing OBS properties or time tracking, is permitted if it is not for an advantage in the run (at the discretion of verifiers).\
-- #formatNote[A.8.13.a.note) Examples:
-    - Checking for "inworld," with no regard to the substate in place of title checking in 1.15.2+ is permitted.
-    - Checking for both the paused and gamescreenopen states as a replacement for checking if the cursor is grabbed is also permitted.
+- #formatNote[A.8.13.a.note) Examples of permitted uses of wpstateout.txt include:
+    - Checking for "inworld," with no regard to the substate in place of title checking in 1.15.2+.
+    - Checking for both the paused and gamescreenopen states as a replacement for checking if the cursor is grabbed.
 ]
 
 == A.9: Multi-Instance Rules
