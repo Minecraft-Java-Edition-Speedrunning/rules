@@ -226,7 +226,7 @@ A.3.8) The chat text must be visible and legible in the video recording and the 
 A.3.9) Runs must not intend to be as slow as possible. At a minimum, an attempt must be made to finish the run quickly.\
 A.3.10) <A.3.10> World and log files produced by the vanilla game must not be to be read before or during the run.
 - A.3.10.a) Exception: Advancement or statistics files may be read by players and programs.
-- A.3.10.c) Exception: Limited allowances were given for specific reset macros to read logs to get game state before state output was available. These allowances are still in place for only those specific macros or for use without Fabric Loader.
+- A.3.10.c) Exception: Limited allowances were given for specific reset macros to read logs to get game state before wpstateout.txt was available. These allowances are still in place for only those specific macros or for use without Fabric Loader.
 #entangled[Entangled Rule(s):]\
 #entangled[A.3.10 is referenced by: ] #entangledRule("CE20.3.4")\
 #entangled[A.3.10 is subject to an exception by: ] #entangledRule("C.2.1")\
@@ -467,8 +467,8 @@ Allowed behaviours include but are not limited to:
 A.8.13) Anchiale, antiresourcereload, atum, chunkcacher, fastreset, lazystronghold, no-paus, seedqueue, setspawnmod, standardsettings, state-output, tabfocus, and worldpreview are resetting mods and must not be interacted with after the start of the gameplay segment. The Use Planar Fog sodium setting emulates hardware and must not be modified after the world is first rendered.
 - A.8.13.a) Exception: Using wpstateout.txt as a performant replacement for other legal checks is permitted. Use of wpstateout.txt for aesthetic or continuous (with no regard to whether a run is happening or not) reasons, such as for changing OBS properties or time tracking, is permitted if it is not for an advantage in the run (at the discretion of verifiers).
 - #formatNote[A.8.13.a.note) Examples of permitted uses of wpstateout.txt include:\
-Checking for "inworld," with no regard to the substate in place of title checking in 1.15.2+.\
-Checking for both the paused and gamescreenopen states as a replacement for checking if the cursor is grabbed.
+- Checking for "inworld," with no regard to the substate in place of title checking in 1.15.2+.\
+- Checking for both the paused and gamescreenopen states as a replacement for checking if the cursor is grabbed.
 ]
 
 == A.9: Multi-Instance Rules
@@ -499,7 +499,7 @@ A.10.5) <A.10.5> Macros may only be used to reset worlds if resets are triggered
 - A.10.5.b) Clarification: Automatic resetting, or resetting based on anything other than player input is not allowed.
 #entangled[Entangled Rule(s):]\
 #entangled[A.10.5 is subject to an exception by: ] #entangledRule("C.2.1")\
-A.10.6) Any program or macro that does screen reading or listens to game audio for an advantage (at the discretion of verifiers) must not be used. Screen reading is using the data of the pixels of the game window to programmatically capture information from the game (e.g. color for biomes, text recognition for F3, enchantment cracking, inventory contents, etc). Any attempt to get around this rule will not be tolerated (i.e. taking a screenshot and a program reading from that, etc.).
+A.10.6) Any program or macro that screen reads or listens to game audio for an advantage (at the discretion of verifiers) must not be used. Screen reading is using the data of the pixels of the game window to programmatically capture information from the game (e.g. color for biomes, text recognition for F3, enchantment cracking, inventory contents, etc). Any attempt to get around this rule will not be tolerated (i.e. taking a screenshot and a program reading from that, etc.).
 
 == A.11: External Resource Rules <A.11>
 #entangled[Entangled Rule(s):]\
