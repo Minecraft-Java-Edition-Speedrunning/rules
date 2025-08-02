@@ -62,7 +62,7 @@
 == Outline:
 Rules are divided into 5 sections. These are:
 - *Ruleset*: these numbers refer to a specific category or set of categories, such as all Random Seed
-  categories, or specifically Any% Glitchless RSG 1.16+. If the ruleset refers to a specific tab on
+  categories, or specifically Any% Random Seed Glitchless 1.16+. If the ruleset refers to a specific tab on
   speedrun.com (e.g. Any% Glitchless), it will use a number, while if it refers to a grouping of
   categories (e.g. Random Seed categories), it will use a capital letter.
 - *Section*: these numbers refer to a specific grouping of rules, such as defining a category or
