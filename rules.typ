@@ -1200,9 +1200,9 @@ CE13.1.2) The list of all workstations are: blast furnace, smoker, cartography t
 CE13.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
 CE13.1.4) All runs begin upon first input.
 
-= CE14: Full Inventory
+= CE14: Full Inventy!
 
-== CE14.1: Full Inventory Objective and Clarifications
+== CE14.1: Full Inventy! Objective and Clarifications
 CE14.1.1) The run is considered complete once all inventory slots are full.
 - CE14.1.1.a) Timing ends once the last inventory slot is filled.
 - CE14.1.1.b) Clarification: All 36 main inventory slots must be filled, but the offhand and armour slots do not have to be filled.
