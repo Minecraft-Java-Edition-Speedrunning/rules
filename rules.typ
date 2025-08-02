@@ -1157,12 +1157,8 @@ CE9.8.1) The run is considered complete once an oak log, a spruce log, birch log
 == CE10.1: All Wool Objective and Clarifications
 CE10.1.1) <CE10.1.1> The run is considered complete once all colours of wool have been simultaneously obtained.
 - CE10.1.1.a) <CE10.1.1.a> Timing ends once the last colour of wool is obtained. (see #entangledRule("A.5.18"))
-#entangled[Entangled Rule(s):]\
-#entangled[CE10.1.1 is referenced by: ] #entangledRule("CE21.1.1")\
 CE10.1.2) <CE10.1.2> The list of all wool colours are: white wool (called wool in Minecraft versions before 1.11), orange wool, magenta wool, light blue wool, yellow wool, lime wool, pink wool, grey wool, light grey wool, cyan wool, purple wool, blue wool, brown wool, green wool, red wool, and black wool.\
-#entangled[Entangled Rule(s):]\
-#entangled[CE10.1.2 is referenced by: ] #entangledRule("CE21.1.1")\
-CE10.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
+CE10.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
 CE10.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
 = CE11: All Minerals
@@ -1186,9 +1182,7 @@ CE11.4.1) The run is considered complete once a piece of coal, an iron ingot, a 
 == CE12.1: Full Iron Armor and 15 Levels Objective and Clarifications
 CE12.1.1) <CE12.1.1> The run is considered complete once an iron helmet, iron chestplate, iron leggings, and iron boots have been simultaneously equipped, and the player has 15 levels of experience.
 - CE12.1.1.a) Timing ends once the last piece of armour is equipped or once the experience bar turns to 15 levels (whichever comes last).
-#entangled[Entangled Rule(s):]\
-#entangled[CE12.1.1 is referenced by: ] #entangledRule("CE22.1.1")\
-CE12.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless, structures/no structures).\
+CE12.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched, structures/no structures).\
 CE12.1.3) All runs begin upon first input.
 
 = CE13: All Workstations
@@ -1269,20 +1263,6 @@ CE19.3.4) <CE19.3.4> A runner may segment their run if and only if they follow t
 CE19.4.1) Purist runs must be played on random seed glitchless.\
 CE19.4.2) Purist runs must be played on hardcore.\
 CE19.4.3) <CE19.4.3> Purist runs must not use F3 as defined by #entangledRule("A.6.2").
-
-= CE21: All Wool (Glitched)
-
-== CE21.1: All Wool (Glitched) Objective and Clarifications
-CE21.1.1) <CE21.1.1> All Wool (Glitched) follows the same pretences for completion as All Wool (see #entangledRule("CE10.1.1")-#entangledRule("CE10.1.2")).\
-CE21.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitched).\
-CE21.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
-
-= CE22: Full Iron Armor and 15 Levels (Glitched)
-
-== CE22.1: Full Iron Armor and 15 Levels (Glitched) Objective and Clarifications
-CE22.1.1) <CE22.1.1> Full Iron Armor and 15 Levels (Glitched) follows the same pretences for completion as Full Iron Armor and 15 Levels (see #entangledRule("CE12.1.1")).\
-CE22.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitched).\
-CE22.1.3) All runs begin upon first input.
 
 = CE23: Sonic, Tails, and Knuckles
 
