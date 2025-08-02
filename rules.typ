@@ -62,8 +62,8 @@
 == Outline:
 Rules are divided into 5 sections. These are:
 - *Ruleset*: these numbers refer to a specific category or set of categories, such as all Random Seed
-  categories, or specifically Any% Glitchless RSG 1.16+. If the ruleset refers to a specific tab on
-  speedrun.com (e.g. Any% Glitchless), it will use a number, while if it refers to a grouping of
+  categories, or specifically Any% Random Seed No Major Glitches 1.16+. If the ruleset refers to a specific tab on
+  speedrun.com (e.g. Any% No Major Glitches), it will use a number, while if it refers to a grouping of
   categories (e.g. Random Seed categories), it will use a capital letter.
 - *Section*: these numbers refer to a specific grouping of rules, such as defining a category or
   video requirements.
@@ -83,13 +83,13 @@ Rule A.2.4.c refers to:
 === Relevant Rules:
 A category will abide by all of the rulesets which contain the category.\
 \
-For example, take the category All Advancements 1.16 RSG.
+For example, take the category All Advancements 1.16 RSNMG.
 This category will abide by the following rulesets:
 - Universal Ruleset (as with all runs)
 - Random Seed Ruleset
-- Glitchless Ruleset
+- No Major Glitches Ruleset
 - All Advancements Ruleset
-- All Advancements SS/RS/SSG/RSG 1.16 Ruleset\
+- All Advancements SS/RS/SSNMG/RSNMG 1.16 Ruleset\
 \
 Note that the rules should be enforced 'bottom-up'. In the above example, rules in the All Advancements Ruleset may nullify or extend the rules from the Universal Ruleset.\
 \
@@ -575,12 +575,12 @@ C.1.2) In versions 1.16 and above, runners may not use the Recreate button to cr
 #entangled[Section C.2 is referenced by: ] #entangledRule("F.1.7")\
 C.2.1) <C.2.1> Exception to #entangledRule("A.3.10") and #entangledRule("A.10.5"): Macros may read the game's log files to ascertain the player's spawn coordinates prior to the run's start. The macro may use this information to choose to reset the world without player input.
 
-= D: Glitchless Ruleset
+= D: No Major Glitches Ruleset
 
-== D.1: Glitchless Runs
-#formatNote[D.1.note) Glitches are only allowed in glitchless on a case-by-case basis. What differentiates a glitch from a technique is nebulous, but is generally defined by if it can be done unintentionally. In terms of legalising a glitch, it is generally done by the mod team's discretion of how severely they stray from the “spirit of the game” as seen by the general Minecraft community, whether they make the speedruns more or less fun to play, and how easy it is to perform accidentally. In general, one should err on the side of caution in terms of if something is a glitch or a technique; it is highly encouraged to open a thread and ask if a technique quantifies as a glitch, and if not, if it will be allowed in glitchless runs.]\
+== D.1: No Major Glitches Runs
+#formatNote[D.1.note) Only glitches considered minor are only allowed in NMG. What differentiates major and minor glitches is nebulous, but is generally defined by if it can be done unintentionally. In terms of categorizing glitches, it is generally done by the mod team's discretion of how severely they stray from the “spirit of the game” as seen by the general Minecraft community, whether they make the speedruns more or less fun to play, and how easy it is to perform accidentally. In general, one should err on the side of caution in terms of if something is a major glitch; it is highly encouraged to open a thread and ask if a glitch quantifies as major, and if not, if it will be allowed in NMG runs.]\
 \
-D.1.1) Only these glitches may be used during glitchless runs.
+D.1.1) Only these glitches have been classified as minor.
 - This constitutes:
 - D.1.1.a) Double-eating (#formatLink("https://bugs.mojang.com/browse/MC-849")[MC-849])
 - D.1.1.b) Infinite villager restocking (#formatLink("https://bugs.mojang.com/browse/MC-157136")[MC-157136])
@@ -636,8 +636,8 @@ D.1.1) Only these glitches may be used during glitchless runs.
 - D.1.1.ba) Feeding a parrot a cookie to obtain Over-Overkill advancement (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-269656")[MC-269656])
 - D.1.1.bb) Trapping wither (#formatLink("https://youtu.be/PCkzhtBl_xY&t=91")[Example], #formatLink("https://youtu.be/O-QgTljCgZw&t=153")[Example \#2])
 - D.1.1.bc) Compass glitch (#formatLink("https://youtu.be/fQi1dOHEYLg")[Example])
-D.1.2) Any other glitches not included in D.1.1 must not be used during glitchless runs.
-- Examples of glitches that are not allowed include but are not limited to:
+D.1.2) Any other glitches not included in D.1.1 must not be used during NMG runs.
+- Examples of major glitches include but are not limited to:
 - D.1.2.a) Duplication and zero-stack glitches (#formatLink("https://youtu.be/PYFMGuicVWA&t=102")[Example])
 - D.1.2.b) Save and Quit damage prevention abuse (#formatLink("https://youtu.be/KjxrjT8xRrE&t=953")[Example])
 - D.1.2.c) X-Ray; minor unintentional x-rays may be verified, but intentional (or important but unintentional) x-rays (at the discretion of verifiers) must not be used (such as in this #formatLink("https://youtu.be/oImgrxw-v6I&t=688")[example]).
@@ -685,7 +685,7 @@ D.1.4) <D.1.4> The game must not be closed and reopened during a run.
 = E: Glitched Ruleset
 
 == E.1: Glitched Runs
-E.1.1) Glitched runs must perform at least one glitch during the run that is disallowed in glitchless runs.
+E.1.1) Glitched runs must perform at least one major glitch during the run.
 - E.1.1.a) Clarification: Runs without an internal/external split classification may choose to Save and Quit/crash the game or refrain from doing so.
 E.1.2) The FastReset quit button (menu.quitWorld) must not be used during the run.
 - E.1.2.a) If menu.quitWorld is used during the run, it may still be verified if it is determined to not affect the run (at the discretion of verifiers).
@@ -705,11 +705,11 @@ E.2.2) <E.2.2> Glitched runs follow the same hierarchy of timers as is outlined 
 - E.2.2.b) Times may be adjusted from other timers to follow E.2.1.
 
 == E.3: Internal Runs
-E.3.1) <E.3.1> Internal runs must not leave the world (Save and Quit or crash the game) in accordance with glitchless rules #entangledRule("D.1.3")-#entangledRule("D.1.4").
+E.3.1) <E.3.1> Internal runs must not leave the world (Save and Quit or crash the game) in accordance with NMG rules #entangledRule("D.1.3")-#entangledRule("D.1.4").
 
 == E.4: External Runs
 E.4.1) External runs must leave the world (Save and Quit or crash the game).
-- E.4.1.a) <E.4.1.a> Clarification: Runs are not considered external if the only time(s) in which the world is/are left are circumstances that would still be allowed under a glitchless/internal context (i.e. if the circumstances are in accordance with #entangledRule("D.1.3")-#entangledRule("D.1.4")).
+- E.4.1.a) <E.4.1.a> Clarification: Runs are not considered external if the only time(s) in which the world is/are left are circumstances that would still be allowed under a NMG/internal context (i.e. if the circumstances are in accordance with #entangledRule("D.1.3")-#entangledRule("D.1.4")).
 
 = F: Co-op Ruleset
 
@@ -781,9 +781,9 @@ G.3.1) <G.3.1> Runs marked as Structures must interact (as defined by #entangled
 == H.1: Clarifications and Exceptions
 H.1.2) In set seed runs, intentional prerotation (spawning into the world rotated from the initial camera) that provides an advantage is illegal. Otherwise, accidental or non-advantageous prerotation will incur a penalty of 0.5 seconds.
 - H.1.2.a) Clarification: Prerotation does not count as a run's first input.
-= 1: Any% Glitchless
+= 1: Any% No Major Glitches
 
-== 1.1: Any% Glitchless Objective and Clarifications
+== 1.1: Any% No Major Glitches Objective and Clarifications
 1.1.1) <1.1.1> The run is considered completed once the credits sequence of the game begin after entering the exit end portal.\
 #entangled[Entangled Rule(s):]\
 #entangled[1.1.1 is referenced by: ] #entangledRules((
@@ -844,7 +844,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 = 2: Any%
 
 == 2.1: Any% Objective and Clarifications
-2.1.1) <2.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
+2.1.1) <2.1.1> The run is considered complete under the same pretences as Any% No Major Glitches (see #entangledRule("1.1.1")).\
 2.1.2) <2.1.2> Clarification: There are no specific subcategory rules beyond the top-level retime rules established in #entangledRule("2.2") and #entangledRule("2.3"); thus, runs should only follow their respective rulesets (universal, internal/external, glitched, set seed/random seed).\
 2.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
@@ -865,10 +865,10 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 == 3.1: All Achievements Objective, Exceptions, and Clarifications
 3.1.1) <3.1.1> The objective, exceptions, and clarifications of All Achievements are identical to those of All Advancements (see section #entangledRule("4.1")). Any mentions of advancements should be substituted with achievements.
 
-== 3.2: SS/SSG/RS/RSG, 1.0-1.6
+== 3.2: SS/SSNMG/RS/RSNMG, 1.0-1.6
 3.2.1) The list of all achievements necessary to obtain are: Taking Inventory, Getting Wood, Benchmarking, Time to Mine!, Hot Topic, Acquire Hardware, Time to Farm!, Bake Bread, The Lie, Getting an Upgrade, Delicious Fish, On A Rail, Time to Strike!, Monster Hunter, Cow Tipper, When Pigs Fly, Sniper Duel, DIAMONDS!, We Need to Go Deeper, Return to Sender, Into Fire, Local Brewery, The End?, The End., Enchanter, Overkill, and Librarian.
 
-== 3.3: SS/SSG/RS/RSG, 1.8-1.11
+== 3.3: SS/SSNMG/RS/RSNMG, 1.8-1.11
 3.3.1) The list of all achievements necessary to obtain are: Taking Inventory, Getting Wood, Benchmarking, Time to Mine!, Hot Topic, Acquire Hardware, Time to Farm!, Bake Bread, The Lie, Getting an Upgrade, Delicious Fish, On A Rail, Time to Strike!, Monster Hunter, Cow Tipper, When Pigs Fly, Sniper Duel, DIAMONDS!, We Need to Go Deeper, Return to Sender, Into Fire, Local Brewery, The End?, Free the end., Enchanter, Overkill, Librarian, Adventuring Time, The Beginning?, The Beginning., Beaconator, Repopulation, Diamonds to you!, and Overpowered.
 
 = 4: All Advancements
@@ -887,53 +887,53 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 - 4.1.2.d) <4.1.2.d> You must submit log files.
 - #entangled[Entangled Rule(s):]\
 - #entangled[4.1.2.d is referenced by: ] #entangledRule("6.1.1.b")\
-- 4.1.2.e) Clarification: For glitchless runs, the segmentation must not provide any additional benefit to the run.
+- 4.1.2.e) Clarification: For NMG runs, the segmentation must not provide any additional benefit to the run.
 #entangled[Entangled Rule(s):]\
 #entangled[4.1.2 is referenced by: ] #entangledRule("CE19.3.4")\
 4.1.3) All runs must submit world files.\
 4.1.4) <4.1.4> All runs begin on world load.
 
-== 4.2: SS/SSG/RS/RSG, 1.12
+== 4.2: SS/SSNMG/RS/RSNMG, 1.12
 4.2.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, and Great View From Up Here.
 
-== 4.3: SS/SSG/RS/RSG, 1.13
+== 4.3: SS/SSNMG/RS/RSNMG, 1.13
 4.3.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, and Very Very Frightening.
 
-== 4.4: SS/SSG/RS/RSG, 1.14
+== 4.4: SS/SSNMG/RS/RSNMG, 1.14
 4.4.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, and Hero of the Village.
 
-== 4.5: SS/SSG/RS/RSG, 1.15
+== 4.5: SS/SSNMG/RS/RSNMG, 1.15
 4.5.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, and Total Beelocation.
 
-== 4.6: SS/SSG/RS/RSG, 1.16
+== 4.6: SS/SSNMG/RS/RSNMG, 1.16
 4.6.1) <4.6.1> The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, and Bullseye.
 #entangled[Entangled Rule(s):]\
 #entangled[4.6.1 is referenced by: ] #entangledRules(("6.1.3", "CE24.1.1"))\
 
-== 4.7: SS/SSG/RS/RSG, 1.17
+== 4.7: SS/SSNMG/RS/RSNMG, 1.17
 4.7.1) <4.7.1> The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, Bullseye, Whatever Floats Your Goat, Wax On, Wax Off, The Cutest Predator, The Healing Power of Friendship, Glow and Behold!, Light as a Rabbit, Surge Protector, Is It a Bird?, Is It a Balloon?, and Is It a Plane?\
 #entangled[Entangled Rule(s):]\
 #entangled[4.7.1 is referenced by: ] #entangledRule("6.1.3")\
 
-== 4.8: SS/SSG/RS/RSG, 1.18
+== 4.8: SS/SSNMG/RS/RSNMG, 1.18
 4.8.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, Bullseye, Whatever Floats Your Goat, Wax On, Wax Off, The Cutest Predator, The Healing Power of Friendship, Glow and Behold!, Light as a Rabbit, Surge Protector, Is It a Bird?, Is It a Balloon?, Is It a Plane?, Caves and Cliffs, Feels like home, Star Trader, and Sound of Music.
 
-== 4.9: SS/SSG/RS/RSG, 1.19
+== 4.9: SS/SSNMG/RS/RSNMG, 1.19
 4.9.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, Bullseye, Whatever Floats Your Goat, Wax On, Wax Off, The Cutest Predator, The Healing Power of Friendship, Glow and Behold!, Light as a Rabbit, Surge Protector, Is It a Bird?, Is It a Balloon?, Is It a Plane?, Caves and Cliffs, Feels like home, Star Trader, Sound of Music, Bukkit bukkit, It spreads, With our powers combined!, Sneak 100, When the Squad Hops Into Town, Birthday Song, and You've Got a Friend in Me.
 
-== 4.10: SS/SSG/RS/RSG, 1.20-1.20.4
+== 4.10: SS/SSNMG/RS/RSNMG, 1.20-1.20.4
 4.10.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, Bullseye, Whatever Floats Your Goat, Wax On, Wax Off, The Cutest Predator, The Healing Power of Friendship, Glow and Behold!, Light as a Rabbit, Surge Protector, Is It a Bird?, Is It a Balloon?, Is It a Plane?, Caves and Cliffs, Feels like home, Star Trader, Sound of Music, Bukkit bukkit, It spreads, With our powers combined!, Sneak 100, When the Squad Hops Into Town, Birthday Song, You've Got a Friend in Me, Smells Interesting, Little Sniffs, Planting the Past, Crafting a New Look, Smithing With Style, Respecting the Remnants, Careful Restoration, and The Power of Books.
 
-== 4.11: SS/SSG/RS/RSG, 1.20.5-1.20.6
+== 4.11: SS/SSNMG/RS/RSNMG, 1.20.5-1.20.6
 4.11.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, Bullseye, Whatever Floats Your Goat, Wax On, Wax Off, The Cutest Predator, The Healing Power of Friendship, Glow and Behold!, Light as a Rabbit, Surge Protector, Is It a Bird?, Is It a Balloon?, Is It a Plane?, Caves and Cliffs, Feels like home, Star Trader, Sound of Music, Bukkit bukkit, It spreads, With our powers combined!, Sneak 100, When the Squad Hops Into Town, Birthday Song, You've Got a Friend in Me, Smells Interesting, Little Sniffs, Planting the Past, Crafting a New Look, Smithing With Style, Respecting the Remnants, Careful Restoration, The Power of Books, Isn't It Scute?, Shear Brilliance, Good as New, and The Whole Pack.
 
-== 4.12: SS/SSG/RS/RSG, 1.21
+== 4.12: SS/SSNMG/RS/RSNMG, 1.21
 4.11.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, Bullseye, Whatever Floats Your Goat, Wax On, Wax Off, The Cutest Predator, The Healing Power of Friendship, Glow and Behold!, Light as a Rabbit, Surge Protector, Is It a Bird?, Is It a Balloon?, Is It a Plane?, Caves and Cliffs, Feels like home, Star Trader, Sound of Music, Bukkit bukkit, It spreads, With our powers combined!, Sneak 100, When the Squad Hops Into Town, Birthday Song, You've Got a Friend in Me, Smells Interesting, Little Sniffs, Planting the Past, Crafting a New Look, Smithing With Style, Respecting the Remnants, Careful Restoration, The Power of Books, Isn't It Scute?, Shear Brilliance, Good as New, The Whole Pack, Minecraft: Trial(s) Edition, Under Lock & Key, Revaulting, Blowback, Who Needs Rockets?, Crafters Crafting Crafters, Lighten Up, and Over-Overkill.
 
-= 5: Any% Glitchless Co-op
+= 5: Any% No Major Glitches Co-op
 
-== 5.1: Any% Glitchless Co-op Objective
-5.1.1) <5.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).
+== 5.1: Any% No Major Glitches Co-op Objective
+5.1.1) <5.1.1> The run is considered complete under the same pretences as Any% No Major Glitches (see #entangledRule("1.1.1")).
 
 == 5.2: 2 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
 5.2.1) For times which claim to be top fifteen, perspectives of both players must be recorded and submitted.
@@ -958,25 +958,25 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 - 6.1.1.b) <6.1.1.b> If the run is segmented, you must submit server logs instead of instance logs (#entangledRule("4.1.2.d")).
 6.1.2) Clarification: Each advancement must be achieved by at least one person, but no individual person needs every advancement.\
 6.1.3) <6.1.3> The list of all advancements is the same as for All Advancements (see #entangledRule("4.6.1") and #entangledRule("4.7.1")).\
-6.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, random seed, glitchless, co-op).
+6.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, random seed, nmg, co-op).
 
-= 7: Any% Glitchless (Demo)
+= 7: Any% No Major Glitches (Demo)
 
-== 7.1: Any% Glitchless Demo Objective and Clarifications
-7.1.1) <7.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
+== 7.1: Any% No Major Glitches Demo Objective and Clarifications
+7.1.1) <7.1.1> The run is considered complete under the same pretences as Any% No Major Glitches (see #entangledRule("1.1.1")).\
 7.1.2) The run may be played on the Minecraft demo version.\
 7.1.3) If the run is not played on the Minecraft demo version, it must abide by the following rules:
 - 7.1.3.a) The run must not exceed 100 minutes and 25 seconds.
 - 7.1.3.b) The run must use the seed “North Carolina” (-343522682).
 - 7.1.3.c) <7.1.3.c> In addition to the world generation settings allowed in #entangledRule("A.1.3"), you must also enable the Bonus Chest.
 - 7.1.3.d) The run must be played on Minecraft version 1.3.1 or newer.
-7.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed, glitchless).\
+7.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed, nmg).\
 7.1.5) All runs begin on first input.
 
-= 8: Any% Glitchless (Peaceful)
+= 8: Any% No Major Glitches (Peaceful)
 
-== 8.1: Any% Glitchless (Peaceful) Objective and Clarifications
-8.1.1) <8.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
+== 8.1: Any% No Major Glitches (Peaceful) Objective and Clarifications
+8.1.1) <8.1.1> The run is considered complete under the same pretences as Any% No Major Glitches (see #entangledRule("1.1.1")).\
 8.1.2) <8.1.2> In addition to the world generation difficulty settings allowed in #entangledRule("A.1.3.b"), you may also toggle the difficulty to Peaceful.\
 #entangled[Entangled Rule(s):]\
 #entangled[8.1.2 is referenced by: ] #entangledRule("9.1.2")\
@@ -984,21 +984,21 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 - 8.1.3.a) For runs which cannot or accidentally start on a non-peaceful difficulty, the run will be verified if you switch immediately (at the discretion of verifiers) to peaceful upon loading the world.
 #entangled[Entangled Rule(s):]\
 #entangled[8.1.3 is referenced by: ] #entangledRule("9.1.2")\
-8.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
+8.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg).\
 8.1.5) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
 = 9: Any% (Peaceful)
 
 == 9.1: Any% (Peaceful) Objective and Clarifications
-9.1.1) <9.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
-9.1.2) <9.1.2> Any% Peaceful follows identical rulesets regarding peaceful difficulty as Any% Glitchless Peaceful (see #entangledRule("8.1.2")-#entangledRule("8.1.3")).\
+9.1.1) <9.1.1> The run is considered complete under the same pretences as Any% No Major Glitches (see #entangledRule("1.1.1")).\
+9.1.2) <9.1.2> Any% Peaceful follows identical rulesets regarding peaceful difficulty as Any% No Major Glitches Peaceful (see #entangledRule("8.1.2")-#entangledRule("8.1.3")).\
 9.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitched).\
 9.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
-= 10: Combined Any% Glitchless
+= 10: Combined Any% No Major Glitches
 
-== 10.1: Combined Any% Glitchless Clarifications
-#formatNote[10.1.note) Combined Any% Glitchless is a non-runnable (non-submittable) category that serves as an updated statistic summing the runner's fastest verified times in each of the listed version splits. A bot that is occasionally run gathers each runner's fastest times and creates a submission summing these times, before truncating them to the second.]
+== 10.1: Combined Any% No Major Glitches Clarifications
+#formatNote[10.1.note) Combined Any% No Major Glitches is a non-runnable (non-submittable) category that serves as an updated statistic summing the runner's fastest verified times in each of the listed version splits. A bot that is occasionally run gathers each runner's fastest times and creates a submission summing these times, before truncating them to the second.]
 
 == 10.2: Set Seed/Random Seed Legacy
 10.2.1) Legacy will keep track of the fastest time a runner has in 1.16+, 1.9-1.15, and Pre 1.9.
@@ -1009,7 +1009,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 
 = 11: Any% (Time Travel)
 
-11.1.1) <11.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
+11.1.1) <11.1.1> The run is considered complete under the same pretences as Any% No Major Glitches (see #entangledRule("1.1.1")).\
 11.1.2) <11.1.2> Sections #entangledRule("A.5") and #entangledRule("E.2") are nullified.\
 11.1.3) The time of runs will be the playOneMinute statistic.
 - 11.1.3.a) Runners must have a visible and accurate playOneMinute timer, such as the in-game timer within Livesplit, another in-game timer, or SpeedrunIGT set to 'Legacy' mode.
@@ -1022,7 +1022,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 == CE1.1: Kill Bosses Objective and Clarifications
 CE1.1.1) The run is considered complete once all specified bosses are killed.
 - CE1.1.1.a) If the last boss killed is not the ender dragon, timing ends once the last boss is killed.
-- CE1.1.1.b) <CE1.1.1.b> If the last boss killed is the ender dragon, timing ends as per Any% Glitchless standards (see #entangledRule("1.1.1")).
+- CE1.1.1.b) <CE1.1.1.b> If the last boss killed is the ender dragon, timing ends as per Any% No Major Glitches standards (see #entangledRule("1.1.1")).
 CE1.1.2) Bosses must be killed by the player's actions.
 - CE1.1.2.a) Example: If a boss suffocates to death purely as a result of world generation, it is not considered killed.
 CE1.1.3) Runs must show that the boss is killed.
@@ -1034,28 +1034,28 @@ CE1.1.3) Runs must show that the boss is killed.
 - CE1.1.3.e) World files are submitted which show the boss was killed.
 CE1.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
-== CE1.2: All Bosses, RSG/SSG/RS/SS, Pre 1.8
+== CE1.2: All Bosses, RSNMG/SSNMG/RS/SS, Pre 1.8
 CE1.2.1) The player must kill the Ender Dragon and a Wither.
 
-== CE1.3: All Bosses, RSG/SSG/RS/SS, 1.8
+== CE1.3: All Bosses, RSNMG/SSNMG/RS/SS, 1.8
 CE1.3.1) The player must kill the Ender Dragon, a Wither, and an Elder Guardian.
 
-== CE1.4: All Bosses, RSG/SSG/RS/SS, 1.9-1.15
+== CE1.4: All Bosses, RSNMG/SSNMG/RS/SS, 1.9-1.15
 CE1.4.1) The player must kill the Ender Dragon, a Wither, and an Elder Guardian.
 
-== CE1.5: All Bosses, RSG/SSG/RS/SS, 1.16-1.18
+== CE1.5: All Bosses, RSNMG/SSNMG/RS/SS, 1.16-1.18
 CE1.5.1) The player must kill the Ender Dragon, a Wither, and an Elder Guardian.
 
-== CE1.6: All Bosses, RSG/SSG/RS/SS, 1.19+
+== CE1.6: All Bosses, RSNMG/SSNMG/RS/SS, 1.19+
 CE1.6.1) The player must kill the Ender Dragon, a Wither, an Elder Guardian, and a Warden.
 
-== CE1.7: Wither, RSG/SSG/RS/SS, Pre 1.9/1.9-1.15/1.16-1.18/1.19+
+== CE1.7: Wither, RSNMG/SSNMG/RS/SS, Pre 1.9/1.9-1.15/1.16-1.18/1.19+
 CE1.7.1) The player must kill a Wither.
 
-== CE1.8: Elder Guardian, RSG/SSG/RS/SS, Pre 1.9/1.9-1.15/1.16-1.18/1.19+
+== CE1.8: Elder Guardian, RSNMG/SSNMG/RS/SS, Pre 1.9/1.9-1.15/1.16-1.18/1.19+
 CE1.8.1) The player must kill an Elder Guardian.
 
-== CE1.9: Warden, RSG/SSG/RS/SS, 1.19+
+== CE1.9: Warden, RSNMG/SSNMG/RS/SS, 1.19+
 CE1.9.1) The player must kill a Warden.
 
 = CE2: How Did We Get Here?
@@ -1063,7 +1063,7 @@ CE1.9.1) The player must kill a Warden.
 == CE2.1: How Did We Get Here? Objective and Clarifications
 CE2.1.1) The run is considered complete once the How Did We Get Here? advancement has been achieved.
 - CE2.1.1.a) Timing ends once the chat notification for How Did We Get Here? is shown.
-CE2.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
+CE2.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg/glitched).\
 CE2.1.3) All runs begin upon world load.
 
 = CE3: Hero of the Village
@@ -1071,7 +1071,7 @@ CE2.1.3) All runs begin upon world load.
 == CE3.1: Hero of the Village Objective and Clarifications
 CE3.1.1) The run is considered complete once the Hero of the Village advancement has been achieved.
 - CE3.1.1.a) Timing ends once the chat notification for Hero of the Village is shown.
-CE3.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
+CE3.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg).\
 CE3.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
 = CE4: Cover Me in Debris
@@ -1079,7 +1079,7 @@ CE3.1.3) All random seed categories begin upon world load, whereas all set seed 
 == CE4.1: Cover Me in Debris Objective and Clarifications
 CE4.1.1) The run is considered complete once the Cover Me in Debris advancement has been achieved.
 - CE4.1.1.a) Timing ends once the chat notification for Cover Me in Debris is shown.
-CE4.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless, structures/no structures).\
+CE4.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg, structures/no structures).\
 CE4.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
 = CE5: Arbalistic
@@ -1087,7 +1087,7 @@ CE4.1.3) All random seed categories begin upon world load, whereas all set seed 
 == CE5.1: Arbalistic Objective and Clarifications
 CE5.1.1) The run is considered complete once the Arbalistic advancement has been achieved.
 - CE5.1.1.a) Timing ends once the chat notification for Arbalistic is shown.
-CE5.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless, structures/no structures).\
+CE5.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg, structures/no structures).\
 CE5.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
 = CE6: Obtain Item
@@ -1099,21 +1099,21 @@ CE6.1.2) <CE6.1.2> All runs begin upon first input.\
 #entangled[Entangled Rule(s):]\
 #entangled[CE6.1.2 is nullified by: ] #entangledRules(("CE6.2.2", "CE6.4.2"))\
 
-== CE6.2: Obtain Diamond, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
+== CE6.2: Obtain Diamond, Set Seed No Major Glitches/Random Seed No Major Glitches, Structures/No Structures
 CE6.2.1) The run is considered complete once a diamond is obtained.\
-CE6.2.2) <CE6.2.2> Exception: Obtain Diamond Set Seed Glitchless No Structures begins upon world load, nullifying #entangledRule("CE6.1.2").
+CE6.2.2) <CE6.2.2> Exception: Obtain Diamond Set Seed No Major Glitches No Structures begins upon world load, nullifying #entangledRule("CE6.1.2").
 
-== CE6.3: Obtain Emerald, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
+== CE6.3: Obtain Emerald, Set Seed No Major Glitches/Random Seed No Major Glitches, Structures/No Structures
 CE6.3.1) The run is considered complete once an emerald is obtained.
 
-== CE6.4: Obtain Cake, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
+== CE6.4: Obtain Cake, Set Seed No Major Glitches/Random Seed No Major Glitches, Structures/No Structures
 CE6.4.1) The run is considered complete once a cake is obtained.\
-CE6.4.2) <CE6.4.2> Exception: Obtain Cake Random Seed Glitchless No Structures begins upon world load, nullifying #entangledRule("CE6.1.2").\
+CE6.4.2) <CE6.4.2> Exception: Obtain Cake Random Seed No Major Glitches No Structures begins upon world load, nullifying #entangledRule("CE6.1.2").\
 
-== CE6.5: Obtain Golden Apple, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
+== CE6.5: Obtain Golden Apple, Set Seed No Major Glitches/Random Seed No Major Glitches, Structures/No Structures
 CE6.5.1) The run is considered complete once a golden apple or enchanted golden apple is obtained.
 
-== CE6.6: Netherite Ingot, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
+== CE6.6: Netherite Ingot, Set Seed No Major Glitches/Random Seed No Major Glitches, Structures/No Structures
 CE6.6.1) The run is considered complete once a netherite ingot is obtained.
 
 = CE7: Enter Nether
@@ -1121,7 +1121,7 @@ CE6.6.1) The run is considered complete once a netherite ingot is obtained.
 == CE7.1: Enter Nether Objective and Clarifications
 CE7.1.1) The run is considered complete once the player enters the nether.
 - CE7.1.1.a) Timing ends once the player leaves the nether portal in the overworld and enters the loading screen to enter the nether/the lag accompanied with entering the nether.
-CE7.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless, structures/no structures).\
+CE7.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg, structures/no structures).\
 CE7.1.3) All runs begin upon first input.
 
 = CE8: All Swords
@@ -1132,10 +1132,10 @@ CE8.1.1) The run is considered complete once all swords have been simultaneously
 - CE8.1.1.b) Clarification: Enchanted swords qualify as swords.
 CE8.1.2) All runs begin upon first input.
 
-== CE8.2: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.0-1.15
+== CE8.2: Set Seed No Major Glitches/Random Seed No Major Glitches, Structures/No Structures, 1.0-1.15
 CE8.2.1) The run is considered complete once a wooden sword, stone sword, iron sword, gold sword, and diamond sword are obtained.
 
-== CE8.3: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.16+
+== CE8.3: Set Seed No Major Glitches/Random Seed No Major Glitches, Structures/No Structures, 1.16+
 CE8.3.1) The run is considered complete once a wood sword, stone sword, iron sword, gold sword, diamond sword, and netherite sword are obtained.
 
 = CE9: All Wood Logs
@@ -1148,27 +1148,27 @@ CE9.1.2) <CE9.1.2> All random seed categories begin upon world load, whereas all
 #entangled[Entangled Rule(s):]\
 #entangled[CE9.1.2 is nullified by: ] #entangledRules(("CE9.2.2", "CE9.3.2"))\
 
-== CE9.2: Set Seed Glitchless/Random Seed Glitchless, Pre 1.2
+== CE9.2: Set Seed No Major Glitches/Random Seed No Major Glitches, Pre 1.2
 CE9.2.1) The run is considered complete once an oak log, a spruce log, and a birch log are obtained.\
-CE9.2.2) <CE9.2.2> Exception: All Wood Logs Random Seed Glitchless Pre 1.2 begins upon first input, nullifying #entangledRule("CE9.1.2").\
+CE9.2.2) <CE9.2.2> Exception: All Wood Logs Random Seed No Major Glitches Pre 1.2 begins upon first input, nullifying #entangledRule("CE9.1.2").\
 
-== CE9.3: Set Seed Glitchless/Random Seed Glitchless, 1.2-1.6
+== CE9.3: Set Seed No Major Glitches/Random Seed No Major Glitches, 1.2-1.6
 CE9.3.1) The run is considered complete once an oak log, a spruce log, birch log, and a jungle log are obtained.\
-CE9.3.2) <CE9.3.2> Exception: All Wood Logs Random Seed Glitchless 1.2-1.6 begins upon first input, nullifying #entangledRule("CE9.1.2").\
+CE9.3.2) <CE9.3.2> Exception: All Wood Logs Random Seed No Major Glitches 1.2-1.6 begins upon first input, nullifying #entangledRule("CE9.1.2").\
 
-== CE9.4: Set Seed Glitchless/Random Seed Glitchless, 1.7-1.15
+== CE9.4: Set Seed No Major Glitches/Random Seed No Major Glitches, 1.7-1.15
 CE9.4.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, and an acacia log are obtained.
 
-== CE9.5: Set Seed Glitchless/Random Seed Glitchless, 1.16-1.18
+== CE9.5: Set Seed No Major Glitches/Random Seed No Major Glitches, 1.16-1.18
 CE9.5.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, and a crimson stem are obtained.
 
-== CE9.6: Set Seed Glitchless/Random Seed Glitchless, 1.19
+== CE9.6: Set Seed No Major Glitches/Random Seed No Major Glitches, 1.19
 CE9.6.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, and a mangrove log are obtained.
 
-== CE9.7: Set Seed Glitchless/Random Seed Glitchless, 1.20-1.21.3
+== CE9.7: Set Seed No Major Glitches/Random Seed No Major Glitches, 1.20-1.21.3
 CE9.7.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, and a cherry log are obtained.
 
-== CE9.8: Set Seed Glitchless/Random Seed Glitchless, 1.21.4+
+== CE9.8: Set Seed No Major Glitches/Random Seed No Major Glitches, 1.21.4+
 CE9.8.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, cherry log, and a pale oak log are obtained.
 
 = CE10: All Wool
@@ -1181,7 +1181,7 @@ CE10.1.1) <CE10.1.1> The run is considered complete once all colours of wool hav
 CE10.1.2) <CE10.1.2> The list of all wool colours are: white wool (called wool in Minecraft versions before 1.11), orange wool, magenta wool, light blue wool, yellow wool, lime wool, pink wool, grey wool, light grey wool, cyan wool, purple wool, blue wool, brown wool, green wool, red wool, and black wool.\
 #entangled[Entangled Rule(s):]\
 #entangled[CE10.1.2 is referenced by: ] #entangledRule("CE21.1.1")\
-CE10.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
+CE10.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg).\
 CE10.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
 = CE11: All Minerals
@@ -1191,13 +1191,13 @@ CE11.1.1) The run is considered complete once all minerals have been simultaneou
 - CE11.1.1.a) <CE11.1.1.a> Timing ends once the last mineral is obtained. (see #entangledRule("A.5.18"))
 CE11.1.2) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
-== CE11.2: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.5-1.15
+== CE11.2: Set Seed No Major Glitches/Random Seed No Major Glitches, Structures/No Structures, 1.5-1.15
 CE11.2.1) The run is considered complete once a piece of coal, an iron ingot, a gold ingot, a redstone, a lapis lazuli, a diamond, an emerald, and a nether quartz is obtained.
 
-== CE11.3: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.16
+== CE11.3: Set Seed No Major Glitches/Random Seed No Major Glitches, Structures/No Structures, 1.16
 CE11.3.1) The run is considered complete once a piece of coal, an iron ingot, a gold ingot, a redstone, a lapis lazuli, a diamond, an emerald, a nether quartz, and a netherite ingot is obtained.
 
-== CE11.4: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.17+
+== CE11.4: Set Seed No Major Glitches/Random Seed No Major Glitches, Structures/No Structures, 1.17+
 CE11.4.1) The run is considered complete once a piece of coal, an iron ingot, a gold ingot, a redstone, a lapis lazuli, a diamond, an emerald, a nether quartz, a netherite ingot, a copper ingot, and an amethyst shard is obtained.
 
 = CE12: Full Iron Armor and 15 Levels
@@ -1207,7 +1207,7 @@ CE12.1.1) <CE12.1.1> The run is considered complete once an iron helmet, iron ch
 - CE12.1.1.a) Timing ends once the last piece of armour is equipped or once the experience bar turns to 15 levels (whichever comes last).
 #entangled[Entangled Rule(s):]\
 #entangled[CE12.1.1 is referenced by: ] #entangledRule("CE22.1.1")\
-CE12.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless, structures/no structures).\
+CE12.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg, structures/no structures).\
 CE12.1.3) All runs begin upon first input.
 
 = CE13: All Workstations
@@ -1216,7 +1216,7 @@ CE12.1.3) All runs begin upon first input.
 CE13.1.1) The run is considered complete once all workstations have been simultaneously obtained.
 - CE13.1.1.a) <CE13.1.1.a> Timing ends once the last workstation is obtained. (see #entangledRule("A.5.18"))
 CE13.1.2) The list of all workstations are: blast furnace, smoker, cartography table, brewing stand, composter, barrel, fletching table, cauldron, lectern, stonecutter, loom, smithing table, and grindstone.\
-CE13.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
+CE13.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg).\
 CE13.1.4) All runs begin upon first input.
 
 = CE14: Full Inventory
@@ -1226,7 +1226,7 @@ CE14.1.1) The run is considered complete once all inventory slots are full.
 - CE14.1.1.a) Timing ends once the last inventory slot is filled.
 - CE14.1.1.b) Clarification: All 36 main inventory slots must be filled, but the offhand and armour slots do not have to be filled.
 CE14.1.2) Each inventory slot must be filled with a unique item.\
-CE14.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless, structures/no structures).\
+CE14.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg, structures/no structures).\
 CE14.1.4) All runs begin upon first input.
 
 = CE15: Etner Edn
@@ -1234,7 +1234,7 @@ CE14.1.4) All runs begin upon first input.
 == CE15.1: Etner Edn Objective and Clarifications
 CE15.1.1) The run is considered complete once the player enters the end.
 - CE15.1.1.a) Timing ends once the player leaves the end portal in the overworld and enters the loading screen to enter the end/the lag accompanied with entering the end.
-CE15.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
+CE15.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg/glitched).\
 CE15.1.3) All runs begin upon first input.
 
 = CE16: All Versions
@@ -1242,7 +1242,7 @@ CE15.1.3) All runs begin upon first input.
 == CE16.1: All Versions Objective and Clarifications
 CE16.1.1) The run is considered complete once the player beats every major version in the selected version range.
 - CE16.1.1.a) Timing begins once the player begins the respective starting version.
-- CE16.1.1.b) <CE16.1.1.b> Timing ends once the player completes the final version, as per Any% Glitchless standards (see #entangledRule("1.1.1")).
+- CE16.1.1.b) <CE16.1.1.b> Timing ends once the player completes the final version, as per Any% No Major Glitches standards (see #entangledRule("1.1.1")).
 CE16.1.2) Clarification: Players must complete each version consecutively (1.0, 1.1, 1.2, 1.3…).\
 CE16.1.3) <CE16.1.3> Clarification: Any subversion may be chosen for each main version. This excludes versions considered pre-releases as defined by #entangledRule("A.1.2.f.i").\
 CE16.1.4) <CE16.1.4> The category is timed by RTA, nullifying #entangledRule("A.5").
@@ -1256,11 +1256,11 @@ CE16.2.1) <CE16.2.1> Select F3 if your run uses F3 (as defined in #entangledRule
 CE16.2.2) The subversion and version of the run should be marked as 1.0.\
 CE16.2.3) The in-game time of the run should be left blank.
 
-== CE16.3: Set Seed Glitchless Clarification
+== CE16.3: Set Seed No Major Glitches Clarification
 CE16.3.1) Runs must use the same numerical seed for every version.
 - CE16.3.1.a) Example: If the seed “1234” is chosen, it must be used for the 1.0 run, 1.1 run, 1.2 run, etc.
 
-== CE16.4: Random Seed Glitchless Clarification
+== CE16.4: Random Seed No Major Glitches Clarification
 CE16.4.1) Every run must use a random seed.
 
 = CE17: Mine a Chunk
@@ -1273,10 +1273,10 @@ CE17.1.1) The run is considered complete once a region of space that has a width
 CE17.1.3) Clarification: A chunk does not have to be mined in terms of how the game generates chunks, only a chunk-sized area.\
 CE17.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
-== CE17.2: RSG/SSG/RS/SS, Pre 1.17/1.17/1.18+, Overworld, Solo/Duos/3-4/5-9/10+
+== CE17.2: RSNMG/SSNMG/RS/SS, Pre 1.17/1.17/1.18+, Overworld, Solo/Duos/3-4/5-9/10+
 CE17.2.1) <CE17.2.1> The run is considered complete once a chunk is mined (see #entangledRule("CE17.1")) in the overworld.
 
-== CE17.3: RSG/SSG/RS/SS, Pre 1.17/1.17/1.18+, Nether, Solo/Duos/3-4/5-9/10+
+== CE17.3: RSNMG/SSNMG/RS/SS, Pre 1.17/1.17/1.18+, Nether, Solo/Duos/3-4/5-9/10+
 CE17.3.1) <CE17.3.1> The run is considered complete once a chunk is mined (see #entangledRule("CE17.1")) in the nether.
 
 = CE18: Stack of Lime Wool
@@ -1285,14 +1285,14 @@ CE17.3.1) <CE17.3.1> The run is considered complete once a chunk is mined (see #
 CE18.1.1) The run is considered complete once 64 lime wool has been obtained.
 - CE18.1.1.a) <CE18.1.1.a> Timing ends once the last piece(s) of lime wool are obtained. (see #entangledRule("A.5.18"))
 CE18.1.2) Clarification: The lime wool does not have to be all in one stack.\
-CE18.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
+CE18.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg/glitched).\
 CE18.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
 = CE19: All Portals
 
 == CE19.1: All Portals Objective and Clarifications
 CE19.1.1) The run is considered complete once the conditions of Any% have been met after all end portals have been lit.
-- CE19.1.1.a) <CE19.1.1.a> Timing ends as per Any% Glitchless timing (see #entangledRule("1.1.1")).
+- CE19.1.1.a) <CE19.1.1.a> Timing ends as per Any% No Major Glitches timing (see #entangledRule("1.1.1")).
 CE19.1.2) All runs begin upon world load.
 
 == CE19.2: All Portals Pre 1.9
@@ -1311,7 +1311,7 @@ CE19.3.3) In addition to the external tools allowed by #entangledRule("A.11"), t
 CE19.3.4) <CE19.3.4> A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by #entangledRule("4.1.2") and its corresponding sub-rules.
 
 == CE19.4: All Portals Purist
-CE19.4.1) Purist runs must be played on random seed glitchless.\
+CE19.4.1) Purist runs must be played on Random Seed No Major Glitches.\
 CE19.4.2) Purist runs must be played on hardcore.\
 CE19.4.3) <CE19.4.3> Purist runs must not use F3 as defined by #entangledRule("A.6.2").
 
@@ -1363,7 +1363,7 @@ CE22.1.3) All runs begin upon first input.
 == CE23.1: Sonic, Tails, and Knuckles Objective and Clarifications
 CE23.1.1) The run is considered complete once one sheep has been dyed red, another sheep has been dyed orange, and a third sheep has been dyed blue.
 - CE23.1.1.a) Timing ends once the last sheep is dyed either red, orange, or blue.
-CE23.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
+CE23.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg).\
 CE23.1.3) All runs begin upon first input.
 
 = CE24: Half%
@@ -1376,7 +1376,7 @@ CE24.1.2) Runs must show that 40 advancements have been obtained.
 - CE24.1.2.a) Scrolling through the advancements list until 40 advancements have been displayed as completed.
 - CE24.1.2.b) World files are submitted.
 - CE24.1.2.c) An advancement tracker is displayed that shows 40 advancements have been completed.
-CE24.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
+CE24.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg/glitched).\
 CE24.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
 = CE25: Pride%
@@ -1393,7 +1393,7 @@ CE25.1.2) The four flags you must create must have the following colours:
 CE25.1.3) The banner pattern which represents any given flag must not contain any colours not listed in CE25.1.2.\
 CE25.1.4) For a banner pattern to qualify as representing a given flag, it must be possible for one to draw an uncurved line which intersects the flag colours in order (defined in CE25.1.2).
 - CE25.1.4.a) Clarification: This line does not necessarily need to cover the entire length/width of the banner.
-CE25.1.5) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
+CE25.1.5) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg).\
 CE25.1.6) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
 = CE26: High%
@@ -1403,5 +1403,5 @@ CE26.1.1) The run is considered complete once the player reaches a Y level of 42
 - CE26.1.1.a) Timing ends once the player's Y value in the XYZ line of F3 reaches a value of 420 or greater.
 CE26.1.2) You must press F3 when displaying that you have met the run's objective.
 - CE26.1.2.a) <CE26.1.2.a> Exception to #entangledRule("A.6.2"): If your run only uses F3 to display that you have met the run's objective, your run will be marked as No F3.
-CE26.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
+CE26.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, nmg/glitched).\
 CE26.1.4) All runs begin upon first input.
