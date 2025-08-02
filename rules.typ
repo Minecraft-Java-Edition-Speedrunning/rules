@@ -150,8 +150,7 @@ A.1.3) <A.1.3> The default settings of world generation must be kept.
 - #entangled[A.1.3.b is subject to an amendment by: ] #entangledRule("8.1.2")
 - A.1.3.c) Changing the World Name.
 #entangled[Entangled Rule(s):]\
-#entangled[A.1.3 is subject to an amendment by: ] #entangledRules(("C.1.1", "F.1.2", "G.2.1", "7.1.3.c", "CE20.1.2"))\
-#entangled[A.1.3 is referenced by: ] #entangledRule("CE20.1.3.a")\
+#entangled[A.1.3 is subject to an amendment by: ] #entangledRules(("C.1.1", "F.1.2", "G.2.1", "7.1.3.c"))\
 A.1.4) The options.txt file must not be altered to circumvent the bounds to the settings set by the game.
 - A.1.4.a) If a settings value is not possible to achieve through adjusting the in-game sliders/buttons (such as non-interger FOVs), it must not be used. Any slider setting without game-enforced intervals (e.g. mouseSensitivity) may be set to any float value within its bounds.
   - A.1.4.a.i) Exception: maxFps may be set to any integer value between 10 and 260 (Unlimited), inclusive.
@@ -210,12 +209,10 @@ A.3.1) <A.3.1> The F3 screen must be shown during or after the run.
 #entangled[A.3.1 is referenced by: ] #entangledRule("F.1.8")\
 A.3.2) You must not alter your system time to intentionally use time-sensitive features (specifically Halloween and Christmas game modifications).\
 A.3.3) <A.3.3> You must not open to LAN during the run.\
-#entangled[Entangled Rule(s):]\
-#entangled[A.3.3 is nullified by: ] #entangledRule("CE20.1.2")\
 A.3.4) Your world must not be corrupted significantly (at the discretion of verifiers).\
 A.3.5) <A.3.5> You must not use console commands during the run.\
 #entangled[Entangled Rule(s):]\
-#entangled[A.3.5 is nullified by: ] #entangledRules(("F.1.3.a", "F.1.3.b", "CE20.1.2"))\
+#entangled[A.3.5 is nullified by: ] #entangledRules(("F.1.3.a", "F.1.3.b"))\
 A.3.6) If you play one instance of Minecraft and then switch to playing another, the initial instance's run is no longer verifiable. If this is done accidentally, and attempts are made to quickly exit the other instance and rejoin the initial instance, your run may still be verified (at the discretion of verifiers).
 - A.3.6.a) Clarification: While one instance of Minecraft is played, you may pause or close other instances.
 A.3.7) Non-default shaders, including Super Secret Settings, must not be used.\
@@ -225,8 +222,6 @@ A.3.10) <A.3.10> You must not read from any files produced by the vanilla game b
 - A.3.10.a) Exception: Players and programs may read from the advancement or statistics files.
 - A.3.10.b) Exception: Players and programs may read from the wpstateout.txt file created by WorldPreview or the State Output mod.
 - A.3.10.c) Exception: Historically, macros have had limited allowances to read the logs in order to determine game state. While State Output now exists for this, these old macros are still allowed.
-#entangled[Entangled Rule(s):]\
-#entangled[A.3.10 is referenced by: ] #entangledRule("CE20.3.4")\
 #entangled[A.3.10 is subject to an exception by: ] #entangledRule("C.2.1")\
 A.3.11) <A.3.11> Peaceful difficulty must not be used within the run.\
 #entangled[Entangled Rule(s):]\
@@ -254,8 +249,6 @@ A.4.3) Non-accessibility resource packs may be used if and only if they only mod
 - A.4.3.j) Clarification: Better grass/lower grass on the sides of blocks must not be used, whether accomplished through OptiFine or a resource pack (this includes podzol, nylium, and similar blocks).
 - A.4.3.k) Changing the vignette to a fully transparent texture.
 A.4.4) <A.4.4> Any resource packs not outlined by A.4.1-A.4.3 are banned.\
-#entangled[Entangled Rule(s):]\
-#entangled[A.4.4 is nullified by: ] #entangledRule("CE20.1.2.a")\
 A.4.5) If any non-vanilla resource pack that modifies vanilla resources is used at any point during a run, a download link to that exact resource pack must be provided in the submission. This does not apply to resource packs that exclusively replace mod assets (e.g. SeedQueue resource packs).\
 A.4.6) Resource packs which replace mod assets that are not meant to replace vanilla ones may be used.\
 This includes but is not limited to:
@@ -392,7 +385,7 @@ A.7.10) <A.7.10> In the rare circumstance that a run must go through immediate m
 
 == A.8: Mod and Library Rules <A.8>
 #entangled[Entangled Rule(s):]\
-#entangled[Section A.8 is referenced by: ] #entangledRules(("F.1.7", "CE20.3.3.a"))\
+#entangled[Section A.8 is referenced by: ] #entangledRule("F.1.7")\
 A.8.1) OptiFine is allowed in Minecraft versions 1.0-1.14.4 if and only if the following conditions are met.
 - A.8.1.a) Any sub-menu of the pie-chart (shift+F3) is not used in 1.14.4.
 - A.8.1.b) OptiFine zoom is not used during the run.
@@ -483,8 +476,6 @@ A.10.4) <A.10.4> Macros are not allowed to be triggered during a run.
 - A.10.4.b) Exception: Macros may resize the game window to one resolution outside the monitor bounds, up to a maximum of 16384 pixels in width or height.
 - A.10.4.c) Clarification: There are no restrictions on when resize macros may be used during the run.
 - A.10.4.d) Exception: Toggle sprint macros are allowed in all versions.
-#entangled[Entangled Rule(s):]\
-#entangled[A.10.4 is nullified by: ] #entangledRules(("CE20.2.3", "CE20.3.2"))\
 A.10.5) Macros may only be used to reset worlds if resets are triggered by player input. Multiple simultaneous resets may be triggered by a single player input. <A.10.5>
 - A.10.5.a) Clarification: Any program or macro that reads the screen (directly or indirectly), listens to game audio, or reads the vanilla game files directly must not be used.
 - A.10.5.b) Clarification: Automatic resetting, or resetting based on anything other than player input is not allowed.
@@ -519,17 +510,11 @@ A.11.7) <A.11.7> The following constitute the whitelist of legal tools:
 - A.11.7.f) #formatLink("https://ens-gijs.github.io/minecraft-stronghold-locator/")[Minecraft Stronghold Triangulator]
 - A.11.7.g) #formatLink("https://replit.com/@The64thRealm/Yeet-calculator?v=1")[Yeet calculator] [The64thRealm]
 - A.11.7.h) #formatLink("https://github.com/DuncanRuns/NinjaLink/releases/tag/v1.0.0")[Ninjalink] [DuncanRuns] (v1.0.0)
-#entangled[Entangled Rule(s):]\
-#entangled[A.11.7 is referenced by: ] #entangledRule("CE20.2.2")\
 A.11.8) <A.11.8> You must not use any other reference sheets/external tools besides the ones listed above.\
-#entangled[Entangled Rule(s):]\
-#entangled[A.11.8 is nullified by: ] #entangledRule("CE20.3.3")\
 A.11.9) <A.11.9> If you would like to use a tool/reference sheet that is not listed above, please open a thread. It may be allowed at the discretion of moderators. Please note:
 - A.11.9.a) The tool must only use position, angle, and dimension from the F3 menu.
   - A.11.9.a.i) Clarification: This excludes biome and temperature.
 - A.11.9.b) If it is a code-based tool, its source code must be on a publicly accessible repository (e.g. GitHub).
-#entangled[Entangled Rule(s):]\
-#entangled[A.11.9 is nullified by: ] #entangledRule("CE20.3.3")\
 
 == A.12: Illegitimate Behaviour
 A.12.1) Illegitimate behaviour is defined as any intentional behaviour which attempts to gain an unfair advantage.
@@ -1284,35 +1269,6 @@ CE19.3.4) <CE19.3.4> A runner may segment their run if and only if they follow t
 CE19.4.1) Purist runs must be played on random seed glitchless.\
 CE19.4.2) Purist runs must be played on hardcore.\
 CE19.4.3) <CE19.4.3> Purist runs must not use F3 as defined by #entangledRule("A.6.2").
-
-= CE20: Scout and Route Glitchless
-
-== CE20.1: Scout and Route Glitchless Objective and Clarifications
-CE20.1.1) Runs must begin with the generation of a random seed.\
-CE20.1.2) <CE20.1.2> After the random seed is generated, you have 10 minutes RTA, beginning on world load, to scout the seed. During this time and this time only, cheats and open to LAN may be used, nullifying #entangledRule("A.3.3"), and #entangledRule("A.3.5"). Recreating the world during this time is also permitted. In addition to the world generation settings allowed in #entangledRule("A.1.3"), you may also enable cheats.
-- CE20.1.2.a) <CE20.1.2.a> Any resource packs may be used for the scouting section of the run only (nullifying #entangledRule("A.4.4")).
-CE20.1.3) After the scouting section of the run is finished, the runner must save and quit and immediately recreate the world.
-- CE20.1.3.a) <CE20.1.3.a> Clarification: The world generation settings must follow normal world generation settings (#entangledRule("A.1.3")) and any rules which were previously nullified are now reinstated.
-CE20.1.4) Any time spent over 10 minutes scouting will be added to the final time.
-- CE20.1.4.a) Example: If 10:30 are spent scouting, and the final in-game time of the run is 9:00, the final in-game time of the run will be 9:30.
-CE20.1.5) /datapack list must be shown at the end of the run.
-- CE20.1.5.a) Guidance: You must open to LAN and turn cheats on for /datapack list to be executed.
-CE20.1.6) All runs begin upon world load (of the new world after scouting).
-
-== CE20.2: No /seed
-CE20.2.1) The /seed command must not be used, even during scouting time.\
-CE20.2.2) <CE20.2.2> Clarification: External tools, outside of those outlined by #entangledRule("A.11.7"), must not be used.\
-CE20.2.3) <CE20.2.3> Macros may be used during the scouting time only (nullifying #entangledRule("A.10.4")). However, they must only execute /teleport (/tp), /locate, /setblock, and /gamemode commands.\
-CE20.2.4) All commands must be executed in chat.
-- This excludes but is not limited to:
-- CE20.2.4.a) Command blocks
-
-== CE20.3: /seed
-CE20.3.1) The /seed command must be used during scouting time.\
-CE20.3.2) <CE20.3.2> During scouting time only, macros may be used. (nullifying #entangledRule("A.10.4")).\
-CE20.3.3) <CE20.3.3> During scouting time only, any external programs may be used. (nullifying #entangledRule("A.11.8") and #entangledRule("A.11.9"))
-- CE20.3.3.a) Clarification: Mods and clients not outlined in section #entangledRule("A.8") are not allowed. <CE20.3.3.a>
-CE20.3.4) <CE20.3.4> During scouting time only, any of the game's files may be read, nullifying #entangledRule("A.3.10").
 
 = CE21: All Wool (Glitched)
 
