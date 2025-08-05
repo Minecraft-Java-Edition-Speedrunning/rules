@@ -240,8 +240,8 @@ A.3.12) Filters that provide a significant advantage (at the discretion of the v
 - \- Scaling, cropping, or transforming a game capture source
 - \- Chroma, color, or luminance keying for cosmetic purposes, such as removing the background of an F3 value
 Examples of filters that provide a significant advantage include but are not limited to:
-- \- Isolating a specific color to improve visibility of a block
-- \- Interpreting a number on the F3 screen, such as indicating when the E counter is a specific value
+- \- Isolating a specific color to improve visibility of a block (#formatLink("https://youtu.be/NkTTvSPXi-I")[Example])
+- \- Interpreting a number on the F3 screen, such as indicating when the E counter is a specific value (#formatLink("https://youtu.be/i9irnbWcd64")[Example])
 If you have a question about this rule or if a specific filter would or wouldn't be illegal, please open a thread.
 ]
 
