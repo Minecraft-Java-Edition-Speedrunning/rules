@@ -140,9 +140,7 @@ A.1.2) Runs must be performed on Minecraft 1.0 or later using an official releas
 - A.1.2.d) April Fools' 'updates'
 - A.1.2.e) Release candidates
 - A.1.2.f) Pre-releases
-  - A.1.2.f.i) <A.1.2.f.i> Guidance: Versions 1.2, 1.3, 1.4, 1.4.1, 1.4.3, 1.5, 1.6, 1.6.3, 1.7, 1.7.1, and 1.7.3 are considered pre-releases and must not be used.
-  - #entangled[Entangled Rule(s):]
-  - #entangled[A.1.2.f.i is referenced by: ] #entangledRule("CE16.1.3")
+  - A.1.2.f.i) Guidance: Versions 1.2, 1.3, 1.4, 1.4.1, 1.4.3, 1.5, 1.6, 1.6.3, 1.7, 1.7.1, and 1.7.3 are considered pre-releases and must not be used.
 - A.1.2.g) Combat tests
 A.1.3) <A.1.3> The default settings of world generation must be kept.
 - The only allowable settings that may be changed constitute:
@@ -152,8 +150,7 @@ A.1.3) <A.1.3> The default settings of world generation must be kept.
 - #entangled[A.1.3.b is subject to an amendment by: ] #entangledRule("8.1.2")
 - A.1.3.c) Changing the World Name.
 #entangled[Entangled Rule(s):]\
-#entangled[A.1.3 is subject to an amendment by: ] #entangledRules(("C.1.1", "F.1.2", "G.2.1", "7.1.3.c", "CE20.1.2"))\
-#entangled[A.1.3 is referenced by: ] #entangledRule("CE20.1.3.a")\
+#entangled[A.1.3 is subject to an amendment by: ] #entangledRules(("C.1.1", "F.1.2", "G.2.1", "7.1.3.c"))\
 A.1.4) The options.txt file must not be altered to circumvent the bounds to the settings set by the game.
 - A.1.4.a) If a settings value is not possible to achieve through adjusting the in-game sliders/buttons (such as non-interger FOVs), it must not be used. Any slider setting without game-enforced intervals (e.g. mouseSensitivity) may be set to any float value within its bounds.
   - A.1.4.a.i) Exception: maxFps may be set to any integer value between 10 and 260 (Unlimited), inclusive.
@@ -212,12 +209,10 @@ A.3.1) <A.3.1> The F3 screen must be shown during or after the run.
 #entangled[A.3.1 is referenced by: ] #entangledRule("F.1.8")\
 A.3.2) You must not alter your system time to intentionally use time-sensitive features (specifically Halloween and Christmas game modifications).\
 A.3.3) <A.3.3> You must not open to LAN during the run.\
-#entangled[Entangled Rule(s):]\
-#entangled[A.3.3 is nullified by: ] #entangledRule("CE20.1.2")\
 A.3.4) Your world must not be corrupted significantly (at the discretion of verifiers).\
 A.3.5) <A.3.5> You must not use console commands during the run.\
 #entangled[Entangled Rule(s):]\
-#entangled[A.3.5 is nullified by: ] #entangledRules(("F.1.3.a", "F.1.3.b", "CE20.1.2"))\
+#entangled[A.3.5 is nullified by: ] #entangledRules(("F.1.3.a", "F.1.3.b"))\
 A.3.6) If you play one instance of Minecraft and then switch to playing another, the initial instance's run is no longer verifiable. If this is done accidentally, and attempts are made to quickly exit the other instance and rejoin the initial instance, your run may still be verified (at the discretion of verifiers).
 - A.3.6.a) Clarification: While one instance of Minecraft is played, you may pause or close other instances.
 A.3.7) Non-default shaders, including Super Secret Settings, must not be used.\
@@ -227,8 +222,6 @@ A.3.10) <A.3.10> You must not read from any files produced by the vanilla game b
 - A.3.10.a) Exception: Players and programs may read from the advancement or statistics files.
 - A.3.10.b) Exception: Players and programs may read from the wpstateout.txt file created by WorldPreview or the State Output mod.
 - A.3.10.c) Exception: Historically, macros have had limited allowances to read the logs in order to determine game state. While State Output now exists for this, these old macros are still allowed.
-#entangled[Entangled Rule(s):]\
-#entangled[A.3.10 is referenced by: ] #entangledRule("CE20.3.4")\
 #entangled[A.3.10 is subject to an exception by: ] #entangledRule("C.2.1")\
 A.3.11) <A.3.11> Peaceful difficulty must not be used within the run.\
 #entangled[Entangled Rule(s):]\
@@ -256,8 +249,6 @@ A.4.3) Non-accessibility resource packs may be used if and only if they only mod
 - A.4.3.j) Clarification: Better grass/lower grass on the sides of blocks must not be used, whether accomplished through OptiFine or a resource pack (this includes podzol, nylium, and similar blocks).
 - A.4.3.k) Changing the vignette to a fully transparent texture.
 A.4.4) <A.4.4> Any resource packs not outlined by A.4.1-A.4.3 are banned.\
-#entangled[Entangled Rule(s):]\
-#entangled[A.4.4 is nullified by: ] #entangledRule("CE20.1.2.a")\
 A.4.5) If any non-vanilla resource pack that modifies vanilla resources is used at any point during a run, a download link to that exact resource pack must be provided in the submission. This does not apply to resource packs that exclusively replace mod assets (e.g. SeedQueue resource packs).\
 A.4.6) Resource packs which replace mod assets that are not meant to replace vanilla ones may be used.\
 This includes but is not limited to:
@@ -270,7 +261,7 @@ This excludes but is not limited to:
 == A.5: Timing Rules <A.5>
 #entangled[Entangled Rule(s):]\
 #entangled[A.5 is referenced by: ] #entangledRule("E.2.2")\
-#entangled[A.5 is nullified by: ] #entangledRules(("11.1.2", "CE16.1.4"))\
+#entangled[A.5 is nullified by: ] #entangledRule("11.1.2")\
 A.5.1) <A.5.1> Runs begin timing on either world load, referring to when the player is placed into the world, or on first input.
 - A.5.1.a) Clarification: The timing method that is applied is defined by the category, and not chosen by the player.
 - A.5.1.b) Guidance: Random seed categories, longer categories, and categories which benefit from waiting additional time are likely (though not always) timed by world load, whereas set seed categories and shorter categories are likely (though not always) timed by first input.
@@ -355,7 +346,6 @@ A.6.2) <A.6.2> Mark your run as F3 if it uses the F3 screen during the run, or a
 - A.6.2.d) Clarification: If the mod StandardSettings is used and the f3PauseOnWorldLoad setting in the standardoptions.txt file is set to true, your run will be marked as using F3.
 #entangled[Entangled Rule(s):]\
 #entangled[A.6.2 is referenced by: ] #entangledRules((
-  "CE16.2.1",
   "CE19.4.3",
   "CE26.1.2.a",
 ))\
@@ -386,7 +376,7 @@ A.7.6) <A.7.6> Logs refer to the .log/.gz file in the .minecraft/logs folder. Th
 #entangled[A.7.6 is referenced by: ] #entangledRule("A.3.1.b")\
 A.7.7) Evidence of past attempts refers to videos of previously completed runs, nearly completed runs, practice sessions, or session videos. These should be in the same category of the run.\
 A.7.8) 5 previous world files does not include the world files of the submitted run: this will generally mean you submit 6 world files in total. These should be from the same instance.
-- A.7.8.a)  If SeedQueue is used and 5 previous world files must be sent, all world files generated after the run must also be submitted.
+- A.7.8.a) If SeedQueue is used and 5 previous world files must be sent, all world files generated after the run must also be submitted.
 A.7.9) Gameplay audio may be submitted either through the main submission video or a linked separate video. The entire run's audio should be included.\
 A.7.10) <A.7.10> In the rare circumstance that a run must go through immediate moderator notifications, please open a thread and ping moderators by submitting a message with \@LeaderboardMod, with your Minecraft instances still open and while still recording.\
 - A.7.10.a) <A.7.10.a> Please do not ping Leaderboard Mods unless this is absolutely necessary for additional proof, as defined in Section 1.2.4.
@@ -395,7 +385,7 @@ A.7.10) <A.7.10> In the rare circumstance that a run must go through immediate m
 
 == A.8: Mod and Library Rules <A.8>
 #entangled[Entangled Rule(s):]\
-#entangled[Section A.8 is referenced by: ] #entangledRules(("F.1.7", "CE20.3.3.a"))\
+#entangled[Section A.8 is referenced by: ] #entangledRule("F.1.7")\
 A.8.1) OptiFine is allowed in Minecraft versions 1.0-1.14.4 if and only if the following conditions are met.
 - A.8.1.a) Any sub-menu of the pie-chart (shift+F3) is not used in 1.14.4.
 - A.8.1.b) OptiFine zoom is not used during the run.
@@ -486,8 +476,6 @@ A.10.4) <A.10.4> Macros are not allowed to be triggered during a run.
 - A.10.4.b) Exception: Macros may resize the game window to one resolution outside the monitor bounds, up to a maximum of 16384 pixels in width or height.
 - A.10.4.c) Clarification: There are no restrictions on when resize macros may be used during the run.
 - A.10.4.d) Exception: Toggle sprint macros are allowed in all versions.
-#entangled[Entangled Rule(s):]\
-#entangled[A.10.4 is nullified by: ] #entangledRules(("CE20.2.3", "CE20.3.2"))\
 A.10.5) Macros may only be used to reset worlds if resets are triggered by player input. Multiple simultaneous resets may be triggered by a single player input. <A.10.5>
 - A.10.5.a) Clarification: Any program or macro that reads the screen (directly or indirectly), listens to game audio, or reads the vanilla game files directly must not be used.
 - A.10.5.b) Clarification: Automatic resetting, or resetting based on anything other than player input is not allowed.
@@ -522,17 +510,11 @@ A.11.7) <A.11.7> The following constitute the whitelist of legal tools:
 - A.11.7.f) #formatLink("https://ens-gijs.github.io/minecraft-stronghold-locator/")[Minecraft Stronghold Triangulator]
 - A.11.7.g) #formatLink("https://replit.com/@The64thRealm/Yeet-calculator?v=1")[Yeet calculator] [The64thRealm]
 - A.11.7.h) #formatLink("https://github.com/DuncanRuns/NinjaLink/releases/tag/v1.0.0")[Ninjalink] [DuncanRuns] (v1.0.0)
-#entangled[Entangled Rule(s):]\
-#entangled[A.11.7 is referenced by: ] #entangledRule("CE20.2.2")\
 A.11.8) <A.11.8> You must not use any other reference sheets/external tools besides the ones listed above.\
-#entangled[Entangled Rule(s):]\
-#entangled[A.11.8 is nullified by: ] #entangledRule("CE20.3.3")\
 A.11.9) <A.11.9> If you would like to use a tool/reference sheet that is not listed above, please open a thread. It may be allowed at the discretion of moderators. Please note:
 - A.11.9.a) The tool must only use position, angle, and dimension from the F3 menu.
   - A.11.9.a.i) Clarification: This excludes biome and temperature.
 - A.11.9.b) If it is a code-based tool, its source code must be on a publicly accessible repository (e.g. GitHub).
-#entangled[Entangled Rule(s):]\
-#entangled[A.11.9 is nullified by: ] #entangledRule("CE20.3.3")\
 
 == A.12: Illegitimate Behaviour
 A.12.1) Illegitimate behaviour is defined as any intentional behaviour which attempts to gain an unfair advantage.
@@ -794,7 +776,6 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
   "9.1.1",
   "11.1.1",
   "CE1.1.1.b",
-  "CE16.1.1.b",
   "CE19.1.1.a",
 ))\
 1.1.2) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
@@ -1176,12 +1157,8 @@ CE9.8.1) The run is considered complete once an oak log, a spruce log, birch log
 == CE10.1: All Wool Objective and Clarifications
 CE10.1.1) <CE10.1.1> The run is considered complete once all colours of wool have been simultaneously obtained.
 - CE10.1.1.a) <CE10.1.1.a> Timing ends once the last colour of wool is obtained. (see #entangledRule("A.5.18"))
-#entangled[Entangled Rule(s):]\
-#entangled[CE10.1.1 is referenced by: ] #entangledRule("CE21.1.1")\
 CE10.1.2) <CE10.1.2> The list of all wool colours are: white wool (called wool in Minecraft versions before 1.11), orange wool, magenta wool, light blue wool, yellow wool, lime wool, pink wool, grey wool, light grey wool, cyan wool, purple wool, blue wool, brown wool, green wool, red wool, and black wool.\
-#entangled[Entangled Rule(s):]\
-#entangled[CE10.1.2 is referenced by: ] #entangledRule("CE21.1.1")\
-CE10.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
+CE10.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
 CE10.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
 = CE11: All Minerals
@@ -1205,9 +1182,7 @@ CE11.4.1) The run is considered complete once a piece of coal, an iron ingot, a 
 == CE12.1: Full Iron Armor and 15 Levels Objective and Clarifications
 CE12.1.1) <CE12.1.1> The run is considered complete once an iron helmet, iron chestplate, iron leggings, and iron boots have been simultaneously equipped, and the player has 15 levels of experience.
 - CE12.1.1.a) Timing ends once the last piece of armour is equipped or once the experience bar turns to 15 levels (whichever comes last).
-#entangled[Entangled Rule(s):]\
-#entangled[CE12.1.1 is referenced by: ] #entangledRule("CE22.1.1")\
-CE12.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless, structures/no structures).\
+CE12.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched, structures/no structures).\
 CE12.1.3) All runs begin upon first input.
 
 = CE13: All Workstations
@@ -1219,9 +1194,9 @@ CE13.1.2) The list of all workstations are: blast furnace, smoker, cartography t
 CE13.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
 CE13.1.4) All runs begin upon first input.
 
-= CE14: Full Inventory
+= CE14: Full Inventy!
 
-== CE14.1: Full Inventory Objective and Clarifications
+== CE14.1: Full Inventy! Objective and Clarifications
 CE14.1.1) The run is considered complete once all inventory slots are full.
 - CE14.1.1.a) Timing ends once the last inventory slot is filled.
 - CE14.1.1.b) Clarification: All 36 main inventory slots must be filled, but the offhand and armour slots do not have to be filled.
@@ -1236,32 +1211,6 @@ CE15.1.1) The run is considered complete once the player enters the end.
 - CE15.1.1.a) Timing ends once the player leaves the end portal in the overworld and enters the loading screen to enter the end/the lag accompanied with entering the end.
 CE15.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
 CE15.1.3) All runs begin upon first input.
-
-= CE16: All Versions
-
-== CE16.1: All Versions Objective and Clarifications
-CE16.1.1) The run is considered complete once the player beats every major version in the selected version range.
-- CE16.1.1.a) Timing begins once the player begins the respective starting version.
-- CE16.1.1.b) <CE16.1.1.b> Timing ends once the player completes the final version, as per Any% Glitchless standards (see #entangledRule("1.1.1")).
-CE16.1.2) Clarification: Players must complete each version consecutively (1.0, 1.1, 1.2, 1.3…).\
-CE16.1.3) <CE16.1.3> Clarification: Any subversion may be chosen for each main version. This excludes versions considered pre-releases as defined by #entangledRule("A.1.2.f.i").\
-CE16.1.4) <CE16.1.4> The category is timed by RTA, nullifying #entangledRule("A.5").
-- CE16.1.4.a) Clarification: Runners may reset, but this time will count towards your final time.
-CE16.1.5) The run must be played in one sitting.
-- CE16.1.5.a) Guidance: Because of the very long nature of this run, you should prioritise your health and well-being over the completion of this run.
-CE16.1.6) All runs begin upon world load.
-
-== CE16.2: All Versions Submission
-CE16.2.1) <CE16.2.1> Select F3 if your run uses F3 (as defined in #entangledRule("A.6.2")) for any run.\
-CE16.2.2) The subversion and version of the run should be marked as 1.0.\
-CE16.2.3) The in-game time of the run should be left blank.
-
-== CE16.3: Set Seed Glitchless Clarification
-CE16.3.1) Runs must use the same numerical seed for every version.
-- CE16.3.1.a) Example: If the seed “1234” is chosen, it must be used for the 1.0 run, 1.1 run, 1.2 run, etc.
-
-== CE16.4: Random Seed Glitchless Clarification
-CE16.4.1) Every run must use a random seed.
 
 = CE17: Mine a Chunk
 
@@ -1314,49 +1263,6 @@ CE19.3.4) <CE19.3.4> A runner may segment their run if and only if they follow t
 CE19.4.1) Purist runs must be played on random seed glitchless.\
 CE19.4.2) Purist runs must be played on hardcore.\
 CE19.4.3) <CE19.4.3> Purist runs must not use F3 as defined by #entangledRule("A.6.2").
-
-= CE20: Scout and Route Glitchless
-
-== CE20.1: Scout and Route Glitchless Objective and Clarifications
-CE20.1.1) Runs must begin with the generation of a random seed.\
-CE20.1.2) <CE20.1.2> After the random seed is generated, you have 10 minutes RTA, beginning on world load, to scout the seed. During this time and this time only, cheats and open to LAN may be used, nullifying #entangledRule("A.3.3"), and #entangledRule("A.3.5"). Recreating the world during this time is also permitted. In addition to the world generation settings allowed in #entangledRule("A.1.3"), you may also enable cheats.
-- CE20.1.2.a) <CE20.1.2.a> Any resource packs may be used for the scouting section of the run only (nullifying #entangledRule("A.4.4")).
-CE20.1.3) After the scouting section of the run is finished, the runner must save and quit and immediately recreate the world.
-- CE20.1.3.a) <CE20.1.3.a> Clarification: The world generation settings must follow normal world generation settings (#entangledRule("A.1.3")) and any rules which were previously nullified are now reinstated.
-CE20.1.4) Any time spent over 10 minutes scouting will be added to the final time.
-- CE20.1.4.a) Example: If 10:30 are spent scouting, and the final in-game time of the run is 9:00, the final in-game time of the run will be 9:30.
-CE20.1.5) /datapack list must be shown at the end of the run.
-- CE20.1.5.a) Guidance: You must open to LAN and turn cheats on for /datapack list to be executed.
-CE20.1.6) All runs begin upon world load (of the new world after scouting).
-
-== CE20.2: No /seed
-CE20.2.1) The /seed command must not be used, even during scouting time.\
-CE20.2.2) <CE20.2.2> Clarification: External tools, outside of those outlined by #entangledRule("A.11.7"), must not be used.\
-CE20.2.3) <CE20.2.3> Macros may be used during the scouting time only (nullifying #entangledRule("A.10.4")). However, they must only execute /teleport (/tp), /locate, /setblock, and /gamemode commands.\
-CE20.2.4) All commands must be executed in chat.
-- This excludes but is not limited to:
-- CE20.2.4.a) Command blocks
-
-== CE20.3: /seed
-CE20.3.1) The /seed command must be used during scouting time.\
-CE20.3.2) <CE20.3.2> During scouting time only, macros may be used. (nullifying #entangledRule("A.10.4")).\
-CE20.3.3) <CE20.3.3> During scouting time only, any external programs may be used. (nullifying #entangledRule("A.11.8") and #entangledRule("A.11.9"))
-- CE20.3.3.a) Clarification: Mods and clients not outlined in section #entangledRule("A.8") are not allowed. <CE20.3.3.a>
-CE20.3.4) <CE20.3.4> During scouting time only, any of the game's files may be read, nullifying #entangledRule("A.3.10").
-
-= CE21: All Wool (Glitched)
-
-== CE21.1: All Wool (Glitched) Objective and Clarifications
-CE21.1.1) <CE21.1.1> All Wool (Glitched) follows the same pretences for completion as All Wool (see #entangledRule("CE10.1.1")-#entangledRule("CE10.1.2")).\
-CE21.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitched).\
-CE21.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
-
-= CE22: Full Iron Armor and 15 Levels (Glitched)
-
-== CE22.1: Full Iron Armor and 15 Levels (Glitched) Objective and Clarifications
-CE22.1.1) <CE22.1.1> Full Iron Armor and 15 Levels (Glitched) follows the same pretences for completion as Full Iron Armor and 15 Levels (see #entangledRule("CE12.1.1")).\
-CE22.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitched).\
-CE22.1.3) All runs begin upon first input.
 
 = CE23: Sonic, Tails, and Knuckles
 
