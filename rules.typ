@@ -814,7 +814,8 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 
 == 1.4: Random Seed, 1.9-1.12
 1.4.1) Runs under 25 minutes must submit world files, logs, and gameplay audio.\
-1.4.2) Runs under 25 minutes will be retimed as per top-level retiming rules.
+1.4.2) Runs under 25 minutes will be retimed as per top-level retiming rules.\
+1.4.3) Runs under 30 minutes must submit world files.
 
 == 1.5: Random Seed, 1.8
 1.5.1) Runs under 25 minutes must submit world files.\
