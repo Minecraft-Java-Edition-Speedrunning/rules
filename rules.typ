@@ -25,6 +25,8 @@
 #show heading.where(level: 2): set text(size: 16pt)
 #show heading.where(level: 3): set text(size: 12pt)
 
+#show image: set align(center)
+
 #let formatLink(url, body) = underline(text(blue, link(url, body)))
 #let formatNote(body) = text(body, olive)
 #let entangled(body) = text(body, fuchsia)
@@ -192,7 +194,7 @@ A.2.5) Your video must start before you begin to generate the world.
 - #entangled[A.2.5.c is referenced by: ] #entangledRule("A.9.2.a")
 A.2.6) If you are not using Atum, every screen of world creation must be shown in the order in which they are pressed.
 - This constitutes:
-- A.2.6.a) The title screen
+- A.2.6.a) The Title Screen
 - A.2.6.b) The Select World screen
 - A.2.6.c) The Create New World screen
 - A.2.6.d) If used, the More World Options (Pre 1.19)/World (1.19+) screen
@@ -201,16 +203,41 @@ A.2.8) <A.2.8> The video must be of acceptable quality. In-game text must be rea
 - A.2.8.a) Guidance: If your video experiences a significant decrease in quality/framerate due to an error with your hardware or video recording software, you should open a thread explaining your circumstances, as your run may still be verified.
 #entangled[Entangled Rule(s):]\
 #entangled[A.2.8 is referenced by: ] #entangledRule("A.9.3")\
+A.2.9) <A.2.9> Certain elements of the game must be visible in the recording. This includes:
+- A.2.9.c) Toasts (Advancement, Achievements, and recipe unlocks)
+- a.2.9.a) The hotbar
+- A.2.9.b) Game Paused text
+- A.2.9.d) The timer (if using SpeedRunIGT)
+As well, try to avoid excessive overlays over the game itself.\
+A.2.10) <A.2.10> The chat text must be visible and legible in the video recording and the Chat setting must be either Shown or Commands Only.\
+A.2.11) <A.2.11> The F3 screen must be shown during or after the run, and before quitting the world for the first time (except for No F3 runs with valid Save and Quits during the run). It is encouraged to show F3 after the run even if it is shown during the run for ease of verification and to build habits for shorter categories.
+- A.2.11.a) If you did not show the F3 screen during the run but did at some point during the recording in the same instance, your video must include the aforementioned part of the recording. Your run may be verified (at the discretion of verifiers).
+- A.2.11.b) <A.2.11.b> If you did not show the F3 screen during the run whatsoever, you must send logs following section #entangledRule("A.7.6"). Your run may be verified (at the discretion of verifiers).
+- A.2.11.c) <A.2.11.c> Runs that do not show the F3 screen may be verified (at the discretion of verifiers) without logs if it is proven that no mods were used (i.e by showing the Title Screen).
+- A.2.11.d) Clarification: If the F3 screen is shown after the run, it should be done relatively quickly (at the discretion of verifiers).
+- A.2.11.e) The F3 screen shown must show all relevant parts legibly. This includes the top left line, the local difficulty line (if applicable), and any text from mods (if applicable).
+#entangled[Entangled Rule(s): ]\
+#entangled[A.2.11 is referenced by: ] #entangledRule("F.1.8")\
+#formatNote[A.2.note:
+Below shows the elements that must be visible. Exact locations may depend on GUI Scale, chat settings, mods, timer settings, and more. A Twitch chat or similar is fine on bottom left, but it must be partially transparent because of in-game chat.
+#image("images/f3.png", width: 75%, scaling: "pixelated")
+Mod text on the bottom right is prone to moving around. Especially in newer versions, where it can go offscreen when hovering blocks, and is split up when not using Planifolia. Looking at the sky or changing GUI Scale may be necessary to fully display it.
+#align(center)[
+    #grid(
+        columns: 3,
+        figure(image("images/non-planifolia.png", width: 80%), caption: "Without Planifolia", supplement: none),
+        figure(image("images/planifolia.png", width: 80%), caption: "With Planifolia",  supplement: none),
+        figure(image("images/offscreen.png", width: 80%), caption: "Bottom block off-screen",  supplement: none),
+    )
+]
+If F3 was not shown but no mods were used but the Title Screen was in line with #entangledRule("A.2.11.c"), the text on the bottom left of the Title Screen must be visible.
+#image("images/title.png", width: 37.5%)
+If using OptiFine the version must be shown in F3. Additionally, in 1.7.10 and below the rest of the mod text is on the left.
+#image("images/1.7.10.png", width: 75%)
+If F3 visibility requirements were not satisfied during the run because of a webcam or other overlay, F3 must be shown with overlays disabled after the run is complete.
+]
 
 == A.3: During the Run
-A.3.1) <A.3.1> The F3 screen must be shown during or after the run.
-- A.3.1.a) If you did not show the F3 screen during the run but did at some point during the recording in the same instance, your video must include the aforementioned part of the recording. Your run may be verified (at the discretion of verifiers).
-- A.3.1.b) <A.3.1.b> If you did not show the F3 screen during the run whatsoever, you must send logs following section #entangledRule("A.7.6"). Your run may be verified (at the discretion of verifiers).
-- A.3.1.c) Runs that do not show the F3 screen may be verified (at the discretion of verifiers) without logs if it can be proven that no mods were used.
-- A.3.1.d) Clarification: If the F3 screen is shown after the run, it should be done relatively quickly (at the discretion of verifiers).
-- A.3.1.e) The F3 screen shown must show all relevant parts legibly: the entire first line in the top left must be shown, as well as information in the middle left and middle right text blocks as well. You should take off any overlays (chat, facecam) before showing the F3 screen.
-#entangled[Entangled Rule(s): ]\
-#entangled[A.3.1 is referenced by: ] #entangledRule("F.1.8")\
 A.3.2) You must not alter your system time to intentionally use time-sensitive features (specifically Halloween and Christmas game modifications).\
 A.3.3) <A.3.3> You must not open to LAN during the run.\
 #entangled[Entangled Rule(s):]\
@@ -222,7 +249,6 @@ A.3.5) <A.3.5> You must not use console commands during the run.\
 A.3.6) If you play one instance of Minecraft and then switch to playing another, the initial instance's run is no longer verifiable. If this is done accidentally, and attempts are made to quickly exit the other instance and rejoin the initial instance, your run may still be verified (at the discretion of verifiers).
 - A.3.6.a) Clarification: While one instance of Minecraft is played, you may pause or close other instances.
 A.3.7) Non-default shaders, including Super Secret Settings, must not be used.\
-A.3.8) The chat text must be visible and legible in the video recording and the Chat setting must be either Shown or Commands Only.\
 A.3.9) Runs must not intend to be as slow as possible. At a minimum, an attempt must be made to finish the run quickly.\
 A.3.10) <A.3.10> World and log files produced by the vanilla game must not be read before or during the run.
 - A.3.10.a) Exception: Advancement or statistics files may be read by players and programs.
@@ -397,7 +423,7 @@ A.7.5) World files refer to the full folder with the world's name as the folder'
 A.7.6) <A.7.6> Logs refer to the .log/.gz file in the .minecraft/logs folder. These files will be named according to the dates on which they were generated. Submit the run with the log(s) which contains information about the run in question. If you are unsure which session has your run, submit logs for that entire day and also the log with the name "latest.log".
 - A.7.6.a) Guidance: At midnight (local computer time), a new log file is created by the game. If you are in the world when this occurs, please be sure to include the complete set of logs for the lifetime of the instance, from game launch to world close.
 #entangled[Entangled Rule(s):]\
-#entangled[A.7.6 is referenced by: ] #entangledRule("A.3.1.b")\
+#entangled[A.7.6 is referenced by: ] #entangledRule("A.2.11.b")\
 A.7.7) Evidence of past attempts refers to videos of previously completed runs, nearly completed runs, practice sessions, or session videos. These should be in the same category of the run.\
 A.7.8) 5 previous world files does not include the world files of the submitted run: this will generally mean you submit 6 world files in total. These should be from the same instance.
 - A.7.8.a) If SeedQueue is used and 5 previous world files must be sent, all world files generated after the run must also be submitted.
@@ -498,7 +524,7 @@ A.9.2) If multiple instances of Minecraft are being used, each instance must be 
 - A.9.2.a) <A.9.2.a> Exception: If the criteria of #entangledRule("A.2.5.c") are met (playing with Atum, SpeedrunIGT, and showing the F3 screen prior to leaving the world), only the instance which the player plays must be recorded.
 A.9.3) If each instance must be recorded (i.e. they are not subject to the exception of A.9.2.a), the video of the instances that are in the background or not currently being played do not have to follow as strict criteria as #entangledRule("A.2.8"). However, they must meet the following requirements: <A.9.3>
 - A.9.3.a) The text on the percentage on the loading screen should be legible, along with the chunkmap which shows the world being generated.
-- A.9.3.b) To follow A.9.3.a, if the default video's percentage text is illegible, runners may zoom in on the chunk map and percentage text. If WorldPreview 2.3.3 is used, this must capture both the initial text/chunkmap in the centre of the screen, along with the text and chunkmap when it jumps to the bottom left when the WorldPreview begins. The rest of the screen should also still be included.
+- A.9.3.b) To follow A.9.3.a, if the default video's percentage text is illegible, runners may zoom in on the chunk map and percentage text. The rest of the screen should also still be included.
 A.9.4) If SeedQueue is used, only one instance of Minecraft running SeedQueue may be open and only one instance of Minecraft may be used to reset concurrently.
 
 == A.10: Macro and Rebind Rules
@@ -774,7 +800,7 @@ F.1.7) <F.1.7> Your server must not use any mods or plugins outside of the allow
 - F.1.7.b) Spigot
 - F.1.7.c) CraftBukkit
 - F.1.7.d) BungeeCord
-F.1.8) <F.1.8> In accordance with #entangledRule("A.3.1"), at least one player must show the F3 menu during or immediately after the run. For runs done on LAN, the player who created the world must show F3.\
+F.1.8) <F.1.8> In accordance with #entangledRule("A.2.11"), at least one player must show the F3 menu during or immediately after the run. For runs done on LAN, the player who created the world must show F3.\
 \ 
 #formatNote[F.1.note) Co-op runs are given more leniency due to being less competitive and more difficult to organise. If an error is made either with the run or in the submission, you should still submit, and the run may be verified (at the discretion of verifiers).]
 
