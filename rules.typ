@@ -62,7 +62,7 @@
 == Outline:
 Rules are divided into 5 sections. These are:
 - *Ruleset*: these numbers refer to a specific category or set of categories, such as all Random Seed
-  categories, or specifically Any% Glitchless RSG 1.16+. If the ruleset refers to a specific tab on
+  categories, or specifically Any% Random Seed Glitchless 1.16+. If the ruleset refers to a specific tab on
   speedrun.com (e.g. Any% Glitchless), it will use a number, while if it refers to a grouping of
   categories (e.g. Random Seed categories), it will use a capital letter.
 - *Section*: these numbers refer to a specific grouping of rules, such as defining a category or
@@ -155,7 +155,7 @@ A.1.3) <A.1.3> The default settings of world generation must be kept.
 #entangled[A.1.3 is subject to an amendment by: ] #entangledRules(("C.1.1", "F.1.2", "G.2.1", "7.1.3.c", "CE20.1.2"))\
 #entangled[A.1.3 is referenced by: ] #entangledRule("CE20.1.3.a")\
 A.1.4) The options.txt file must not be altered to circumvent the bounds to the settings set by the game.
-- A.1.4.a) If a settings value is not possible to achieve through adjusting the in-game sliders/buttons (such as non-interger FOVs), it must not be used. Any slider setting without game-enforced intervals (e.g. mouseSensitivity) may be set to any float value within its bounds.
+- A.1.4.a) If a settings value is not possible to achieve through adjusting the in-game sliders/buttons (such as non-integer FOVs), it must not be used. Any slider setting without game-enforced intervals (e.g. mouseSensitivity) may be set to any float value within its bounds.
   - A.1.4.a.i) Exception: maxFps may be set to any integer value between 10 and 260 (Unlimited), inclusive.
 - A.1.4.b) Exception: gamma may be set to within the range of 0.0 to 5.0.
   - A.1.4.b.i) Guidance: The Planifolia mod allows this option to take effect in 1.19+.
