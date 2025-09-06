@@ -829,10 +829,10 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 == 1.7: Set Seed, 1.16-1.19
 1.7.1) Runs under 1:50 must submit world files, logs, and gameplay audio.
 
-== 1.8: Set Seed, 1.14-1.15
+== 1.8: Set Seed, 1.13-1.15
 1.8.1) Runs under 2:45 must submit world files and logs.
 
-== 1.9: Set Seed, 1.9-1.13
+== 1.9: Set Seed, 1.9-1.12
 1.9.1) Runs under 1:00 must submit world files and logs.
 
 == 1.10: Set Seed, 1.8
@@ -842,7 +842,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 1.11.1) Runs under 4:15 must submit world files and logs.
 
 == 1.12: Set Seed, 1.20+
-1.12.1) Runs under 1:40 must submit world files, logs, and gameplay audio.
+1.12.1) Runs under 1:35 must submit world files, logs, and gameplay audio.
 
 = 2: Any%
 
