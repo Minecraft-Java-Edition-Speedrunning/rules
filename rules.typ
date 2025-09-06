@@ -998,6 +998,18 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 9.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitched).\
 9.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
+= 10: Combined Any% Glitchless
+
+== 10.1: Combined Any% Glitchless Clarifications
+#formatNote[10.1.note) Combined Any% Glitchless is a non-runnable (non-submittable) category that serves as an updated statistic summing the runner's fastest verified times in each of the listed version splits. A bot that is occasionally run gathers each runner's fastest times and creates a submission summing these times, before truncating them to the second.]
+
+== 10.2: Set Seed/Random Seed Legacy
+10.2.1) Legacy will keep track of the fastest time a runner has in 1.16+, 1.9-1.15, and Pre 1.9.
+- 10.2.1.a) Clarification: The run chosen for the 1.9-1.15 split will be the runner's fastest (or only) verified submission between 1.9-1.12 and 1.13-1.15. Likewise, the run chosen for the Pre 1.9 split will be the runner's fastest (or only) verified submission between 1.8 and Pre 1.8.
+
+== 10.3: Set Seed/Random Seed All Splits
+10.3.1) All Splits will keep track of the fastest time a runner has in 1.16+, 1.13-1.15, 1.9-1.12, 1.8, and Pre 1.8.
+
 = 11: Any% (Time Travel)
 
 11.1.1) <11.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
