@@ -235,6 +235,16 @@ A.3.11) <A.3.11> Peaceful difficulty must not be used within the run.\
 #entangled[Entangled Rule(s):]\
 #entangled[A.3.11 is referenced by: ] #entangledRule("F.1.3.a")\
 #entangled[A.3.11 is nullified by: ] #entangledRule("8.1.3")\
+A.3.12) Filters that provide a significant advantage (at the discretion of the verifiers) must not be used during gameplay or resetting. A filter is any software or hardware that meaningfully alters the video or audio output of Minecraft.\
+- #formatNote[ A.3.12.note) Examples of filters that do not provide a significant advantage include but are not limited to:
+- \- Overlays, including image overlays or duplicate game capture sources
+- \- Scaling, cropping, or transforming a game capture source
+- \- Chroma, color, or luminance keying for cosmetic purposes, such as removing the background of an F3 value
+Examples of filters that provide a significant advantage include but are not limited to:
+- \- Isolating a specific color to improve visibility of a block (#formatLink("https://youtu.be/NkTTvSPXi-I")[Example])
+- \- Interpreting a number on the F3 screen, such as indicating when the E counter is a specific value (#formatLink("https://youtu.be/i9irnbWcd64")[Example])
+If you have a question about this rule or if a specific filter would or wouldn't be illegal, please open a thread.
+]
 
 == A.4: Resource Packs
 A.4.1) The vanilla resource pack, programmer art (1.14+), and High Contrast (1.19.4+) packs may be used.\
