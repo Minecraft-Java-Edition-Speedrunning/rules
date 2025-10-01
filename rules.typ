@@ -1140,11 +1140,8 @@ CE8.1.2) All runs begin upon first input.
 == CE8.2: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.0-1.15
 CE8.2.1) The run is considered complete once a wooden sword, stone sword, iron sword, gold sword, and diamond sword are obtained.
 
-== CE8.3: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.16-1.21.8
+== CE8.3: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.16+
 CE8.3.1) The run is considered complete once a wood sword, stone sword, iron sword, gold sword, diamond sword, and netherite sword are obtained.
-
-== CE8.4: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.21.9+
-CE8.3.1) The run is considered complete once a wood sword, stone sword, copper sword, iron sword, gold sword, diamond sword, and netherite sword are obtained.
 
 = CE9: All Wood Logs
 
