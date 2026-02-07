@@ -216,6 +216,7 @@ A.2.11) <A.2.11> The F3 screen must be shown during or after the run, and before
 - A.2.11.c) <A.2.11.c> Runs that do not show the F3 screen may be verified (at the discretion of verifiers) without logs if it is proven that no mods were used (i.e by showing the Title Screen).
 - A.2.11.d) Clarification: If the F3 screen is shown after the run, it should be done relatively quickly (at the discretion of verifiers).
 - A.2.11.e) The F3 screen shown must show all relevant parts legibly. This includes the top left line, the local difficulty line (if applicable), and any text from mods (if applicable).
+- A.2.11.f) When playing on Minecraft version 1.21.9 or above, all the text sections of the default f3 profile must be shown. If this does not happen during the run because of a modified debug config, the default profile must be toggled to and shown after the run.
 #entangled[Entangled Rule(s): ]\
 #entangled[A.2.11 is referenced by: ] #entangledRule("F.1.8")\
 #formatNote[A.2.note:
@@ -330,6 +331,7 @@ A.5.4) Unless otherwise specified, pauses do not contribute towards in-game time
 - A.5.4.g) The confirmation screen upon clicking [Intentional Game Design]
 - A.5.4.h) The "Twitch Broadcasting Unavailable" Menu
 - A.5.4.i) Clarification: Opening the Statistics or Achievements / Advancements menu may cause the game to temporarily advance in versions between 1.7.2 and 1.21.5. This time will be added towards the final time.
+- A.5.4.j) The Debug Options menu
 A.5.5) Loading times (the Loading Terrain screen and Joining World screen) do not contribute towards in-game time.\
 A.5.6) If lag occurs in the run which causes your game to freeze fully, this time will not contribute towards in-game time.\
 A.5.7) If lag occurs, which causes a portion of the game to revert back to a previous state, this time will not contribute towards in-game time.
