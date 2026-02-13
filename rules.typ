@@ -464,12 +464,20 @@ Allowed behaviours include but are not limited to:
 - A.8.12.e) Grabbing lava from a magma ravine while waiting in the portal animation
 #entangled[Entangled Rule(s):]\
 #entangled[A.8.12 is referenced by: ] #entangledRule("A.8.1.f")\
-A.8.13) Anchiale, antiresourcereload, atum, chunkcacher, fastreset, lazystronghold, no-paus, seedqueue, setspawnmod, standardsettings, state-output, tabfocus, and worldpreview are resetting mods and must not be interacted with after the start of the gameplay segment. The Use Planar Fog sodium setting emulates hardware and must not be modified after the world is first rendered.
-- A.8.13.a) Exception: Using wpstateout.txt as a performant replacement for other legal checks is permitted. Use of wpstateout.txt for aesthetic or continuous (with no regard to whether a run is happening or not) reasons, such as for changing OBS properties or time tracking, is permitted if it is not for an advantage in the run (at the discretion of verifiers).
-- #formatNote[A.8.13.a.note) Examples of permitted uses of wpstateout.txt include:\
-- Checking for "inworld," with no regard to the substate in place of title checking in 1.15.2+.\
-- Checking for both the paused and gamescreenopen states as a replacement for checking if the cursor is grabbed.
+A.8.13) Anchiale, antiresourcereload, atum, chunkcacher, fastreset, hermes, hermes-core, lazystronghold, no-paus, seedqueue, setspawnmod, standardsettings, state-output, tabfocus, and worldpreview are resetting mods and must not be interacted with after the start of the gameplay segment. Hermes and State Output write to files, and except for allowed cases those files must not be read after the start of the gameplay segment. The Use Planar Fog sodium setting emulates hardware and must not be modified after the world is first rendered.
+- A.8.13.a) Exception: Using wpstateout.txt, state.json, or other mod-outputted instance state as a performant replacement for checks possible in the unmodified game is permitted. Use of state for aesthetic or continuous (with no regard to whether a run is happening or not) reasons, such as for changing OBS properties or time tracking, is permitted if it is not for an advantage in the run (at the discretion of verifiers).
+- #formatNote[A.8.13.a.note) Examples of permitted uses of state include:\
+- Checking for both the paused and gamescreenopen states in wpstateout.txt or checking for a non-null screen in state.json as a replacement for checking if the cursor is grabbed.
+- A.8.13.b) Exception: Conditional functionality related to resetting the world (e.g. via the Atum's Create New World key) is allowed. This includes common external tool binds such as "Safe Reset" and "Reset Before 20 Seconds".
 ]
+A.8.14) Certain approved tools are allowed to read Hermes world files during the run. These are:
+A.8.14.a) PaceMan Tracker
+A.8.14.b) AATool
+A.8.14.c) Advancely
+#formatNote[
+A.8.14.note) Use of otherwise restricted mod-outputted data may be allowed on an per-application basis though formal legalization or permission from the mod team. If you have a prospective use that is not intended to create an advantage in the run, you should make a thread.
+]
+A.8.15) DLL injection is allowed, but injection of DLLs that are not explicitly whitlelisted may result in run rejection. The list of whitelisted DLLs is maintained at legal-dlls.csv. Injection of any explicitly allowed DLL is allowed only if LibLogger.dll is also injected. Program-independent DLLs such as for OBS Game Capture and Discord Game Overlay are generally allowed.
 
 == A.9: Multi-Instance Rules
 A.9.1) If multiple instances of Minecraft are opened simultaneously, they must each be in different directories (.minecraft folders).\
