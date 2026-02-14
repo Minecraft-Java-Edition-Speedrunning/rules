@@ -689,6 +689,7 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.af) Using server-client position desync to wait in a portal without the portal animation (#formatLink("https://youtu.be/IUf07boL9Ac&t=60")[Example])
 - D.1.2.ag) Clipping into a block to tick the server player faster than normal (#formatLink("https://youtu.be/b4hS_LdSRbg")[Example])
   - D.1.2.ag.i) Clarification: When possible, enforcement of the ban on this glitch when applied to nether portals will consist of retiming.
+- D.1.2.ah) <D.1.2.ah> Credits warp (#formatLink("https://youtu.be/Luwkl36rbTw")[Example])
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
