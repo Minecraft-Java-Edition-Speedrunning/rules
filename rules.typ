@@ -302,7 +302,7 @@ A.5.4) Unless otherwise specified, pauses do not contribute towards in-game time
 - A.5.4.f) The advancements menu opening
 - A.5.4.g) The confirmation screen upon clicking [Intentional Game Design]
 - A.5.4.h) The "Twitch Broadcasting Unavailable" Menu
-- A.5.4.i) Clarification: Pressing the Statistics menu causes the game to temporarily advance. This time will be added towards the final time.
+- A.5.4.i) Clarification: Opening the Statistics or Achievements / Advancements menu may cause the game to temporarily advance in versions between 1.7.2 and 1.21.5. This time will be added towards the final time.
 A.5.5) Loading times (the Loading Terrain screen and Joining World screen) do not contribute towards in-game time.\
 A.5.6) If lag occurs in the run which causes your game to freeze fully, this time will not contribute towards in-game time.\
 A.5.7) If lag occurs, which causes a portion of the game to revert back to a previous state, this time will not contribute towards in-game time.
