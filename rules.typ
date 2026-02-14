@@ -164,7 +164,7 @@ A.1.4) The options.txt file must not be altered to circumvent the bounds to the 
 - A.1.4.d) Exception: tutorialStep may be altered.
 A.1.5) The game's code and files must not be altered to produce any unfair advantage or significant deviation in gameplay.
 - A.1.5.a) Clarification: Changing capes and skins (including high resolution/dimension capes) in the launcher assets cache is allowed. Skins must not be transparent. Elytra shape must not be changed.
-  - A.1.5.a.i) Exception: The “Cobalt” elytra texture may be used.
+  - A.1.5.a.i) Guidance: Several officially released capes change the shape of the elytra. These custom elytra textures/shapes may be used if and only if their respective capes are also used.
 - A.1.6) The name of hardware components, such as the CPU, must not be altered.
 
 == A.2: Videos
