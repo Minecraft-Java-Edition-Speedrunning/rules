@@ -197,16 +197,16 @@ A.2.6) If you are not using Atum, every screen of world creation must be shown i
 - A.2.6.a) The Title Screen
 - A.2.6.b) The Select World screen
 - A.2.6.c) The Create New World screen
-- A.2.6.d) If used, the More World Options (Pre 1.19)/World (1.19+) screen
+- A.2.6.d) If used, the More World Options (Pre 1.19) / World (1.19+) screen
 A.2.7) The video must not end before the run is considered completed.\
 A.2.8) <A.2.8> The video must be of acceptable quality. In-game text must be readable. The video must be continuous and stable (at the discretion of verifiers).
 - A.2.8.a) Guidance: If your video experiences a significant decrease in quality/framerate due to an error with your hardware or video recording software, you should open a thread explaining your circumstances, as your run may still be verified.
 #entangled[Entangled Rule(s):]\
 #entangled[A.2.8 is referenced by: ] #entangledRule("A.9.3")\
 A.2.9) <A.2.9> Certain elements of the game must be visible in the recording. This includes:
-- A.2.9.c) Toasts (Advancement, Achievements, and recipe unlocks)
-- a.2.9.a) The hotbar
+- A.2.9.a) The hotbar
 - A.2.9.b) Game Paused text
+- A.2.9.c) Toasts (Advancement, Achievements, and recipe unlocks)
 - A.2.9.d) The timer (if using SpeedRunIGT)
 As well, try to avoid excessive overlays over the game itself.\
 A.2.10) <A.2.10> The chat text must be visible and legible in the video recording and the Chat setting must be either Shown or Commands Only.\
