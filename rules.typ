@@ -897,9 +897,16 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 #entangled[4.1 is referenced by: ] #entangledRules(("3.1.1", "6.1.1"))\
 4.1.1) The run is considered complete once every advancement has been achieved.
 - 4.1.1.a) Timing ends once the chat notification for the last advancement is shown.
-4.1.3) All runs must submit world files.\
-4.1.4) <4.1.4> All runs begin on world load.
 4.1.2) <4.1.2> A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by #entangledRule("A.5.19") and its corresponding sub-rules.
+4.1.3) <4.1.3> Runs must demonstrate all advancements have been obtained.
+- This constitutes at least one of the following:
+- 4.1.2.a) The advancement file from the world is submitted.
+- 4.1.2.b) World files are submitted.
+- 4.1.2.c) An advancement tracker is displayed the count of advancements have been completed.
+- 4.1.2.d) SpeedRunIGT is set to the right category and autostops.
+#entangled[Entangled Rule(s):]\
+#entangled[4.1.3 is referenced by: ] #entangledRule("CE24.1.2")\
+4.1.4) All runs begin on world load.
 
 == 4.2: SS/SSG/RS/RSG, 1.12
 4.2.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, and Great View From Up Here.
@@ -916,12 +923,11 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 == 4.6: SS/SSG/RS/RSG, 1.16
 4.6.1) <4.6.1> The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, and Bullseye.
 #entangled[Entangled Rule(s):]\
-#entangled[4.6.1 is referenced by: ] #entangledRules(("6.1.3", "CE24.1.1"))\
+#entangled[4.6.1 is referenced by: ] #entangledRule("CE24.1.1")\
+4.6.2: RSG runs under 3:00:00 must submit world files and logs.
 
 == 4.7: SS/SSG/RS/RSG, 1.17
-4.7.1) <4.7.1> The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, Bullseye, Whatever Floats Your Goat, Wax On, Wax Off, The Cutest Predator, The Healing Power of Friendship, Glow and Behold!, Light as a Rabbit, Surge Protector, Is It a Bird?, Is It a Balloon?, and Is It a Plane?\
-#entangled[Entangled Rule(s):]\
-#entangled[4.7.1 is referenced by: ] #entangledRule("6.1.3")\
+4.7.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, Bullseye, Whatever Floats Your Goat, Wax On, Wax Off, The Cutest Predator, The Healing Power of Friendship, Glow and Behold!, Light as a Rabbit, Surge Protector, Is It a Bird?, Is It a Balloon?, and Is It a Plane?\
 
 == 4.8: SS/SSG/RS/RSG, 1.18
 4.8.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, Bullseye, Whatever Floats Your Goat, Wax On, Wax Off, The Cutest Predator, The Healing Power of Friendship, Glow and Behold!, Light as a Rabbit, Surge Protector, Is It a Bird?, Is It a Balloon?, Is It a Plane?, Caves and Cliffs, Feels like home, Star Trader, and Sound of Music.
@@ -965,7 +971,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 - 6.1.1.a) <6.1.1.a> If the run is segmented, rather than not playing on the instance between segments (#entangledRule("A.5.19.c")), the server folder must not be played between segments.
 - 6.1.1.b) <6.1.1.b> If the run is segmented, you must submit server logs instead of instance logs (#entangledRule("A.5.19.d")).
 6.1.2) Clarification: Each advancement must be achieved by at least one person, but no individual person needs every advancement.\
-6.1.3) <6.1.3> The list of all advancements is the same as for All Advancements (see #entangledRule("4.6.1") and #entangledRule("4.7.1")).\
+6.1.3) The list of all advancements is the same as for All Advancements.\
 6.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, random seed, glitchless, co-op).
 
 = 7: Any% Glitchless (Demo)
@@ -1379,11 +1385,7 @@ CE23.1.3) All runs begin upon first input.
 == CE24.1: Half% Objective and Clarifications
 CE24.1.1) <CE24.1.1> The run is considered complete once exactly 40 advancements, as listed in #entangledRule("4.6.1"), have been obtained.
 - CE24.1.1.a) Timing ends once the chat notification for the last advancement is shown.
-CE24.1.2) Runs must show that 40 advancements have been obtained.
-- This constitutes at least one of the following:
-- CE24.1.2.a) Scrolling through the advancements list until 40 advancements have been displayed as completed.
-- CE24.1.2.b) World files are submitted.
-- CE24.1.2.c) An advancement tracker is displayed that shows 40 advancements have been completed.
+CE24.1.2) <CE24.1.2> Runs must demonstrate that 40 advancements have been obtained in accordance with #entangledRule("4.1.3").
 CE24.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
 CE24.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
