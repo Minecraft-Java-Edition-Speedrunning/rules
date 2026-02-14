@@ -478,7 +478,7 @@ A.8.14.c) Advancely
 #formatNote[
 A.8.14.note) Use of otherwise restricted mod-outputted data may be allowed on an per-application basis though formal legalization or permission from the mod team. If you have a prospective use that is not intended to create an advantage in the run, you should open a thread.
 ]
-A.8.15) DLL injection is allowed, but injection of DLLs that are not explicitly whitelisted may result in run rejection. The list of whitelisted DLLs is maintained at legal-dlls.csv. Injection of any explicitly allowed DLL is allowed only if LibLogger.dll is also injected. Program-independent DLLs such as for OBS Game Capture and Discord Game Overlay are generally allowed.
+A.8.15) DLL injection is allowed, but injection of DLLs that are not explicitly whitelisted may result in run rejection. The list of whitelisted DLLs is maintained at legal-dlls.csv. Injection of any explicitly allowed DLL is allowed only if a an allowed LibLogger build is also injected. Program-independent DLLs such as for OBS Game Capture and Discord Game Overlay are generally allowed.
 
 == A.9: Multi-Instance Rules
 A.9.1) If multiple instances of Minecraft are opened simultaneously, they must each be in different directories (.minecraft folders).\
