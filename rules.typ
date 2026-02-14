@@ -473,8 +473,6 @@ A.8.14) Hermes, State Output, SpeedRunIGT, WorldPreview write out files, and exc
 ]
 A.8.14) Certain approved tools are allowed to read Hermes world files during the run. These are:
 A.8.14.a) PaceMan Tracker
-A.8.14.b) AATool
-A.8.14.c) Advancely
 #formatNote[
 A.8.14.note) Use of otherwise restricted mod-outputted data may be allowed on an per-application basis though formal legalization or permission from the mod team. If you have a prospective use that is not intended to create an advantage in the run, you should open a thread.
 ]
