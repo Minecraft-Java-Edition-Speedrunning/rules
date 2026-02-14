@@ -172,7 +172,7 @@ A.2.1) All runs must be submitted with a video of the run.\
 A.2.2) <A.2.2> The video of the run must be continuous; it cannot be segmented or not display the run for a duration of time.
 - A.2.2.a) If your video is discontinuous due to an error with your hardware or video recording software, the run may still be verified (at the discretion of verifiers). In this situation, you should open a thread.
 #entangled[Entangled Rule(s):]\
-#entangled[A.2.2 is nullified by: ] #entangledRule("4.1.2")\
+#entangled[A.2.2 is nullified by: ] #entangledRule("A.5.19")\
 A.2.3) Your video must be permanently available.
 - This excludes but is not limited to:
 - A.2.3.a) Twitch VODs and clips
@@ -310,7 +310,6 @@ A.5.7) If lag occurs, which causes a portion of the game to revert back to a pre
 A.5.8) If lag occurs in the run, where some actions are impossible to perform while other actions are, the time may or may not contribute towards in-game time (at the discretion of verifiers), depending on if other fundamental processes are still occurring or if the action that cannot be performed is crucial to the run.\
 A.5.9) If lag slows down the entire run, as is often present within the first few seconds of loading a world in older versions, the extra time will contribute towards in-game time if the run is manually retimed.
 - A.5.9.a) Clarification: If this lag occurs and SpeedrunIGT is used, the extra time spent will be accounted for and subtracted from the in-game time.
-A.5.10) If a run is segmented, then time spent between the segments of the run will not contribute to in-game time or the real time of the run.\
 A.5.11) If a run meets the criteria for a top-level retime, pauses contribute to in-game time except for the following circumstances:
 - A.5.11.a) Pauses that occur directly after or close to after (at the discretion of verifiers) a significant amount of chunks of a dimension are loaded for the first time and do not contribute towards in-game time.
 - A.5.11.b) Pauses that change settings and are less than 5 seconds do not contribute to in-game time. If this is done abusively (at the discretion of verifiers), these pauses will contribute towards in-game time.
@@ -345,6 +344,19 @@ A.5.18) <A.5.18> If a run ends by obtaining item(s), timing ends once the first 
   "CE13.1.1.a",
   "CE18.1.1.a",
 ))\
+A.5.19) <A.5.19> Segmenting, pausing the speedrun for a time by quitting the world and ending the recording, is allowed in a few categories. Segmenting suspends both #entangledRule("A.2.2") and #entangledRule("D.1.3") if and only if the following requirements are met:
+- A.5.19.a) You must have the included video(s) show you exiting the world each time you do so.
+- A.5.19.b) You must have the included video(s) show you re-entering the world each time you do so.
+- A.5.19.c) <A.5.19.c> In between segments of the current run, you must not play anything other than the current run on the instance that the current run is on.
+- #entangled[Entangled Rule(s):]\
+- #entangled[A.5.19.c is referenced by: ] #entangledRule("6.1.1.a")\
+- A.5.19.d) <A.5.19.d> You must submit log files.
+- #entangled[Entangled Rule(s):]\
+- #entangled[A.5.19.d is referenced by: ] #entangledRule("6.1.1.b")\
+- A.5.19.e) Clarification: For glitchless runs, the segmentation must not provide any additional benefit to the run.
+- A.5.19.f) Time spent between the segments of the run will not contribute to in-game time or the real time of the run.
+#entangled[Entangled Rule(s):]\
+#entangled[A.5.19 is referenced by: ] #entangledRules("4.1.2", "CE19.3.4")\
 
 == A.6: General Submission Rules
 A.6.1) The run's speedrun.com submission description must include the seed of the world.
@@ -677,7 +689,7 @@ D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
 - D.1.3.c) If a Save and Quit is deemed as permissible and the run qualifies for a top-level retime, any time spent outside of the world will be included in the in-game time, but any time spent waiting for loads will not be included in the in-game time.
 #entangled[Entangled Rule(s):]\
-#entangled[D.1.3 is subject to an amendment by: ] #entangledRule("4.1.4")\
+#entangled[D.1.3 is subject to an amendment by: ] #entangledRule("A.5.19")\
 #entangled[D.1.3 is referenced by: ] #entangledRules(("E.3.1", "E.4.1.a"))\
 D.1.4) <D.1.4> The game must not be closed and reopened during a run.
 - D.1.4.a) Exception: If the game closes, whether by crashing or otherwise, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it minimally affects the run.
@@ -885,20 +897,9 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 #entangled[4.1 is referenced by: ] #entangledRules(("3.1.1", "6.1.1"))\
 4.1.1) The run is considered complete once every advancement has been achieved.
 - 4.1.1.a) Timing ends once the chat notification for the last advancement is shown.
-4.1.2) <4.1.2> A runner may segment their run, thereby excepting both #entangledRule("A.2.2") and #entangledRule("D.1.3"), if and only if the following pretences are met:
-- 4.1.2.a) You must have the included video(s) show you exiting the world each time you do so.
-- 4.1.2.b) You must have the included video(s) show you re-entering the world each time you do so.
-- 4.1.2.c) <4.1.2.c> In between segments of the current run, you must not play anything other than the current run on the instance that the current run is on.
-- #entangled[Entangled Rule(s):]\
-- #entangled[4.1.2.c is referenced by: ] #entangledRule("6.1.1.a")\
-- 4.1.2.d) <4.1.2.d> You must submit log files.
-- #entangled[Entangled Rule(s):]\
-- #entangled[4.1.2.d is referenced by: ] #entangledRule("6.1.1.b")\
-- 4.1.2.e) Clarification: For glitchless runs, the segmentation must not provide any additional benefit to the run.
-#entangled[Entangled Rule(s):]\
-#entangled[4.1.2 is referenced by: ] #entangledRule("CE19.3.4")\
 4.1.3) All runs must submit world files.\
 4.1.4) <4.1.4> All runs begin on world load.
+4.1.2) <4.1.2> A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by #entangledRule("A.5.19") and its corresponding sub-rules.
 
 == 4.2: SS/SSG/RS/RSG, 1.12
 4.2.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, and Great View From Up Here.
@@ -961,8 +962,8 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 
 == 6.1: All Advancements Co-op Objective and Clarifications
 6.1.1) <6.1.1> The objective, exceptions, and clarifications of All Advancements Co-op are identical to those of All Advancements (see section #entangledRule("4.1")).
-- 6.1.1.a) <6.1.1.a> If the run is segmented, rather than not playing on the instance between segments (#entangledRule("4.1.2.c")), the server folder must not be played between segments.
-- 6.1.1.b) <6.1.1.b> If the run is segmented, you must submit server logs instead of instance logs (#entangledRule("4.1.2.d")).
+- 6.1.1.a) <6.1.1.a> If the run is segmented, rather than not playing on the instance between segments (#entangledRule("A.5.19.c")), the server folder must not be played between segments.
+- 6.1.1.b) <6.1.1.b> If the run is segmented, you must submit server logs instead of instance logs (#entangledRule("A.5.19.d")).
 6.1.2) Clarification: Each advancement must be achieved by at least one person, but no individual person needs every advancement.\
 6.1.3) <6.1.3> The list of all advancements is the same as for All Advancements (see #entangledRule("4.6.1") and #entangledRule("4.7.1")).\
 6.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, random seed, glitchless, co-op).
@@ -1315,7 +1316,7 @@ CE19.3.3) In addition to the external tools allowed by #entangledRule("A.11"), t
 - CE19.3.3.a) #formatLink("https://github.com/TheTalkingMime/AllPortals")[All Portals [TheTalkingMime]]
 - CE19.3.3.b) #formatLink("https://github.com/shnenanigans/APgui")[APgui [shnenanigans]]
 - CE19.3.3.c) #formatLink("https://www.desmos.com/calculator/la7ezpyutu")[Desmos Stronghold Rings]
-CE19.3.4) <CE19.3.4> A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by #entangledRule("4.1.2") and its corresponding sub-rules.
+CE19.3.4) <CE19.3.4> A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by #entangledRule("A.5.19") and its corresponding sub-rules.
 
 == CE19.4: All Portals Purist
 CE19.4.1) Purist runs must be played on random seed glitchless.\
