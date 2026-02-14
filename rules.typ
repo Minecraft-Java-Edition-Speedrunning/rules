@@ -224,10 +224,9 @@ A.3.6) If you play one instance of Minecraft and then switch to playing another,
 A.3.7) Non-default shaders, including Super Secret Settings, must not be used.\
 A.3.8) The chat text must be visible and legible in the video recording and the Chat setting must be either Shown or Commands Only.\
 A.3.9) Runs must not intend to be as slow as possible. At a minimum, an attempt must be made to finish the run quickly.\
-A.3.10) <A.3.10> You must not read from any files produced by the vanilla game before or during the run.
-- A.3.10.a) Exception: Players and programs may read from the advancement or statistics files.
-- A.3.10.b) Exception: Players and programs may read from the wpstateout.txt file created by WorldPreview or the State Output mod.
-- A.3.10.c) Exception: Historically, macros have had limited allowances to read the logs in order to determine game state. While State Output now exists for this, these old macros are still allowed.
+A.3.10) <A.3.10> World and log files produced by the vanilla game must not be read before or during the run.
+- A.3.10.a) Exception: Advancement or statistics files may be read by players and programs.
+- A.3.10.c) Exception: Limited allowances were given for specific reset macros to read logs to get game state before wpstateout.txt was available. These allowances are still in place for only those specific macros or for use without Fabric Loader.
 #entangled[Entangled Rule(s):]\
 #entangled[A.3.10 is referenced by: ] #entangledRule("CE20.3.4")\
 #entangled[A.3.10 is subject to an exception by: ] #entangledRule("C.2.1")\
@@ -451,7 +450,7 @@ A.8.3) All versions of Legacy Fabric Intermediaries are allowed.
 - A.8.3.a) Clarification: Legacy Fabric LWJGL must not be used, which is bundled in the first party Legacy Fabric MultiMC Instances.
 A.8.4) All official LWJGL 3 releases up to v3.3.3 are allowed for Minecraft 1.13+. Official GLFW versions up to 3.3.8 are allowed. Woofdoggo's #formatLink("https://github.com/tesselslate/resetti/blob/d8eb8634c2efe60e9a1c19f3cf5c30288cc93cfc/contrib/glfw-xinput.patch")[Linux GLFW xinput patch] or #formatLink("https://github.com/tesselslate/waywall/blob/ad569de1ddae6b034c7095795a42f044746a55a7/contrib/glfw.patch")[GLFW patch for Waywall] may be used.\
 A.8.5) Rules relating to what Fabric mods are legal and the conditions of their use are documented on the #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods")[legal-mods] GitHub repository. Some mods have special conditions of use, such as for use in Set Seed categories only, as described in the README.md.
-- #formatNote[A.8.5.note) legal-builds.csv documents every currently legal jar file. Use of a Fabric mod jar not listed in that file at the time of the run is illegal and will cause your run to be rejected. The files stored in the GitHub are not intended users to download directly and instead we recommend you use other tools provided to do so, linked in the README. Previously legal builds of mods are often made illegal upon updates for closer vanilla parity or bug fixes, do not assume that just because the mods you have installed were legal at the time they are still legal now. A grace period of a month to update mods is typically given for parity updates, this is often shorter for bug fixes.]
+- #formatNote[A.8.5.note) #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/blob/main/legal-builds.csv")[legal-builds.csv] documents every currently legal jar file. Use of a Fabric mod jar not listed in that file at the time of the run is illegal and will cause your run to be rejected. The files stored in the GitHub are not intended users to download directly and instead we recommend you use other tools provided to do so, linked in the README. Previously legal builds of mods are often made illegal upon updates for closer vanilla parity or bug fixes, do not assume that just because the mods you have installed were legal at the time they are still legal now. A grace period of a month to update mods is typically given for parity updates, this is often shorter for bug fixes.]
 A.8.9) If SeedQueue is used, you must not increase the max queued seeds beyond 30. The mod enforces this limit, you must not make any attempts to bypass it.\
 A.8.10) All versions of Ornithe Intermediaries are allowed.\
 A.8.11) Fabric Intermediaries are allowed.\
@@ -465,6 +464,19 @@ Allowed behaviours include but are not limited to:
 - A.8.12.e) Grabbing lava from a magma ravine while waiting in the portal animation
 #entangled[Entangled Rule(s):]\
 #entangled[A.8.12 is referenced by: ] #entangledRule("A.8.1.f")\
+A.8.13) Anchiale, antiresourcereload, atum, chunkcacher, fastreset, hermes, hermes-core, lazystronghold, no-paus, seedqueue, setspawnmod, standardsettings, state-output, tabfocus, and worldpreview are resetting mods and must not be interacted with after the start of the gameplay segment. The Use Planar Fog sodium setting emulates hardware and must not be modified after the world is first rendered.
+A.8.14) Hermes, State Output, SpeedRunIGT, WorldPreview write out files, and except for allowed cases those files must not be read after the start of the gameplay segment.
+- A.8.14.a) Exception: Using wpstateout.txt (State Output and previously WorldPreview), state.json (Hermes), record.json (SpeedRunIGT), or other mod-outputted instance state as a performant replacement for checks possible in the unmodified game is permitted. Use of the data in these files for aesthetic, continuous (with no regard to whether a run is happening or not), or generally unproblematic reasons, such as for changing OBS properties, time tracking, Atum reset counts, pausing music, etc. is permitted if it is not for an advantage in the run (at the discretion of verifiers). If you think your use of mod state could be considered an attempt to create a mod-only advantage and would like clarification on if your particular use is allowed, please open a thread.
+- #formatNote[A.8.13.a.note) Examples of permitted uses of state include:\
+- Checking for both the paused and gamescreenopen states in wpstateout.txt or checking for a non-null screen in state.json as a replacement for checking if the cursor is grabbed.
+- A.8.13.b) Exception: Conditional functionality related to resetting the world (e.g. via the Atum's Create New World key) is allowed. This includes common external tool binds such as "Safe Reset" and "Reset Before 20 Seconds".
+]
+A.8.14) Certain approved tools are allowed to read Hermes world files during the run. These are:
+A.8.14.a) PaceMan Tracker
+#formatNote[
+A.8.14.note) Use of otherwise restricted mod-outputted data may be allowed on an per-application basis though formal legalization or permission from the mod team. If you have a prospective use that is not intended to create an advantage in the run, you should open a thread.
+]
+A.8.15) DLL injection is allowed, but injection of DLLs that are not explicitly whitelisted may result in run rejection. The list of whitelisted DLLs is maintained at #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-builds/blob/main/legal-dlls.csv")[legal-dlls.csv]. Injection of any explicitly legalized DLL is allowed only if an allowed build of LibLogger is also injected. Program-independent DLLs such as for OBS Game Capture and Discord Game Overlay are generally allowed.
 
 == A.9: Multi-Instance Rules
 A.9.1) If multiple instances of Minecraft are opened simultaneously, they must each be in different directories (.minecraft folders).\
@@ -489,11 +501,12 @@ A.10.4) <A.10.4> Macros are not allowed to be triggered during a run.
 - A.10.4.d) Exception: Toggle sprint macros are allowed in all versions.
 #entangled[Entangled Rule(s):]\
 #entangled[A.10.4 is nullified by: ] #entangledRules(("CE20.2.3", "CE20.3.2"))\
-A.10.5) Macros may only be used to reset worlds if resets are triggered by player input. Multiple simultaneous resets may be triggered by a single player input. <A.10.5>
-- A.10.5.a) Clarification: Any program or macro that reads the screen (directly or indirectly), listens to game audio, or reads the vanilla game files directly must not be used.
+A.10.5) <A.10.5> Macros may only be used to reset worlds if resets are triggered by player input. Multiple simultaneous resets may be triggered by a single player input.
+- A.10.5.a) Clarification: Reading game files or screen reading to reset or to aid the player in resetting is not allowed.
 - A.10.5.b) Clarification: Automatic resetting, or resetting based on anything other than player input is not allowed.
 #entangled[Entangled Rule(s):]\
 #entangled[A.10.5 is subject to an exception by: ] #entangledRule("C.2.1")\
+A.10.6) Any program or macro that screen reads or listens to game audio for an advantage (at the discretion of verifiers) must not be used. Screen reading is using the data of the pixels of the game window to programmatically capture information from the game (e.g. color for biomes, text recognition for F3, enchantment cracking, inventory contents, etc). Any attempt to get around this rule will not be tolerated (i.e. taking a screenshot and a program reading from that, etc.).
 
 == A.11: External Resource Rules <A.11>
 #entangled[Entangled Rule(s):]\
@@ -688,8 +701,6 @@ D.1.4) <D.1.4> The game must not be closed and reopened during a run.
 == E.1: Glitched Runs
 E.1.1) Glitched runs must perform at least one glitch during the run that is disallowed in glitchless runs.
 - E.1.1.a) Clarification: Runs without an internal/external split classification may choose to Save and Quit/crash the game or refrain from doing so.
-E.1.2) The FastReset quit button (menu.quitWorld) must not be used during the run.
-- E.1.2.a) If menu.quitWorld is used during the run, it may still be verified if it is determined to not affect the run (at the discretion of verifiers).
 E.1.3) If you use Task Manager or another program which forcefully closes the game, you should include a video of this during the run.\
 E.1.4) External Arbitrary Code Execution (ACE) must not be used.
 - E.1.4.a) Example: Log4j exploit
