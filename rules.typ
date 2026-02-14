@@ -401,7 +401,7 @@ A.7.6) <A.7.6> Logs refer to the .log/.gz file in the .minecraft/logs folder. Th
 #entangled[A.7.6 is referenced by: ] #entangledRule("A.3.1.b")\
 A.7.7) Evidence of past attempts refers to videos of previously completed runs, nearly completed runs, practice sessions, or session videos. These should be in the same category of the run.\
 A.7.8) 5 previous world files does not include the world files of the submitted run: this will generally mean you submit 6 world files in total. These should be from the same instance.
-- A.7.8.a)  If SeedQueue is used and 5 previous world files must be sent, all world files generated after the run must also be submitted.
+- A.7.8.a) If SeedQueue is used and 5 previous world files must be sent, all world files generated after the run must also be submitted.
 A.7.9) Gameplay audio may be submitted either through the main submission video or a linked separate video. The entire run's audio should be included.\
 A.7.10) <A.7.10> In the rare circumstance that a run must go through immediate moderator notifications, please open a thread and ping moderators by submitting a message with \@LeaderboardMod, with your Minecraft instances still open and while still recording.\
 - A.7.10.a) <A.7.10.a> Please do not ping Leaderboard Mods unless this is absolutely necessary for additional proof, as defined in Section 1.2.4.
