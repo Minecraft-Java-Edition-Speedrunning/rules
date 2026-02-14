@@ -252,6 +252,7 @@ A.4.3) Non-accessibility resource packs may be used if and only if they only mod
 - A.4.3.d) Changing the Ender Dragon's death sound and sound volume
 - A.4.3.e) Changing the bossbar text
 - A.4.3.f) Changing the colour scheme of the GUI background to a non-transparent solid colour or colour gradient
+- A.4.3.f.i) Clarification: The GUI background includes the options background texture, commonly known as the dirt background.
 - A.4.3.g) Changing the chest and trapped chest textures to their Christmas variants
 - A.4.3.h) Changing the default Player skin or cape texture.
 - A.4.3.i) Clarification: You must not modify the textures of the health bar, hunger bar, or XP bar whatsoever.
