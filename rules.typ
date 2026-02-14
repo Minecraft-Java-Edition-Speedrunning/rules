@@ -1156,9 +1156,9 @@ CE8.3.1) The run is considered complete once a wood sword, stone sword, iron swo
 = CE9: All Wood Logs
 
 == CE9.1: All Wood Logs Objective and Clarifications
-CE9.1.1) The run is considered complete once all logs have been simultaneously obtained.
+CE9.1.1) The run is considered complete once logs for all tree types have been simultaneously obtained.
 - CE9.1.1.a) <CE9.1.1.a> Timing ends once the last log is obtained. (see #entangledRule("A.5.18"))\
-- CE9.1.1.b) Clarification: Stripped logs qualify as logs, but do not need to be simultaneously obtained.
+- CE9.1.1.b) Clarification: Logs, stripped logs, wood, and stripped wood all qualify as log variants, but do not need to be simultaneously obtained.
 CE9.1.2) <CE9.1.2> All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 #entangled[Entangled Rule(s):]\
 #entangled[CE9.1.2 is nullified by: ] #entangledRules(("CE9.2.2", "CE9.3.2"))\
