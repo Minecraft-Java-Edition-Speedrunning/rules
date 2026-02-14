@@ -218,7 +218,7 @@ A.3.3) <A.3.3> You must not open to LAN during the run.\
 A.3.4) Your world must not be corrupted significantly (at the discretion of verifiers).\
 A.3.5) <A.3.5> You must not use console commands during the run.\
 #entangled[Entangled Rule(s):]\
-#entangled[A.3.5 is nullified by: ] #entangledRules(("F.1.3.a", "F.1.3.b", "CE20.1.2"))\
+#entangled[A.3.5 is nullified by: ] #entangledRules(("F.1.3.a", "F.1.3.b", "F.1.3.c", "CE20.1.2"))\
 A.3.6) If you play one instance of Minecraft and then switch to playing another, the initial instance's run is no longer verifiable. If this is done accidentally, and attempts are made to quickly exit the other instance and rejoin the initial instance, your run may still be verified (at the discretion of verifiers).
 - A.3.6.a) Clarification: While one instance of Minecraft is played, you may pause or close other instances.
 A.3.7) Non-default shaders, including Super Secret Settings, must not be used.\
@@ -736,6 +736,7 @@ F.1.3) No cheats or actions which could not be accomplished without cheats must 
 - F.1.3.a) <F.1.3.a> Exception: /difficulty may be used, nullifying #entangledRule("A.3.5") (note that in accordance with #entangledRule("A.3.11"), the difficulty must not be set to peaceful, even if toggling between difficulties)
 - F.1.3.b) <F.1.3.b> Exception: /time set 0 may be used as described in #entangledRule("F.2.2"), nullifying #entangledRule("A.3.5").
 F.1.4) Players with cheats enabled must not use F3+I.\
+- F.1.3.c) <F.1.3.c> Exception: /publish may be used, nullifying #entangledRule("A.3.5").
 F.1.5) The entirety of a co-op run must occur on either an dedicated server or with Open to LAN.
 - F.1.5.a) Exception: The very start (at the discretion of verifiers) of a run may be played on singleplayer.
 F.1.6) If more than 16 players are running, choose 16 players while submitting, input the names of 15 of the players, and then list “+others” for the 16th slot. Include the name of all other players not listed in the description of the speedrun.com submission.\
