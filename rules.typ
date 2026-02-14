@@ -238,11 +238,12 @@ A.3.11) <A.3.11> Peaceful difficulty must not be used within the run.\
 
 == A.4: Resource Packs
 A.4.1) The vanilla resource pack, programmer art (1.14+), and High Contrast (1.19.4+) packs may be used.\
-A.4.2) Resource packs that are whitelisted for accessibility purposes (including but not limited to sensory issues or colourblindness) may be used.
+A.4.2) Resource packs and resource changes that are whitelisted for accessibility purposes (including but not limited to sensory issues or colourblindness) may be used.
 - This constitutes:
 - A.4.2.a) #formatLink("https://github.com/dysphorLia/SensoryFriendlyResourcePack")[dysphorLia's Sensory Friendly Resource Pack]
 - A.4.2.b) #formatLink("https://github.com/shnenanigans/quieter-mc-sounds")[shenanigans' Quieter Sounds Resource Pack]
-- A.4.2.c) If you need an accommodation that is not covered by the packs listed above, please open a thread. You may be whitelisted to play with a resource pack which is otherwise not allowed.
+- A.4.2.c) If you need an accommodation that is not covered by the cases listed here, please open a thread. You may be whitelisted to play with a resource pack which is otherwise not allowed.
+- A.4.2.d) Removing the Elder Guardian curse sound.
 A.4.3) Non-accessibility resource packs may be used if and only if they only modify the following resources under the following circumstances and do so in a way wherein a competitive advantage is not attained.
 - The textures that can be modified constitute:
 - A.4.3.a) Using the 1.14+ netherrack texture on older versions/in programmer art
