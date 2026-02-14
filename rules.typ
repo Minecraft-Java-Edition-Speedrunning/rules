@@ -1,4 +1,4 @@
-#let version = "v6"
+#let version = "v7"
 
 #set page(
   paper: "us-letter", 
