@@ -506,18 +506,18 @@ Allowed behaviours include but are not limited to:
 - A.8.12.e) Grabbing lava from a magma ravine while waiting in the portal animation
 #entangled[Entangled Rule(s):]\
 #entangled[A.8.12 is referenced by: ] #entangledRule("A.8.1.f")\
-A.8.13) Anchiale, antiresourcereload, atum, chunkcacher, fastreset, hermes, hermes-core, lazystronghold, no-paus, seedqueue, setspawnmod, standardsettings, state-output, tabfocus, and worldpreview are resetting mods and must not be interacted with after the start of the gameplay segment. The Use Planar Fog sodium setting emulates hardware and must not be modified after the world is first rendered.
+A.8.13) Anchiale, antiresourcereload, atum, chunkcacher, fastreset, hermes, hermes-core, lazystronghold, no-paus, seedqueue, setspawnmod, standardsettings, state-output, tabfocus, and worldpreview are resetting mods and must not be interacted with after the start of the gameplay segment. The Use Planar Fog sodium setting emulates hardware and must not be modified after the world is first rendered.\
 A.8.14) Hermes, State Output, SpeedRunIGT, WorldPreview write out files, and except for allowed cases those files must not be read after the start of the gameplay segment.
 - A.8.14.a) Exception: Using wpstateout.txt (State Output and previously WorldPreview), state.json (Hermes), record.json (SpeedRunIGT), or other mod-outputted instance state as a performant replacement for checks possible in the unmodified game is permitted. Use of the data in these files for aesthetic, continuous (with no regard to whether a run is happening or not), or generally unproblematic reasons, such as for changing OBS properties, time tracking, Atum reset counts, pausing music, etc. is permitted if it is not for an advantage in the run (at the discretion of verifiers). If you think your use of mod state could be considered an attempt to create a mod-only advantage and would like clarification on if your particular use is allowed, please open a thread.
-- #formatNote[A.8.13.a.note) Examples of permitted uses of state include:\
+- #formatNote[A.8.14.a.note) Examples of permitted uses of state include:\
 - Checking for both the paused and gamescreenopen states in wpstateout.txt or checking for a non-null screen in state.json as a replacement for checking if the cursor is grabbed.
-- A.8.13.b) Exception: Conditional functionality related to resetting the world (e.g. via the Atum's Create New World key) is allowed. This includes common external tool binds such as "Safe Reset" and "Reset Before 20 Seconds".
 ]
-A.8.14) Certain approved tools are allowed to read Hermes world files during the run. These are:
-A.8.14.a) PaceMan Tracker
+- A.8.13.b) Exception: Conditional functionality related to resetting the world (e.g. via the Atum's Create New World key) is allowed. This includes common external tool binds such as "Safe Reset" and "Reset Before 20 Seconds".
+A.8.15) Certain approved tools are allowed to read Hermes world files during the run. These are:
+- A.8.15.a) PaceMan Tracker
 #formatNote[
 A.8.14.note) Use of otherwise restricted mod-outputted data may be allowed on an per-application basis though formal legalization or permission from the mod team. If you have a prospective use that is not intended to create an advantage in the run, you should open a thread.
-]
+]\
 A.8.15) DLL injection is allowed, but injection of DLLs that are not explicitly whitelisted may result in run rejection. The list of whitelisted DLLs is maintained at #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-builds/blob/main/legal-dlls.csv")[legal-dlls.csv]. Injection of any explicitly legalized DLL is allowed only if an allowed build of LibLogger is also injected. Program-independent DLLs such as for OBS Game Capture and Discord Game Overlay are generally allowed.
 
 == A.9: Multi-Instance Rules
@@ -1428,7 +1428,7 @@ CE23.1.3) All runs begin upon first input.
 == CE24.1: Half% Objective and Clarifications
 CE24.1.1) <CE24.1.1> The run is considered complete once exactly 40 advancements, as listed in #entangledRule("4.6.1"), have been obtained.
 - CE24.1.1.a) Timing ends once the chat notification for the last advancement is shown.
-CE24.1.2) <CE24.1.2> Runs must demonstrate that 40 advancements have been obtained in accordance with #entangledRule("4.1.3").
+CE24.1.2) <CE24.1.2> Runs must demonstrate that 40 advancements have been obtained in accordance with #entangledRule("4.1.3").\
 CE24.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
 CE24.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
