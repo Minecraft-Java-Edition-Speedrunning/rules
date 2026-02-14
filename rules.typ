@@ -653,6 +653,7 @@ D.1.1) Only these glitches may be used during glitchless runs.
 - D.1.1.bb) Trapping wither (#formatLink("https://youtu.be/PCkzhtBl_xY&t=91")[Example], #formatLink("https://youtu.be/O-QgTljCgZw&t=153")[Example \#2])
 - D.1.1.bc) Compass glitch (#formatLink("https://youtu.be/fQi1dOHEYLg")[Example])
 - D.1.1.bd) Unbreakable Fishing Line / Lead with Dimension Change (#formatLink("https://youtu.be/uxLNbGshih0")[Example], #formatLink("https://youtu.be/wh_tW3lVbuY")[Example \#2])
+- D.1.1.be) Abusing the dragon's reduced max vertical acceleration (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-272431")[MC-272431])
 D.1.2) Any other glitches not included in D.1.1 must not be used during glitchless runs.
 - Examples of glitches that are not allowed include but are not limited to:
 - D.1.2.a) Duplication and zero-stack glitches (#formatLink("https://youtu.be/PYFMGuicVWA&t=102")[Example])
