@@ -843,7 +843,8 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 == 1.3: Random Seed, 1.13-1.15
 1.3.1) Runs under 20 minutes must submit world files.\
 1.3.2) Runs under 17 minutes must submit world files, logs, and gameplay audio.\
-1.3.3) Runs under 17 minutes will be retimed as per top-level retiming rules.
+1.3.3) Runs under 17 minutes will be retimed as per top-level retiming rules.\
+1.3.4) Chunkmap freezing is not allowed. Chunkmap freezing consists of using OBS Freeze Filter or another technique to capture an early state of the chunkmap and extend how long it is displayed in that state.
 
 == 1.4: Random Seed, 1.9-1.12
 1.4.1) Runs under 25 minutes must submit world files, logs, and gameplay audio.\
