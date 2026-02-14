@@ -618,7 +618,7 @@ D.1.1) Only these glitches may be used during glitchless runs.
 - D.1.1.ai) Entering and breaking a boat simultaneously (#formatLink("https://youtu.be/RtDjfQqZB0Y")[Example])
 - D.1.1.aj) Entering and breaking a nether portal simultaneously (#formatLink("https://youtu.be/FKT3cwU432k")[Example])
 - D.1.1.ak) Retrieving a fishing hook from >32 blocks away (#formatLink("https://youtu.be/L6KSxYhZUvc")[Example])
-- D.1.1.al) Retrieving a fishing hook when the attached entity is in a different location (#formatLink("https://clips.twitch.tv/MiniatureTangibleChickpeaGivePLZ-fBmyL_Srx70ZnA8w")[Example])
+- D.1.1.al) Retrieving a fishing hook when the attached entity is in a different location (#formatLink("https://youtu.be/ODhRxsN6bCA&t=642s")[Example])
 - D.1.1.am) Fast Looting (#formatLink("https://youtu.be/uZC_XE1t5yQ")[Example])
 - D.1.1.an) Altered Fast Looting (#formatLink("https://youtu.be/L2VS3nWOc_U")[Example])
 - D.1.1.ao) Force fast perch leaves by hiding (#formatLink("https://youtu.be/xNQtFdCGoxM?t=81")[Example])
@@ -669,8 +669,8 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.ab) Saving blocks by lag abuse (#formatLink("https://youtu.be/qhvBNctnJCk")[Example])
 - D.1.2.ac) Shared hitbox abuse (#formatLink("https://youtu.be/aPtvSnMLmnI")[Example], #formatLink("https://youtu.be/X6F-eq1-QLE")[Example \#2], #formatLink("https://youtu.be/JRYuWzPLQeY")[Example \#3])
 - D.1.2.ad) Teleporting via a pearl with nether portal (#formatLink("https://youtu.be/g5knWZnrmbM")[Example])
-- D.1.2.ae) Boat desync (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-205477")[MC-205477], #formatLink("https://youtu.be/MUuVgMxUfcA")[Example], #formatLink("https://femboy.beauty/7Z8iu")[Example \#2])
 - D.1.2.af) Using a nether portal without the portal animation (#formatLink("https://youtu.be/IUf07boL9Ac&t=60")[Example])
+- D.1.2.ae) Boat desync (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-205477")[MC-205477], #formatLink("https://youtu.be/MUuVgMxUfcA")[Example], #formatLink("https://youtu.be/k0-6v85TprA")[Example \#2])
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
