@@ -224,7 +224,7 @@ A.3.6) If you play one instance of Minecraft and then switch to playing another,
 A.3.7) Non-default shaders, including Super Secret Settings, must not be used.\
 A.3.8) The chat text must be visible and legible in the video recording and the Chat setting must be either Shown or Commands Only.\
 A.3.9) Runs must not intend to be as slow as possible. At a minimum, an attempt must be made to finish the run quickly.\
-A.3.10) <A.3.10> World and log files produced by the vanilla game must not be to be read before or during the run.
+A.3.10) <A.3.10> World and log files produced by the vanilla game must not be read before or during the run.
 - A.3.10.a) Exception: Advancement or statistics files may be read by players and programs.
 - A.3.10.c) Exception: Limited allowances were given for specific reset macros to read logs to get game state before wpstateout.txt was available. These allowances are still in place for only those specific macros or for use without Fabric Loader.
 #entangled[Entangled Rule(s):]\
@@ -464,8 +464,9 @@ Allowed behaviours include but are not limited to:
 - A.8.12.e) Grabbing lava from a magma ravine while waiting in the portal animation
 #entangled[Entangled Rule(s):]\
 #entangled[A.8.12 is referenced by: ] #entangledRule("A.8.1.f")\
-A.8.13) Anchiale, antiresourcereload, atum, chunkcacher, fastreset, hermes, hermes-core, lazystronghold, no-paus, seedqueue, setspawnmod, standardsettings, state-output, tabfocus, and worldpreview are resetting mods and must not be interacted with after the start of the gameplay segment. Hermes and State Output write to files, and except for allowed cases those files must not be read after the start of the gameplay segment. The Use Planar Fog sodium setting emulates hardware and must not be modified after the world is first rendered.
-- A.8.13.a) Exception: Using wpstateout.txt, state.json, or other mod-outputted instance state as a performant replacement for checks possible in the unmodified game is permitted. Use of state for aesthetic or continuous (with no regard to whether a run is happening or not) reasons, such as for changing OBS properties or time tracking, is permitted if it is not for an advantage in the run (at the discretion of verifiers).
+A.8.13) Anchiale, antiresourcereload, atum, chunkcacher, fastreset, hermes, hermes-core, lazystronghold, no-paus, seedqueue, setspawnmod, standardsettings, state-output, tabfocus, and worldpreview are resetting mods and must not be interacted with after the start of the gameplay segment. The Use Planar Fog sodium setting emulates hardware and must not be modified after the world is first rendered.
+A.8.14) Hermes, State Output, SpeedRunIGT, WorldPreview write out files, and except for allowed cases those files must not be read after the start of the gameplay segment.
+- A.8.14.a) Exception: Using wpstateout.txt (State Output and previously WorldPreview), state.json (Hermes), record.json (SpeedRunIGT), or other mod-outputted instance state as a performant replacement for checks possible in the unmodified game is permitted. Use of the data in these files for aesthetic, continuous (with no regard to whether a run is happening or not), or generally unproblematic reasons, such as for changing OBS properties, time tracking, Atum reset counts, pausing music, etc. is permitted if it is not for an advantage in the run (at the discretion of verifiers). If you think your use of mod state could be considered an attempt to create a mod-only advantage and would like clarification on if your particular use is allowed, please open a thread.
 - #formatNote[A.8.13.a.note) Examples of permitted uses of state include:\
 - Checking for both the paused and gamescreenopen states in wpstateout.txt or checking for a non-null screen in state.json as a replacement for checking if the cursor is grabbed.
 - A.8.13.b) Exception: Conditional functionality related to resetting the world (e.g. via the Atum's Create New World key) is allowed. This includes common external tool binds such as "Safe Reset" and "Reset Before 20 Seconds".
@@ -475,9 +476,9 @@ A.8.14.a) PaceMan Tracker
 A.8.14.b) AATool
 A.8.14.c) Advancely
 #formatNote[
-A.8.14.note) Use of otherwise restricted mod-outputted data may be allowed on an per-application basis though formal legalization or permission from the mod team. If you have a prospective use that is not intended to create an advantage in the run, you should make a thread.
+A.8.14.note) Use of otherwise restricted mod-outputted data may be allowed on an per-application basis though formal legalization or permission from the mod team. If you have a prospective use that is not intended to create an advantage in the run, you should open a thread.
 ]
-A.8.15) DLL injection is allowed, but injection of DLLs that are not explicitly whitlelisted may result in run rejection. The list of whitelisted DLLs is maintained at legal-dlls.csv. Injection of any explicitly allowed DLL is allowed only if LibLogger.dll is also injected. Program-independent DLLs such as for OBS Game Capture and Discord Game Overlay are generally allowed.
+A.8.15) DLL injection is allowed, but injection of DLLs that are not explicitly whitelisted may result in run rejection. The list of whitelisted DLLs is maintained at legal-dlls.csv. Injection of any explicitly allowed DLL is allowed only if LibLogger.dll is also injected. Program-independent DLLs such as for OBS Game Capture and Discord Game Overlay are generally allowed.
 
 == A.9: Multi-Instance Rules
 A.9.1) If multiple instances of Minecraft are opened simultaneously, they must each be in different directories (.minecraft folders).\
