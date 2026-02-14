@@ -660,7 +660,9 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.c) X-Ray; minor unintentional x-rays may be verified, but intentional (or important but unintentional) x-rays (at the discretion of verifiers) must not be used (such as in this #formatLink("https://youtu.be/oImgrxw-v6I&t=688")[example]).
 - D.1.2.d) Shearing sheep during their dying animation (#formatLink("https://bugs.mojang.com/browse/MC-76416")[MC-76416])
 - D.1.2.e) Nothing MLG (#formatLink("https://youtu.be/flt0V9QdfIQ")[Example])
-- D.1.2.h) Slime spectating (#formatLink("https://t.co/UErxU74UW1")[Example])
+- D.1.2.h) <D.1.2.h> Slime spectating (#formatLink("https://t.co/UErxU74UW1")[Example])
+- #entangled[Entangled Rule(s):]
+- #entangled[D.1.2.h is referenced by: ] #entangledRule("E.1.6.a")
 - D.1.2.i) Ghost block jump (#formatLink("https://youtu.be/A57pDR-mEuI")[Example])
 - D.1.2.j) Offhand clutch (#formatLink("https://youtu.be/CHsV1iG2HbY")[Example])
 - D.1.2.k) Dragon skip (#formatLink("https://youtu.be/MLwXclfyc8o")[Example])
@@ -690,6 +692,8 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.ag) Clipping into a block to tick the server player faster than normal (#formatLink("https://youtu.be/b4hS_LdSRbg")[Example])
   - D.1.2.ag.i) Clarification: When possible, enforcement of the ban on this glitch when applied to nether portals will consist of retiming.
 - D.1.2.ah) <D.1.2.ah> Credits warp (#formatLink("https://youtu.be/Luwkl36rbTw")[Example])
+- #entangled[Entangled Rule(s):]
+- #entangled[D.1.2.ah is referenced by: ] #entangledRule("E.1.6.b")
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
@@ -713,7 +717,13 @@ E.1.3) If you use Task Manager or another program which forcefully closes the ga
 E.1.4) External Arbitrary Code Execution (ACE) must not be used.
 - E.1.4.a) Example: Log4j exploit
 E.1.5) Glitched runs must be played entirely within one version.\
-E.1.6) World Merge must not be used (#formatLink("https://youtu.be/a-YhOtj6HmE")[Example])
+E.1.6) Cross-world glitches, or glitches that require setup in another world, are legalized on a case-by-case basis.
+- Allowed cross-world glitches include:
+  - E.1.6.a) <E.1.6.a> Slime spectating (#entangledRule("D.1.2.h"))
+  - E.1.6.b) <E.1.6.b> Credits warp (#entangledRule("D.1.2.ah"))
+- Banned cross world glitches include:
+  - E.1.6.c) World merge (#formatLink("https://youtu.be/a-YhOtj6HmE")[Example])
+  - E.1.6.d) Joining a server and a singleplayer world at the same time (#formatLink("https://youtu.be/b9JscBrY8VA")[Example])
 
 == E.2: Timing Glitched Runs <E.2>
 #entangled[Entangled Rule(s):]\
@@ -726,6 +736,7 @@ E.2.2) <E.2.2> Glitched runs follow the same hierarchy of timers as is outlined 
 
 == E.3: Internal Runs
 E.3.1) <E.3.1> Internal runs must not leave the world (Save and Quit or crash the game) in accordance with glitchless rules #entangledRule("D.1.3")-#entangledRule("D.1.4").
+E.3.2) Internal runs may not use cross-world glitches.
 
 == E.4: External Runs
 E.4.1) External runs must leave the world (Save and Quit or crash the game).
