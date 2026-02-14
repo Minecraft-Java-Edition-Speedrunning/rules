@@ -529,6 +529,7 @@ A.11.6) The following constitute the whitelist of other legal sheets:
 - A.11.6.g) #formatLink("https://docs.google.com/spreadsheets/d/1tTXczjzo4VCOxV2dpkj-SE5cELA9A2NyreRiQj6Bu8I/edit?gid=1217206013#gid=1217206013")[Nether Portal Orientation Divine Sheet]
 A.11.7) <A.11.7> The following constitute the whitelist of legal tools:
 - A.11.7.a) #formatLink("https://github.com/Ninjabrain1/Ninjabrain-Bot")[NinjabrainBot] [Ninjabrain1] (up to v1.5.1)
+  - A.11.7.a.i) The NinjabrainBot API may be legally used by other tools for display of provided data, without any additional calculations or modifications that may provide any interpretation of the data which is not otherwise possible with an unmodified copy of NinjabrainBot.
 - A.11.7.b) #formatLink("https://github.com/pjagada/strongholdnotcalculator")[StrongholdNotCalculator] [pjagada] (up to v2.0)
 - A.11.7.c) #formatLink("https://github.com/FourGoesFast/PerfectTravelBot")[PerfectTravelBot] [FourGoesFast] (up to v1.0.0)
 - A.11.7.e) #formatLink("https://github.com/KingContaria/ContariaCalc/releases")[ContariaCalc] [KingContaria] (up to v1.1.7.1)
