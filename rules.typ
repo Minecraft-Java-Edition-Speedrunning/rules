@@ -271,7 +271,7 @@ This excludes but is not limited to:
 == A.5: Timing Rules <A.5>
 #entangled[Entangled Rule(s):]\
 #entangled[A.5 is referenced by: ] #entangledRule("E.2.2")\
-#entangled[A.5 is nullified by: ] #entangledRules(("11.1.2", "CE16.1.4"))\
+#entangled[A.5 is nullified by: ] #entangledRules(("F.2.4", "11.1.2", "CE16.1.4"))\
 A.5.1) <A.5.1> Runs begin timing on either world load, referring to when the player is placed into the world, or on first input.
 - A.5.1.a) Clarification: The timing method that is applied is defined by the category, and not chosen by the player.
 - A.5.1.b) Guidance: Random seed categories, longer categories, and categories which benefit from waiting additional time are likely (though not always) timed by world load, whereas set seed categories and shorter categories are likely (though not always) timed by first input.
@@ -745,6 +745,7 @@ F.2.2) <F.2.2> Runs done on external servers, or runs on LAN which choose to do 
 #entangled[Entangled Rule(s):]\
 #entangled[F.2.2 is referenced by: ] #entangledRule("F.1.3.b")\
 F.2.3) On external servers, if /time set 0 is not done, then time starts when the server loads the world and server logs must be submitted.
+F.2.4) The category is timed by RTA, nullifying #entangledRule("A.5").
 
 == F.3: Video Rules
 F.3.1) Every player should record their perspective, and all of these perspectives should be submitted with the run.
