@@ -544,7 +544,7 @@ A.11.8) <A.11.8> You must not use any other reference sheets/external tools besi
 #entangled[Entangled Rule(s):]\
 #entangled[A.11.8 is nullified by: ] #entangledRule("CE20.3.3")\
 A.11.9) <A.11.9> If you would like to use a tool/reference sheet that is not listed above, please open a thread. It may be allowed at the discretion of moderators. Please note:
-- A.11.9.a) The tool must only use position, angle, and dimension from the F3 menu.
+- A.11.9.a) The tool must only use position, angle, dimension, and client block and blockstate data from the F3 menu.
   - A.11.9.a.i) Clarification: This excludes biome and temperature.
 - A.11.9.b) If it is a code-based tool, its source code must be on a publicly accessible repository (e.g. GitHub).
 #entangled[Entangled Rule(s):]\
