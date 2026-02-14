@@ -99,8 +99,8 @@ Some categories may not have a subcategory ruleset (e.g. External Set Seed Glitc
 Please refer to #formatLink("https://datatracker.ietf.org/doc/html/rfc2119")[RFC-2119 Requirement Levels] for the explicit definitions of the commands *must, must not, can/may, should/recommended, and should not/not recommended.*
 
 === Commands:
-- *(at the discretion of verifiers): * An outcome is subjective: it is therefore at the discretion of the mods and verifiers. This outcome is either brought about collectively or is a judgement that the majority of the mods/verifiers would agree upon.
-- *Open a thread: * Create a thread in the official Discord server by joining #formatLink("https://discord.gg/jmdFn3C")[the official Minecraft: Java speedrunning Discord], clicking the \#help channel, clicking the Create Thread button, then clicking create. This message will then be sent to all moderators and verifiers; in the message, detail the situation which has caused you to open a thread.
+- *(at the discretion of verifiers): * An outcome is subjective: it is therefore at the discretion of the speedrun.com moderators and verifiers as shown in the Moderators section on speedrun.com/mc. This outcome is either brought about collectively or is a judgement that the majority of the mods/verifiers would agree upon.
+- *Open a thread: * Create a thread in the official Discord server by joining #formatLink("https://discord.gg/jmdFn3C")[the official Minecraft Java Speedrunning Discord], clicking the \#help channel, and following the instructions in the message from the Iron Golem bot. This message will then be sent to all moderators and verifiers; in the message, detail the situation which has caused you to open a thread.
 - *[rule] is nullified: * A rule does not apply for a specific category or subset of a category
 
 === Sub-Rules:
