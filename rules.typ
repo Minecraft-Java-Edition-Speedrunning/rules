@@ -1378,7 +1378,6 @@ CE19.3.3) In addition to the external tools allowed by #entangledRule("A.11"), t
 - CE19.3.3.a) #formatLink("https://github.com/TheTalkingMime/AllPortals")[All Portals [TheTalkingMime]]
 - CE19.3.3.b) #formatLink("https://github.com/shnenanigans/APgui")[APgui [shnenanigans]]
 - CE19.3.3.c) #formatLink("https://www.desmos.com/calculator/la7ezpyutu")[Desmos Stronghold Rings]
-- CE19.3.3.d) #formatLink("https://github.com/CommonCrayon/CrayonAllPortals")[CrayonAllPortals] (up to v1.0)
 CE19.3.4) <CE19.3.4> A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by #entangledRule("A.5.19") and its corresponding sub-rules.
 
 == CE19.4: All Portals Purist
