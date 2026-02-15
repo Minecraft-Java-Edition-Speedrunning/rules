@@ -1,4 +1,4 @@
-#let version = "v6"
+#let version = "v7"
 
 #set page(
   paper: "us-letter", 
@@ -278,7 +278,7 @@ A.4.3) Non-accessibility resource packs may be used if and only if they only mod
 - A.4.3.d) Changing the Ender Dragon's death sound and sound volume
 - A.4.3.e) Changing the bossbar text
 - A.4.3.f) Changing the colour scheme of the GUI background to a non-transparent solid colour or colour gradient
-- A.4.3.f.i) Clarification: The GUI background includes the options background texture, commonly known as the dirt background.
+  - A.4.3.f.i) Clarification: The GUI background includes the options background texture, commonly known as the dirt background.
 - A.4.3.g) Changing the chest and trapped chest textures to their Christmas variants
 - A.4.3.h) Changing the default Player skin or cape texture.
 - A.4.3.i) Clarification: You must not modify the textures of the health bar, hunger bar, or XP bar whatsoever.
@@ -506,19 +506,19 @@ Allowed behaviours include but are not limited to:
 - A.8.12.e) Grabbing lava from a magma ravine while waiting in the portal animation
 #entangled[Entangled Rule(s):]\
 #entangled[A.8.12 is referenced by: ] #entangledRule("A.8.1.f")\
-A.8.13) Anchiale, antiresourcereload, atum, chunkcacher, fastreset, hermes, hermes-core, lazystronghold, no-paus, seedqueue, setspawnmod, standardsettings, state-output, tabfocus, and worldpreview are resetting mods and must not be interacted with after the start of the gameplay segment. The Use Planar Fog sodium setting emulates hardware and must not be modified after the world is first rendered.
+A.8.13) Anchiale, antiresourcereload, atum, chunkcacher, fastreset, hermes, hermes-core, lazystronghold, no-paus, seedqueue, setspawnmod, standardsettings, state-output, tabfocus, and worldpreview are resetting mods and must not be interacted with after the start of the gameplay segment. The Use Planar Fog sodium setting emulates hardware and must not be modified after the world is first rendered.\
 A.8.14) Hermes, State Output, SpeedRunIGT, WorldPreview write out files, and except for allowed cases those files must not be read after the start of the gameplay segment.
 - A.8.14.a) Exception: Using wpstateout.txt (State Output and previously WorldPreview), state.json (Hermes), record.json (SpeedRunIGT), or other mod-outputted instance state as a performant replacement for checks possible in the unmodified game is permitted. Use of the data in these files for aesthetic, continuous (with no regard to whether a run is happening or not), or generally unproblematic reasons, such as for changing OBS properties, time tracking, Atum reset counts, pausing music, etc. is permitted if it is not for an advantage in the run (at the discretion of verifiers). If you think your use of mod state could be considered an attempt to create a mod-only advantage and would like clarification on if your particular use is allowed, please open a thread.
-- #formatNote[A.8.13.a.note) Examples of permitted uses of state include:\
+- #formatNote[A.8.14.a.note) Examples of permitted uses of state include:\
 - Checking for both the paused and gamescreenopen states in wpstateout.txt or checking for a non-null screen in state.json as a replacement for checking if the cursor is grabbed.
-- A.8.13.b) Exception: Conditional functionality related to resetting the world (e.g. via the Atum's Create New World key) is allowed. This includes common external tool binds such as "Safe Reset" and "Reset Before 20 Seconds".
 ]
-A.8.14) Certain approved tools are allowed to read Hermes world files during the run. These are:
-A.8.14.a) PaceMan Tracker
+- A.8.14.b) Exception: Conditional functionality related to resetting the world (e.g. via the Atum's Create New World key) is allowed. This includes common external tool binds such as "Safe Reset" and "Reset Before 20 Seconds".
 #formatNote[
 A.8.14.note) Use of otherwise restricted mod-outputted data may be allowed on an per-application basis though formal legalization or permission from the mod team. If you have a prospective use that is not intended to create an advantage in the run, you should open a thread.
-]
-A.8.15) DLL injection is allowed, but injection of DLLs that are not explicitly whitelisted may result in run rejection. The list of whitelisted DLLs is maintained at #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-builds/blob/main/legal-dlls.csv")[legal-dlls.csv]. Injection of any explicitly legalized DLL is allowed only if an allowed build of LibLogger is also injected. Program-independent DLLs such as for OBS Game Capture and Discord Game Overlay are generally allowed.
+]\
+A.8.15) Certain approved tools are allowed to read Hermes world files during the run. These are:
+- A.8.15.a) PaceMan Tracker
+A.8.16) DLL injection is allowed, but injection of DLLs that are not explicitly whitelisted may result in run rejection. The list of whitelisted DLLs is maintained at #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-builds/blob/main/legal-dlls.csv")[legal-dlls.csv]. Injection of any explicitly legalized DLL is allowed only if an allowed build of LibLogger is also injected. Program-independent DLLs such as for OBS Game Capture and Discord Game Overlay are generally allowed.
 
 == A.9: Multi-Instance Rules
 A.9.1) If multiple instances of Minecraft are opened simultaneously, they must each be in different directories (.minecraft folders).\
@@ -815,7 +815,7 @@ F.2.2) <F.2.2> Runs done on external servers, or runs on LAN which choose to do 
 - F.2.2.c) Clarification: Once /time set 0 is done once to start timing, it cannot be used again for the rest of the run.
 #entangled[Entangled Rule(s):]\
 #entangled[F.2.2 is referenced by: ] #entangledRule("F.1.3.b")\
-F.2.3) On external servers, if /time set 0 is not done, then time starts when the server loads the world and server logs must be submitted.
+F.2.3) On external servers, if /time set 0 is not done, then time starts when the server loads the world and server logs must be submitted.\
 F.2.4) <F.2.4> The category is timed by RTA, nullifying #entangledRule("A.5").
 
 == F.3: Video Rules
@@ -1378,7 +1378,6 @@ CE19.3.3) In addition to the external tools allowed by #entangledRule("A.11"), t
 - CE19.3.3.a) #formatLink("https://github.com/TheTalkingMime/AllPortals")[All Portals [TheTalkingMime]]
 - CE19.3.3.b) #formatLink("https://github.com/shnenanigans/APgui")[APgui [shnenanigans]]
 - CE19.3.3.c) #formatLink("https://www.desmos.com/calculator/la7ezpyutu")[Desmos Stronghold Rings]
-- CE19.3.3.d) #formatLink("https://github.com/CommonCrayon/CrayonAllPortals")[CrayonAllPortals] (up to v1.0)
 CE19.3.4) <CE19.3.4> A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by #entangledRule("A.5.19") and its corresponding sub-rules.
 
 == CE19.4: All Portals Purist
@@ -1428,7 +1427,7 @@ CE23.1.3) All runs begin upon first input.
 == CE24.1: Half% Objective and Clarifications
 CE24.1.1) <CE24.1.1> The run is considered complete once exactly 40 advancements, as listed in #entangledRule("4.6.1"), have been obtained.
 - CE24.1.1.a) Timing ends once the chat notification for the last advancement is shown.
-CE24.1.2) <CE24.1.2> Runs must demonstrate that 40 advancements have been obtained in accordance with #entangledRule("4.1.3").
+CE24.1.2) <CE24.1.2> Runs must demonstrate that 40 advancements have been obtained in accordance with #entangledRule("4.1.3").\
 CE24.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
 CE24.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
 
