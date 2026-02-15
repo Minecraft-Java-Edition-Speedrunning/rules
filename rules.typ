@@ -512,13 +512,13 @@ A.8.14) Hermes, State Output, SpeedRunIGT, WorldPreview write out files, and exc
 - #formatNote[A.8.14.a.note) Examples of permitted uses of state include:\
 - Checking for both the paused and gamescreenopen states in wpstateout.txt or checking for a non-null screen in state.json as a replacement for checking if the cursor is grabbed.
 ]
-- A.8.13.b) Exception: Conditional functionality related to resetting the world (e.g. via the Atum's Create New World key) is allowed. This includes common external tool binds such as "Safe Reset" and "Reset Before 20 Seconds".
-A.8.15) Certain approved tools are allowed to read Hermes world files during the run. These are:
-- A.8.15.a) PaceMan Tracker
+- A.8.14.b) Exception: Conditional functionality related to resetting the world (e.g. via the Atum's Create New World key) is allowed. This includes common external tool binds such as "Safe Reset" and "Reset Before 20 Seconds".
 #formatNote[
 A.8.14.note) Use of otherwise restricted mod-outputted data may be allowed on an per-application basis though formal legalization or permission from the mod team. If you have a prospective use that is not intended to create an advantage in the run, you should open a thread.
 ]\
-A.8.15) DLL injection is allowed, but injection of DLLs that are not explicitly whitelisted may result in run rejection. The list of whitelisted DLLs is maintained at #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-builds/blob/main/legal-dlls.csv")[legal-dlls.csv]. Injection of any explicitly legalized DLL is allowed only if an allowed build of LibLogger is also injected. Program-independent DLLs such as for OBS Game Capture and Discord Game Overlay are generally allowed.
+A.8.15) Certain approved tools are allowed to read Hermes world files during the run. These are:
+- A.8.15.a) PaceMan Tracker
+A.8.16) DLL injection is allowed, but injection of DLLs that are not explicitly whitelisted may result in run rejection. The list of whitelisted DLLs is maintained at #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-builds/blob/main/legal-dlls.csv")[legal-dlls.csv]. Injection of any explicitly legalized DLL is allowed only if an allowed build of LibLogger is also injected. Program-independent DLLs such as for OBS Game Capture and Discord Game Overlay are generally allowed.
 
 == A.9: Multi-Instance Rules
 A.9.1) If multiple instances of Minecraft are opened simultaneously, they must each be in different directories (.minecraft folders).\
