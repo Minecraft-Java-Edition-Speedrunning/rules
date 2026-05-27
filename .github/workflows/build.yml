@@ -12,4 +12,4 @@ jobs:
       - name: setup typst
         uses: typst-community/setup-typst@v4
       - name: test build
-        run: typst compile rules.typ
+        run: typst compile --features html rules.typ

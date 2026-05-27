@@ -37,11 +37,11 @@
   ]
 }
 
-#align(center + horizon)[
+#[
+  #set align(center + horizon)
   #text(size: 22pt)[
     *Minecraft: Java Edition\
     Speedrunning Rules*
-
   ]
   #text(size: 14pt)[
     Version: #version
@@ -223,14 +223,19 @@ A.2.11) <A.2.11> The F3 screen must be shown during or after the run, and before
 Below shows the elements that must be visible. Exact locations may depend on GUI Scale, chat settings, mods, timer settings, and more. A Twitch chat or similar is fine on bottom left, but it must be partially transparent because of in-game chat.
 #image("images/f3.png", width: 75%, scaling: "pixelated")
 Mod text on the bottom right is prone to moving around. Especially in newer versions, where it can go offscreen when hovering blocks, and is split up when not using Planifolia. Looking at the sky or changing GUI Scale may be necessary to fully display it.
-#align(center)[
-    #grid(
-        columns: 3,
-        figure(image("images/non-planifolia.png", width: 80%), caption: "Without Planifolia", supplement: none),
-        figure(image("images/planifolia.png", width: 80%), caption: "With Planifolia",  supplement: none),
-        figure(image("images/offscreen.png", width: 80%), caption: "Bottom block off-screen",  supplement: none),
-    )
-]
+#context {
+  let columns = (
+    figure(image("images/non-planifolia.png", width: 80%), caption: "Without Planifolia", supplement: none),
+    figure(image("images/planifolia.png", width: 80%), caption: "With Planifolia",  supplement: none),
+    figure(image("images/offscreen.png", width: 80%), caption: "Bottom block off-screen",  supplement: none),
+  )
+  if target() == "html" [
+    #columns.join()
+  ] else [
+    #set align(center)
+    #grid(columns: 3, ..columns)
+  ]
+}
 If F3 was not shown but no mods were used but the Title Screen was in line with #entangledRule("A.2.11.c"), the text on the bottom left of the Title Screen must be visible.
 #image("images/title.png", width: 37.5%)
 If using OptiFine the version must be shown in F3. Additionally, in 1.7.10 and below the rest of the mod text is on the left.
