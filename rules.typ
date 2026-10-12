@@ -535,7 +535,8 @@ A.10.1) You may remap keys using external programs, but each game input may have
 A.10.2) If keys are rebound, they must be to buttons.
 - This excludes but is not limited to:
 - A.10.2.a) Remapping to a scroll-wheel
-A.10.3) You must not rebind the "Attack/Destroy" or "Use Item/Place Block" functions to a keyboard button to abuse repeated inputs.\
+A.10.3) You must not rebind the "Attack/Destroy" or "Use Item/Place Block" functions to a keyboard button via rebinding software to abuse repeated inputs.
+- A.10.3.a) <A.10.3.a> Clarification: Rebinding these in the game to abuse repeated inputs is allowed in glitched, see #entangledRule("D.1.2.ai").
 A.10.4) <A.10.4> Macros are not allowed to be triggered during a run.
 - A.10.4.a) Exception: Macros may resize the game window to an unlimited number of resolutions if the game window stays within monitor bounds.
 - A.10.4.b) Exception: Macros may resize the game window to one resolution outside the monitor bounds, up to a maximum of 16384 pixels in width or height.
@@ -736,6 +737,9 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.ah) <D.1.2.ah> Credits warp (#formatLink("https://youtu.be/Luwkl36rbTw")[Example])
 - #entangled[Entangled Rule(s):]
 - #entangled[D.1.2.ah is referenced by: ] #entangledRule("E.1.6.b")
+- D.1.2.ai) <D.1.2.ai> Rebinding the "Attack/Destroy" or "Use Item/Place Block" functions to a keyboard button inside Minecraft to abuse repeated inputs.
+- #entangled[Entangled Rule(s):]
+- #entangled[D.1.2.ai is referenced by: ] #entangledRule("A.10.3.a")
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
