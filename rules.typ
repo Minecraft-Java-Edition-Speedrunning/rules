@@ -489,16 +489,16 @@ A.8.2) All versions of Fabric Loader are allowed.
 A.8.3) All versions of Legacy Fabric Intermediaries are allowed.
 - A.8.3.a) Clarification: Legacy Fabric LWJGL must not be used, which is bundled in the first party Legacy Fabric MultiMC Instances.
 A.8.4) <A.8.4> LWJGL 3 and GLFW libraries are subject to the following conditions:
-- A.8.4.a) Mojang LWJGL versions from LWJGL 3.1.6 to 3.3.3 may be used in Minecraft 1.13 to 1.21.10 and Mojang LWJGL versions from LWJGL 3.3.6 to 3.4.3 may be used in Minecraft 1.21.11 to 26.2.
-- A.8.4.b) GLFW builds from LWJGL 3.1.6 to 3.3.3 may be used in Minecraft 1.13 to 1.21.10 and GLFW builds from LWJGL 3.3.6 to 3.4.3 may be used in Minecraft 1.21.11 to 26.2.
+- A.8.4.a) Mojang LWJGL versions from LWJGL 3.1.6 to 3.3.3 may be used in Minecraft 1.13 to 1.21.11 and Mojang LWJGL versions from LWJGL 3.4.1 to 3.4.3 may be used in Minecraft 26.1 to 26.2.
+- A.8.4.b) GLFW builds from LWJGL 3.1.6 to 3.3.3 may be used in Minecraft 1.13 to 1.21.11 and GLFW builds from LWJGL 3.4.1 to 3.4.3 may be used in Minecraft 26.1 to 26.2.
 - A.8.4.c) Custom GLFW builds may be used if they are tracked in #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-builds/blob/main/legal-dlls.csv")[legal-dlls.csv]. These builds must be auditable (e.g. compiled using a CI tool) and public released. If you would like to request legalization of a GLFW build, please open a thread or pull request.
 - A.8.4.d) Custom builds may be based on GLFW releases up to GLFW 3.5.1.
 - A.8.4.e) Custom builds may apply the following patches:
   - A.8.4.e.i) Woofdoggo's GLFW xinput patch for #formatLink("https://github.com/tesselslate/resetti/blob/d8eb8634c2efe60e9a1c19f3cf5c30288cc93cfc/contrib/glfw-xinput.patch")[GLFW pre 3.4] and #formatLink("https://github.com/tesselslate/resetti/blob/4aa463f58fbddd1fbdee16796600cabb3e9c86b4/contrib/glfw-xinput-3.4.patch")[GLFW 3.4+]
   - A.8.4.e.ii) Woofdoggo's #formatLink("https://github.com/tesselslate/waywall/blob/ad569de1ddae6b034c7095795a42f044746a55a7/contrib/glfw.patch")[GLFW patch for Waywall]
-  - A.8.4.e.iii) #formatLink("https://github.com/BoyOrigin/glfw-wayland/tree/f62b4ae8f93149fd754cadecd51d8b1a07d20522")[BoyOrigin/glfw-wayland\@f62b4ae]
+  - A.8.4.e.iii) #formatLink("https://github.com/BoyOrigin/glfw-wayland/tree/f62b4ae8f93149fd754cadecd51d8b1a07d20522/patches")[BoyOrigin/glfw-wayland\@f62b4ae]
   - A.8.4.e.iv) #formatLink("https://github.com/LWJGL-CI/glfw/commits/master")[LWJGL-CI commits]
-- A.8.4.f) Custom builds that include #formatLink("https://github.com/LWJGL-CI/glfw/commit/4ba21109cb43553f458dd4b31b02abf6e57d7949")[LWJGL IME support] may only be used in Minecraft 1.21.11 to 26.2.
+- A.8.4.f) Custom builds that include “LWJGL IME support” from the LWJGL-CI commits may only be used in Minecraft 26.1 to 26.2.
 #entangled[Entangled Rule(s):]\
 #entangled[A.8.4 is referenced by: ] #entangledRule("A.8.17")\
 A.8.5) #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/blob/main/legal-builds.csv")[legal-builds.csv] in the legal-mods GitHub repository defines what builds of what Fabric mods are legal.
