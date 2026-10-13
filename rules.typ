@@ -416,7 +416,7 @@ A.7.3) Additional proof of runs must be viewable.
 A.7.4) <A.7.4> Files submitted must not be modified or altered.\
 - A.7.4.a) Exception: Pre 1.9 logs contain the player access token, which may be edited out. If you choose to do this, you should mention that the logs were modified in the files submission.
 - A.7.4.b) Guidance: It is highly recommended to submit all files prior to loading any illegal mods or datapacks. For this reason, it is discouraged to submit files while playing with mods that load additional datapacks (such as MCSR Ranked).
-- A.7.4.c) Clarification: If submitting an already-created archive file such as created by Fairplay, submit the file as is instead of unzipping or rezipping it.
+- A.7.4.c) Clarification: If submitting an already-created archive file such as created by MCSR Fairplay, submit the file as is instead of unzipping or rezipping it.
 #entangled[Entangled Rule(s):]\
 #entangled[A.7.4 is referenced by: ] #entangledRule("A.12.1.d")\
 A.7.5) World files refer to the full folder with the world's name as the folder's name in the .minecraft/saves folder.\
