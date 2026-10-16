@@ -635,13 +635,12 @@ C.2.1) <C.2.1> Exception to #entangledRule("A.3.10") and #entangledRule("A.10.5"
 = D: Glitchless Ruleset
 
 == D.1: Glitchless Runs
-#formatNote[D.1.note) Glitches are only allowed in glitchless on a case-by-case basis. What differentiates a glitch from a technique is nebulous, but is generally defined by if it can be done unintentionally. In terms of legalising a glitch, it is generally done by the mod team's discretion of how severely they stray from the “spirit of the game” as seen by the general Minecraft community, whether they make the speedruns more or less fun to play, and how easy it is to perform accidentally. In general, one should err on the side of caution in terms of if something is a glitch or a technique; it is highly encouraged to open a thread and ask if a technique qualifies as a glitch and if it will be allowed in glitchless runs.]\
-\
-D.1.1) Only these glitches may be used during glitchless runs.
+#formatNote[D.1.note) The criteria for a technique to be considered a glitch are nebulous and subjective, and essentially by the standard of “you know it when you see it.” Glitches are allowed in glitchless on a case-by-case basis, and only glitches considered minor are allowed in glitchless. What differentiates a minor glitch from a major glitch is also subjective, but is generally defined by if it can reasonably be done unintentionally. Also considered is how severely it strays from the "spirit of the game" as seen by the the MCSR and general Minecraft community, and whether it makes speedruns more or less fun to play. In general, one should err on the side of caution of if a technique is allowed or not; it is highly encouraged to open a thread and ask whether a technique is allowed in glitchless runs.]\
+D.1.1) Only minor glitches may be used during glitchless runs.
 - This constitutes:
 - D.1.1.a) Double-eating (#formatLink("https://bugs.mojang.com/browse/MC-849")[MC-849])
 - D.1.1.b) Infinite villager restocking (#formatLink("https://bugs.mojang.com/browse/MC-157136")[MC-157136])
-- D.1.1.c) Glitched Endermen spawns in the End (#formatLink("https://bugs.mojang.com/browse/MC-164205")[MC-164205])
+- D.1.1.c) Glitched hostile mob spawning when switching to easy (#formatLink("https://bugs.mojang.com/browse/MC-164205")[MC-164205], #formatLink("https://bugs.mojang.com/browse/MC/issues/MC-168338")[MC-168338])
 - D.1.1.d) Minecart boosting (#formatLink("https://youtu.be/oK9NZKQX6uY&t=6399")[Example])
 - D.1.1.e) Ender pearl clipping (#formatLink("https://bugs.mojang.com/browse/MC-2164")[MC-2164])
 - D.1.1.f) Accessing the Nether Roof (#formatLink("https://youtu.be/oK9NZKQX6uY&t=6387")[Example])
@@ -667,9 +666,10 @@ D.1.1) Only these glitches may be used during glitchless runs.
 - D.1.1.ab) Uneasy Alliance in the nether (#formatLink("https://bugs.mojang.com/browse/MC-251617")[MC-251617])
 - D.1.1.ac) Placing doors inside the player (#formatLink("https://bugs.mojang.com/browse/MC-123619")[MC-123619])
 - D.1.1.ad) Sprint continuation, including sprint crawling and sneaking (#formatLink("https://bugs.mojang.com/browse/MC-152728")[MC-152728])
-- D.1.1.ae) Sprint desync (#formatLink("https://bugs.mojang.com/browse/MC-69459")[MC-69459], #formatLink("https://youtu.be/NiOMVtrkV-M")[Example])
+- D.1.1.ae) Sprint desync, including entity punch (#formatLink("https://bugs.mojang.com/browse/MC-69459")[MC-69459], #formatLink("https://youtu.be/NiOMVtrkV-M")[Example]) and backwards sprint state (#formatLink("https://docs.google.com/document/d/1LERIwzgARnEHtpQbaqXcUmFm40hVQukpcbKkavfwTW4")[Write-up], #formatLink("https://bugs.mojang.com/browse/MC/issues/MC-30403")[MC-30403], #formatLink("https://bugs.mojang.com/browse/MC/issues/MC-257082")[MC-257082], #formatLink("https://youtu.be/V3J5gT6XaQU")[Example], #formatLink("https://youtu.be/KuKgkoaw6W8")[Example \#2])
 - D.1.1.af) Receiving looting benefits while killing mobs with a bow/TNT (#formatLink("https://bugs.mojang.com/browse/MC-3304")[MC-3304])
-- D.1.1.ag) Eat skip (#formatLink("https://youtu.be/DCz1KAtGsZs")[Example])
+- D.1.1.ag) <D.1.1.ag> Eat skip (#formatLink("https://youtu.be/DCz1KAtGsZs")[Example])
+    - D.1.1.ag.i) Clarification: This same glitch is banned for non-consumable items as shield and bow desync (#entangledRule("D.1.1.ag")).
 - D.1.1.ah) Boat break on certain heights (#formatLink("https://bugs.mojang.com/browse/MC-119369")[MC-119369])
 - D.1.1.ai) Entering and breaking a boat simultaneously (#formatLink("https://youtu.be/RtDjfQqZB0Y")[Example])
 - D.1.1.aj) Entering and breaking a nether portal simultaneously (#formatLink("https://youtu.be/FKT3cwU432k")[Example])
@@ -688,18 +688,29 @@ D.1.1) Only these glitches may be used during glitchless runs.
 - D.1.1.av) One-tick container access in nether portals (#formatLink("https://youtu.be/m8Eg-FnGc2Q&t=14")[Example])
 - D.1.1.aw) Fire boat (#formatLink("https://youtu.be/XhyoWkTtJv8")[Example])
 - D.1.1.ax) <D.1.1.ax> Ghost buckets, when not used to lava blip as in #entangledRule("D.1.2.n") (#formatLink("https://youtu.be/EjwStTX4U3A")[Example])
-- D.1.1.ay) Trading with dead villagers (#formatLink("https://bugs.mojang.com/browse/MC-19764")[MC-19764], #formatLink("https://youtu.be/8ZQTTgXbHX8")[Example])
 - D.1.1.az) Preventing entity cramming with climbable blocks (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-177062")[MC-177062])
 - D.1.1.ba) Feeding a parrot a cookie to obtain Over-Overkill advancement (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-269656")[MC-269656])
 - D.1.1.bb) Trapping wither (#formatLink("https://youtu.be/PCkzhtBl_xY&t=91")[Example], #formatLink("https://youtu.be/O-QgTljCgZw&t=153")[Example \#2])
 - D.1.1.bc) Compass glitch (#formatLink("https://youtu.be/fQi1dOHEYLg")[Example])
 - D.1.1.bd) Unbreakable Fishing Line / Lead with Dimension Change (#formatLink("https://youtu.be/uxLNbGshih0")[Example], #formatLink("https://youtu.be/wh_tW3lVbuY")[Example \#2])
 - D.1.1.be) Abusing the dragon's reduced max vertical acceleration (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-272431")[MC-272431])
+- D.1.1.bf) Using a silk touch enchanted book as a silk touch tool (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-154873")[MC-154873])
+- D.1.1.bg) Increased vertical height by fire ticks on low framerate (#formatLink("https://youtu.be/YoBguG0ZDsc")[Example])
+- D.1.1.bh) Elivator 2.0 (#formatLink("https://youtu.be/U2xmYLJqQ44")[Example])
+- D.1.1.bi) Bed crawl (#formatLink("https://youtu.be/7JfFVLnTQWk")[Example])
+- D.1.1.bj) <D.1.1.bj> Maintaining block breaking status after losing focus (#formatLink("https://youtu.be/Vrc6EJFktH0")[Example], #formatLink("https://bugs.mojang.com/browse/MC-69865")[MC-69865])
+  - D.1.1.bj.i) Clarification: This is not to be confused with wireless mining (#entangledRule("D.1.2.am")).
+- D.1.1.bk) Piston pearl stasis (#formatLink("https://youtu.be/hlsSDmr3xYU")[Example])
+- D.1.1.bl) Multiple protection armour (#formatLink("https://bugs.mojang.com/browse/MC-141961")[MC-141961])
+- D.1.1.bm) Airplace (#formatLink("https://youtu.be/cMfB9RSQ7wM")[Example])
+- D.1.1.bn) Incorrect world seed used in generation of Mesa (Bryce)/Eroded Badlands (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-113577")[MC-113577])
 D.1.2) Any other glitches not included in D.1.1 must not be used during glitchless runs.
 - Examples of glitches that are not allowed include but are not limited to:
 - D.1.2.a) Duplication and zero-stack glitches (#formatLink("https://youtu.be/PYFMGuicVWA&t=102")[Example])
 - D.1.2.b) Save and Quit damage prevention abuse (#formatLink("https://youtu.be/KjxrjT8xRrE&t=953")[Example])
 - D.1.2.c) X-Ray; minor unintentional x-rays may be verified, but intentional (or important but unintentional) x-rays (at the discretion of verifiers) must not be used (such as in this #formatLink("https://youtu.be/oImgrxw-v6I&t=688")[example]).
+  - D.1.2.c.i) Clarification: There are many types of x-rays. This includes reloading the world renderer to see entities through walls (e.g. abuse of F3 + A and F3 + F), using F5 to clip the camera into walls (e.g. when crawling to see lava and caves), abusing pose animations to get the camera inside blocks without a block overlay (e.g. pearling into the ceiling in a stronghold), using a wide game resolution to see around a block overlay, crawling in composters, etc.
+  - D.1.2.c.ii) Guidance: X-Rays during stronghold navigation are regulated more strictly.
 - D.1.2.d) Shearing sheep during their dying animation (#formatLink("https://bugs.mojang.com/browse/MC-76416")[MC-76416])
 - D.1.2.e) Nothing MLG (#formatLink("https://youtu.be/flt0V9QdfIQ")[Example])
 - D.1.2.h) <D.1.2.h> Slime spectating (#formatLink("https://t.co/UErxU74UW1")[Example])
@@ -733,9 +744,25 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.af) Using server-client position desync to wait in a portal without the portal animation (#formatLink("https://youtu.be/IUf07boL9Ac&t=60")[Example])
 - D.1.2.ag) Clipping into a block to tick the server player faster than normal (#formatLink("https://youtu.be/b4hS_LdSRbg")[Example])
   - D.1.2.ag.i) Clarification: When possible, enforcement of the ban on this glitch when applied to nether portals will consist of retiming.
-- D.1.2.ah) <D.1.2.ah> Credits warp (#formatLink("https://youtu.be/Luwkl36rbTw")[Example])
+- D.1.2.ah) Credits warp (#formatLink("https://youtu.be/Luwkl36rbTw")[Example])
+- D.1.2.ai) Unloading and reloading the dragon during the death animation to repeat XP drop (#formatLink("https://youtu.be/iIcUcPy6zio")[Example], #formatLink("https://youtu.be/j2wC8j81TYc")[Example \#2])
+- D.1.2.aj) <D.1.2.aj> Shield and bow desync (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-86252")[MC-86252], #formatLink("https://youtu.be/waCCsyUP5Ok")[Example])
+    - D.1.2.aj.i) Clarification: This same glitch is allowed for consumable items as eat skip (#entangledRule("D.1.1.ag")).
+- D.1.2.ak) Retaining beacon effects after breaking lower layers (#formatLink("https://bugs.mojang.com/browse/MC-2440")[MC-2440])
+- D.1.2.al) Respawning dragon with fewer than 4 crystals (#formatLink("https://youtu.be/oSD3cYodh_A")[Example])
+- D.1.2.am) <D.1.2.am> Wireless mining (#formatLink("https://youtu.be/yuNUyAY9950")[Example])
 - #entangled[Entangled Rule(s):]
-- #entangled[D.1.2.ah is referenced by: ] #entangledRule("E.1.6.b")
+- #entangled[D.1.2.am is referenced by: ] #entangledRule("D.1.1.bj")
+- D.1.2.an) Dropping items post-death (#formatLink("https://youtu.be/VdzC59nz8s")[Example])
+- D.1.2.ao) Bed desync abuse (#formatLink("https://youtu.be/r1a39hb72cw")[Example])
+- D.1.2.ap) Inventory walk (#formatLink("https://youtu.be/T-YYFqGVISk")[Example])
+- D.1.2.aq) Mouse buttons stuck down by reloading resource pack (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-153680")[MC-153680])
+- D.1.2.ar) Trading with dead villagers (#formatLink("https://bugs.mojang.com/browse/MC-19764")[MC-19764], #formatLink("https://youtu.be/8ZQTTgXbHX8")[Example])
+- D.1.2.as) Lazy linking (#formatLink("https://youtu.be/MMdHf-aRAv4")[Example]) and lazy acceleration (#formatLink("https://youtu.be/HscY70qjSU4&t=201s")[Example])
+- D.1.2.at) Nullstate (#formatLink("https://youtu.be/naz1QQlk0wI")[Example])
+- D.1.2.au) <D.1.2.au> Redstone permasupression (#formatLink("https://youtu.be/Luwkl36rbTw")[Example])
+- #entangled[Entangled Rule(s):]
+- #entangled[D.1.2.au is referenced by: ] #entangledRule("E.1.6.b")
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
@@ -760,7 +787,7 @@ E.1.5) Glitched runs must be played entirely within one version.\
 E.1.6) Cross-world glitches, or glitches that require setup in another world, are legalized on a case-by-case basis.\
 Allowed cross-world glitches include:
 - E.1.6.a) <E.1.6.a> Slime spectating (#entangledRule("D.1.2.h"))
-- E.1.6.b) <E.1.6.b> Credits warp (#entangledRule("D.1.2.ah"))
+- E.1.6.b) <E.1.6.b> Redstone permasupression (#entangledRule("D.1.2.au"))
 Banned cross world glitches include:
 - E.1.6.c) World merge (#formatLink("https://youtu.be/a-YhOtj6HmE")[Example])
 - E.1.6.d) Joining a server and a singleplayer world at the same time (#formatLink("https://youtu.be/b9JscBrY8VA")[Example])
