@@ -1082,7 +1082,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 == 9.2: Any% (Peaceful), RS, 1.9+
 9.2.1) <9.2.1> In addition to #entangledRule("A.11.6"), resources that consist of lists of chunks and seed-independent data about them may be used (e.g. chunk positions with the same hash or chunk positions by grass noise).\
 9.2.2) <9.2.2> In addition to the external tools allowed by #entangledRule("A.11.7"), the following additional external tools may be used:
-   - 9.2.2.a) #formatLink("https://www.desmos.com/calculator/22jcwa7oju]")[RSP Stronghold Calculator]
+- 9.2.2.a) #formatLink("https://www.desmos.com/calculator/22jcwa7oju]")[RSP Stronghold Calculator]
 
 = 11: Any% (Time Travel)
 
