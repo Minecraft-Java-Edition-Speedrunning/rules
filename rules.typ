@@ -1019,7 +1019,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 == 5.1: Any% Glitchless Co-op Objective
 5.1.1) <5.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
 
-== 5.2: <5.2> 2 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
+== 5.2: 2 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed <5.2>
 5.2.1) For times which claim to be top fifteen, perspectives of both players must be recorded and submitted.\
 
 == 5.3: 3 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
