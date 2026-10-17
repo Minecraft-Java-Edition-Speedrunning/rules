@@ -136,7 +136,7 @@ A.1.1) An allowed launcher must be used.
 - A.1.1.f) Guidance: If you want another launcher to be considered for legalization, please open a thread. Launchers are only allowed if they do not significantly modify the game.
 - A.1.1.g) #formatLink("https://mcsrlauncher.github.io/")[MCSR Launcher]
 - A.1.1.h) #formatLink("https://pandora.moulberry.com/")[Pandora Launcher]
-- A.1.1.g) #formatLink("https://github.com/loystonpais/nixcraft")[Nixcraft]
+- A.1.1.i) #formatLink("https://github.com/loystonpais/nixcraft")[Nixcraft]
 A.1.2) Runs must be performed on Minecraft 1.0 or later using an official release.
 - The versions this excludes are:
 - A.1.2.a) Beta releases
