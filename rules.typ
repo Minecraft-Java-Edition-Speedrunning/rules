@@ -538,6 +538,7 @@ A.8.17) <A.8.17> Players shall not modify or otherwise interfere with the loadin
 A.8.18) No #formatLink("https://minecraft.wiki/w/Debug_property")[game debug flags] may be used except ENABLED and PREFER_WAYLAND.\
 A.8.19) Using Java agents is not allowed. Attaching a debugger to the JVM is not allowed.
 - A.8.19.a) Exception: #formatLink("https://codeberg.org/OrnitheMC/Flap")[Ornithe's Flap agent] is allowed.
+A.8.20) Warnings concerning legality within allowed mods must be followed.\
 
 == A.9: Multi-Instance Rules
 A.9.1) If multiple instances of Minecraft are opened simultaneously, they must each be in different directories (.minecraft folders).\
@@ -546,8 +547,7 @@ A.9.2) If multiple instances of Minecraft are being used, each instance must be 
 A.9.3) If each instance must be recorded (i.e. they are not subject to the exception of A.9.2.a), the video of the instances that are in the background or not currently being played do not have to follow as strict criteria as #entangledRule("A.2.8"). However, they must meet the following requirements: <A.9.3>
 - A.9.3.a) The text on the percentage on the loading screen should be legible, along with the chunkmap which shows the world being generated.
 - A.9.3.b) To follow A.9.3.a, if the default video's percentage text is illegible, runners may zoom in on the chunk map and percentage text. The rest of the screen should also still be included.
-A.9.4) If SeedQueue is used, only one instance of Minecraft running SeedQueue may be open and only one instance of Minecraft may be used to reset concurrently.
-A.9.5) Warnings concerning legality within allowed mods must be followed.
+A.9.4) If SeedQueue is used, only one instance of Minecraft running SeedQueue may be open and only one instance of Minecraft may be used to reset concurrently.\
 
 == A.10: Macro and Rebind Rules
 A.10.1) You may remap keys using external programs, but each game input may have only one key, and each key may cause only one game input.
