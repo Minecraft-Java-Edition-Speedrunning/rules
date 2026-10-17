@@ -168,7 +168,7 @@ A.1.5) The game's code and files must not be altered to produce any unfair advan
 - A.1.5.a) Clarification: Changing capes and skins (including high resolution/dimension capes) in the launcher assets cache is allowed. Skins must not be transparent. Elytra shape must not be changed.
   - A.1.5.a.i) Guidance: Several officially released capes change the shape of the elytra. These custom elytra textures/shapes may be used if and only if their respective capes are also used.
 A.1.6) The name of hardware components, such as the CPU, must not be altered.\
-A.1.7) The player's name must not be set to “Notch” in 1.2 and below.
+A.1.7) The player's name must not be set to “Notch” in 1.2 and below.\
 
 == A.2: Videos
 A.2.1) All runs must be submitted with a video of the run.
@@ -229,7 +229,7 @@ If F3 was not shown but no mods were used but the Title Screen was in line with 
 If using OptiFine the version must be shown in F3. Additionally, in 1.7.10 and below the rest of the mod text is on the left.
 #image("images/1.7.10.png", width: 75%)
 If F3 visibility requirements were not satisfied during the run because of a webcam or other overlay, F3 must be shown with overlays disabled after the run is complete.
-]
+]\
 
 == A.3: During the Run
 A.3.2) You must not alter your system time to intentionally use time-sensitive features (specifically Halloween and Christmas game modifications).\
@@ -253,7 +253,7 @@ A.3.11) <A.3.11> Peaceful difficulty must not be used within the run.\
 #entangled[Entangled Rule(s):]\
 #entangled[A.3.11 is referenced by: ] #entangledRule("F.1.3.a")\
 #entangled[A.3.11 is nullified by: ] #entangledRule("8.1.3")\
-A.3.12) If the run is performed in hardcore mode, players must not enter spectator mode upon death.
+A.3.12) If the run is performed in hardcore mode, players must not enter spectator mode upon death.\
 
 == A.4: Resource Packs
 A.4.1) The vanilla resource pack, programmer art (1.14+), and High Contrast (1.19.4+) packs may be used.\
@@ -383,7 +383,7 @@ A.5.20: <A.5.20> World load timing begins when any terrain or entity renders or 
 - #entangled[Entangled Rule(s):]\
 - #entangled[A.5.20.a is referenced by: ] #entangledRule("A.10.7")
 #entangled[Entangled Rule(s):]\
-#entangled[A.5.20 is referenced by: ] #entangledRule("A.10.7")
+#entangled[A.5.20 is referenced by: ] #entangledRule("A.10.7")\
 
 == A.6: General Submission Rules
 A.6.1) The run's speedrun.com submission description must include the seed of the world.
@@ -570,8 +570,8 @@ A.10.5) <A.10.5> Macros may only be used to reset worlds if resets are triggered
 #entangled[Entangled Rule(s):]\
 #entangled[A.10.5 is subject to an exception by: ] #entangledRule("C.2.1")\
 A.10.6) Any program or macro that screen reads or listens to game audio for an advantage (at the discretion of verifiers) must not be used. Screen reading is using the data of the pixels of the game window to programmatically capture information from the game (e.g. color for biomes, text recognition for F3, enchantment cracking, inventory contents, etc). Any attempt to get around this rule will not be tolerated (i.e. taking a screenshot and a program reading from that, etc.).\
-A.10.7) <A.10.7> Macros may pause the game via Esc or F3+Esc before timer start in accordance with #entangledRule("A.5.2") or #entangledRule("A.5.20"). Macros may change FOV, render distance, simulation distance, entity distance, GUI scale, difficulty, and toggle GUI (F1) before timer start. In a world load run, macros may start the run by unpausing in accordance with #entangledRule("A.5.20.a"). Macros may toggle GUI immediately after unpausing.
-A.10.8) Chunkmap freezing is not allowed. Chunkmap freezing consists of using OBS Freeze Filter or another technique to capture an early state of the chunkmap and extend how long it is displayed in that state.
+A.10.7) <A.10.7> Macros may pause the game via Esc or F3+Esc before timer start in accordance with #entangledRule("A.5.2") or #entangledRule("A.5.20"). Macros may change FOV, render distance, simulation distance, entity distance, GUI scale, difficulty, and toggle GUI (F1) before timer start. In a world load run, macros may start the run by unpausing in accordance with #entangledRule("A.5.20.a"). Macros may toggle GUI immediately after unpausing.\
+A.10.8) Chunkmap freezing is not allowed. Chunkmap freezing consists of using OBS Freeze Filter or another technique to capture an early state of the chunkmap and extend how long it is displayed in that state.\
 
 == A.11: External Resource Rules
 A.11.1) The player and external programs may read from the statistics and advancement files.\
@@ -627,7 +627,7 @@ A.12.3) If a player engages in illegitimate behaviour in a submitted run, all of
 - A.12.3.a) Exception: Co-op runs may remain verified if it can be determined (at the discretion of verifiers) that no cheating occurred.
 - A.12.3.b) Exception: A player may appeal their inability to have future runs verified by opening a thread in the official Discord server. They may be exempt from having future runs rejected at the discretion of moderators. If they are exempt, however, they may have additional proof burdens put onto any/all of their future runs.
 \
-#formatNote[A.12.note) Illegitimate behaviour is distinguished from disallowed behaviour (behaviour which results in a run's rejection, but not any future/retroactive punishment) on a case by case basis. These distinguishing factors include (but are not limited to) the perceived intent of the player, whether or not the player attempted to hide said behaviour or deceive others, if the behaviour in question later becomes allowed, and the extent/impact of the illegitimate behaviour.]
+#formatNote[A.12.note) Illegitimate behaviour is distinguished from disallowed behaviour (behaviour which results in a run's rejection, but not any future/retroactive punishment) on a case by case basis. These distinguishing factors include (but are not limited to) the perceived intent of the player, whether or not the player attempted to hide said behaviour or deceive others, if the behaviour in question later becomes allowed, and the extent/impact of the illegitimate behaviour.]\
 
 = B: Random Seed Ruleset
 
@@ -653,7 +653,7 @@ C.1.2) In versions 1.16 and above, runners may not use the Recreate button to cr
 == C.2: Additional Macro and Timing Rules <C.2>
 #entangled[Entangled Rule(s):]\
 #entangled[Section C.2 is referenced by: ] #entangledRule("F.1.7")\
-C.2.1) <C.2.1> Exception to #entangledRule("A.3.10") and #entangledRule("A.10.5"): Macros may read the game's log files to ascertain the player's spawn coordinates prior to the run's start. The macro may use this information to choose to reset the world without player input.
+C.2.1) <C.2.1> Exception to #entangledRule("A.3.10") and #entangledRule("A.10.5"): Macros may read the game's log files to ascertain the player's spawn coordinates prior to the run's start. The macro may use this information to choose to reset the world without player input.\
 
 = D: Glitchless Ruleset
 
@@ -826,7 +826,7 @@ E.2.2) <E.2.2> Glitched runs follow the same hierarchy of timers as is outlined 
 
 == E.3: Internal Runs
 E.3.1) <E.3.1> Internal runs must not leave the world (Save and Quit or crash the game) in accordance with glitchless rules #entangledRule("D.1.3")-#entangledRule("D.1.4").\
-E.3.2) Internal runs may not use cross-world glitches.
+E.3.2) Internal runs may not use cross-world glitches.\
 
 == E.4: External Runs
 E.4.1) External runs must leave the world (Save and Quit or crash the game).
@@ -854,7 +854,7 @@ F.1.7) <F.1.7> Your server must not use any mods or plugins outside of the allow
 - F.1.7.d) BungeeCord
 F.1.8) <F.1.8> In accordance with #entangledRule("A.2.11"), at least one player must show the F3 menu during or immediately after the run. For runs done on LAN, the player who created the world must show F3.\
 \ 
-#formatNote[F.1.note) Co-op runs are given more leniency due to being less competitive and more difficult to organise. If an error is made either with the run or in the submission, you should still submit, and the run may be verified (at the discretion of verifiers).]
+#formatNote[F.1.note) Co-op runs are given more leniency due to being less competitive and more difficult to organise. If an error is made either with the run or in the submission, you should still submit, and the run may be verified (at the discretion of verifiers).]\
 
 == F.2: Co-op Timing Rules
 F.2.1) <F.2.1> Runs done on LAN may start their time following the same rules as #entangledRule("A.5.1")/#entangledRule("A.5.2") (world load/first input).\
@@ -866,7 +866,7 @@ F.2.2) <F.2.2> Runs done on external servers, or runs on LAN which choose to do 
 #entangled[Entangled Rule(s):]\
 #entangled[F.2.2 is referenced by: ] #entangledRule("F.1.3.b")\
 F.2.3) On external servers, if /time set 0 is not done, then time starts when the server loads the world and server logs must be submitted.\
-F.2.4) <F.2.4> The category is timed by RTA, nullifying #entangledRule("A.5").
+F.2.4) <F.2.4> The category is timed by RTA, nullifying #entangledRule("A.5").\
 
 == F.3: Video Rules
 F.3.1) Every player should record their perspective, and all of these perspectives should be submitted with the run.
@@ -876,7 +876,7 @@ F.3.3) The person to complete the run must be recording.\
 F.3.4) <F.3.4> Any user with cheats enabled must be recording.\
 #entangled[Entangled Rule(s):]\
 #entangled[F.3.4 is referenced by: ] #entangledRule("F.1.2.a")\
-F.3.5) The video should start before joining the server.
+F.3.5) The video should start before joining the server.\
 
 = G: Structures/No Structures Ruleset
 
@@ -894,16 +894,17 @@ G.2.4) <G.2.4> Clarification: If generate structures is turned on, you must not 
 - G.2.4.a) Using any blocks, mobs, or items from structures
 - G.2.4.b) Using the difference in terrain from a structure to your advantage
 #entangled[Entangled Rule(s):]\
-#entangled[G.2.4 is referenced by: ] #entangledRule("G.3.1")
+#entangled[G.2.4 is referenced by: ] #entangledRule("G.3.1")\
 
 == G.3: Structures
-G.3.1) <G.3.1> Runs marked as Structures must interact (as defined by #entangledRule("G.2.4")) with at least one structure (listed in #entangledRule("G.1.1")).
+G.3.1) <G.3.1> Runs marked as Structures must interact (as defined by #entangledRule("G.2.4")) with at least one structure (listed in #entangledRule("G.1.1")).\
 
 = H: Category Extension Ruleset
 
 == H.1: Clarifications and Exceptions
 H.1.2) In set seed runs, intentional prerotation (spawning into the world rotated from the initial camera) that provides an advantage is illegal. Otherwise, accidental or non-advantageous prerotation will incur a penalty of 0.5 seconds.
 - H.1.2.a) Clarification: Prerotation does not count as a run's first input.
+
 = 1: Any% Glitchless
 
 == 1.1: Any% Glitchless Objective and Clarifications
@@ -919,7 +920,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
   "CE1.1.1.b",
   "CE19.1.1.a",
 ))\
-1.1.2) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+1.1.2) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 == 1.2: Random Seed, 1.16+
 1.2.1) Runs under 13 minutes IGT before retime must submit world files, logs, and evidence of past attempts.\
@@ -927,7 +928,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 1.2.3) Runs under 13 minutes IGT will be retimed as per top-level retiming rules.\
 1.2.4) <1.2.4> Runs which are contenders for the world record must follow immediate contact in line with #entangledRule("A.7.10").\
 #entangled[Entangled Rule(s):]\
-#entangled[1.2.4 is referenced by: ] #entangledRule("A.7.10.a")
+#entangled[1.2.4 is referenced by: ] #entangledRule("A.7.10.a")\
 
 == 1.3: Random Seed, 1.13-1.15
 1.3.1) Runs under 20 minutes IGT before retime must submit world files.\
@@ -937,59 +938,59 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 == 1.4: Random Seed, 1.9-1.12
 1.4.1) Runs under 25 minutes IGT before retime must submit world files, logs, and gameplay audio.\
 1.4.2) Runs under 25 minutes IGT will be retimed as per top-level retiming rules.\
-1.4.3) Runs under 30 minutes IGT before retime must submit world files.
+1.4.3) Runs under 30 minutes IGT before retime must submit world files.\
 
 == 1.5: Random Seed, 1.8
 1.5.1) Runs under 25 minutes IGT before retime must submit world files.\
 1.5.2) Runs under 23 minutes IGT before retime must submit world files, logs, and gameplay audio.\
-1.5.3) Runs under 23 minutes IGT will be retimed as per top-level retiming rules.
+1.5.3) Runs under 23 minutes IGT will be retimed as per top-level retiming rules.\
 
 == 1.6: Random Seed, Pre 1.8
 1.6.1) Runs under 25 minutes IGT before retime must submit world files.\
 1.6.2) Runs under 23 minutes IGT before retime must submit world files, logs, and gameplay audio.\
-1.6.3) Runs under 23 minutes IGT will be retimed as per top-level retiming rules.
+1.6.3) Runs under 23 minutes IGT will be retimed as per top-level retiming rules.\
 
 == 1.7: Set Seed, 1.16-1.19
-1.7.1) Runs under 1:50 IGT must submit world files, logs, and gameplay audio.
+1.7.1) Runs under 1:50 IGT must submit world files, logs, and gameplay audio.\
 
 == 1.8: Set Seed, 1.13-1.15
-1.8.1) Runs under 2:45 IGT must submit world files and logs.
+1.8.1) Runs under 2:45 IGT must submit world files and logs.\
 
 == 1.9: Set Seed, 1.9-1.12
-1.9.1) Runs under 1:00 IGT must submit world files and logs.
+1.9.1) Runs under 1:00 IGT must submit world files and logs.\
 
 == 1.10: Set Seed, 1.8
-1.10.1) Runs under 3:30 IGT must submit world files and logs.
+1.10.1) Runs under 3:30 IGT must submit world files and logs.\
 
 == 1.11: Set Seed, Pre 1.8
-1.11.1) Runs under 4:15 IGT must submit world files and logs.
+1.11.1) Runs under 4:15 IGT must submit world files and logs.\
 
 == 1.12: Set Seed, 1.20+
-1.12.1) Runs under 1:35 IGT must submit world files, logs, and gameplay audio.
+1.12.1) Runs under 1:35 IGT must submit world files, logs, and gameplay audio.\
 
 = 2: Any%
 
 == 2.1: Any% Objective and Clarifications
 2.1.1) <2.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
 2.1.2) <2.1.2> Clarification: There are no specific subcategory rules beyond the top-level retime rules established in #entangledRule("2.2") and #entangledRule("2.3"); thus, runs should only follow their respective rulesets (universal, internal/external, glitched, set seed/random seed).\
-2.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+2.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 == 2.2: Any% Internal Random Seed Pre 1.9 <2.2>
 #entangled[Entangled Rule(s):]\
 #entangled[2.2 is referenced by: ] #entangledRule("2.1.2")\
 2.2.1) Runs under 12 minutes IGT will be retimed as per top-level retiming rules.\
-2.2.2) Runs under 12 minutes IGT before retime must submit world files.
+2.2.2) Runs under 12 minutes IGT before retime must submit world files.\
 
 == 2.3: Any% Internal Random Seed 1.9+ <2.3>
 #entangled[Entangled Rule(s):]\
 #entangled[2.3 is referenced by: ] #entangledRule("2.1.2")\
 2.3.1) Runs under 11 minutes IGT will be retimed as per top-level retiming rules.\
-2.3.2) Runs under 11 minutes IGT before retime must submit world files.
+2.3.2) Runs under 11 minutes IGT before retime must submit world files.\
 
 = 3: All Achievements
 
 == 3.1: All Achievements Objective, Exceptions, and Clarifications
-3.1.1) <3.1.1> The objective, exceptions, and clarifications of All Achievements are identical to those of All Advancements (see section #entangledRule("4.1")). Any mentions of advancements should be substituted with achievements.
+3.1.1) <3.1.1> The objective, exceptions, and clarifications of All Achievements are identical to those of All Advancements (see section #entangledRule("4.1")). Any mentions of advancements should be substituted with achievements.\
 
 = 4: All Advancements
 
@@ -1008,30 +1009,30 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 - 4.1.3.d) SpeedRunIGT is set to the right category and autostops.
 #entangled[Entangled Rule(s):]\
 #entangled[4.1.3 is referenced by: ] #entangledRule("CE24.1.2")\
-4.1.4) All runs begin on world load.
+4.1.4) All runs begin on world load.\
 
 == 4.6: SS/SSG/RS/RSG, 1.16
-4.6.2) RSG runs under 3:00:00 IGT must submit world files and logs.
+4.6.2) RSG runs under 3:00:00 IGT must submit world files and logs.\
 
 = 5: Any% Glitchless Co-op
 
 == 5.1: Any% Glitchless Co-op Objective
-5.1.1) <5.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).
+5.1.1) <5.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
 
 == 5.2: <5.2> 2 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
-5.2.1) For times which claim to be top fifteen, perspectives of both players must be recorded and submitted.
+5.2.1) For times which claim to be top fifteen, perspectives of both players must be recorded and submitted.\
 
 == 5.3: 3 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
-5.3.1) For times which claim to be top fifteen, perspectives of all three players must be recorded and submitted.
+5.3.1) For times which claim to be top fifteen, perspectives of all three players must be recorded and submitted.\
 
 == 5.4: 4 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
-5.4.1) For times which claim to be top fifteen, perspectives of all four players must be recorded and submitted.
+5.4.1) For times which claim to be top fifteen, perspectives of all four players must be recorded and submitted.\
 
 == 5.5: 5-9 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
-5.5.1) For times which claim to be top fifteen, perspectives of at least four players must be recorded and submitted.
+5.5.1) For times which claim to be top fifteen, perspectives of at least four players must be recorded and submitted.\
 
 == 5.6: 10+ Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
-5.6.1) For times which claim to be top fifteen, perspectives of at least five players must be recorded and submitted.
+5.6.1) For times which claim to be top fifteen, perspectives of at least five players must be recorded and submitted.\
 
 = 6: All Advancements Co-op
 
@@ -1041,7 +1042,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 - 6.1.1.b) <6.1.1.b> If the run is segmented, you must submit server logs instead of instance logs (#entangledRule("A.5.19.d")).
 6.1.2) Clarification: Each advancement must be achieved by at least one person, but no individual person needs every advancement.\
 6.1.3) The list of all advancements is the same as for All Advancements.\
-6.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, random seed, glitchless, co-op).
+6.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, random seed, glitchless, co-op).\
 
 = 7: Any% Glitchless (Demo)
 
@@ -1054,7 +1055,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 - 7.1.3.c) <7.1.3.c> In addition to the world generation settings allowed in #entangledRule("A.1.3"), you must also enable the Bonus Chest.
 - 7.1.3.d) The run must be played on Minecraft version 1.3.1 or newer.
 7.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed, glitchless).\
-7.1.5) All runs begin on first input.
+7.1.5) All runs begin on first input.\
 
 = 8: Any% Glitchless (Peaceful)
 
@@ -1068,7 +1069,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 #entangled[Entangled Rule(s):]\
 #entangled[8.1.3 is referenced by: ] #entangledRule("9.1.2")\
 8.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
-8.1.5) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+8.1.5) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = 9: Any% (Peaceful)
 
@@ -1076,10 +1077,10 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 9.1.1) <9.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
 9.1.2) <9.1.2> Any% Peaceful follows identical rulesets regarding peaceful difficulty as Any% Glitchless Peaceful (see #entangledRule("8.1.2")-#entangledRule("8.1.3")).\
 9.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitched).\
-9.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+9.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 == 9.2: Any% (Peaceful), RS, 1.9+
-9.2.1) <9.2.1> In addition to #entangledRule("A.11.6"), resources that consist of lists of chunks and seed-independent data about them may be used (e.g. chunk positions with the same hash or chunk positions by grass noise).
+9.2.1) <9.2.1> In addition to #entangledRule("A.11.6"), resources that consist of lists of chunks and seed-independent data about them may be used (e.g. chunk positions with the same hash or chunk positions by grass noise).\
 9.2.2) <9.2.2> In addition to the external tools allowed by #entangledRule("A.11.7"), the following additional external tools may be used:
    - 9.2.2.a) #formatLink("https://www.desmos.com/calculator/22jcwa7oju]")[RSP Stronghold Calculator]
 
@@ -1103,7 +1104,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 - 11.1.3.a) Runners must have a visible and accurate playOneMinute timer, such as the in-game timer within Livesplit, another in-game timer, or SpeedrunIGT set to 'Legacy' mode.
 - 11.1.3.b) Runners may choose to display the Time Played statistic within the statistics screen after the run's completion in lieu of an in-game timer, though this is not recommended.
 11.1.4) The run must employ some version of time travel, where the playOneMinute statistic is reverted to a previous state. The resulting world is some combination of previous states of the same world, rather than a single state.\
-11.1.5) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitched).
+11.1.5) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitched).\
 
 = CE1: Kill Bosses
 
@@ -1121,31 +1122,31 @@ CE1.1.3) Runs must show that the boss is killed.
 - CE1.1.3.c) The statistics menu displaying the boss' death is shown.
 - CE1.1.3.d) Subtitles show the boss' death.
 - CE1.1.3.e) World files are submitted which show the boss was killed.
-CE1.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE1.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 == CE1.2: All Bosses, RSG/SSG/RS/SS, Pre 1.8
-CE1.2.1) The player must kill the Ender Dragon and a Wither.
+CE1.2.1) The player must kill the Ender Dragon and a Wither.\
 
 == CE1.3: All Bosses, RSG/SSG/RS/SS, 1.8
-CE1.3.1) The player must kill the Ender Dragon, a Wither, and an Elder Guardian.
+CE1.3.1) The player must kill the Ender Dragon, a Wither, and an Elder Guardian.\
 
 == CE1.4: All Bosses, RSG/SSG/RS/SS, 1.9-1.15
-CE1.4.1) The player must kill the Ender Dragon, a Wither, and an Elder Guardian.
+CE1.4.1) The player must kill the Ender Dragon, a Wither, and an Elder Guardian.\
 
 == CE1.5: All Bosses, RSG/SSG/RS/SS, 1.16-1.18
-CE1.5.1) The player must kill the Ender Dragon, a Wither, and an Elder Guardian.
+CE1.5.1) The player must kill the Ender Dragon, a Wither, and an Elder Guardian.\
 
 == CE1.6: All Bosses, RSG/SSG/RS/SS, 1.19+
-CE1.6.1) The player must kill the Ender Dragon, a Wither, an Elder Guardian, and a Warden.
+CE1.6.1) The player must kill the Ender Dragon, a Wither, an Elder Guardian, and a Warden.\
 
 == CE1.7: Wither, RSG/SSG/RS/SS, Pre 1.9/1.9-1.15/1.16-1.18/1.19+
-CE1.7.1) The player must kill a Wither.
+CE1.7.1) The player must kill a Wither.\
 
 == CE1.8: Elder Guardian, RSG/SSG/RS/SS, Pre 1.9/1.9-1.15/1.16-1.18/1.19+
-CE1.8.1) The player must kill an Elder Guardian.
+CE1.8.1) The player must kill an Elder Guardian.\
 
 == CE1.9: Warden, RSG/SSG/RS/SS, 1.19+
-CE1.9.1) The player must kill a Warden.
+CE1.9.1) The player must kill a Warden.\
 
 = CE2: How Did We Get Here?
 
@@ -1153,7 +1154,7 @@ CE1.9.1) The player must kill a Warden.
 CE2.1.1) The run is considered complete once the How Did We Get Here? advancement has been achieved.
 - CE2.1.1.a) Timing ends once the chat notification for How Did We Get Here? is shown.
 CE2.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
-CE2.1.3) All runs begin upon world load.
+CE2.1.3) All runs begin upon world load.\
 
 = CE3: Hero of the Village
 
@@ -1161,7 +1162,7 @@ CE2.1.3) All runs begin upon world load.
 CE3.1.1) The run is considered complete once the Hero of the Village advancement has been achieved.
 - CE3.1.1.a) Timing ends once the chat notification for Hero of the Village is shown.
 CE3.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
-CE3.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE3.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = CE4: Cover Me in Debris
 
@@ -1169,7 +1170,7 @@ CE3.1.3) All random seed categories begin upon world load, whereas all set seed 
 CE4.1.1) The run is considered complete once the Cover Me in Debris advancement has been achieved.
 - CE4.1.1.a) Timing ends once the chat notification for Cover Me in Debris is shown.
 CE4.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless, structures/no structures).\
-CE4.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE4.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = CE5: Arbalistic
 
@@ -1177,7 +1178,7 @@ CE4.1.3) All random seed categories begin upon world load, whereas all set seed 
 CE5.1.1) The run is considered complete once the Arbalistic advancement has been achieved.
 - CE5.1.1.a) Timing ends once the chat notification for Arbalistic is shown.
 CE5.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless, structures/no structures).\
-CE5.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE5.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = CE6: Obtain Item
 
@@ -1192,17 +1193,17 @@ CE6.1.2) <CE6.1.2> All runs begin upon first input.\
 CE6.2.1) The run is considered complete once a diamond is obtained.\
 
 == CE6.3: Obtain Emerald, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
-CE6.3.1) The run is considered complete once an emerald is obtained.
+CE6.3.1) The run is considered complete once an emerald is obtained.\
 
 == CE6.4: Obtain Cake, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
 CE6.4.1) The run is considered complete once a cake is obtained.\
 CE6.4.2) <CE6.4.2> Exception: Obtain Cake Random Seed Glitchless No Structures begins upon world load, nullifying #entangledRule("CE6.1.2").\
 
 == CE6.5: Obtain Golden Apple, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
-CE6.5.1) The run is considered complete once a golden apple or enchanted golden apple is obtained.
+CE6.5.1) The run is considered complete once a golden apple or enchanted golden apple is obtained.\
 
 == CE6.6: Netherite Ingot, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
-CE6.6.1) The run is considered complete once a netherite ingot is obtained.
+CE6.6.1) The run is considered complete once a netherite ingot is obtained.\
 
 = CE7: Enter Nether
 
@@ -1210,7 +1211,7 @@ CE6.6.1) The run is considered complete once a netherite ingot is obtained.
 CE7.1.1) The run is considered complete once the player enters the nether.
 - CE7.1.1.a) Timing ends once the player leaves the nether portal in the overworld and enters the loading screen to enter the nether/the lag accompanied with entering the nether.
 CE7.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless, structures/no structures).\
-CE7.1.3) All runs begin upon first input.
+CE7.1.3) All runs begin upon first input.\
 
 = CE8: All Swords
 
@@ -1218,16 +1219,16 @@ CE7.1.3) All runs begin upon first input.
 CE8.1.1) The run is considered complete once all swords have been simultaneously obtained.
 - CE8.1.1.a) <CE8.1.1.a> Timing ends once the last sword is obtained. (see #entangledRule("A.5.18"))
 - CE8.1.1.b) Clarification: Enchanted swords qualify as swords.
-CE8.1.2) All runs begin upon first input.
+CE8.1.2) All runs begin upon first input.\
 
 == CE8.2: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.0-1.15
-CE8.2.1) The run is considered complete once a wooden sword, stone sword, iron sword, gold sword, and diamond sword are obtained.
+CE8.2.1) The run is considered complete once a wooden sword, stone sword, iron sword, gold sword, and diamond sword are obtained.\
 
 == CE8.3: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.16-1.21.8
-CE8.3.1) The run is considered complete once a wood sword, stone sword, iron sword, gold sword, diamond sword, and netherite sword are obtained.
+CE8.3.1) The run is considered complete once a wood sword, stone sword, iron sword, gold sword, diamond sword, and netherite sword are obtained.\
 
 == CE8.4: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.21.9+
-CE8.4.1) The run is considered complete once a wood sword, stone sword, copper sword, iron sword, gold sword, diamond sword, and netherite sword are obtained.
+CE8.4.1) The run is considered complete once a wood sword, stone sword, copper sword, iron sword, gold sword, diamond sword, and netherite sword are obtained.\
 
 = CE9: All Wood Logs
 
@@ -1248,22 +1249,22 @@ CE9.3.1) The run is considered complete once an oak log, a spruce log, birch log
 CE9.3.2) <CE9.3.2> Exception: All Wood Logs Random Seed Glitchless 1.2-1.6 begins upon first input, nullifying #entangledRule("CE9.1.2").\
 
 == CE9.4: Set Seed Glitchless/Random Seed Glitchless, 1.7-1.15
-CE9.4.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, and an acacia log are obtained.
+CE9.4.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, and an acacia log are obtained.\
 
 == CE9.5: Set Seed Glitchless/Random Seed Glitchless, 1.16-1.18
-CE9.5.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, and a crimson stem are obtained.
+CE9.5.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, and a crimson stem are obtained.\
 
 == CE9.6: Set Seed Glitchless/Random Seed Glitchless, 1.19
-CE9.6.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, and a mangrove log are obtained.
+CE9.6.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, and a mangrove log are obtained.\
 
 == CE9.7: Set Seed Glitchless/Random Seed Glitchless, 1.20-1.21.3
-CE9.7.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, and a cherry log are obtained.
+CE9.7.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, and a cherry log are obtained.\
 
 == CE9.8: Set Seed Glitchless/Random Seed Glitchless, 1.21.4-26.2
-CE9.8.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, cherry log, and a pale oak log are obtained.
+CE9.8.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, cherry log, and a pale oak log are obtained.\
 
 == CE9.9: Set Seed Glitchless/Random Seed Glitchless, 26.3
-CE9.9.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, cherry log, pale oak log, and a poplar log are obtained.
+CE9.9.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, cherry log, pale oak log, and a poplar log are obtained.\
 
 = CE10: All Wool
 
@@ -1272,23 +1273,23 @@ CE10.1.1) The run is considered complete once all colours of wool have been simu
 - CE10.1.1.a) <CE10.1.1.a> Timing ends once the last colour of wool is obtained. (see #entangledRule("A.5.18"))
 CE10.1.2) The list of all wool colours are: white wool (called wool in Minecraft versions before 1.11), orange wool, magenta wool, light blue wool, yellow wool, lime wool, pink wool, grey wool, light grey wool, cyan wool, purple wool, blue wool, brown wool, green wool, red wool, and black wool.\
 CE10.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
-CE10.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE10.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = CE11: All Minerals
 
 == CE11.1: All Minerals Objective and Clarifications
 CE11.1.1) The run is considered complete once all minerals have been simultaneously obtained.
 - CE11.1.1.a) <CE11.1.1.a> Timing ends once the last mineral is obtained. (see #entangledRule("A.5.18"))
-CE11.1.2) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE11.1.2) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 == CE11.2: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.5-1.15
-CE11.2.1) The run is considered complete once a piece of coal, an iron ingot, a gold ingot, a redstone, a lapis lazuli, a diamond, an emerald, and a nether quartz is obtained.
+CE11.2.1) The run is considered complete once a piece of coal, an iron ingot, a gold ingot, a redstone, a lapis lazuli, a diamond, an emerald, and a nether quartz is obtained.\
 
 == CE11.3: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.16
-CE11.3.1) The run is considered complete once a piece of coal, an iron ingot, a gold ingot, a redstone, a lapis lazuli, a diamond, an emerald, a nether quartz, and a netherite ingot is obtained.
+CE11.3.1) The run is considered complete once a piece of coal, an iron ingot, a gold ingot, a redstone, a lapis lazuli, a diamond, an emerald, a nether quartz, and a netherite ingot is obtained.\
 
 == CE11.4: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.17+
-CE11.4.1) The run is considered complete once a piece of coal, an iron ingot, a gold ingot, a redstone, a lapis lazuli, a diamond, an emerald, a nether quartz, a netherite ingot, a copper ingot, and an amethyst shard is obtained.
+CE11.4.1) The run is considered complete once a piece of coal, an iron ingot, a gold ingot, a redstone, a lapis lazuli, a diamond, an emerald, a nether quartz, a netherite ingot, a copper ingot, and an amethyst shard is obtained.\
 
 = CE12: Full Iron Armor and 15 Levels
 
@@ -1296,7 +1297,7 @@ CE11.4.1) The run is considered complete once a piece of coal, an iron ingot, a 
 CE12.1.1) The run is considered complete once an iron helmet, iron chestplate, iron leggings, and iron boots have been simultaneously equipped, and the player has 15 levels of experience.
 - CE12.1.1.a) Timing ends once the last piece of armour is equipped or once the experience bar turns to 15 levels (whichever comes last).
 CE12.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched, structures/no structures).\
-CE12.1.3) All runs begin upon first input.
+CE12.1.3) All runs begin upon first input.\
 
 = CE13: All Workstations
 
@@ -1305,7 +1306,7 @@ CE13.1.1) The run is considered complete once all workstations have been simulta
 - CE13.1.1.a) <CE13.1.1.a> Timing ends once the last workstation is obtained. (see #entangledRule("A.5.18"))
 CE13.1.2) The list of all workstations are: blast furnace, smoker, cartography table, brewing stand, composter, barrel, fletching table, cauldron, lectern, stonecutter, loom, smithing table, and grindstone.\
 CE13.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
-CE13.1.4) All runs begin upon first input.
+CE13.1.4) All runs begin upon first input.\
 
 = CE14: Full Inventy!
 
@@ -1315,7 +1316,7 @@ CE14.1.1) The run is considered complete once all inventory slots are full.
 - CE14.1.1.b) Clarification: All 36 main inventory slots must be filled, but the offhand and armour slots do not have to be filled.
 CE14.1.2) Each inventory slot must be filled with a unique item.\
 CE14.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless, structures/no structures).\
-CE14.1.4) All runs begin upon first input.
+CE14.1.4) All runs begin upon first input.\
 
 = CE15: Etner Edn
 
@@ -1323,7 +1324,7 @@ CE14.1.4) All runs begin upon first input.
 CE15.1.1) The run is considered complete once the player enters the end.
 - CE15.1.1.a) Timing ends once the player leaves the end portal in the overworld and enters the loading screen to enter the end/the lag accompanied with entering the end.
 CE15.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
-CE15.1.3) All runs begin upon first input.
+CE15.1.3) All runs begin upon first input.\
 
 = CE17: Mine a Chunk
 
@@ -1333,13 +1334,13 @@ CE15.1.3) All runs begin upon first input.
 CE17.1.1) The run is considered complete once a region of space that has a width and depth of 16 blocks and a height spanning the space between the highest level of the bedrock floor to the lowest level of the bedrock ceiling or to world height is filled only by air blocks.
 - CE17.1.1.a) Timing ends once the last block is destroyed.
 CE17.1.3) Clarification: A chunk does not have to be mined in terms of how the game generates chunks, only a chunk-sized area.\
-CE17.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE17.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 == CE17.2: RSG/SSG/RS/SS, Pre 1.17/1.17/1.18+, Overworld, Solo/Duos/3-4/5-9/10+
-CE17.2.1) <CE17.2.1> The run is considered complete once a chunk is mined (see #entangledRule("CE17.1")) in the overworld.
+CE17.2.1) <CE17.2.1> The run is considered complete once a chunk is mined (see #entangledRule("CE17.1")) in the overworld.\
 
 == CE17.3: RSG/SSG/RS/SS, Pre 1.17/1.17/1.18+, Nether, Solo/Duos/3-4/5-9/10+
-CE17.3.1) <CE17.3.1> The run is considered complete once a chunk is mined (see #entangledRule("CE17.1")) in the nether.
+CE17.3.1) <CE17.3.1> The run is considered complete once a chunk is mined (see #entangledRule("CE17.1")) in the nether.\
 
 = CE18: Stack of Lime Wool
 
@@ -1348,18 +1349,18 @@ CE18.1.1) The run is considered complete once 64 lime wool has been obtained.
 - CE18.1.1.a) <CE18.1.1.a> Timing ends once the last piece(s) of lime wool are obtained. (see #entangledRule("A.5.18"))
 CE18.1.2) Clarification: The lime wool does not have to be all in one stack.\
 CE18.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
-CE18.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE18.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = CE19: All Portals
 
 == CE19.1: All Portals Objective and Clarifications
 CE19.1.1) The run is considered complete once the conditions of Any% have been met after all end portals have been lit.
 - CE19.1.1.a) <CE19.1.1.a> Timing ends as per Any% Glitchless timing (see #entangledRule("1.1.1")).
-CE19.1.2) All runs begin upon world load.
+CE19.1.2) All runs begin upon world load.\
 
 == CE19.2: All Portals Pre 1.9
 CE19.2.1) The run is considered complete once the conditions of Any% have been met after all 3 end portals have been lit.\
-CE19.2.2) You must not enter the end until all 3 end portals have been lit.
+CE19.2.2) You must not enter the end until all 3 end portals have been lit.\
 
 == CE19.3: All Portals 1.9+
 CE19.3.1) The run is considered complete once the conditions of Any% have been met after all 128 end portals have been lit.
@@ -1370,12 +1371,12 @@ CE19.3.3) In addition to the external tools allowed by #entangledRule("A.11.6"),
 - CE19.3.3.a) #formatLink("https://github.com/TheTalkingMime/AllPortals")[All Portals [TheTalkingMime]]
 - CE19.3.3.b) #formatLink("https://github.com/shnenanigans/APgui")[APgui [shnenanigans]]
 - CE19.3.3.c) #formatLink("https://www.desmos.com/calculator/la7ezpyutu")[Desmos Stronghold Rings]
-CE19.3.4) <CE19.3.4> A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by #entangledRule("A.5.19") and its corresponding sub-rules.
+CE19.3.4) <CE19.3.4> A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by #entangledRule("A.5.19") and its corresponding sub-rules.\
 
 == CE19.4: All Portals Purist
 CE19.4.1) Purist runs must be played on random seed glitchless.\
 CE19.4.2) Purist runs must be played on hardcore.\
-CE19.4.3) <CE19.4.3> Purist runs must not use F3 as defined by #entangledRule("A.6.2").
+CE19.4.3) <CE19.4.3> Purist runs must not use F3 as defined by #entangledRule("A.6.2").\
 
 = CE20: Scout and Route Glitchless
 
@@ -1389,7 +1390,7 @@ CE20.1.4) Any time spent over 10 minutes scouting will be added to the final tim
 - CE20.1.4.a) Example: If 10:30 are spent scouting, and the final in-game time of the run is 9:00, the final in-game time of the run will be 9:30.
 CE20.1.5) /datapack list must be shown at the end of the run.
 - CE20.1.5.a) Guidance: You must open to LAN and turn cheats on for /datapack list to be executed.
-CE20.1.6) All runs begin upon world load (of the new world after scouting).
+CE20.1.6) All runs begin upon world load (of the new world after scouting).\
 
 == CE20.2: No /seed
 CE20.2.1) The /seed command must not be used, even during scouting time.\
@@ -1404,7 +1405,7 @@ CE20.3.1) The /seed command must be used during scouting time.\
 CE20.3.2) <CE20.3.2> During scouting time only, macros may be used. (nullifying #entangledRule("A.10.4")).\
 CE20.3.3) <CE20.3.3> During scouting time only, any external programs may be used. (nullifying #entangledRule("A.11.8") and #entangledRule("A.11.9"))
 - CE20.3.3.a) Clarification: Mods and clients not outlined in section #entangledRule("A.8") are not allowed. <CE20.3.3.a>
-CE20.3.4) <CE20.3.4> During scouting time only, any of the game's files may be read, nullifying #entangledRule("A.3.10").
+CE20.3.4) <CE20.3.4> During scouting time only, any of the game's files may be read, nullifying #entangledRule("A.3.10").\
 
 = CE23: Sonic, Tails, and Knuckles
 
@@ -1412,7 +1413,7 @@ CE20.3.4) <CE20.3.4> During scouting time only, any of the game's files may be r
 CE23.1.1) The run is considered complete once one sheep has been dyed red, another sheep has been dyed orange, and a third sheep has been dyed blue.
 - CE23.1.1.a) Timing ends once the last sheep is dyed either red, orange, or blue.
 CE23.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
-CE23.1.3) All runs begin upon first input.
+CE23.1.3) All runs begin upon first input.\
 
 = CE24: Half%
 
@@ -1421,7 +1422,7 @@ CE24.1.1) <CE24.1.1> The run is considered complete once exactly 40 advancements
 - CE24.1.1.a) Timing ends once the chat notification for the last advancement is shown.
 CE24.1.2) <CE24.1.2> Runs must demonstrate that 40 advancements have been obtained in accordance with #entangledRule("4.1.3").\
 CE24.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
-CE24.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE24.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = CE25: Pride%
 
@@ -1438,7 +1439,7 @@ CE25.1.3) The banner pattern which represents any given flag must not contain an
 CE25.1.4) For a banner pattern to qualify as representing a given flag, it must be possible for one to draw an uncurved line which intersects the flag colours in order (defined in CE25.1.2).
 - CE25.1.4.a) Clarification: This line does not necessarily need to cover the entire length/width of the banner.
 CE25.1.5) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
-CE25.1.6) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE25.1.6) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = CE26: High%
 
@@ -1448,4 +1449,4 @@ CE26.1.1) The run is considered complete once the player reaches a Y level of 42
 CE26.1.2) You must press F3 when displaying that you have met the run's objective.
 - CE26.1.2.a) <CE26.1.2.a> Exception to #entangledRule("A.6.2"): If your run only uses F3 to display that you have met the run's objective, your run will be marked as No F3.
 CE26.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
-CE26.1.4) All runs begin upon first input.
+CE26.1.4) All runs begin upon first input.\
