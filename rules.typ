@@ -1,4 +1,4 @@
-#let version = "v7"
+#let version = "v8"
 
 #set page(
   paper: "us-letter", 
@@ -134,7 +134,9 @@ A.1.1) An allowed launcher must be used.
 - A.1.1.d) #formatLink("https://modrinth.com/app")[Modrinth App]
 - A.1.1.e) #formatLink("https://atlauncher.com")[ATLauncher]
 - A.1.1.f) Guidance: If you want another launcher to be considered for legalization, please open a thread. Launchers are only allowed if they do not significantly modify the game.
-- A.1.1.g) #formatLink("https://github.com/MCSRLauncher/Launcher")[MCSR Launcher]
+- A.1.1.g) #formatLink("https://mcsrlauncher.github.io/")[MCSR Launcher]
+- A.1.1.h) #formatLink("https://pandora.moulberry.com/")[Pandora Launcher]
+- A.1.1.i) #formatLink("https://github.com/loystonpais/nixcraft")[Nixcraft]
 A.1.2) Runs must be performed on Minecraft 1.0 or later using an official release.
 - The versions this excludes are:
 - A.1.2.a) Beta releases
@@ -144,8 +146,6 @@ A.1.2) Runs must be performed on Minecraft 1.0 or later using an official releas
 - A.1.2.e) Release candidates
 - A.1.2.f) Pre-releases
   - A.1.2.f.i) <A.1.2.f.i> Guidance: Versions 1.2, 1.3, 1.4, 1.4.1, 1.4.3, 1.5, 1.6, 1.6.3, 1.7, 1.7.1, and 1.7.3 are considered pre-releases and must not be used.
-  - #entangled[Entangled Rule(s):]
-  - #entangled[A.1.2.f.i is referenced by: ] #entangledRule("CE16.1.3")
 - A.1.2.g) Combat tests
 A.1.3) <A.1.3> The default settings of world generation must be kept.
 - The only allowable settings that may be changed constitute:
@@ -167,25 +167,18 @@ A.1.4) The options.txt file must not be altered to circumvent the bounds to the 
 A.1.5) The game's code and files must not be altered to produce any unfair advantage or significant deviation in gameplay.
 - A.1.5.a) Clarification: Changing capes and skins (including high resolution/dimension capes) in the launcher assets cache is allowed. Skins must not be transparent. Elytra shape must not be changed.
   - A.1.5.a.i) Guidance: Several officially released capes change the shape of the elytra. These custom elytra textures/shapes may be used if and only if their respective capes are also used.
-- A.1.6) The name of hardware components, such as the CPU, must not be altered.
+A.1.6) The name of hardware components, such as the CPU, must not be altered.\
+A.1.7) The player's name must not be set to “Notch” in 1.2 and below.\
 
 == A.2: Videos
-A.2.1) All runs must be submitted with a video of the run.\
+A.2.1) All runs must be submitted with a video of the run.
+- A.2.1.a) Clarification: Your video must be permanently available (this excludes Twitch VODs and clips).
+- A.2.1.b) Clarification: Your video must be viewable (this excludes deleted, private, and globally unavailable videos).
+- A.2.1.c) Exception: If you wish for your video not to be viewable to the public but still be on the leaderboards, please open a thread. The run may be allowed (at the discretion of verifiers).
 A.2.2) <A.2.2> The video of the run must be continuous; it cannot be segmented or not display the run for a duration of time.
 - A.2.2.a) If your video is discontinuous due to an error with your hardware or video recording software, the run may still be verified (at the discretion of verifiers). In this situation, you should open a thread.
 #entangled[Entangled Rule(s):]\
 #entangled[A.2.2 is nullified by: ] #entangledRule("A.5.19")\
-A.2.3) Your video must be permanently available.
-- This excludes but is not limited to:
-- A.2.3.a) Twitch VODs and clips
-A.2.4) Your video must be viewable.
-- Videos which are considered unviewable include but are not limited to:
-- A.2.4.a) Deleted videos
-- A.2.4.b) Private videos
-- A.2.4.c) Password-protected videos
-- A.2.4.d) Videos unavailable in the majority of countries
-- A.2.4.e) Videos which require payments/subscriptions
-- A.2.4.f) Exception: If you wish for your video not to be viewable to the public but still be on the leaderboards, please open a thread. The run may be allowed (at the discretion of verifiers).
 A.2.5) Your video must start before you begin to generate the world.
 - A.2.5.a) Clarification: If you are using Atum's reset feature, the video must include some portion of the prior run, or you must be shown clicking the golden boots.
 - A.2.5.b) Clarification: If you are creating the world without the use of Atum, the video must start at least at the Title Screen; you should include some portion of the prior run.
@@ -236,7 +229,7 @@ If F3 was not shown but no mods were used but the Title Screen was in line with 
 If using OptiFine the version must be shown in F3. Additionally, in 1.7.10 and below the rest of the mod text is on the left.
 #image("images/1.7.10.png", width: 75%)
 If F3 visibility requirements were not satisfied during the run because of a webcam or other overlay, F3 must be shown with overlays disabled after the run is complete.
-]
+]\
 
 == A.3: During the Run
 A.3.2) You must not alter your system time to intentionally use time-sensitive features (specifically Halloween and Christmas game modifications).\
@@ -249,7 +242,6 @@ A.3.5) <A.3.5> You must not use console commands during the run.\
 #entangled[A.3.5 is nullified by: ] #entangledRules(("F.1.3.a", "F.1.3.b", "F.1.3.c", "CE20.1.2"))\
 A.3.6) If you play one instance of Minecraft and then switch to playing another, the initial instance's run is no longer verifiable. If this is done accidentally, and attempts are made to quickly exit the other instance and rejoin the initial instance, your run may still be verified (at the discretion of verifiers).
 - A.3.6.a) Clarification: While one instance of Minecraft is played, you may pause or close other instances.
-A.3.7) Non-default shaders, including Super Secret Settings, must not be used.\
 A.3.9) Runs must not intend to be as slow as possible. At a minimum, an attempt must be made to finish the run quickly.\
 A.3.10) <A.3.10> World and log files produced by the vanilla game must not be read before or during the run.
 - A.3.10.a) Exception: Advancement or statistics files may be read by players and programs.
@@ -261,6 +253,7 @@ A.3.11) <A.3.11> Peaceful difficulty must not be used within the run.\
 #entangled[Entangled Rule(s):]\
 #entangled[A.3.11 is referenced by: ] #entangledRule("F.1.3.a")\
 #entangled[A.3.11 is nullified by: ] #entangledRule("8.1.3")\
+A.3.12) If the run is performed in hardcore mode, players must not enter spectator mode upon death.\
 
 == A.4: Resource Packs
 A.4.1) The vanilla resource pack, programmer art (1.14+), and High Contrast (1.19.4+) packs may be used.\
@@ -299,15 +292,15 @@ This excludes but is not limited to:
 == A.5: Timing Rules <A.5>
 #entangled[Entangled Rule(s):]\
 #entangled[A.5 is referenced by: ] #entangledRule("E.2.2")\
-#entangled[A.5 is nullified by: ] #entangledRules(("F.2.4", "11.1.2", "CE16.1.4"))\
-A.5.1) <A.5.1> Runs begin timing on either world load, referring to when the player is placed into the world, or on first input.
+#entangled[A.5 is nullified by: ] #entangledRules(("F.2.4", "11.1.2"))\
+A.5.1) <A.5.1> Runs begin timing on either world load or on first input.
 - A.5.1.a) Clarification: The timing method that is applied is defined by the category, and not chosen by the player.
 - A.5.1.b) Guidance: Random seed categories, longer categories, and categories which benefit from waiting additional time are likely (though not always) timed by world load, whereas set seed categories and shorter categories are likely (though not always) timed by first input.
 #entangled[Entangled Rule(s):]\
 #entangled[A.5.1 is referenced by: ] #entangledRule("F.2.1")\
 A.5.2) <A.5.2> First input timing begins when the player begins actions within the world.
 - This constitutes:
-- A.5.2.a) <A.5.2.a> Moving, both voluntary (e.g. pressing keys) and involuntary (e.g. pushed by mobs)
+- A.5.2.a) <A.5.2.a> Moving, both voluntary (e.g. pressing keys) and involuntary (e.g. pushed by mobs, falling into ocean)
 - #entangled[Entangled Rule(s):]
 - #entangled[A.5.2.a is referenced by: ] #entangledRule("F.2.2.b.i")
 - A.5.2.b) Camera rotation
@@ -329,7 +322,7 @@ A.5.4) Unless otherwise specified, pauses do not contribute towards in-game time
 - A.5.4.e) The demo GUI opening
 - A.5.4.f) The advancements menu opening
 - A.5.4.g) The confirmation screen upon clicking [Intentional Game Design]
-- A.5.4.h) The "Twitch Broadcasting Unavailable" Menu
+- A.5.4.h) The “Twitch Broadcasting Unavailable” Menu
 - A.5.4.i) Clarification: Opening the Statistics or Achievements / Advancements menu may cause the game to temporarily advance in versions between 1.7.2 and 1.21.5. This time will be added towards the final time.
 - A.5.4.j) The Debug Options menu
 A.5.5) Loading times (the Loading Terrain screen and Joining World screen) do not contribute towards in-game time.\
@@ -343,10 +336,10 @@ A.5.11) If a run meets the criteria for a top-level retime, pauses contribute to
 - A.5.11.a) Pauses that occur directly after or close to after (at the discretion of verifiers) a significant amount of chunks of a dimension are loaded for the first time and do not contribute towards in-game time.
 - A.5.11.b) Pauses that change settings and are less than 5 seconds do not contribute to in-game time. If this is done abusively (at the discretion of verifiers), these pauses will contribute towards in-game time.
 - A.5.11.c) Pauses that change settings and are more than 5 seconds will have 5 seconds subtracted from the paused time elapsed, with the rest of the pause length contributing towards the in-game time. If this is done abusively (at the discretion of verifiers), the full length of the pause will contribute towards in-game time.
-- A.5.11.d) If a pause is done due to a disruption that could not reasonably be avoided (e.g. pressing responsibility, medical issue), and the runner identifies and requests that said pause should be removed (either in the run's speedrun.com submission description or in the thread in the official Discord server), the pause will not contribute towards in-game time (at the discretion of verifiers).
+- A.5.11.d) If a pause is done due to a disruption that could not reasonably be avoided, and the runner identifies and requests that said pause should be removed (either in the run's speedrun.com submission description or in the thread in the official Discord server), the pause will not contribute towards in-game time (at the discretion of verifiers). Some reasons include a pressing responsibility, a medical issue, mental health concerns (such as panic attacks), IRL interruptions which could not be reasonable avoided, or other reasons beyond the runner's control. The pause must make sense for the reasoning given, e.g. if you have short and frequent pauses and your reasoning was an IRL disturbance and asked to remove all of the pauses, it may not be accepted.
   - A.5.11.d.i) Clarification: External program malfunctioning qualifies under this rule (at the discretion of verifiers); user error, however, does not.
 - A.5.11.e) If a pause occurs very close (at the discretion of verifiers) to the world load (as a result of the player or macro), the pause will not contribute towards in-game time.
-- A.5.11.f) If a pause is done to load chunks that are not loaded due to lag, and the runner identifies and requests that said pause should be removed (either in the run's speedrun.com submission description or in a thread in the official Discord server), the pause will not contribute towards in-game time (at the discretion of verifiers).
+- A.5.11.f) If a pause is done to fix game lag (e.g. load chunks that are not loaded due to lag, choppy dragon movevment), and the runner identifies and requests that said pause should be removed (either in the run's speedrun.com submission description or in a thread in the official Discord server), the pause will not contribute towards in-game time (at the discretion of verifiers).
 A.5.12) Top-level retime criteria are said to be met if and only if the in-game time of the run without the top-level retime is under the threshold set.
 - A.5.12.a) Example: Suppose a top-level retime for a category has a threshold of thirteen minutes. If the real-time of a run is 13:05, but when all of the pauses, loads, and lag are taken out, the in-game time of the run is 12:58, the run is considered a candidate for a top-level retime. This top-level-retime may increase the run's in-game time to over thirteen minutes.
 A.5.13) If the run uses SpeedrunIGT, that time will be used as the in-game time.
@@ -357,7 +350,6 @@ A.5.15) If a run does not use SpeedrunIGT but does display a timer that uses the
 A.5.16) If a run displays the statistics menu directly or shortly after the run and is not manually retimed, the run's in-game time may be extrapolated through the value given in the Time Played statistic.\
 A.5.17) If a run does not use SpeedRunIGT, is not manually retimed, does not show an in-game timer that uses playOneMinute, and does not show the statistics menu, the real time of the run will be used as the run's in-game time.\
 A.5.18) <A.5.18> If a run ends by obtaining item(s), timing ends once the first item from the following list has been met:
-- A.5.18.a) The item is taken from a non-reversible GUI (e.g. furnace or crafting table)
 - A.5.18.b) The item appears (if manually retimed) or enters (if timed via speedrunIGT) in an inventory/hotbar slot
 - A.5.18.d) The frame before an item unlocks a corresponding recipe notification (if manually retimed)
 - A.5.18.e) The first frame an item temporarily disappears (if manually retimed)
@@ -386,6 +378,12 @@ A.5.19) <A.5.19> Segmenting, pausing the speedrun for a time by quitting the wor
 - A.5.19.f) Time spent between the segments of the run will not contribute to in-game time or the real time of the run.
 #entangled[Entangled Rule(s):]\
 #entangled[A.5.19 is referenced by: ] #entangledRules(("4.1.2", "CE19.3.4"))\
+A.5.20: <A.5.20> World load timing begins when any terrain or entity renders or upon first input, whichever comes first.
+- A.5.20.a: <A.5.20.a> Exception: If, before time has started, the game is paused or unfocused with a pause imminent, and first render happens while paused or unfocused, timing begins once the game is focused and unpaused.
+- #entangled[Entangled Rule(s):]\
+- #entangled[A.5.20.a is referenced by: ] #entangledRule("A.10.7")
+#entangled[Entangled Rule(s):]\
+#entangled[A.5.20 is referenced by: ] #entangledRule("A.10.7")\
 
 == A.6: General Submission Rules
 A.6.1) The run's speedrun.com submission description must include the seed of the world.
@@ -397,7 +395,6 @@ A.6.2) <A.6.2> Mark your run as F3 if it uses the F3 screen during the run, or a
 - A.6.2.d) Clarification: If the mod StandardSettings is used and the f3PauseOnWorldLoad setting in the standardoptions.txt file is set to true, your run will be marked as using F3.
 #entangled[Entangled Rule(s):]\
 #entangled[A.6.2 is referenced by: ] #entangledRules((
-  "CE16.2.1",
   "CE19.4.3",
   "CE26.1.2.a",
 ))\
@@ -419,10 +416,11 @@ A.7.3) Additional proof of runs must be viewable.
 A.7.4) <A.7.4> Files submitted must not be modified or altered.\
 - A.7.4.a) Exception: Pre 1.9 logs contain the player access token, which may be edited out. If you choose to do this, you should mention that the logs were modified in the files submission.
 - A.7.4.b) Guidance: It is highly recommended to submit all files prior to loading any illegal mods or datapacks. For this reason, it is discouraged to submit files while playing with mods that load additional datapacks (such as MCSR Ranked).
+- A.7.4.c) Clarification: If submitting an already-created archive file such as created by MCSR Fairplay, submit the file as is instead of unzipping or rezipping it.
 #entangled[Entangled Rule(s):]\
 #entangled[A.7.4 is referenced by: ] #entangledRule("A.12.1.d")\
 A.7.5) World files refer to the full folder with the world's name as the folder's name in the .minecraft/saves folder.\
-A.7.6) <A.7.6> Logs refer to the .log/.gz file in the .minecraft/logs folder. These files will be named according to the dates on which they were generated. Submit the run with the log(s) which contains information about the run in question. If you are unsure which session has your run, submit logs for that entire day and also the log with the name "latest.log".
+A.7.6) <A.7.6> Logs refer to the .log/.gz file in the .minecraft/logs folder. These files will be named according to the dates on which they were generated. Submit the run with the log(s) which contains information about the run in question. If you are unsure which session has your run, submit logs for that entire day and also the log with the name “latest.log”.
 - A.7.6.a) Guidance: At midnight (local computer time), a new log file is created by the game. If you are in the world when this occurs, please be sure to include the complete set of logs for the lifetime of the instance, from game launch to world close.
 #entangled[Entangled Rule(s):]\
 #entangled[A.7.6 is referenced by: ] #entangledRule("A.2.11.b")\
@@ -490,10 +488,22 @@ A.8.2) All versions of Fabric Loader are allowed.
 - A.8.2.c) Clarification: FabricAPI must not be used.
 A.8.3) All versions of Legacy Fabric Intermediaries are allowed.
 - A.8.3.a) Clarification: Legacy Fabric LWJGL must not be used, which is bundled in the first party Legacy Fabric MultiMC Instances.
-A.8.4) All official LWJGL 3 releases up to v3.3.3 are allowed for Minecraft 1.13+. Official GLFW versions up to 3.3.8 are allowed. Woofdoggo's #formatLink("https://github.com/tesselslate/resetti/blob/d8eb8634c2efe60e9a1c19f3cf5c30288cc93cfc/contrib/glfw-xinput.patch")[Linux GLFW xinput patch] or #formatLink("https://github.com/tesselslate/waywall/blob/ad569de1ddae6b034c7095795a42f044746a55a7/contrib/glfw.patch")[GLFW patch for Waywall] may be used.\
-A.8.5) Rules relating to what Fabric mods are legal and the conditions of their use are documented on the #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods")[legal-mods] GitHub repository. Some mods have special conditions of use, such as for use in Set Seed categories only, as described in the README.md.
-- #formatNote[A.8.5.note) #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/blob/main/legal-builds.csv")[legal-builds.csv] documents every currently legal jar file. Use of a Fabric mod jar not listed in that file at the time of the run is illegal and will cause your run to be rejected. The files stored in the GitHub are not intended users to download directly and instead we recommend you use other tools provided to do so, linked in the README. Previously legal builds of mods are often made illegal upon updates for closer vanilla parity or bug fixes, do not assume that just because the mods you have installed were legal at the time they are still legal now. A grace period of a month to update mods is typically given for parity updates, this is often shorter for bug fixes.]
-A.8.9) If SeedQueue is used, you must not increase the max queued seeds beyond 30. The mod enforces this limit, you must not make any attempts to bypass it.\
+A.8.4) <A.8.4> LWJGL 3 and GLFW libraries are subject to the following conditions:
+- A.8.4.a) Mojang LWJGL versions from LWJGL 3.1.6 to 3.3.3 may be used in Minecraft 1.13 to 1.21.11 and Mojang LWJGL versions from LWJGL 3.4.1 to 3.4.3 may be used in Minecraft 26.1 to 26.2.
+- A.8.4.b) GLFW builds from LWJGL 3.1.6 to 3.3.3 may be used in Minecraft 1.13 to 1.21.11 and GLFW builds from LWJGL 3.4.1 to 3.4.3 may be used in Minecraft 26.1 to 26.2.
+- A.8.4.c) Custom GLFW builds may be used if they are tracked in #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-builds/blob/main/legal-dlls.csv")[legal-dlls.csv]. These builds must be auditable (e.g. compiled using a CI tool) and public released. If you would like to request legalization of a GLFW build, please open a thread or pull request.
+- A.8.4.d) Custom builds may be based on GLFW releases up to GLFW 3.5.1.
+- A.8.4.e) Custom builds may apply the following patches:
+  - A.8.4.e.i) Woofdoggo's GLFW xinput patch for #formatLink("https://github.com/tesselslate/resetti/blob/d8eb8634c2efe60e9a1c19f3cf5c30288cc93cfc/contrib/glfw-xinput.patch")[GLFW pre 3.4] and #formatLink("https://github.com/tesselslate/resetti/blob/4aa463f58fbddd1fbdee16796600cabb3e9c86b4/contrib/glfw-xinput-3.4.patch")[GLFW 3.4+]
+  - A.8.4.e.ii) Woofdoggo's #formatLink("https://github.com/tesselslate/waywall/blob/ad569de1ddae6b034c7095795a42f044746a55a7/contrib/glfw.patch")[GLFW patch for Waywall]
+  - A.8.4.e.iii) #formatLink("https://github.com/BoyOrigin/glfw-wayland/tree/f62b4ae8f93149fd754cadecd51d8b1a07d20522/patches")[BoyOrigin/glfw-wayland\@f62b4ae]
+  - A.8.4.e.iv) #formatLink("https://github.com/LWJGL-CI/glfw/commits/master")[LWJGL-CI commits]
+- A.8.4.f) Custom builds that include “LWJGL IME support” from the LWJGL-CI commits may only be used in Minecraft 26.1 to 26.2.
+#entangled[Entangled Rule(s):]\
+#entangled[A.8.4 is referenced by: ] #entangledRule("A.8.17")\
+A.8.5) #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/blob/main/legal-builds.csv")[legal-builds.csv] in the legal-mods GitHub repository defines what builds of what Fabric mods are legal.
+- #formatNote[A.8.5.note) Use of a Fabric mod jar not listed in that file at the time of the run is disallowed and will cause your run to be rejected. The jar files stored in legal-mods on GitHub are not intended for users to download directly and instead we recommend you use other tools from the community to do so, such as the #formatLink("https://mc.sr/mods")[MCSR mods site], #formatLink("https://github.com/tildejustin/modcheck")[ModCheck], and the #formatLink("https://mcsrlauncher.github.io")[MCSR Launcher].\
+ Previously legal builds of mods are often made illegal upon updates for closer vanilla parity or bug fixes, do not assume that just because the mods you have installed were legal at the time they are still legal now. A grace period of a month to update mods is typical for parity updates, this is often shorter for bug fixes. When previously legal builds are made illegal it will be announced in the official Discord server and the #formatLink("https://speedrun.com/mc")[speedrun.com/mc] news feed.]
 A.8.10) All versions of Ornithe Intermediaries are allowed.\
 A.8.11) Fabric Intermediaries are allowed.\
 A.8.12) <A.8.12> You must not abuse unintended advantageous behaviours of ExtraOptions.\
@@ -501,6 +511,7 @@ Unintended advantageous behaviours include but are not limited to:
 - A.8.12.a) Measuring eyes on Soul Sand or Soul Soil with Soul Speed while FOV effects are reduced (i.e. when the FOV Effects slider is less than 100%)
 - A.8.12.b) Measuring eyes underwater while submerged FOV effects are reduced (i.e. when Control Submerged FOV is enabled and the FOV Effects slider is less than 100%)
 - A.8.12.c) Measuring eyes from inside a Nether portal while Distortion Effects are reduced (i.e. when the Distortion Effects slider is less than 100%)
+- A.8.12.f) Using an aim overlay calibrated to FOV while FOV effects are reduced (i.e. when the FOV Effects slider is less than 100%)
 Allowed behaviours include but are not limited to:
 - A.8.12.d) Generally using reduced FOV Effects while under the effects of Soul Speed, including during Zero or Ground Zero cycles.
 - A.8.12.e) Grabbing lava from a magma ravine while waiting in the portal animation
@@ -508,17 +519,26 @@ Allowed behaviours include but are not limited to:
 #entangled[A.8.12 is referenced by: ] #entangledRule("A.8.1.f")\
 A.8.13) Anchiale, antiresourcereload, atum, chunkcacher, fastreset, hermes, hermes-core, lazystronghold, no-paus, seedqueue, setspawnmod, standardsettings, state-output, tabfocus, and worldpreview are resetting mods and must not be interacted with after the start of the gameplay segment. The Use Planar Fog sodium setting emulates hardware and must not be modified after the world is first rendered.\
 A.8.14) Hermes, State Output, SpeedRunIGT, WorldPreview write out files, and except for allowed cases those files must not be read after the start of the gameplay segment.
-- A.8.14.a) Exception: Using wpstateout.txt (State Output and previously WorldPreview), state.json (Hermes), record.json (SpeedRunIGT), or other mod-outputted instance state as a performant replacement for checks possible in the unmodified game is permitted. Use of the data in these files for aesthetic, continuous (with no regard to whether a run is happening or not), or generally unproblematic reasons, such as for changing OBS properties, time tracking, Atum reset counts, pausing music, etc. is permitted if it is not for an advantage in the run (at the discretion of verifiers). If you think your use of mod state could be considered an attempt to create a mod-only advantage and would like clarification on if your particular use is allowed, please open a thread.
+- A.8.14.a) Exception: Using wpstateout.txt (State Output and previously WorldPreview), state.json (Hermes), record.json (SpeedRunIGT), or other mod-outputted instance state as a performant replacement for checks possible in the unmodified game is permitted. Use of the data in these files for aesthetic, continuous (with no regard to whether a run is happening or not), or generally unproblematic reasons, such as for displaying timeline splits, changing OBS properties, time tracking, Atum reset counts, pausing music, etc. is permitted if it is not for an advantage in the run (at the discretion of verifiers). If you think your use of mod state could be considered an attempt to create a mod-only advantage and would like clarification on if your particular use is allowed, please open a thread.
 - #formatNote[A.8.14.a.note) Examples of permitted uses of state include:\
 - Checking for both the paused and gamescreenopen states in wpstateout.txt or checking for a non-null screen in state.json as a replacement for checking if the cursor is grabbed.
 ]
-- A.8.14.b) Exception: Conditional functionality related to resetting the world (e.g. via the Atum's Create New World key) is allowed. This includes common external tool binds such as "Safe Reset" and "Reset Before 20 Seconds".
+- A.8.14.b) Exception: Conditional functionality related to resetting the world (e.g. via the Atum's Create New World key) is allowed. This includes common external tool binds such as “Safe Reset” and “Reset Before 20 Seconds.”
 #formatNote[
 A.8.14.note) Use of otherwise restricted mod-outputted data may be allowed on an per-application basis though formal legalization or permission from the mod team. If you have a prospective use that is not intended to create an advantage in the run, you should open a thread.
 ]\
-A.8.15) Certain approved tools are allowed to read Hermes world files during the run. These are:
-- A.8.15.a) PaceMan Tracker
-A.8.16) DLL injection is allowed, but injection of DLLs that are not explicitly whitelisted may result in run rejection. The list of whitelisted DLLs is maintained at #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-builds/blob/main/legal-dlls.csv")[legal-dlls.csv]. Injection of any explicitly legalized DLL is allowed only if an allowed build of LibLogger is also injected. Program-independent DLLs such as for OBS Game Capture and Discord Game Overlay are generally allowed.
+A.8.15) Programs that have been allowed to use limited Hermes world data during the run include:
+- A.8.15.a) #formatLink("https://github.com/PaceMan-MCSR/PaceMan-Tracker")[PaceMan Tracker]
+- A.8.15.b) #formatLink("https://github.com/LNXSeus/Advancely")[Advancely]
+- A.8.15.c) #formatLink("https://github.com/DuncanRuns/AATourneyTracker")[AATourneyTracker]
+A.8.16) DLL injection is allowed, but injection of DLLs that are not explicitly whitelisted may result in run rejection. The list of whitelisted DLLs is maintained at #formatLink("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-builds/blob/main/legal-dlls.csv")[legal-dlls.csv]. Injection of any explicitly legalized DLL is allowed only if an allowed build of LibLogger is also injected. Program-independent DLLs such as for OBS Game Capture and Discord Game Overlay are generally allowed.\
+A.8.17) <A.8.17> Players shall not modify or otherwise interfere with the loading of game libraries that are provided by the launcher.
+- A.8.17.a) Exception: Removing optional natives libraries (i.e. natives that the game will launch without) is allowed.
+- A.8.17.b) Exception: LWJGL 3 and GLFW may be modified in accordance with #entangledRule("A.8.4").
+A.8.18) No #formatLink("https://minecraft.wiki/w/Debug_property")[game debug flags] may be used except ENABLED and PREFER_WAYLAND.\
+A.8.19) Using Java agents is not allowed. Attaching a debugger to the JVM is not allowed.
+- A.8.19.a) Exception: #formatLink("https://codeberg.org/OrnitheMC/Flap")[Ornithe's Flap agent] is allowed.
+A.8.20) Warnings concerning legality within allowed mods must be followed.\
 
 == A.9: Multi-Instance Rules
 A.9.1) If multiple instances of Minecraft are opened simultaneously, they must each be in different directories (.minecraft folders).\
@@ -527,7 +547,7 @@ A.9.2) If multiple instances of Minecraft are being used, each instance must be 
 A.9.3) If each instance must be recorded (i.e. they are not subject to the exception of A.9.2.a), the video of the instances that are in the background or not currently being played do not have to follow as strict criteria as #entangledRule("A.2.8"). However, they must meet the following requirements: <A.9.3>
 - A.9.3.a) The text on the percentage on the loading screen should be legible, along with the chunkmap which shows the world being generated.
 - A.9.3.b) To follow A.9.3.a, if the default video's percentage text is illegible, runners may zoom in on the chunk map and percentage text. The rest of the screen should also still be included.
-A.9.4) If SeedQueue is used, only one instance of Minecraft running SeedQueue may be open and only one instance of Minecraft may be used to reset concurrently.
+A.9.4) If SeedQueue is used, only one instance of Minecraft running SeedQueue may be open and only one instance of Minecraft may be used to reset concurrently.\
 
 == A.10: Macro and Rebind Rules
 A.10.1) You may remap keys using external programs, but each game input may have only one key, and each key may cause only one game input.
@@ -535,9 +555,10 @@ A.10.1) You may remap keys using external programs, but each game input may have
 A.10.2) If keys are rebound, they must be to buttons.
 - This excludes but is not limited to:
 - A.10.2.a) Remapping to a scroll-wheel
-A.10.3) You must not rebind the "Attack/Destroy" or "Use Item/Place Block" functions to a keyboard button to abuse repeated inputs.\
+A.10.3) You must not rebind the “Attack/Destroy” or “Use Item/Place Block” functions to a keyboard button to abuse repeated inputs.\
 A.10.4) <A.10.4> Macros are not allowed to be triggered during a run.
 - A.10.4.a) Exception: Macros may resize the game window to an unlimited number of resolutions if the game window stays within monitor bounds.
+    - A.10.4.a.i) Clarification: Window positions that are one pixel outside monitor bounds on any or all axes, which is necessary on some Linux setups to allow further resizing and is how Minecraft itself behaves in non-exclusive fullscreen, are not considered to be out of monitor bounds.
 - A.10.4.b) Exception: Macros may resize the game window to one resolution outside the monitor bounds, up to a maximum of 16384 pixels in width or height.
 - A.10.4.c) Clarification: There are no restrictions on when resize macros may be used during the run.
 - A.10.4.d) Exception: Toggle sprint macros are allowed in all versions.
@@ -545,14 +566,14 @@ A.10.4) <A.10.4> Macros are not allowed to be triggered during a run.
 #entangled[A.10.4 is nullified by: ] #entangledRules(("CE20.2.3", "CE20.3.2"))\
 A.10.5) <A.10.5> Macros may only be used to reset worlds if resets are triggered by player input. Multiple simultaneous resets may be triggered by a single player input.
 - A.10.5.a) Clarification: Reading game files or screen reading to reset or to aid the player in resetting is not allowed.
-- A.10.5.b) Clarification: Automatic resetting, or resetting based on anything other than player input is not allowed.
+- A.10.5.b) Clarification: Automatic resetting, or resetting based on anything other than player input is not allowed. This includes resetting based on time.
 #entangled[Entangled Rule(s):]\
 #entangled[A.10.5 is subject to an exception by: ] #entangledRule("C.2.1")\
-A.10.6) Any program or macro that screen reads or listens to game audio for an advantage (at the discretion of verifiers) must not be used. Screen reading is using the data of the pixels of the game window to programmatically capture information from the game (e.g. color for biomes, text recognition for F3, enchantment cracking, inventory contents, etc). Any attempt to get around this rule will not be tolerated (i.e. taking a screenshot and a program reading from that, etc.).
+A.10.6) Any program or macro that screen reads or listens to game audio for an advantage (at the discretion of verifiers) must not be used. Screen reading is using the data of the pixels of the game window to programmatically capture information from the game (e.g. color for biomes, text recognition for F3, enchantment cracking, inventory contents, etc). Any attempt to get around this rule will not be tolerated (i.e. taking a screenshot and a program reading from that, etc.).\
+A.10.7) <A.10.7> Macros may pause the game via Esc or F3+Esc before timer start in accordance with #entangledRule("A.5.2") or #entangledRule("A.5.20"). Macros may change FOV, render distance, simulation distance, entity distance, GUI scale, difficulty, and toggle GUI (F1) before timer start. In a world load run, macros may start the run by unpausing in accordance with #entangledRule("A.5.20.a"). Macros may toggle GUI immediately after unpausing.\
+A.10.8) Chunkmap freezing is not allowed. Chunkmap freezing consists of using OBS Freeze Filter or another technique to capture an early state of the chunkmap and extend how long it is displayed in that state.\
 
-== A.11: External Resource Rules <A.11>
-#entangled[Entangled Rule(s):]\
-#entangled[A.11 is subject to an amendment by: ] #entangledRule("CE19.3.3")\
+== A.11: External Resource Rules
 A.11.1) The player and external programs may read from the statistics and advancement files.\
 A.11.2) Four-function calculators may be used during a run.\
 A.11.3) Any physical reference sheet may be used.
@@ -562,7 +583,7 @@ A.11.5) Any reference sheet not based on F3 information may be used.
 - A.11.5.a) Example: Stronghold ring locations
 - A.11.5.b) Example: Sheets/graphs of structure regions
 - A.11.5.c) Example: Villager trading tables
-A.11.6) The following constitute the whitelist of other legal sheets:
+A.11.6) <A.11.6> The following constitute the whitelist of other legal sheets:
 - A.11.6.a) #formatLink("https://github.com/jojoe77777/PerfectCD")[Four's Perfect Travel Spreadsheet]
 - A.11.6.b) #formatLink("https://docs.google.com/spreadsheets/d/1M777O3Xge701IT-zNTsuOAnrvXNy6ZCNWvO3IPiz8dc/edit#gid=1595121459")[Axis Calculated Sheet]
 - A.11.6.c) #formatLink("https://docs.google.com/spreadsheets/d/1Z-heJcVH1wIDc8scHZqsU3Q1F1mB1SqeDw_aT8q3VJ4/edit#gid=906444536")[Divine Fossil Sheet]
@@ -570,17 +591,18 @@ A.11.6) The following constitute the whitelist of other legal sheets:
 - A.11.6.e) #formatLink("https://drive.google.com/file/d/1NuDh59VJEaac4gZZYJvzb-UDXSa8rfnd/view?usp=sharing")[Tree Divine Sheet]
 - A.11.6.f) #formatLink("https://drive.google.com/file/d/1vfzH0dg35e-jSDptCBeiisWnSugeIOMF/view?usp=sharing")[Ravine/Air Cave/Nether Cave/Water Cave Divine Sheet]
 - A.11.6.g) #formatLink("https://docs.google.com/spreadsheets/d/1tTXczjzo4VCOxV2dpkj-SE5cELA9A2NyreRiQj6Bu8I/edit?gid=1217206013#gid=1217206013")[Nether Portal Orientation Divine Sheet]
+#entangled[Entangled Rule(s):]\
+#entangled[A.11.6 is referenced by: ] #entangledRule("9.2.1")\
 A.11.7) <A.11.7> The following constitute the whitelist of legal tools:
-- A.11.7.a) #formatLink("https://github.com/Ninjabrain1/Ninjabrain-Bot")[NinjabrainBot] [Ninjabrain1] (up to v1.5.1)
+- A.11.7.a) #formatLink("https://github.com/Ninjabrain1/Ninjabrain-Bot")[NinjabrainBot] [Ninjabrain1] (up to v1.5.2)
   - A.11.7.a.i) The NinjabrainBot API may be legally used by other tools for display of provided data, without any additional calculations or modifications that may provide any interpretation of the data which is not otherwise possible with an unmodified copy of NinjabrainBot.
 - A.11.7.b) #formatLink("https://github.com/pjagada/strongholdnotcalculator")[StrongholdNotCalculator] [pjagada] (up to v2.0)
 - A.11.7.c) #formatLink("https://github.com/FourGoesFast/PerfectTravelBot")[PerfectTravelBot] [FourGoesFast] (up to v1.0.0)
 - A.11.7.e) #formatLink("https://github.com/KingContaria/ContariaCalc/releases")[ContariaCalc] [KingContaria] (up to v1.1.7.1)
 - A.11.7.f) #formatLink("https://ens-gijs.github.io/minecraft-stronghold-locator/")[Minecraft Stronghold Triangulator]
-- A.11.7.g) #formatLink("https://replit.com/@The64thRealm/Yeet-calculator?v=1")[Yeet calculator] [The64thRealm]
 - A.11.7.h) #formatLink("https://github.com/DuncanRuns/NinjaLink/releases/tag/v1.1.0")[Ninjalink] [DuncanRuns] (v1.1.0)
 #entangled[Entangled Rule(s):]\
-#entangled[A.11.7 is referenced by: ] #entangledRule("CE20.2.2")\
+#entangled[A.11.7 is referenced by: ] #entangledRules(("9.2.2", "CE19.3.3", "CE20.2.2"))\
 A.11.8) <A.11.8> You must not use any other reference sheets/external tools besides the ones listed above.\
 #entangled[Entangled Rule(s):]\
 #entangled[A.11.8 is nullified by: ] #entangledRule("CE20.3.3")\
@@ -601,16 +623,17 @@ A.12.1) Illegitimate behaviour is defined as any intentional behaviour which att
 - A.12.1.e) Attempting to pass off another person's run as your own
 - A.12.1.f) Using illegal macros to emulate human movement
 A.12.2) Any illegitimate behaviour in a submitted run is grounds for rejection of the run.\
-A.12.3) If a player intentionally engages in illegitimate behaviour in a submitted run, all of their previous and future runs will be rejected.
+A.12.3) If a player engages in illegitimate behaviour in a submitted run, all of their previous and future runs will be rejected.
 - A.12.3.a) Exception: Co-op runs may remain verified if it can be determined (at the discretion of verifiers) that no cheating occurred.
 - A.12.3.b) Exception: A player may appeal their inability to have future runs verified by opening a thread in the official Discord server. They may be exempt from having future runs rejected at the discretion of moderators. If they are exempt, however, they may have additional proof burdens put onto any/all of their future runs.
 \
-#formatNote[A.12.note) Illegitimate behaviour is distinguished from disallowed behaviour (behaviour which results in a run's rejection, but not any future/retroactive punishment) on a case by case basis. These distinguishing factors include (but are not limited to) the perceived intent of the player, whether or not the player attempted to hide said behaviour or deceive others, if the behaviour in question later becomes allowed, and the extent/impact of the illegitimate behaviour.]
+#formatNote[A.12.note) Illegitimate behaviour is distinguished from disallowed behaviour (behaviour which results in a run's rejection, but not any future/retroactive punishment) on a case by case basis. These distinguishing factors include (but are not limited to) the perceived intent of the player, whether or not the player attempted to hide said behaviour or deceive others, if the behaviour in question later becomes allowed, and the extent/impact of the illegitimate behaviour.]\
 
 = B: Random Seed Ruleset
 
 == B.1: Generation and Post-Run Requirements
-B.1.1) Random seed runs must leave the seed input box entirely blank. (in Atum's config menu if generated by Atum and in the Create New World screen if generated by Vanilla means)\
+B.1.1) Random seed runs must leave the seed input box entirely blank. (in Atum's config menu if generated by Atum and in the Create New World screen if generated by Vanilla means)
+- B.1.1.a) Exception: You may use 0 in the seed input box in versions pre 1.18.2.
 B.1.2) You should do /seed after the run and showcase this within the video.
 - B.1.2.a) Clarification: This must only be done once the run's objective is complete, not during the run.
 
@@ -630,18 +653,17 @@ C.1.2) In versions 1.16 and above, runners may not use the Recreate button to cr
 == C.2: Additional Macro and Timing Rules <C.2>
 #entangled[Entangled Rule(s):]\
 #entangled[Section C.2 is referenced by: ] #entangledRule("F.1.7")\
-C.2.1) <C.2.1> Exception to #entangledRule("A.3.10") and #entangledRule("A.10.5"): Macros may read the game's log files to ascertain the player's spawn coordinates prior to the run's start. The macro may use this information to choose to reset the world without player input.
+C.2.1) <C.2.1> Exception to #entangledRule("A.3.10") and #entangledRule("A.10.5"): Macros may read the game's log files to ascertain the player's spawn coordinates prior to the run's start. The macro may use this information to choose to reset the world without player input.\
 
 = D: Glitchless Ruleset
 
 == D.1: Glitchless Runs
-#formatNote[D.1.note) Glitches are only allowed in glitchless on a case-by-case basis. What differentiates a glitch from a technique is nebulous, but is generally defined by if it can be done unintentionally. In terms of legalising a glitch, it is generally done by the mod team's discretion of how severely they stray from the “spirit of the game” as seen by the general Minecraft community, whether they make the speedruns more or less fun to play, and how easy it is to perform accidentally. In general, one should err on the side of caution in terms of if something is a glitch or a technique; it is highly encouraged to open a thread and ask if a technique qualifies as a glitch and if it will be allowed in glitchless runs.]\
-\
-D.1.1) Only these glitches may be used during glitchless runs.
+#formatNote[D.1.note) The criteria for a technique to be considered a glitch are nebulous and subjective, and essentially by the standard of “you know it when you see it.” Glitches are allowed in glitchless on a case-by-case basis, and only glitches considered minor are allowed in glitchless. What differentiates a minor glitch from a major glitch is also subjective, but is generally defined by if it can reasonably be done unintentionally. Also considered is how severely it strays from the "spirit of the game" as seen by the the MCSR and general Minecraft community, and whether it makes speedruns more or less fun to play. In general, one should err on the side of caution of if a technique is allowed or not; it is highly encouraged to open a thread and ask whether a technique is allowed in glitchless runs.]\
+D.1.1) Only minor glitches may be used during glitchless runs.
 - This constitutes:
 - D.1.1.a) Double-eating (#formatLink("https://bugs.mojang.com/browse/MC-849")[MC-849])
 - D.1.1.b) Infinite villager restocking (#formatLink("https://bugs.mojang.com/browse/MC-157136")[MC-157136])
-- D.1.1.c) Glitched Endermen spawns in the End (#formatLink("https://bugs.mojang.com/browse/MC-164205")[MC-164205])
+- D.1.1.c) Glitched hostile mob spawning when switching to easy (#formatLink("https://bugs.mojang.com/browse/MC-164205")[MC-164205], #formatLink("https://bugs.mojang.com/browse/MC/issues/MC-168338")[MC-168338])
 - D.1.1.d) Minecart boosting (#formatLink("https://youtu.be/oK9NZKQX6uY&t=6399")[Example])
 - D.1.1.e) Ender pearl clipping (#formatLink("https://bugs.mojang.com/browse/MC-2164")[MC-2164])
 - D.1.1.f) Accessing the Nether Roof (#formatLink("https://youtu.be/oK9NZKQX6uY&t=6387")[Example])
@@ -667,9 +689,10 @@ D.1.1) Only these glitches may be used during glitchless runs.
 - D.1.1.ab) Uneasy Alliance in the nether (#formatLink("https://bugs.mojang.com/browse/MC-251617")[MC-251617])
 - D.1.1.ac) Placing doors inside the player (#formatLink("https://bugs.mojang.com/browse/MC-123619")[MC-123619])
 - D.1.1.ad) Sprint continuation, including sprint crawling and sneaking (#formatLink("https://bugs.mojang.com/browse/MC-152728")[MC-152728])
-- D.1.1.ae) Sprint desync (#formatLink("https://bugs.mojang.com/browse/MC-69459")[MC-69459], #formatLink("https://youtu.be/NiOMVtrkV-M")[Example])
+- D.1.1.ae) Sprint desync, including entity punch (#formatLink("https://bugs.mojang.com/browse/MC-69459")[MC-69459], #formatLink("https://youtu.be/NiOMVtrkV-M")[Example]) and backwards sprint state (#formatLink("https://docs.google.com/document/d/1LERIwzgARnEHtpQbaqXcUmFm40hVQukpcbKkavfwTW4")[Write-up], #formatLink("https://bugs.mojang.com/browse/MC/issues/MC-30403")[MC-30403], #formatLink("https://bugs.mojang.com/browse/MC/issues/MC-257082")[MC-257082], #formatLink("https://youtu.be/V3J5gT6XaQU")[Example], #formatLink("https://youtu.be/KuKgkoaw6W8")[Example \#2])
 - D.1.1.af) Receiving looting benefits while killing mobs with a bow/TNT (#formatLink("https://bugs.mojang.com/browse/MC-3304")[MC-3304])
-- D.1.1.ag) Eat skip (#formatLink("https://youtu.be/DCz1KAtGsZs")[Example])
+- D.1.1.ag) <D.1.1.ag> Eat skip (#formatLink("https://youtu.be/DCz1KAtGsZs")[Example])
+    - D.1.1.ag.i) Clarification: This same glitch is banned for non-consumable items as shield and bow desync (#entangledRule("D.1.1.ag")).
 - D.1.1.ah) Boat break on certain heights (#formatLink("https://bugs.mojang.com/browse/MC-119369")[MC-119369])
 - D.1.1.ai) Entering and breaking a boat simultaneously (#formatLink("https://youtu.be/RtDjfQqZB0Y")[Example])
 - D.1.1.aj) Entering and breaking a nether portal simultaneously (#formatLink("https://youtu.be/FKT3cwU432k")[Example])
@@ -688,18 +711,29 @@ D.1.1) Only these glitches may be used during glitchless runs.
 - D.1.1.av) One-tick container access in nether portals (#formatLink("https://youtu.be/m8Eg-FnGc2Q&t=14")[Example])
 - D.1.1.aw) Fire boat (#formatLink("https://youtu.be/XhyoWkTtJv8")[Example])
 - D.1.1.ax) <D.1.1.ax> Ghost buckets, when not used to lava blip as in #entangledRule("D.1.2.n") (#formatLink("https://youtu.be/EjwStTX4U3A")[Example])
-- D.1.1.ay) Trading with dead villagers (#formatLink("https://bugs.mojang.com/browse/MC-19764")[MC-19764], #formatLink("https://youtu.be/8ZQTTgXbHX8")[Example])
 - D.1.1.az) Preventing entity cramming with climbable blocks (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-177062")[MC-177062])
 - D.1.1.ba) Feeding a parrot a cookie to obtain Over-Overkill advancement (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-269656")[MC-269656])
 - D.1.1.bb) Trapping wither (#formatLink("https://youtu.be/PCkzhtBl_xY&t=91")[Example], #formatLink("https://youtu.be/O-QgTljCgZw&t=153")[Example \#2])
 - D.1.1.bc) Compass glitch (#formatLink("https://youtu.be/fQi1dOHEYLg")[Example])
 - D.1.1.bd) Unbreakable Fishing Line / Lead with Dimension Change (#formatLink("https://youtu.be/uxLNbGshih0")[Example], #formatLink("https://youtu.be/wh_tW3lVbuY")[Example \#2])
 - D.1.1.be) Abusing the dragon's reduced max vertical acceleration (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-272431")[MC-272431])
+- D.1.1.bf) Using a silk touch enchanted book as a silk touch tool (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-154873")[MC-154873])
+- D.1.1.bg) Increased vertical height by fire ticks on low framerate (#formatLink("https://youtu.be/YoBguG0ZDsc")[Example])
+- D.1.1.bh) Elivator 2.0 (#formatLink("https://youtu.be/U2xmYLJqQ44")[Example])
+- D.1.1.bi) Bed crawl (#formatLink("https://youtu.be/7JfFVLnTQWk")[Example])
+- D.1.1.bj) <D.1.1.bj> Maintaining block breaking status after losing focus (#formatLink("https://youtu.be/Vrc6EJFktH0")[Example], #formatLink("https://bugs.mojang.com/browse/MC-69865")[MC-69865])
+  - D.1.1.bj.i) Clarification: This is not to be confused with wireless mining (#entangledRule("D.1.2.am")).
+- D.1.1.bk) Piston pearl stasis (#formatLink("https://youtu.be/hlsSDmr3xYU")[Example])
+- D.1.1.bl) Multiple protection armour (#formatLink("https://bugs.mojang.com/browse/MC-141961")[MC-141961])
+- D.1.1.bm) Airplace (#formatLink("https://youtu.be/cMfB9RSQ7wM")[Example])
+- D.1.1.bn) Incorrect world seed used in generation of Mesa (Bryce)/Eroded Badlands (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-113577")[MC-113577])
 D.1.2) Any other glitches not included in D.1.1 must not be used during glitchless runs.
 - Examples of glitches that are not allowed include but are not limited to:
 - D.1.2.a) Duplication and zero-stack glitches (#formatLink("https://youtu.be/PYFMGuicVWA&t=102")[Example])
 - D.1.2.b) Save and Quit damage prevention abuse (#formatLink("https://youtu.be/KjxrjT8xRrE&t=953")[Example])
 - D.1.2.c) X-Ray; minor unintentional x-rays may be verified, but intentional (or important but unintentional) x-rays (at the discretion of verifiers) must not be used (such as in this #formatLink("https://youtu.be/oImgrxw-v6I&t=688")[example]).
+  - D.1.2.c.i) Clarification: There are many types of x-rays. This includes reloading the world renderer to see entities through walls (e.g. abuse of F3 + A and F3 + F), using F5 to clip the camera into walls (e.g. when crawling to see lava and caves), abusing pose animations to get the camera inside blocks without a block overlay (e.g. pearling into the ceiling in a stronghold), using a wide game resolution to see around a block overlay, crawling in composters, etc.
+  - D.1.2.c.ii) Guidance: X-Rays during stronghold navigation are regulated more strictly.
 - D.1.2.d) Shearing sheep during their dying animation (#formatLink("https://bugs.mojang.com/browse/MC-76416")[MC-76416])
 - D.1.2.e) Nothing MLG (#formatLink("https://youtu.be/flt0V9QdfIQ")[Example])
 - D.1.2.h) <D.1.2.h> Slime spectating (#formatLink("https://t.co/UErxU74UW1")[Example])
@@ -733,9 +767,25 @@ D.1.2) Any other glitches not included in D.1.1 must not be used during glitchle
 - D.1.2.af) Using server-client position desync to wait in a portal without the portal animation (#formatLink("https://youtu.be/IUf07boL9Ac&t=60")[Example])
 - D.1.2.ag) Clipping into a block to tick the server player faster than normal (#formatLink("https://youtu.be/b4hS_LdSRbg")[Example])
   - D.1.2.ag.i) Clarification: When possible, enforcement of the ban on this glitch when applied to nether portals will consist of retiming.
-- D.1.2.ah) <D.1.2.ah> Credits warp (#formatLink("https://youtu.be/Luwkl36rbTw")[Example])
+- D.1.2.ah) Credits warp (#formatLink("https://youtu.be/Luwkl36rbTw")[Example])
+- D.1.2.ai) Unloading and reloading the dragon during the death animation to repeat XP drop (#formatLink("https://youtu.be/iIcUcPy6zio")[Example], #formatLink("https://youtu.be/j2wC8j81TYc")[Example \#2])
+- D.1.2.aj) <D.1.2.aj> Shield and bow desync (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-86252")[MC-86252], #formatLink("https://youtu.be/waCCsyUP5Ok")[Example])
+    - D.1.2.aj.i) Clarification: This same glitch is allowed for consumable items as eat skip (#entangledRule("D.1.1.ag")).
+- D.1.2.ak) Retaining beacon effects after breaking lower layers (#formatLink("https://bugs.mojang.com/browse/MC-2440")[MC-2440])
+- D.1.2.al) Respawning dragon with fewer than 4 crystals (#formatLink("https://youtu.be/oSD3cYodh_A")[Example])
+- D.1.2.am) <D.1.2.am> Wireless mining (#formatLink("https://youtu.be/yuNUyAY9950")[Example])
 - #entangled[Entangled Rule(s):]
-- #entangled[D.1.2.ah is referenced by: ] #entangledRule("E.1.6.b")
+- #entangled[D.1.2.am is referenced by: ] #entangledRule("D.1.1.bj")
+- D.1.2.an) Dropping items post-death (#formatLink("https://youtu.be/VdzC59nz8s")[Example])
+- D.1.2.ao) Bed desync abuse (#formatLink("https://youtu.be/r1a39hb72cw")[Example])
+- D.1.2.ap) Inventory walk (#formatLink("https://youtu.be/T-YYFqGVISk")[Example])
+- D.1.2.aq) Mouse buttons stuck down by reloading resource pack (#formatLink("https://bugs.mojang.com/browse/MC/issues/MC-153680")[MC-153680])
+- D.1.2.ar) Trading with dead villagers (#formatLink("https://bugs.mojang.com/browse/MC-19764")[MC-19764], #formatLink("https://youtu.be/8ZQTTgXbHX8")[Example])
+- D.1.2.as) Lazy linking (#formatLink("https://youtu.be/MMdHf-aRAv4")[Example]) and lazy acceleration (#formatLink("https://youtu.be/HscY70qjSU4&t=201s")[Example])
+- D.1.2.at) Nullstate (#formatLink("https://youtu.be/naz1QQlk0wI")[Example])
+- D.1.2.au) <D.1.2.au> Redstone permasupression (#formatLink("https://youtu.be/Luwkl36rbTw")[Example])
+- #entangled[Entangled Rule(s):]
+- #entangled[D.1.2.au is referenced by: ] #entangledRule("E.1.6.b")
 D.1.3) <D.1.3> Save and quit must not be used during a run.
 - D.1.3.a) Exception: If you accidentally use Save and Quit within a run, it may still be verified (at the discretion of verifiers) if it is accidental, attempts are made to rejoin the initial world relatively quickly, and if it provides no additional benefit to the run.
 - D.1.3.b) Exception: Runners may Save and Quit within a run intentionally if and only if there is a relevant bug (at the discretion of verifiers) which can be resolved by saving and quitting (e.g. pie chart bug, ghost blocks, resetting fog, restarting autosave timer to avoid leads breaking). No additional benefit may be gained.
@@ -756,11 +806,11 @@ E.1.1) Glitched runs must perform at least one glitch during the run that is dis
 E.1.3) If you use Task Manager or another program which forcefully closes the game, you should include a video of this during the run.\
 E.1.4) External Arbitrary Code Execution (ACE) must not be used.
 - E.1.4.a) Example: Log4j exploit
-E.1.5) Glitched runs must be played entirely within one version.\
+E.1.5) Glitched runs must be played entirely within one version and instance.\
 E.1.6) Cross-world glitches, or glitches that require setup in another world, are legalized on a case-by-case basis.\
 Allowed cross-world glitches include:
 - E.1.6.a) <E.1.6.a> Slime spectating (#entangledRule("D.1.2.h"))
-- E.1.6.b) <E.1.6.b> Credits warp (#entangledRule("D.1.2.ah"))
+- E.1.6.b) <E.1.6.b> Redstone permasupression (#entangledRule("D.1.2.au"))
 Banned cross world glitches include:
 - E.1.6.c) World merge (#formatLink("https://youtu.be/a-YhOtj6HmE")[Example])
 - E.1.6.d) Joining a server and a singleplayer world at the same time (#formatLink("https://youtu.be/b9JscBrY8VA")[Example])
@@ -776,7 +826,7 @@ E.2.2) <E.2.2> Glitched runs follow the same hierarchy of timers as is outlined 
 
 == E.3: Internal Runs
 E.3.1) <E.3.1> Internal runs must not leave the world (Save and Quit or crash the game) in accordance with glitchless rules #entangledRule("D.1.3")-#entangledRule("D.1.4").\
-E.3.2) Internal runs may not use cross-world glitches.
+E.3.2) Internal runs may not use cross-world glitches.\
 
 == E.4: External Runs
 E.4.1) External runs must leave the world (Save and Quit or crash the game).
@@ -804,7 +854,7 @@ F.1.7) <F.1.7> Your server must not use any mods or plugins outside of the allow
 - F.1.7.d) BungeeCord
 F.1.8) <F.1.8> In accordance with #entangledRule("A.2.11"), at least one player must show the F3 menu during or immediately after the run. For runs done on LAN, the player who created the world must show F3.\
 \ 
-#formatNote[F.1.note) Co-op runs are given more leniency due to being less competitive and more difficult to organise. If an error is made either with the run or in the submission, you should still submit, and the run may be verified (at the discretion of verifiers).]
+#formatNote[F.1.note) Co-op runs are given more leniency due to being less competitive and more difficult to organise. If an error is made either with the run or in the submission, you should still submit, and the run may be verified (at the discretion of verifiers).]\
 
 == F.2: Co-op Timing Rules
 F.2.1) <F.2.1> Runs done on LAN may start their time following the same rules as #entangledRule("A.5.1")/#entangledRule("A.5.2") (world load/first input).\
@@ -816,17 +866,17 @@ F.2.2) <F.2.2> Runs done on external servers, or runs on LAN which choose to do 
 #entangled[Entangled Rule(s):]\
 #entangled[F.2.2 is referenced by: ] #entangledRule("F.1.3.b")\
 F.2.3) On external servers, if /time set 0 is not done, then time starts when the server loads the world and server logs must be submitted.\
-F.2.4) <F.2.4> The category is timed by RTA, nullifying #entangledRule("A.5").
+F.2.4) <F.2.4> The category is timed by RTA, nullifying #entangledRule("A.5").\
 
 == F.3: Video Rules
 F.3.1) Every player should record their perspective, and all of these perspectives should be submitted with the run.
-- F.3.1.a) Clarification: Unless otherwise specified, no other perspectives beyond those outlined in F.3.2-F.3.4 are necessary to be recorded.
+- F.3.1.a) Clarification: Unless otherwise specified (e.g. #underline(text(blue, link(label("5.2"), "5.2-5.6")))), no other perspectives beyond those outlined in F.3.2-F.3.4 are necessary to be recorded.
 F.3.2) The first player to join the server must be recording.\
 F.3.3) The person to complete the run must be recording.\
 F.3.4) <F.3.4> Any user with cheats enabled must be recording.\
 #entangled[Entangled Rule(s):]\
 #entangled[F.3.4 is referenced by: ] #entangledRule("F.1.2.a")\
-F.3.5) The video should start before joining the server.
+F.3.5) The video should start before joining the server.\
 
 = G: Structures/No Structures Ruleset
 
@@ -844,20 +894,21 @@ G.2.4) <G.2.4> Clarification: If generate structures is turned on, you must not 
 - G.2.4.a) Using any blocks, mobs, or items from structures
 - G.2.4.b) Using the difference in terrain from a structure to your advantage
 #entangled[Entangled Rule(s):]\
-#entangled[G.2.4 is referenced by: ] #entangledRule("G.3.1")
+#entangled[G.2.4 is referenced by: ] #entangledRule("G.3.1")\
 
 == G.3: Structures
-G.3.1) <G.3.1> Runs marked as Structures must interact (as defined by #entangledRule("G.2.4")) with at least one structure (listed in #entangledRule("G.1.1")).
+G.3.1) <G.3.1> Runs marked as Structures must interact (as defined by #entangledRule("G.2.4")) with at least one structure (listed in #entangledRule("G.1.1")).\
 
 = H: Category Extension Ruleset
 
 == H.1: Clarifications and Exceptions
 H.1.2) In set seed runs, intentional prerotation (spawning into the world rotated from the initial camera) that provides an advantage is illegal. Otherwise, accidental or non-advantageous prerotation will incur a penalty of 0.5 seconds.
 - H.1.2.a) Clarification: Prerotation does not count as a run's first input.
+
 = 1: Any% Glitchless
 
 == 1.1: Any% Glitchless Objective and Clarifications
-1.1.1) <1.1.1> The run is considered completed once the credits sequence of the game begin after entering the exit end portal.\
+1.1.1) <1.1.1> The run is considered completed once the end poem of the game begins or the player enters the exit end portal.\
 #entangled[Entangled Rule(s):]\
 #entangled[1.1.1 is referenced by: ] #entangledRules((
   "2.1.1",
@@ -867,161 +918,121 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
   "9.1.1",
   "11.1.1",
   "CE1.1.1.b",
-  "CE16.1.1.b",
   "CE19.1.1.a",
 ))\
-1.1.2) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+1.1.2) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 == 1.2: Random Seed, 1.16+
-1.2.1) Runs under 13 minutes must submit world files, logs, and evidence of past attempts.\
-1.2.2) Runs under 10 minutes must submit world files, evidence of past attempts, 5 previous world files, logs, and gameplay audio.\
-1.2.3) Runs under 13 minutes will be retimed as per top-level retiming rules.\
+1.2.1) Runs under 13 minutes IGT before retime must submit world files, logs, and evidence of past attempts.\
+1.2.2) Runs under 10 minutes IGT before retime must submit world files, evidence of past attempts, 5 previous world files, logs, and gameplay audio.\
+1.2.3) Runs under 13 minutes IGT will be retimed as per top-level retiming rules.\
 1.2.4) <1.2.4> Runs which are contenders for the world record must follow immediate contact in line with #entangledRule("A.7.10").\
 #entangled[Entangled Rule(s):]\
-#entangled[1.2.4 is referenced by: ] #entangledRule("A.7.10.a")
+#entangled[1.2.4 is referenced by: ] #entangledRule("A.7.10.a")\
 
 == 1.3: Random Seed, 1.13-1.15
-1.3.1) Runs under 20 minutes must submit world files.\
-1.3.2) Runs under 17 minutes must submit world files, logs, and gameplay audio.\
-1.3.3) Runs under 17 minutes will be retimed as per top-level retiming rules.\
-1.3.4) Chunkmap freezing is not allowed. Chunkmap freezing consists of using OBS Freeze Filter or another technique to capture an early state of the chunkmap and extend how long it is displayed in that state.
+1.3.1) Runs under 20 minutes IGT before retime must submit world files.\
+1.3.2) Runs under 17 minutes IGT before retime must submit world files, logs, and gameplay audio.\
+1.3.3) Runs under 17 minutes IGT will be retimed as per top-level retiming rules.\
 
 == 1.4: Random Seed, 1.9-1.12
-1.4.1) Runs under 25 minutes must submit world files, logs, and gameplay audio.\
-1.4.2) Runs under 25 minutes will be retimed as per top-level retiming rules.\
-1.4.3) Runs under 30 minutes must submit world files.
+1.4.1) Runs under 25 minutes IGT before retime must submit world files, logs, and gameplay audio.\
+1.4.2) Runs under 25 minutes IGT will be retimed as per top-level retiming rules.\
+1.4.3) Runs under 30 minutes IGT before retime must submit world files.\
 
 == 1.5: Random Seed, 1.8
-1.5.1) Runs under 25 minutes must submit world files.\
-1.5.2) Runs under 23 minutes must submit world files, logs, and gameplay audio.\
-1.5.3) Runs under 23 minutes will be retimed as per top-level retiming rules.
+1.5.1) Runs under 25 minutes IGT before retime must submit world files.\
+1.5.2) Runs under 23 minutes IGT before retime must submit world files, logs, and gameplay audio.\
+1.5.3) Runs under 23 minutes IGT will be retimed as per top-level retiming rules.\
 
 == 1.6: Random Seed, Pre 1.8
-1.6.1) Runs under 25 minutes must submit world files.\
-1.6.2) Runs under 23 minutes must submit world files, logs, and gameplay audio.\
-1.6.3) Runs under 23 minutes will be retimed as per top-level retiming rules.
+1.6.1) Runs under 25 minutes IGT before retime must submit world files.\
+1.6.2) Runs under 23 minutes IGT before retime must submit world files, logs, and gameplay audio.\
+1.6.3) Runs under 23 minutes IGT will be retimed as per top-level retiming rules.\
 
 == 1.7: Set Seed, 1.16-1.19
-1.7.1) Runs under 1:50 must submit world files, logs, and gameplay audio.
+1.7.1) Runs under 1:50 IGT must submit world files, logs, and gameplay audio.\
 
 == 1.8: Set Seed, 1.13-1.15
-1.8.1) Runs under 2:45 must submit world files and logs.
+1.8.1) Runs under 2:45 IGT must submit world files and logs.\
 
 == 1.9: Set Seed, 1.9-1.12
-1.9.1) Runs under 1:00 must submit world files and logs.
+1.9.1) Runs under 1:00 IGT must submit world files and logs.\
 
 == 1.10: Set Seed, 1.8
-1.10.1) Runs under 3:30 must submit world files and logs.
+1.10.1) Runs under 3:30 IGT must submit world files and logs.\
 
 == 1.11: Set Seed, Pre 1.8
-1.11.1) Runs under 4:15 must submit world files and logs.
+1.11.1) Runs under 4:15 IGT must submit world files and logs.\
 
 == 1.12: Set Seed, 1.20+
-1.12.1) Runs under 1:35 must submit world files, logs, and gameplay audio.
+1.12.1) Runs under 1:35 IGT must submit world files, logs, and gameplay audio.\
 
 = 2: Any%
 
 == 2.1: Any% Objective and Clarifications
 2.1.1) <2.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
 2.1.2) <2.1.2> Clarification: There are no specific subcategory rules beyond the top-level retime rules established in #entangledRule("2.2") and #entangledRule("2.3"); thus, runs should only follow their respective rulesets (universal, internal/external, glitched, set seed/random seed).\
-2.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+2.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 == 2.2: Any% Internal Random Seed Pre 1.9 <2.2>
 #entangled[Entangled Rule(s):]\
 #entangled[2.2 is referenced by: ] #entangledRule("2.1.2")\
-2.2.1) Runs under 12 minutes will be retimed as per top-level retiming rules.\
-2.2.2) Runs under 12 minutes must submit world files.
+2.2.1) Runs under 12 minutes IGT will be retimed as per top-level retiming rules.\
+2.2.2) Runs under 12 minutes IGT before retime must submit world files.\
 
 == 2.3: Any% Internal Random Seed 1.9+ <2.3>
 #entangled[Entangled Rule(s):]\
 #entangled[2.3 is referenced by: ] #entangledRule("2.1.2")\
-2.3.1) Runs under 11 minutes will be retimed as per top-level retiming rules.\
-2.3.2) Runs under 11 minutes must submit world files.
+2.3.1) Runs under 11 minutes IGT will be retimed as per top-level retiming rules.\
+2.3.2) Runs under 11 minutes IGT before retime must submit world files.\
 
 = 3: All Achievements
 
 == 3.1: All Achievements Objective, Exceptions, and Clarifications
-3.1.1) <3.1.1> The objective, exceptions, and clarifications of All Achievements are identical to those of All Advancements (see section #entangledRule("4.1")). Any mentions of advancements should be substituted with achievements.
-
-== 3.2: SS/SSG/RS/RSG, 1.0-1.6
-3.2.1) The list of all achievements necessary to obtain are: Taking Inventory, Getting Wood, Benchmarking, Time to Mine!, Hot Topic, Acquire Hardware, Time to Farm!, Bake Bread, The Lie, Getting an Upgrade, Delicious Fish, On A Rail, Time to Strike!, Monster Hunter, Cow Tipper, When Pigs Fly, Sniper Duel, DIAMONDS!, We Need to Go Deeper, Return to Sender, Into Fire, Local Brewery, The End?, The End., Enchanter, Overkill, and Librarian.
-
-== 3.3: SS/SSG/RS/RSG, 1.8-1.11
-3.3.1) The list of all achievements necessary to obtain are: Taking Inventory, Getting Wood, Benchmarking, Time to Mine!, Hot Topic, Acquire Hardware, Time to Farm!, Bake Bread, The Lie, Getting an Upgrade, Delicious Fish, On A Rail, Time to Strike!, Monster Hunter, Cow Tipper, When Pigs Fly, Sniper Duel, DIAMONDS!, We Need to Go Deeper, Return to Sender, Into Fire, Local Brewery, The End?, Free the end., Enchanter, Overkill, Librarian, Adventuring Time, The Beginning?, The Beginning., Beaconator, Repopulation, Diamonds to you!, and Overpowered.
+3.1.1) <3.1.1> The objective, exceptions, and clarifications of All Achievements are identical to those of All Advancements (see section #entangledRule("4.1")). Any mentions of advancements should be substituted with achievements.\
 
 = 4: All Advancements
 
 == 4.1: All Advancements Objective, Exceptions, and Clarifications <4.1>
 #entangled[Entangled Rule(s):]\
 #entangled[4.1 is referenced by: ] #entangledRules(("3.1.1", "6.1.1"))\
-4.1.1) The run is considered complete once every advancement has been achieved.
+4.1.1) The run is considered complete once every advancement has been obtained simultaneously.
 - 4.1.1.a) Timing ends once the chat notification for the last advancement is shown.
+- 4.1.1.b) Clarification: This includes include hidden and root advancements but not recipes.
 4.1.2) <4.1.2> A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by #entangledRule("A.5.19") and its corresponding sub-rules.\
 4.1.3) <4.1.3> Runs must demonstrate all advancements have been obtained.
 - This constitutes at least one of the following:
 - 4.1.3.a) The advancement file from the world is submitted.
 - 4.1.3.b) World files are submitted.
-- 4.1.3.c) An advancement tracker is displayed the count of advancements have been completed.
+- 4.1.3.c) An advancement tracker displays the count of advancements that have been obtained.
 - 4.1.3.d) SpeedRunIGT is set to the right category and autostops.
 #entangled[Entangled Rule(s):]\
 #entangled[4.1.3 is referenced by: ] #entangledRule("CE24.1.2")\
-4.1.4) All runs begin on world load.
-
-== 4.2: SS/SSG/RS/RSG, 1.12
-4.2.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, and Great View From Up Here.
-
-== 4.3: SS/SSG/RS/RSG, 1.13
-4.3.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, and Very Very Frightening.
-
-== 4.4: SS/SSG/RS/RSG, 1.14
-4.4.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, and Hero of the Village.
-
-== 4.5: SS/SSG/RS/RSG, 1.15
-4.5.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, and Total Beelocation.
+4.1.4) All runs begin on world load.\
 
 == 4.6: SS/SSG/RS/RSG, 1.16
-4.6.1) <4.6.1> The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, and Bullseye.
-#entangled[Entangled Rule(s):]\
-#entangled[4.6.1 is referenced by: ] #entangledRule("CE24.1.1")\
-4.6.2) RSG runs under 3:00:00 must submit world files and logs.
-
-== 4.7: SS/SSG/RS/RSG, 1.17
-4.7.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, Bullseye, Whatever Floats Your Goat, Wax On, Wax Off, The Cutest Predator, The Healing Power of Friendship, Glow and Behold!, Light as a Rabbit, Surge Protector, Is It a Bird?, Is It a Balloon?, and Is It a Plane?\
-
-== 4.8: SS/SSG/RS/RSG, 1.18
-4.8.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, Bullseye, Whatever Floats Your Goat, Wax On, Wax Off, The Cutest Predator, The Healing Power of Friendship, Glow and Behold!, Light as a Rabbit, Surge Protector, Is It a Bird?, Is It a Balloon?, Is It a Plane?, Caves and Cliffs, Feels like home, Star Trader, and Sound of Music.
-
-== 4.9: SS/SSG/RS/RSG, 1.19
-4.9.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, Bullseye, Whatever Floats Your Goat, Wax On, Wax Off, The Cutest Predator, The Healing Power of Friendship, Glow and Behold!, Light as a Rabbit, Surge Protector, Is It a Bird?, Is It a Balloon?, Is It a Plane?, Caves and Cliffs, Feels like home, Star Trader, Sound of Music, Bukkit bukkit, It spreads, With our powers combined!, Sneak 100, When the Squad Hops Into Town, Birthday Song, and You've Got a Friend in Me.
-
-== 4.10: SS/SSG/RS/RSG, 1.20-1.20.4
-4.10.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, Bullseye, Whatever Floats Your Goat, Wax On, Wax Off, The Cutest Predator, The Healing Power of Friendship, Glow and Behold!, Light as a Rabbit, Surge Protector, Is It a Bird?, Is It a Balloon?, Is It a Plane?, Caves and Cliffs, Feels like home, Star Trader, Sound of Music, Bukkit bukkit, It spreads, With our powers combined!, Sneak 100, When the Squad Hops Into Town, Birthday Song, You've Got a Friend in Me, Smells Interesting, Little Sniffs, Planting the Past, Crafting a New Look, Smithing With Style, Respecting the Remnants, Careful Restoration, and The Power of Books.
-
-== 4.11: SS/SSG/RS/RSG, 1.20.5-1.20.6
-4.11.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, Bullseye, Whatever Floats Your Goat, Wax On, Wax Off, The Cutest Predator, The Healing Power of Friendship, Glow and Behold!, Light as a Rabbit, Surge Protector, Is It a Bird?, Is It a Balloon?, Is It a Plane?, Caves and Cliffs, Feels like home, Star Trader, Sound of Music, Bukkit bukkit, It spreads, With our powers combined!, Sneak 100, When the Squad Hops Into Town, Birthday Song, You've Got a Friend in Me, Smells Interesting, Little Sniffs, Planting the Past, Crafting a New Look, Smithing With Style, Respecting the Remnants, Careful Restoration, The Power of Books, Isn't It Scute?, Shear Brilliance, Good as New, and The Whole Pack.
-
-== 4.12: SS/SSG/RS/RSG, 1.21
-4.11.1) The list of all advancements necessary to obtain are: Minecraft, Stone Age, Getting an Upgrade, Acquire Hardware, Suit Up, Hot Stuff, Isn't It Iron Pick, Not Today, Thank You, Ice Bucket Challenge, Diamonds!, We Need to Go Deeper, Cover Me With Diamonds, Enchanter, Zombie Doctor, Eye Spy, The End?, Husbandry, The Parrots and the Bats, Best Friends Forever, A Seedy Place, Two by Two, A Balanced Diet, Serious Dedication, Adventure, Monster Hunter, What a Deal!, Sweet Dreams, Take Aim, Monsters Hunted, Postmortal, Hired Help, Adventuring Time, Sniper Duel, Nether, Return to Sender, Subspace Bubble, A Terrible Fortress, Uneasy Alliance, Spooky Scary Skeleton, Into Fire, Withering Heights, Local Brewery, Bring Home the Beacon, A Furious Cocktail, Beaconator, How Did We Get Here?, The End, Free the End, The Next Generation, Remote Getaway, The End... Again..., You Need a Mint, The City at the End of the Game, Sky's the Limit, Great View From Up Here, Fishy Business, Tactical Fishing, A Throwaway Joke, Very Very Frightening, Ol' Betsy, Who's the Pillager Now?, Two Birds One Arrow, Arbalistic, A Complete Catalogue, Voluntary Exile, Hero of the Village, Sticky Situation, Bee Our Guest, Total Beelocation, Those Were the Days, Hidden in the Depths, Who Is Cutting Onions?, Oh Shiny, This Boat Has Legs, War Pigs, Country Lode Take Me Home, Cover Me in Debris, Not Quite “Nine” Lives, Hot Tourist Destinations, Bullseye, Whatever Floats Your Goat, Wax On, Wax Off, The Cutest Predator, The Healing Power of Friendship, Glow and Behold!, Light as a Rabbit, Surge Protector, Is It a Bird?, Is It a Balloon?, Is It a Plane?, Caves and Cliffs, Feels like home, Star Trader, Sound of Music, Bukkit bukkit, It spreads, With our powers combined!, Sneak 100, When the Squad Hops Into Town, Birthday Song, You've Got a Friend in Me, Smells Interesting, Little Sniffs, Planting the Past, Crafting a New Look, Smithing With Style, Respecting the Remnants, Careful Restoration, The Power of Books, Isn't It Scute?, Shear Brilliance, Good as New, The Whole Pack, Minecraft: Trial(s) Edition, Under Lock & Key, Revaulting, Blowback, Who Needs Rockets?, Crafters Crafting Crafters, Lighten Up, and Over-Overkill.
+4.6.2) RSG runs under 3:00:00 IGT must submit world files and logs.\
 
 = 5: Any% Glitchless Co-op
 
 == 5.1: Any% Glitchless Co-op Objective
-5.1.1) <5.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).
+5.1.1) <5.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
 
-== 5.2: 2 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
-5.2.1) For times which claim to be top fifteen, perspectives of both players must be recorded and submitted.
+== 5.2: 2 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed <5.2>
+5.2.1) For times which claim to be top fifteen, perspectives of both players must be recorded and submitted.\
 
 == 5.3: 3 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
-5.3.1) For times which claim to be top fifteen, perspectives of all three players must be recorded and submitted.
+5.3.1) For times which claim to be top fifteen, perspectives of all three players must be recorded and submitted.\
 
 == 5.4: 4 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
-5.4.1) For times which claim to be top fifteen, perspectives of all four players must be recorded and submitted.
+5.4.1) For times which claim to be top fifteen, perspectives of all four players must be recorded and submitted.\
 
 == 5.5: 5-9 Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
-5.5.1) For times which claim to be top fifteen, perspectives of at least four players must be recorded and submitted.
+5.5.1) For times which claim to be top fifteen, perspectives of at least four players must be recorded and submitted.\
 
 == 5.6: 10+ Players, Pre 1.9/1.9-1.15/1.16+, Set Seed/Random Seed
-5.6.1) For times which claim to be top fifteen, perspectives of at least five players must be recorded and submitted.
+5.6.1) For times which claim to be top fifteen, perspectives of at least five players must be recorded and submitted.\
 
 = 6: All Advancements Co-op
 
@@ -1031,20 +1042,20 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 - 6.1.1.b) <6.1.1.b> If the run is segmented, you must submit server logs instead of instance logs (#entangledRule("A.5.19.d")).
 6.1.2) Clarification: Each advancement must be achieved by at least one person, but no individual person needs every advancement.\
 6.1.3) The list of all advancements is the same as for All Advancements.\
-6.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, random seed, glitchless, co-op).
+6.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, random seed, glitchless, co-op).\
 
 = 7: Any% Glitchless (Demo)
 
 == 7.1: Any% Glitchless Demo Objective and Clarifications
 7.1.1) <7.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
-7.1.2) The run may be played on the Minecraft demo version.\
-7.1.3) If the run is not played on the Minecraft demo version, it must abide by the following rules:
+7.1.2) The run may be played on the Minecraft demo version or with the demo mode setting on in the Atum mod.\
+7.1.3) The run may be played without demo mode if Atum 2.0 or later is not available for that version and if it abides by the following rules:
 - 7.1.3.a) The run must not exceed 100 minutes and 25 seconds.
 - 7.1.3.b) The run must use the seed “North Carolina” (-343522682).
 - 7.1.3.c) <7.1.3.c> In addition to the world generation settings allowed in #entangledRule("A.1.3"), you must also enable the Bonus Chest.
 - 7.1.3.d) The run must be played on Minecraft version 1.3.1 or newer.
 7.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed, glitchless).\
-7.1.5) All runs begin on first input.
+7.1.5) All runs begin on first input.\
 
 = 8: Any% Glitchless (Peaceful)
 
@@ -1058,7 +1069,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 #entangled[Entangled Rule(s):]\
 #entangled[8.1.3 is referenced by: ] #entangledRule("9.1.2")\
 8.1.4) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
-8.1.5) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+8.1.5) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = 9: Any% (Peaceful)
 
@@ -1066,19 +1077,12 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 9.1.1) <9.1.1> The run is considered complete under the same pretences as Any% Glitchless (see #entangledRule("1.1.1")).\
 9.1.2) <9.1.2> Any% Peaceful follows identical rulesets regarding peaceful difficulty as Any% Glitchless Peaceful (see #entangledRule("8.1.2")-#entangledRule("8.1.3")).\
 9.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitched).\
-9.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+9.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
-= 10: Combined Any% Glitchless
-
-== 10.1: Combined Any% Glitchless Clarifications
-#formatNote[10.1.note) Combined Any% Glitchless is a non-runnable (non-submittable) category that serves as an updated statistic summing the runner's fastest verified times in each of the listed version splits. A bot that is occasionally run gathers each runner's fastest times and creates a submission summing these times, before truncating them to the second.]
-
-== 10.2: Set Seed/Random Seed Legacy
-10.2.1) Legacy will keep track of the fastest time a runner has in 1.16+, 1.9-1.15, and Pre 1.9.
-- 10.2.1.a) Clarification: The run chosen for the 1.9-1.15 split will be the runner's fastest (or only) verified submission between 1.9-1.12 and 1.13-1.15. Likewise, the run chosen for the Pre 1.9 split will be the runner's fastest (or only) verified submission between 1.8 and Pre 1.8.
-
-== 10.3: Set Seed/Random Seed All Splits
-10.3.1) All Splits will keep track of the fastest time a runner has in 1.16+, 1.13-1.15, 1.9-1.12, 1.8, and Pre 1.8.
+== 9.2: Any% (Peaceful), RS, 1.9+
+9.2.1) <9.2.1> In addition to #entangledRule("A.11.6"), resources that consist of lists of chunks and seed-independent data about them may be used (e.g. chunk positions with the same hash or chunk positions by grass noise).\
+9.2.2) <9.2.2> In addition to the external tools allowed by #entangledRule("A.11.7"), the following additional external tools may be used:
+- 9.2.2.a) #formatLink("https://www.desmos.com/calculator/22jcwa7oju]")[RSP Stronghold Calculator]
 
 = 11: Any% (Time Travel)
 
@@ -1088,7 +1092,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 - 11.1.3.a) Runners must have a visible and accurate playOneMinute timer, such as the in-game timer within Livesplit, another in-game timer, or SpeedrunIGT set to 'Legacy' mode.
 - 11.1.3.b) Runners may choose to display the Time Played statistic within the statistics screen after the run's completion in lieu of an in-game timer, though this is not recommended.
 11.1.4) The run must employ some version of time travel, where the playOneMinute statistic is reverted to a previous state. The resulting world is some combination of previous states of the same world, rather than a single state.\
-11.1.5) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitched).
+11.1.5) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitched).\
 
 = CE1: Kill Bosses
 
@@ -1096,6 +1100,7 @@ H.1.2) In set seed runs, intentional prerotation (spawning into the world rotate
 CE1.1.1) The run is considered complete once all specified bosses are killed.
 - CE1.1.1.a) If the last boss killed is not the ender dragon, timing ends once the last boss is killed.
 - CE1.1.1.b) <CE1.1.1.b> If the last boss killed is the ender dragon, timing ends as per Any% Glitchless standards (see #entangledRule("1.1.1")).
+- CE1.1.1.c) Clarification: The dragon is considered killed once the death animation ends and the exit end portal opens.
 CE1.1.2) Bosses must be killed by the player's actions.
 - CE1.1.2.a) Example: If a boss suffocates to death purely as a result of world generation, it is not considered killed.
 CE1.1.3) Runs must show that the boss is killed.
@@ -1105,31 +1110,31 @@ CE1.1.3) Runs must show that the boss is killed.
 - CE1.1.3.c) The statistics menu displaying the boss' death is shown.
 - CE1.1.3.d) Subtitles show the boss' death.
 - CE1.1.3.e) World files are submitted which show the boss was killed.
-CE1.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE1.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 == CE1.2: All Bosses, RSG/SSG/RS/SS, Pre 1.8
-CE1.2.1) The player must kill the Ender Dragon and a Wither.
+CE1.2.1) The player must kill the Ender Dragon and a Wither.\
 
 == CE1.3: All Bosses, RSG/SSG/RS/SS, 1.8
-CE1.3.1) The player must kill the Ender Dragon, a Wither, and an Elder Guardian.
+CE1.3.1) The player must kill the Ender Dragon, a Wither, and an Elder Guardian.\
 
 == CE1.4: All Bosses, RSG/SSG/RS/SS, 1.9-1.15
-CE1.4.1) The player must kill the Ender Dragon, a Wither, and an Elder Guardian.
+CE1.4.1) The player must kill the Ender Dragon, a Wither, and an Elder Guardian.\
 
 == CE1.5: All Bosses, RSG/SSG/RS/SS, 1.16-1.18
-CE1.5.1) The player must kill the Ender Dragon, a Wither, and an Elder Guardian.
+CE1.5.1) The player must kill the Ender Dragon, a Wither, and an Elder Guardian.\
 
 == CE1.6: All Bosses, RSG/SSG/RS/SS, 1.19+
-CE1.6.1) The player must kill the Ender Dragon, a Wither, an Elder Guardian, and a Warden.
+CE1.6.1) The player must kill the Ender Dragon, a Wither, an Elder Guardian, and a Warden.\
 
 == CE1.7: Wither, RSG/SSG/RS/SS, Pre 1.9/1.9-1.15/1.16-1.18/1.19+
-CE1.7.1) The player must kill a Wither.
+CE1.7.1) The player must kill a Wither.\
 
 == CE1.8: Elder Guardian, RSG/SSG/RS/SS, Pre 1.9/1.9-1.15/1.16-1.18/1.19+
-CE1.8.1) The player must kill an Elder Guardian.
+CE1.8.1) The player must kill an Elder Guardian.\
 
 == CE1.9: Warden, RSG/SSG/RS/SS, 1.19+
-CE1.9.1) The player must kill a Warden.
+CE1.9.1) The player must kill a Warden.\
 
 = CE2: How Did We Get Here?
 
@@ -1137,7 +1142,7 @@ CE1.9.1) The player must kill a Warden.
 CE2.1.1) The run is considered complete once the How Did We Get Here? advancement has been achieved.
 - CE2.1.1.a) Timing ends once the chat notification for How Did We Get Here? is shown.
 CE2.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
-CE2.1.3) All runs begin upon world load.
+CE2.1.3) All runs begin upon world load.\
 
 = CE3: Hero of the Village
 
@@ -1145,7 +1150,7 @@ CE2.1.3) All runs begin upon world load.
 CE3.1.1) The run is considered complete once the Hero of the Village advancement has been achieved.
 - CE3.1.1.a) Timing ends once the chat notification for Hero of the Village is shown.
 CE3.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
-CE3.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE3.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = CE4: Cover Me in Debris
 
@@ -1153,7 +1158,7 @@ CE3.1.3) All random seed categories begin upon world load, whereas all set seed 
 CE4.1.1) The run is considered complete once the Cover Me in Debris advancement has been achieved.
 - CE4.1.1.a) Timing ends once the chat notification for Cover Me in Debris is shown.
 CE4.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless, structures/no structures).\
-CE4.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE4.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = CE5: Arbalistic
 
@@ -1161,7 +1166,7 @@ CE4.1.3) All random seed categories begin upon world load, whereas all set seed 
 CE5.1.1) The run is considered complete once the Arbalistic advancement has been achieved.
 - CE5.1.1.a) Timing ends once the chat notification for Arbalistic is shown.
 CE5.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless, structures/no structures).\
-CE5.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE5.1.3) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = CE6: Obtain Item
 
@@ -1170,24 +1175,23 @@ CE6.1.1) <CE6.1.1> The run is considered complete once the item in question has 
 - CE6.1.1.a) Timing ends once the item is obtained (see #entangledRule("A.5.18")).
 CE6.1.2) <CE6.1.2> All runs begin upon first input.\
 #entangled[Entangled Rule(s):]\
-#entangled[CE6.1.2 is nullified by: ] #entangledRules(("CE6.2.2", "CE6.4.2"))\
+#entangled[CE6.1.2 is nullified by: ] #entangledRule("CE6.4.2"))\
 
 == CE6.2: Obtain Diamond, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
 CE6.2.1) The run is considered complete once a diamond is obtained.\
-CE6.2.2) <CE6.2.2> Exception: Obtain Diamond Set Seed Glitchless No Structures begins upon world load, nullifying #entangledRule("CE6.1.2").
 
 == CE6.3: Obtain Emerald, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
-CE6.3.1) The run is considered complete once an emerald is obtained.
+CE6.3.1) The run is considered complete once an emerald is obtained.\
 
 == CE6.4: Obtain Cake, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
 CE6.4.1) The run is considered complete once a cake is obtained.\
 CE6.4.2) <CE6.4.2> Exception: Obtain Cake Random Seed Glitchless No Structures begins upon world load, nullifying #entangledRule("CE6.1.2").\
 
 == CE6.5: Obtain Golden Apple, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
-CE6.5.1) The run is considered complete once a golden apple or enchanted golden apple is obtained.
+CE6.5.1) The run is considered complete once a golden apple or enchanted golden apple is obtained.\
 
 == CE6.6: Netherite Ingot, Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures
-CE6.6.1) The run is considered complete once a netherite ingot is obtained.
+CE6.6.1) The run is considered complete once a netherite ingot is obtained.\
 
 = CE7: Enter Nether
 
@@ -1195,7 +1199,7 @@ CE6.6.1) The run is considered complete once a netherite ingot is obtained.
 CE7.1.1) The run is considered complete once the player enters the nether.
 - CE7.1.1.a) Timing ends once the player leaves the nether portal in the overworld and enters the loading screen to enter the nether/the lag accompanied with entering the nether.
 CE7.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless, structures/no structures).\
-CE7.1.3) All runs begin upon first input.
+CE7.1.3) All runs begin upon first input.\
 
 = CE8: All Swords
 
@@ -1203,16 +1207,16 @@ CE7.1.3) All runs begin upon first input.
 CE8.1.1) The run is considered complete once all swords have been simultaneously obtained.
 - CE8.1.1.a) <CE8.1.1.a> Timing ends once the last sword is obtained. (see #entangledRule("A.5.18"))
 - CE8.1.1.b) Clarification: Enchanted swords qualify as swords.
-CE8.1.2) All runs begin upon first input.
+CE8.1.2) All runs begin upon first input.\
 
 == CE8.2: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.0-1.15
-CE8.2.1) The run is considered complete once a wooden sword, stone sword, iron sword, gold sword, and diamond sword are obtained.
+CE8.2.1) The run is considered complete once a wooden sword, stone sword, iron sword, gold sword, and diamond sword are obtained.\
 
 == CE8.3: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.16-1.21.8
-CE8.3.1) The run is considered complete once a wood sword, stone sword, iron sword, gold sword, diamond sword, and netherite sword are obtained.
+CE8.3.1) The run is considered complete once a wood sword, stone sword, iron sword, gold sword, diamond sword, and netherite sword are obtained.\
 
 == CE8.4: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.21.9+
-CE8.4.1) The run is considered complete once a wood sword, stone sword, copper sword, iron sword, gold sword, diamond sword, and netherite sword are obtained.
+CE8.4.1) The run is considered complete once a wood sword, stone sword, copper sword, iron sword, gold sword, diamond sword, and netherite sword are obtained.\
 
 = CE9: All Wood Logs
 
@@ -1233,19 +1237,22 @@ CE9.3.1) The run is considered complete once an oak log, a spruce log, birch log
 CE9.3.2) <CE9.3.2> Exception: All Wood Logs Random Seed Glitchless 1.2-1.6 begins upon first input, nullifying #entangledRule("CE9.1.2").\
 
 == CE9.4: Set Seed Glitchless/Random Seed Glitchless, 1.7-1.15
-CE9.4.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, and an acacia log are obtained.
+CE9.4.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, and an acacia log are obtained.\
 
 == CE9.5: Set Seed Glitchless/Random Seed Glitchless, 1.16-1.18
-CE9.5.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, and a crimson stem are obtained.
+CE9.5.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, and a crimson stem are obtained.\
 
 == CE9.6: Set Seed Glitchless/Random Seed Glitchless, 1.19
-CE9.6.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, and a mangrove log are obtained.
+CE9.6.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, and a mangrove log are obtained.\
 
 == CE9.7: Set Seed Glitchless/Random Seed Glitchless, 1.20-1.21.3
-CE9.7.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, and a cherry log are obtained.
+CE9.7.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, and a cherry log are obtained.\
 
-== CE9.8: Set Seed Glitchless/Random Seed Glitchless, 1.21.4+
-CE9.8.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, cherry log, and a pale oak log are obtained.
+== CE9.8: Set Seed Glitchless/Random Seed Glitchless, 1.21.4-26.2
+CE9.8.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, cherry log, and a pale oak log are obtained.\
+
+== CE9.9: Set Seed Glitchless/Random Seed Glitchless, 26.3
+CE9.9.1) The run is considered complete once an oak log, a spruce log, birch log, jungle log, dark oak log, acacia log, warped stem, crimson stem, mangrove log, cherry log, pale oak log, and a poplar log are obtained.\
 
 = CE10: All Wool
 
@@ -1254,23 +1261,23 @@ CE10.1.1) The run is considered complete once all colours of wool have been simu
 - CE10.1.1.a) <CE10.1.1.a> Timing ends once the last colour of wool is obtained. (see #entangledRule("A.5.18"))
 CE10.1.2) The list of all wool colours are: white wool (called wool in Minecraft versions before 1.11), orange wool, magenta wool, light blue wool, yellow wool, lime wool, pink wool, grey wool, light grey wool, cyan wool, purple wool, blue wool, brown wool, green wool, red wool, and black wool.\
 CE10.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
-CE10.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE10.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = CE11: All Minerals
 
 == CE11.1: All Minerals Objective and Clarifications
 CE11.1.1) The run is considered complete once all minerals have been simultaneously obtained.
 - CE11.1.1.a) <CE11.1.1.a> Timing ends once the last mineral is obtained. (see #entangledRule("A.5.18"))
-CE11.1.2) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE11.1.2) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 == CE11.2: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.5-1.15
-CE11.2.1) The run is considered complete once a piece of coal, an iron ingot, a gold ingot, a redstone, a lapis lazuli, a diamond, an emerald, and a nether quartz is obtained.
+CE11.2.1) The run is considered complete once a piece of coal, an iron ingot, a gold ingot, a redstone, a lapis lazuli, a diamond, an emerald, and a nether quartz is obtained.\
 
 == CE11.3: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.16
-CE11.3.1) The run is considered complete once a piece of coal, an iron ingot, a gold ingot, a redstone, a lapis lazuli, a diamond, an emerald, a nether quartz, and a netherite ingot is obtained.
+CE11.3.1) The run is considered complete once a piece of coal, an iron ingot, a gold ingot, a redstone, a lapis lazuli, a diamond, an emerald, a nether quartz, and a netherite ingot is obtained.\
 
 == CE11.4: Set Seed Glitchless/Random Seed Glitchless, Structures/No Structures, 1.17+
-CE11.4.1) The run is considered complete once a piece of coal, an iron ingot, a gold ingot, a redstone, a lapis lazuli, a diamond, an emerald, a nether quartz, a netherite ingot, a copper ingot, and an amethyst shard is obtained.
+CE11.4.1) The run is considered complete once a piece of coal, an iron ingot, a gold ingot, a redstone, a lapis lazuli, a diamond, an emerald, a nether quartz, a netherite ingot, a copper ingot, and an amethyst shard is obtained.\
 
 = CE12: Full Iron Armor and 15 Levels
 
@@ -1278,7 +1285,7 @@ CE11.4.1) The run is considered complete once a piece of coal, an iron ingot, a 
 CE12.1.1) The run is considered complete once an iron helmet, iron chestplate, iron leggings, and iron boots have been simultaneously equipped, and the player has 15 levels of experience.
 - CE12.1.1.a) Timing ends once the last piece of armour is equipped or once the experience bar turns to 15 levels (whichever comes last).
 CE12.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched, structures/no structures).\
-CE12.1.3) All runs begin upon first input.
+CE12.1.3) All runs begin upon first input.\
 
 = CE13: All Workstations
 
@@ -1287,7 +1294,7 @@ CE13.1.1) The run is considered complete once all workstations have been simulta
 - CE13.1.1.a) <CE13.1.1.a> Timing ends once the last workstation is obtained. (see #entangledRule("A.5.18"))
 CE13.1.2) The list of all workstations are: blast furnace, smoker, cartography table, brewing stand, composter, barrel, fletching table, cauldron, lectern, stonecutter, loom, smithing table, and grindstone.\
 CE13.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
-CE13.1.4) All runs begin upon first input.
+CE13.1.4) All runs begin upon first input.\
 
 = CE14: Full Inventy!
 
@@ -1297,7 +1304,7 @@ CE14.1.1) The run is considered complete once all inventory slots are full.
 - CE14.1.1.b) Clarification: All 36 main inventory slots must be filled, but the offhand and armour slots do not have to be filled.
 CE14.1.2) Each inventory slot must be filled with a unique item.\
 CE14.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless, structures/no structures).\
-CE14.1.4) All runs begin upon first input.
+CE14.1.4) All runs begin upon first input.\
 
 = CE15: Etner Edn
 
@@ -1305,33 +1312,7 @@ CE14.1.4) All runs begin upon first input.
 CE15.1.1) The run is considered complete once the player enters the end.
 - CE15.1.1.a) Timing ends once the player leaves the end portal in the overworld and enters the loading screen to enter the end/the lag accompanied with entering the end.
 CE15.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
-CE15.1.3) All runs begin upon first input.
-
-= CE16: All Versions
-
-== CE16.1: All Versions Objective and Clarifications
-CE16.1.1) The run is considered complete once the player beats every major version in the selected version range.
-- CE16.1.1.a) Timing begins once the player begins the respective starting version.
-- CE16.1.1.b) <CE16.1.1.b> Timing ends once the player completes the final version, as per Any% Glitchless standards (see #entangledRule("1.1.1")).
-CE16.1.2) Clarification: Players must complete each version consecutively (1.0, 1.1, 1.2, 1.3…).\
-CE16.1.3) <CE16.1.3> Clarification: Any subversion may be chosen for each main version. This excludes versions considered pre-releases as defined by #entangledRule("A.1.2.f.i").\
-CE16.1.4) <CE16.1.4> The category is timed by RTA, nullifying #entangledRule("A.5").
-- CE16.1.4.a) Clarification: Runners may reset, but this time will count towards your final time.
-CE16.1.5) The run must be played in one sitting.
-- CE16.1.5.a) Guidance: Because of the very long nature of this run, you should prioritise your health and well-being over the completion of this run.
-CE16.1.6) All runs begin upon world load.
-
-== CE16.2: All Versions Submission
-CE16.2.1) <CE16.2.1> Select F3 if your run uses F3 (as defined in #entangledRule("A.6.2")) for any run.\
-CE16.2.2) The subversion and version of the run should be marked as 1.0.\
-CE16.2.3) The in-game time of the run should be left blank.
-
-== CE16.3: Set Seed Glitchless Clarification
-CE16.3.1) Runs must use the same numerical seed for every version.
-- CE16.3.1.a) Example: If the seed “1234” is chosen, it must be used for the 1.0 run, 1.1 run, 1.2 run, etc.
-
-== CE16.4: Random Seed Glitchless Clarification
-CE16.4.1) Every run must use a random seed.
+CE15.1.3) All runs begin upon first input.\
 
 = CE17: Mine a Chunk
 
@@ -1341,13 +1322,13 @@ CE16.4.1) Every run must use a random seed.
 CE17.1.1) The run is considered complete once a region of space that has a width and depth of 16 blocks and a height spanning the space between the highest level of the bedrock floor to the lowest level of the bedrock ceiling or to world height is filled only by air blocks.
 - CE17.1.1.a) Timing ends once the last block is destroyed.
 CE17.1.3) Clarification: A chunk does not have to be mined in terms of how the game generates chunks, only a chunk-sized area.\
-CE17.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE17.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 == CE17.2: RSG/SSG/RS/SS, Pre 1.17/1.17/1.18+, Overworld, Solo/Duos/3-4/5-9/10+
-CE17.2.1) <CE17.2.1> The run is considered complete once a chunk is mined (see #entangledRule("CE17.1")) in the overworld.
+CE17.2.1) <CE17.2.1> The run is considered complete once a chunk is mined (see #entangledRule("CE17.1")) in the overworld.\
 
 == CE17.3: RSG/SSG/RS/SS, Pre 1.17/1.17/1.18+, Nether, Solo/Duos/3-4/5-9/10+
-CE17.3.1) <CE17.3.1> The run is considered complete once a chunk is mined (see #entangledRule("CE17.1")) in the nether.
+CE17.3.1) <CE17.3.1> The run is considered complete once a chunk is mined (see #entangledRule("CE17.1")) in the nether.\
 
 = CE18: Stack of Lime Wool
 
@@ -1356,34 +1337,34 @@ CE18.1.1) The run is considered complete once 64 lime wool has been obtained.
 - CE18.1.1.a) <CE18.1.1.a> Timing ends once the last piece(s) of lime wool are obtained. (see #entangledRule("A.5.18"))
 CE18.1.2) Clarification: The lime wool does not have to be all in one stack.\
 CE18.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
-CE18.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE18.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = CE19: All Portals
 
 == CE19.1: All Portals Objective and Clarifications
 CE19.1.1) The run is considered complete once the conditions of Any% have been met after all end portals have been lit.
 - CE19.1.1.a) <CE19.1.1.a> Timing ends as per Any% Glitchless timing (see #entangledRule("1.1.1")).
-CE19.1.2) All runs begin upon world load.
+CE19.1.2) All runs begin upon world load.\
 
 == CE19.2: All Portals Pre 1.9
 CE19.2.1) The run is considered complete once the conditions of Any% have been met after all 3 end portals have been lit.\
-CE19.2.2) You must not enter the end until all 3 end portals have been lit.
+CE19.2.2) You must not enter the end until all 3 end portals have been lit.\
 
 == CE19.3: All Portals 1.9+
 CE19.3.1) The run is considered complete once the conditions of Any% have been met after all 128 end portals have been lit.
 - CE19.3.1.a) Clarification: If an end portal is unable to be lit, the run's objective cannot be fulfilled.
 CE19.3.2) You may enter the end and kill the ender dragon before all 128 end portals have been lit.
 - CE19.3.2.a) If you choose to kill the ender dragon before all 128 end portals have been lit, you still must kill the ender dragon after all 128 end portals have been lit, which ends the run.
-CE19.3.3) In addition to the external tools allowed by #entangledRule("A.11"), the following additional external tools may be used: <CE19.3.3>
+CE19.3.3) In addition to the external tools allowed by #entangledRule("A.11.6"), the following additional external tools may be used: <CE19.3.3>
 - CE19.3.3.a) #formatLink("https://github.com/TheTalkingMime/AllPortals")[All Portals [TheTalkingMime]]
 - CE19.3.3.b) #formatLink("https://github.com/shnenanigans/APgui")[APgui [shnenanigans]]
 - CE19.3.3.c) #formatLink("https://www.desmos.com/calculator/la7ezpyutu")[Desmos Stronghold Rings]
-CE19.3.4) <CE19.3.4> A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by #entangledRule("A.5.19") and its corresponding sub-rules.
+CE19.3.4) <CE19.3.4> A runner may segment their run if and only if they follow the rules regarding segmentation as outlined by #entangledRule("A.5.19") and its corresponding sub-rules.\
 
 == CE19.4: All Portals Purist
 CE19.4.1) Purist runs must be played on random seed glitchless.\
 CE19.4.2) Purist runs must be played on hardcore.\
-CE19.4.3) <CE19.4.3> Purist runs must not use F3 as defined by #entangledRule("A.6.2").
+CE19.4.3) <CE19.4.3> Purist runs must not use F3 as defined by #entangledRule("A.6.2").\
 
 = CE20: Scout and Route Glitchless
 
@@ -1397,7 +1378,7 @@ CE20.1.4) Any time spent over 10 minutes scouting will be added to the final tim
 - CE20.1.4.a) Example: If 10:30 are spent scouting, and the final in-game time of the run is 9:00, the final in-game time of the run will be 9:30.
 CE20.1.5) /datapack list must be shown at the end of the run.
 - CE20.1.5.a) Guidance: You must open to LAN and turn cheats on for /datapack list to be executed.
-CE20.1.6) All runs begin upon world load (of the new world after scouting).
+CE20.1.6) All runs begin upon world load (of the new world after scouting).\
 
 == CE20.2: No /seed
 CE20.2.1) The /seed command must not be used, even during scouting time.\
@@ -1412,7 +1393,7 @@ CE20.3.1) The /seed command must be used during scouting time.\
 CE20.3.2) <CE20.3.2> During scouting time only, macros may be used. (nullifying #entangledRule("A.10.4")).\
 CE20.3.3) <CE20.3.3> During scouting time only, any external programs may be used. (nullifying #entangledRule("A.11.8") and #entangledRule("A.11.9"))
 - CE20.3.3.a) Clarification: Mods and clients not outlined in section #entangledRule("A.8") are not allowed. <CE20.3.3.a>
-CE20.3.4) <CE20.3.4> During scouting time only, any of the game's files may be read, nullifying #entangledRule("A.3.10").
+CE20.3.4) <CE20.3.4> During scouting time only, any of the game's files may be read, nullifying #entangledRule("A.3.10").\
 
 = CE23: Sonic, Tails, and Knuckles
 
@@ -1420,16 +1401,16 @@ CE20.3.4) <CE20.3.4> During scouting time only, any of the game's files may be r
 CE23.1.1) The run is considered complete once one sheep has been dyed red, another sheep has been dyed orange, and a third sheep has been dyed blue.
 - CE23.1.1.a) Timing ends once the last sheep is dyed either red, orange, or blue.
 CE23.1.2) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
-CE23.1.3) All runs begin upon first input.
+CE23.1.3) All runs begin upon first input.\
 
 = CE24: Half%
 
 == CE24.1: Half% Objective and Clarifications
-CE24.1.1) <CE24.1.1> The run is considered complete once exactly 40 advancements, as listed in #entangledRule("4.6.1"), have been obtained.
+CE24.1.1) <CE24.1.1> The run is considered complete once exactly 40 advancements have been obtained.
 - CE24.1.1.a) Timing ends once the chat notification for the last advancement is shown.
 CE24.1.2) <CE24.1.2> Runs must demonstrate that 40 advancements have been obtained in accordance with #entangledRule("4.1.3").\
 CE24.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
-CE24.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE24.1.4) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = CE25: Pride%
 
@@ -1441,12 +1422,12 @@ CE25.1.2) The four flags you must create must have the following colours:
 - CE25.1.2.b) Gay: Red, Orange, Yellow, Green, Blue, Purple
 - CE25.1.2.c) Bisexual: Magenta, Purple, Blue
 - CE25.1.2.d) Transgender: Light Blue, Pink, White, Pink, Light Blue
-- CE25.1.2.e) Showcase: An #formatLink("https://imgur.com/shBryrT")[image] of the colours which need to be included in the flag.
+#figure(image("images/pride.png", width: 80%, scaling: "pixelated"), caption: "An image of the colours which need to be included in the flag.", supplement: none)
 CE25.1.3) The banner pattern which represents any given flag must not contain any colours not listed in CE25.1.2.\
 CE25.1.4) For a banner pattern to qualify as representing a given flag, it must be possible for one to draw an uncurved line which intersects the flag colours in order (defined in CE25.1.2).
 - CE25.1.4.a) Clarification: This line does not necessarily need to cover the entire length/width of the banner.
 CE25.1.5) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless).\
-CE25.1.6) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.
+CE25.1.6) All random seed categories begin upon world load, whereas all set seed categories begin upon first input.\
 
 = CE26: High%
 
@@ -1456,4 +1437,4 @@ CE26.1.1) The run is considered complete once the player reaches a Y level of 42
 CE26.1.2) You must press F3 when displaying that you have met the run's objective.
 - CE26.1.2.a) <CE26.1.2.a> Exception to #entangledRule("A.6.2"): If your run only uses F3 to display that you have met the run's objective, your run will be marked as No F3.
 CE26.1.3) Clarification: There are no specific subcategory rules; thus, runs should only follow their respective rulesets (universal, set seed/random seed, glitchless/glitched).\
-CE26.1.4) All runs begin upon first input.
+CE26.1.4) All runs begin upon first input.\
