@@ -39,12 +39,15 @@
 
 #align(center + horizon)[
   #text(size: 22pt)[
-    *Minecraft: Java Edition\
-    Speedrunning Rules*
+    *Minecraft: Java Edition*
 
+    *Speedrunning Rules*
   ]
+
   #text(size: 14pt)[
     Version: #version
+
+    Date: #datetime.today().display()
   ]
 ]
 
