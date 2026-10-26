@@ -93,7 +93,7 @@ This category will abide by the following rulesets:
 - All Advancements Ruleset
 - All Advancements SS/RS/SSG/RSG 1.16 Ruleset\
 \
-Note that the rules should be enforced 'bottom-up'. In the above example, rules in the All Advancements Ruleset may nullify or extend the rules from the Universal Ruleset.\
+Note that the rules should be enforced 'bottom-up.' In the above example, rules in the All Advancements Ruleset may nullify or extend the rules from the Universal Ruleset.\
 \
 Some categories may not have a subcategory ruleset (e.g. External Set Seed Glitched 1.9+). In these cases, it should still follow the universal ruleset, set seed ruleset, and glitched ruleset, and also be in a version 1.9 or above.
 
