@@ -62,6 +62,10 @@
 
 = About This Document
 
+== Updates:
+This document derives its authority from the #formatLink("https://www.speedrun.com/mc?rules=game")[Minecraft: Java Edition leaderboard rules].
+A link to the latest version of the rules document can always be found there, which currently points to #formatLink("https://mc.sr/rules/")[mc.sr/rules].
+
 == Outline:
 Rules are divided into 5 sections. These are:
 - *Ruleset*: these numbers refer to a specific category or set of categories, such as all Random Seed
