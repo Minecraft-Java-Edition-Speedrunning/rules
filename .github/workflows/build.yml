@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: setup typst
-        uses: typst-community/setup-typst@v4
+        uses: typst-community/setup-typst@v5
       - name: test build
         run: typst compile rules.typ
